@@ -20,3 +20,6 @@
 # Ignore Direnv
 .envrc*
 
+# Ignore PDFs
+!*.pdf
+
