@@ -1,5 +1,11 @@
 # RESEARCH
 
+## Using go.work
+
+- Find out the combination to get working with go.work
+- Include changing dependent modules outside 
+ 
+
 ## EC Website
 
 - Document manual extraction of JSON for Election results
