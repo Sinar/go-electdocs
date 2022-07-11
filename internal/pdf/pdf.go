@@ -3,12 +3,24 @@ package pdf
 import (
 	"fmt"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ledongthuc/pdf"
+	"github.com/leowmjw/pdf"
 	"strings"
 )
 
+type PDFPage struct {
+	PageNo           int
+	PDFPlainText     string
+	PDFTxtSameLines  []string // combined content with same line .. proxy for changes
+	PDFTxtSameStyles []string // combined content with same style .. proxy for changes
+}
+
+func Run() {
+	loadPDF("/Users/leow/GOMOD/go-electdocs/internal/pdf/testdata/pub_20190304_PUB120_2019.pdf", 0, 0)
+}
+
 // loadPDF will extract out from startPage to endPage
 func loadPDF(pdfPath string, startPage, endPage int) error {
+	fmt.Println("In loadPDF ..")
 	// NOTE: Starts from page 1 by default ..
 	f, r, err := pdf.Open(pdfPath)
 	// remember close file
@@ -17,16 +29,23 @@ func loadPDF(pdfPath string, startPage, endPage int) error {
 		return err
 	}
 	totalPage := r.NumPage()
+	//totalPage = 10
+	//startPage = 1
 
 	fmt.Println(totalPage)
 	// opton #2: Use reformed PDF extractor
-	for pageIndex := startPage; pageIndex <= 2; pageIndex++ {
+	for pageIndex := startPage; pageIndex <= totalPage; pageIndex++ {
+		//fmt.Println(pageIndex)
 		p := r.Page(pageIndex)
 		if p.V.IsNull() {
 			continue
 		}
-		fmt.Println(pageIndex)
+		newPageProcessed := p.ExtractSameLineContent()
+		spew.Dump(newPageProcessed)
+		// If OK, append them ..
+		//pdfDoc.Pages = append(pdfDoc.Pages, newPageProcessed)
 		//extractSameLineContent(p.Content().Text)
+		//spew.Dump(p.Content())
 	}
 	// Option #3: Run extenal
 	//cmdToRun := fmt.Sprintf("java -jar /Users/leow/DATA/TINDAKMSIA/tabula-java/target/tabula-1.0.5-SNAPSHOT-jar-with-dependencies.jar -t -p1-%d %s", totalPage, "/Users/leow/GOMOD/go-electdocs/internal/pdf/"+pdfPath)
@@ -82,7 +101,7 @@ func extractSameLineContent(pdfContentTxt []pdf.Text) error {
 
 		// Happy path ..
 		// DEBUG
-		fmt.Println("Append CONTENT: ", currentContent, " X: ", v.X, " Y: ", v.Y)
+		//fmt.Println("Append CONTENT: ", currentContent, " X: ", v.X, " Y: ", v.Y)
 		// number of valid line increase when new valid line ..
 		if currentLineNumber != v.Y {
 			if strings.TrimSpace(currentContent) != "" {
@@ -115,12 +134,12 @@ func extractSameLineContent(pdfContentTxt []pdf.Text) error {
 		pdfTxtSameLine = append(pdfTxtSameLine, currentContent)
 	}
 
-	spew.Dump(pdfTxtSameLine)
+	fmt.Println(pdfTxtSameLine)
 
 	return nil
 }
 
-func extractTxtSameLineOld(ptrTxtSameLine *[]string, pdfContentTxt []pdf.Text) error {
+func extractTxtSameLine(ptrTxtSameLine *[]string, pdfContentTxt []pdf.Text) error {
 
 	var numValidLineCounted int
 	var currentLineNumber float64

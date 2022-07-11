@@ -16,11 +16,21 @@ func Test_loadPDF(t *testing.T) {
 		wantErr bool
 	}{
 		// TODO: Add test cases.
-		{"case #1 happy ..", args{
-			pdfPath:   "./testdata/PUB166_2022.pdf",
-			startPage: 0,
-			endPage:   0,
-		}, true},
+		{"case #1 happy ..",
+			args{
+				pdfPath:   "./testdata/PUB166_2022.pdf",
+				startPage: 0,
+				endPage:   0,
+			}, true,
+		},
+		{
+			"case sarawak",
+			args{
+				pdfPath:   "./testdata/pub_20190415_PUB187.pdf",
+				startPage: 0,
+				endPage:   0,
+			}, true,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

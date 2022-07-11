@@ -35,3 +35,7 @@
 ## Deployment Options
 
 - Try out Lambda (serverless.tf), App Runner + Fargate ..
+
+## OCR Pipeline
+
+- pd3f - 
