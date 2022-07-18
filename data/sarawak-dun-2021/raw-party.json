@@ -1,0 +1,3002 @@
+[
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 0
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "TIADA MAKLUMAT"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "TIADA"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#FFFFFF"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "tiada.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 1
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "BARISAN NASIONAL"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "BN"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#031A93"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "bn.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 2
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI ISLAM SE MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PAS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#6CB332"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pas.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 3
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI TINDAKAN DEMOKRATIK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "DAP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#E70024"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "dap.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 4
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "BARISAN JEMAAH ISLAMIAH SE MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "BERJASA"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#005121"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "berjasa.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 5
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI KEBANGSAAN SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "SNAP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#ABAE2D"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "snap.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 6
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PESAKA BUMIPUTERA BERSATU SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PBB"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#ADADAD"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pbb.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 7
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI KONGRES INDIAN MUSLIM MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "KIMMA"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#DE8801"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "kimma.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 8
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PERSATUAN KEBANGSAAN PASOK NUNUKRAGANG BERSATU"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PASOK"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#F0F4BB"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pasok.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 9
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI RAKYAT MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PRM"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#FE8591"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "prm.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 10
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI BANSA DAYAK SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PBDS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#9900CC"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pbds.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 11
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI BERSATU SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PBS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#6666FF"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pbs.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 12
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI ANGKATAN KEADILAN RAKYAT - SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "AKAR"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#FF9999"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "akar.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 13
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI MOMOGUN KEBANGSAAN SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "MOMOGUN"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#CAD7FF"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "momogun.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 14
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI KEADILAN NASIONAL"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "KEADILAN"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#04A0D1"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "keadilan.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 15
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI REFORMASI NEGERI SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "STAR"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#CC3399"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "star.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 16
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PERTUBUHAN KINABALU PROGRESIF BERSATU"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "UPKO"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#2A0E72"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "upko.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 17
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI ANGKATAN KEADILAN INSAN MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "AKIM"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#FEF1E1"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "akim.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 18
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI DEMOKRATIK MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "MDP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#EDDB07"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "mdp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 19
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PUNJABI MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PPM"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#CC9900"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "ppm.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 20
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "BEBAS"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "BEBAS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#993300"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "bebas.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 21
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI BARISAN RAKYAT SABAH BERSEKUTU"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "BERSEKUTU"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#00FFFF"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "bersekutu.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 22
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI DEMOKRATIK SETIAHATI KUASA RAKYAT BERSATU SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "SETIA"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#FF66FF"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "setia.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 23
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI KONGRES PENYATUAN MASYARAKAT"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "CCC"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#660033"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "ccc.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 24
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI GERAKAN RAKYAT MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "GERAKAN"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#FE2514"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "gerakan.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 25
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PROGRESIF PENDUDUK MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PPP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#C09A31"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "ppp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 26
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI LIBERAL DEMOKRATIK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "LDP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#AB3D1A"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "ldp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 27
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI MAJU SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "SAPP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#FBFD0B"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "sapp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 28
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI BARISAN INDIA SE-MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "AMIPF"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#E30300"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "amipf.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 30
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PEKERJA-PEKERJA MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "MWP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#FEDBA3"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "mwp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 31
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PERTUBUHAN KEBANGSAAN MELAYU BERSATU"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "UMNO"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "umno.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 32
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PERSATUAN CINA MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "MCA"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "mca.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 33
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "KONGRES INDIA SE-MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "MIC"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "mic.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 34
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "SARAWAK UNITED PEOPLE''S PARTY"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "SUPP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "supp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 35
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI BERSATU RAKYAT SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PBRS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pbrs.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 36
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI DEMOKRATIK PROGRESIF SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "SPDP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "spdp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 37
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI KEADILAN RAKYAT"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PKR"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#04A0D1"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pkr.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 38
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI RAKYAT SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PRS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "prs.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 40
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PERSATUAN RAKYAT MALAYSIA SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PERMAS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "permas.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 41
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PENANG FRONT PARTY"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PFP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pfp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 42
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "BERJAYA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "BERJAYA"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "berjaya.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 43
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI GENERASI BARU"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "NEWGEN"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "newgen.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 44
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PERIKATAN NASIONAL"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PN"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#043253"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pn.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 45
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI SOSIALIS RAKYAT MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PSRM"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "psrm.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 46
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI GAGASAN RAKYAT SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "GAGASAN"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "gagasan.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 47
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI ASPIRASI RAKYAT SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "ASPIRASI"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#BD354D"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "aspirasi.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 48
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "MALAYSIA UNITED PEOPLE''S PARTY"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "MUPP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "mupp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 49
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI BANSA DAYAK SARAWAK BARU"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PBDSB"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#0B46C8"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pbdsb.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 50
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PAKATAN HARAPAN"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PH"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#D7292F"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "ph.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 51
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "GABUNGAN PARTI SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "GPS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#1F2C45"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "gps.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 52
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PERTUBUHAN KEBANGSAAN SABAH BERSATU"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "USNO"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "usno.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 53
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI BUMIPUTRA PERKASA MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PUTRA"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#FEFE00"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "putra.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 54
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI SARAWAK BERSATU "
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PSB"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#A13C33"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "psb.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 55
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PERHIMPUNAN SOSIAL BERSATU"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PUSAKA"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pusaka.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 56
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI RAKYAT JATI SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PAJAR"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pajar.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 57
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "SARAWAK PEOPLES` ORGANISATION"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "SAPO"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "sapo.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 58
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "KESATUAN INSAF TANAH AIR"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "KITA"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "kita.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 59
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI KEADILAN RAKYAT MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PEKEMAS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pekemas.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 60
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "BISAMAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "BISAMAH"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "bisamah.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 61
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI BEBAS PROGRESIF RAKYAT"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "IPPP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "ippp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 62
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PBPR"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PBPR"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pbpr.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 63
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PERIKATAN"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PER"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "per.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 64
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTY PESAKA SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PESAKA"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pesaka.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 65
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTAI SOCIALIS RAKYAT MALAYA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PR"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pr.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 66
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI KEMAJUAN RAKYAT"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PPP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "ppp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 67
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "UNITED MALAYSIA CHINESE ORGANISATION"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "UMCO"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "umco.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 68
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "SABAH CHINESE ASSOCIATION"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "SCA"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "sca.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 70
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI SEDAR RAKYAT SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "SEDAR"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#C3B62B"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "sedar.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 71
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI NEGARA RAKYAT SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PNRS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pnrs.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 72
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI UMAT SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "UMAT"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "umat.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 73
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI RAKYAT BERSATU"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "UPP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "upp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 74
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI MAKKALSAKTI MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "M.M.S.P"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "M.M.S.p.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 75
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI KESEJAHTERAAN INSAN TANAH AIR"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "KITA"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#F58220"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "kita.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 76
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI BERSATU SASA MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "BERSAMA"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#FF66FF"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "bersama.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 77
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI CINTA MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PCM"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#F4E50E"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pcm.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 78
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PEKERJA SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "SWP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#FCF9A8"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "swp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 79
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI SOSIALIS MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PSM"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#C0110D"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "psm.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 80
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI KONGRES CEYLONESE MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "MCC"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "mcc.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 81
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI AMANAH NEGARA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "AMANAH"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#F79220"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "amanah.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 82
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PERPADUAN RAKYAT SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PPRS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pprs.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 83
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI KERJASAMA ANAK NEGERI"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "ANAKNEGERI"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "anaknegeri.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 84
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI RAKYAT GABUNGAN JAKSA PENDAMAI"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PEACE"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "peace.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 85
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI TENAGA RAKYAT SARAWAK"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "TERAS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "teras.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 86
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI KEBANGSAAN SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PKS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pks.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 87
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI SEJAHTERA ANGKATAN PERPADUAN SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "SAPU"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "sapu.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 88
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI BANSA DAYAK SARAWAK BARU"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PBDSB"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pbdsb.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 89
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI ALTERNATIF RAKYAT "
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PAP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pap.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 90
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI CINTA SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PCS"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pcs.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 91
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI WARISAN SABAH "
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "WARISAN"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "warisan.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 92
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PRIBUMI BERSATU MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PPBM"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "ppbm.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 93
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI SOLIDARITI TANAH AIRKU"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "SOLIDARITI"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "solidariti.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 94
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI HARAPAN RAKYAT SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "HR"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "hr.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 95
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI BUMI KENYALANG"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PBK"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#672D34"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pbk.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 96
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI IKATAN BANGSA MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "IKATAN"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "ikatan.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 97
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI BERSAMA MALAYSIA "
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "MU"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "mu.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 98
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PERTUBUHAN PERPADUAN RAKYAT KEBANGSAAN SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PERPADUAN"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "perpaduan.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 99
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI DAMAI SABAH"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "SPP"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#fff"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "spp.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 29
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI KEMAJUAN MALAYSIA"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "KEMAJUAN"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#F6EB19"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "kemajuan.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 39
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PEJUANG TANAH AIR"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "PEJUANG"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#09618A"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "pejuang.png"
+            }
+        ]
+    },
+    {
+        "type": 10,
+        "value": [
+            {
+                "type": 0,
+                "key": "id",
+                "value": 69
+            },
+            {
+                "type": 0,
+                "key": "n",
+                "value": "PARTI PERIKATAN INDIA MUSLIM NASIONAL"
+            },
+            {
+                "type": 0,
+                "key": "a",
+                "value": "IMAN"
+            },
+            {
+                "type": 0,
+                "key": "c",
+                "value": "#FFF"
+            },
+            {
+                "type": 0,
+                "key": "i",
+                "value": "iman.png"
+            }
+        ]
+    }
+]
