@@ -23,3 +23,6 @@
 # Ignore PDFs
 *.pdf
 
+# Except when raw data; to reproduce results
+!data/**/*.pdf
+
