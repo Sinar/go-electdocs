@@ -41,6 +41,8 @@ func json2csv(input io.Reader) error {
 				rowContent = fmt.Sprintf("%s", d)
 			case int:
 				rowContent = fmt.Sprintf("%d", d)
+			case nil:
+				rowContent = ""
 			default:
 				rowContent = fmt.Sprintf("%v", d)
 			}
