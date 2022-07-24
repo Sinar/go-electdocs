@@ -1,4 +1,6 @@
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/dop251/jsonx v0.0.0-20210803172054-b01e25510e4b h1:GVBHQhOPxzSQZgM3H+LZSOp3KKL2PkBaNx2H8JUuW/4=
+github.com/dop251/jsonx v0.0.0-20210803172054-b01e25510e4b/go.mod h1:+OwN0/Cg56Ge5OJRumkQdgZqGSPKd2X/zxzsa1nvZY4=
 github.com/leowmjw/pdf v0.0.0-20220709123710-2afba4d7b963 h1:IAgVYkSHmeELgCb99on4EH7eSD6+CA5bq6vJAMAPuFg=
 github.com/leowmjw/pdf v0.0.0-20220709123710-2afba4d7b963/go.mod h1:MZUjvfjrWgJFEcvtbI8rGg7itRPv/ThLBSjF/YMVQOA=
