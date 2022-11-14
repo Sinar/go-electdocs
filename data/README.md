@@ -39,6 +39,14 @@ Converted data should be stored under the appropriate folder with the following:
 - https://jsonformatter.curiousconcept.com/# <-- auto-fix format
 - https://www.convertcsv.com/json-to-csv.htm
  
+### HOWTO Transform
+
+- Seats 
+
+```
+cat seats-raw.csv| gsed 's/\\n/\n/g' >seats-clean.csv
+```
+
 ### HOWTO Clean
 
 - Use the tooling under ./tools .. Tabula
