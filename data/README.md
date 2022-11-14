@@ -34,7 +34,11 @@ Converted data should be stored under the appropriate folder with the following:
 
 ### HOWTO Obtain
 
-- 
+### HOWTO Clean JSON
+
+- https://jsonformatter.curiousconcept.com/# <-- auto-fix format
+- https://www.convertcsv.com/json-to-csv.htm
+ 
 ### HOWTO Clean
 
 - Use the tooling under ./tools .. Tabula
