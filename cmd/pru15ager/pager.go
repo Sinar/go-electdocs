@@ -26,17 +26,18 @@ func Run() {
 
 func downloadCandidates() {
 
-	//duns := []string{"perlis"}
-	duns := []string{"perak"}
+	//duns := []string{"perlis", "perak"}
+	duns := []string{"perak", "pahang"}
 	for _, dunName := range duns {
 		r, err := script.File("testdata/pru15-" + dunName + ".csv").Slice()
 		if err != nil {
 			panic(err)
 		}
 		for _, line := range r {
-			spew.Dump(line)
 			cols := strings.Split(line, ",")
 			if len(cols) != 4 {
+				// DEBUG
+				spew.Dump(line)
 				spew.Dump(cols)
 				panic(fmt.Errorf("WRONG! Must have 4 cols! Got %d", len(cols)))
 			}
@@ -64,14 +65,15 @@ func processDUNCandidatesProfile(c candidate) {
 		panic(merr)
 	}
 	if script.IfExists(fmt.Sprintf("%s/%s.html", dataPath, safeName)).Error() != nil {
-		fmt.Println("FOUND! at", fmt.Sprintf("%s/%s.html", dataPath, safeName))
-	} else {
+		// has error; means the file does not exist!
 		fmt.Println("GOTTA DOWNLOAD!!!")
-		//n, err := script.Get(baseURL + c.url).WriteFile(fmt.Sprintf("%s/%s.html", dataPath, safeName))
-		//if err != nil {
-		//	panic(err)
-		//}
-		//fmt.Println("N:", n)
+		n, err := script.Get(baseURL + c.url).WriteFile(fmt.Sprintf("%s/%s.html", dataPath, safeName))
+		if err != nil {
+			panic(err)
+		}
+		fmt.Println("N:", n)
+	} else {
+		fmt.Println("FOUND! at", fmt.Sprintf("%s/%s.html", dataPath, safeName))
 	}
 }
 
