@@ -6,6 +6,7 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"os"
 	"regexp"
+	"strconv"
 	"strings"
 )
 
@@ -22,8 +23,8 @@ type matchCandidate struct {
 	code            string
 	name            string
 	candidateDir    string
-	candidateNames  []string
 	matchedFileName string
+	candidateAge    []string
 }
 
 func Run() {
@@ -34,11 +35,11 @@ func Run() {
 }
 
 func extractCandidates() {
-	duns := []string{"perlis"}
-	//duns := []string{"perak", "pahang"}
+	//duns := []string{"perlis"}
+	duns := []string{"perak", "pahang"}
 	for _, dunName := range duns {
-		// Open data from Spreadsheet .. use this instead? so can be written back correctly
-		// and can cut + paste?
+		// FInal data
+		var finalData []string
 		// Open the data from scaper
 		r, err := script.File("testdata/pru15-" + dunName + "-final.csv").Slice()
 		if err != nil {
@@ -55,8 +56,9 @@ func extractCandidates() {
 				panic(fmt.Errorf("WRONG! Must have 4 cols! Got %d", len(cols)))
 			}
 			code := fmt.Sprintf("%05s", cols[0])
-			officialName := cols[1]
 			dataPattern := fmt.Sprintf("testdata/%s", code)
+			officialName := cols[1]
+			jantina := cols[2]
 
 			// For matchCandidateName
 			mc := matchCandidate{
@@ -66,23 +68,27 @@ func extractCandidates() {
 			}
 			matchCandidateName(&mc)
 			// LAST STEP; get data from here .. if found; otherwise need manual
+			var age string
 			if mc.matchedFileName != "" {
 				fmt.Println("FIND AGE in", mc.matchedFileName)
+				age = extractCandidatesAge(&mc)
+				fmt.Println("FINAL_AGE:", age)
+				// DEBUG
+				//if len(mc.candidateAge) > 0 {
+				//	spew.Dump(mc)
+				//}
 			}
+			finalData = append(finalData, fmt.Sprintf("%s,%s,%s,%s", code, officialName, jantina, age))
 			fmt.Println("================================================================")
-			// DEBUG
-			//spew.Dump(mc)
-			//// For extractCandidateAge
-			//c := candidate{
-			//	name: officialName,
-			//	code: code,
-			//}
-			//extractCandidatesAge(&c)
-			//// After manipulations ..
-			//spew.Dump(c)
 		}
-		// fill it in the file? where it is ordered? match it?
-		// load out; and try to match loosely ..
+		// DEBUG
+		//for _, candidateData := range finalData {
+		//	fmt.Println(candidateData)
+		//}
+		werr := os.WriteFile("testdata/pru15-"+dunName+"-age.csv", []byte(strings.Join(finalData, "\n")), 0666)
+		if werr != nil {
+			panic(werr)
+		}
 	}
 
 }
@@ -129,18 +135,63 @@ func matchCandidateName(mc *matchCandidate) {
 	return
 }
 
-func extractCandidatesAge(c *candidate) {
-	//ageofCandidate := 2022
-	fmt.Println("Get Profile for", c.name)
-	fmt.Println(fmt.Sprintf("CODE: %s", c.code))
-	safeName := strings.ReplaceAll(c.name, " ", "-")
-	dataPath := fmt.Sprintf("testdata/%s", c.code)
-	fmt.Println("Open:", safeName, ".html in", dataPath)
+func extractCandidatesAge(mc *matchCandidate) (age string) {
+	age = "2022"
+	// If find DOB; extract and leave first!
+	// DOB pattern "ContentPlaceHolder1_lblDob"
+	// Pattern DD/M/YYYY e.g. 18/1/1967
+	reDOB := regexp.MustCompile("^.+\\d+/\\d+/(\\d+).+$")
+	replaceTemplate := "$1"
+	dobMatches, derr := script.File(mc.matchedFileName).Match("ContentPlaceHolder1_lblDob").ReplaceRegexp(reDOB, replaceTemplate).Slice()
+	if derr != nil {
+		panic(derr)
+	}
+	if len(dobMatches) > 0 {
+		// Not needed quite useless
+		//mc.candidateAge = append(mc.candidateAge, dobMatches...)
+		// DEBUG
+		//spew.Dump(dobMatches)
+		year, cerr := strconv.Atoi(dobMatches[0])
+		if cerr != nil {
+			panic(cerr)
+		}
+		fmt.Println("YEAR_BIRTH:", year)
+		age = strconv.Itoa(2022 - year)
+		// DEBUG
+		//fmt.Println("DEBUG_AGE:", 2022-year)
+		return age
+	}
+	// If cannot find DOB; try a more generic search; add the findings?
+	re := regexp.MustCompile("^.+(\\d{2})\\s+.+tahun.*$")
+	matches, err := script.File(mc.matchedFileName).MatchRegexp(re).ReplaceRegexp(re, replaceTemplate).Slice()
+	if err != nil {
+		panic(err)
+	}
+	//if len(matches) > 0 {
+	//	mc.candidateAge = append(mc.candidateAge, matches...)
+	//	// Check should at least be 21
+	//}
+	if len(matches) > 0 {
+		// Not needed quite useless
+		//mc.candidateAge = append(mc.candidateAge, dobMatches...)
+		// DEBUG
+		//spew.Dump(matches)
+		possibleAge, cerr := strconv.Atoi(matches[0])
+		if cerr != nil {
+			panic(cerr)
+		}
+		if possibleAge < 21 {
+			fmt.Println("IMPOSSIBLE: AGE MUST >21", possibleAge)
+		} else if possibleAge > 100 {
+			fmt.Println("IMPOSSIBLE: AGE MUST <100", possibleAge)
+		} else {
+			age = strconv.Itoa(possibleAge)
+		}
 
-	// Dump it out as CSV ..
-	//strconv.ParseInt(ageofCandidate, 10, 8)
-	//age := string(ageofCandidate)
-	c.age = "2022"
+		return age
+	}
+
+	return age
 }
 
 func downloadCandidates() {
