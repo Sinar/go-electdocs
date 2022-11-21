@@ -1,0 +1,220 @@
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_0" class="uppercase" href="/calon/1057/aznel-ibrahim">P54-N1 AZNEL IBRAHIM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_1" class="uppercase" href="/calon/7783/mohamad-amin-roslan">P54-N1 MOHAMAD AMIN ROSLAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_2" class="uppercase" href="/calon/7802/mohd-saad-ismail">P54-N1 MOHD SAAD ISMAIL</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_3" class="uppercase" href="/calon/1058/salbiah-mohamed">P54-N2 SALBIAH MOHAMED</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_4" class="uppercase" href="/calon/2101/mohd-noor-abdul-rahman">P54-N2 MOHD NOOR ABDUL RAHMAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_5" class="uppercase" href="/calon/5395/ahmad-safwan-mohamad">P54-N2 AHMAD SAFWAN MOHAMAD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_6" class="uppercase" href="/calon/7898/rohaida-mohamad-yaakub">P55-N3 ROHAIDA MOHAMAD YAAKUB</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_7" class="uppercase" href="/calon/7902/husairi-ariffin">P55-N3 HUSAIRI ARIFFIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_8" class="uppercase" href="/calon/7906/mohamad-jamean-zulkepli">P55-N3 MOHAMAD JAMEAN ZULKEPLI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_9" class="uppercase" href="/calon/7804/mohd-jamil-yahya">P55-N4 MOHD JAMIL YAHYA</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_10" class="uppercase" href="/calon/7808/mohd-sabri-abdul-manaf">P55-N4 MOHD SABRI ABDUL MANAF</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_11" class="uppercase" href="/calon/1060/saarani-mohamad">P55-N4 SAARANI MOHAMAD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_12" class="uppercase" href="/calon/32/razali-ismail">P56-N5 RAZALI ISMAIL</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_13" class="uppercase" href="/calon/2737/mohd-akmal-kamarudin">P56-N5 MOHD AKMAL KAMARUDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_14" class="uppercase" href="/calon/7817/faizul-rizal-zulkifli">P56-N5 FAIZUL RIZAL ZULKIFLI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_15" class="uppercase" href="/calon/7840/osman-sidek">P56-N5 OSMAN SIDEK</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_16" class="uppercase" href="/calon/8143/rusli-bakar">P56-N6 RUSLI BAKAR</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_17" class="uppercase" href="/calon/5665/khalil-yahaya">P56-N6 KHALIL YAHAYA</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_18" class="uppercase" href="/calon/8150/osman-ahmad">P56-N6 OSMAN AHMAD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_19" class="uppercase" href="/calon/8156/fuaddin-kamaruddin">P56-N6 FUADDIN KAMARUDDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_20" class="uppercase" href="/calon/5663/saliza-ahmad">P56-N7 SALIZA AHMAD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_21" class="uppercase" href="/calon/5666/muhd-aiman-aizuddin-md-husin">P56-N7 MUHD AIMAN AIZUDDIN MD HUSIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_22" class="uppercase" href="/calon/749/mohd-najmuddin-elias">P56-N7 MOHD NAJMUDDIN ELIAS</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_23" class="uppercase" href="/calon/8175/zulkifli-yahya">P56-N7 ZULKIFLI YAHYA</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_24" class="uppercase" href="/calon/8178/muhamad-nakhaie-abd-wahab">P57-N8 MUHAMAD NAKHAIE ABD WAHAB</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_25" class="uppercase" href="/calon/5656/shahrul-nizam-razali">P57-N8 SHAHRUL NIZAM RAZALI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_26" class="uppercase" href="/calon/8183/hakimi-hamzi-mohd-hayat">P57-N8 HAKIMI HAMZI MOHD HAYAT</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_27" class="uppercase" href="/calon/8243/anuar-ahmad">P57-N9 ANUAR AHMAD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_28" class="uppercase" href="/calon/3391/abdul-yunus-jamhari">P57-N9 ABDUL YUNUS JAMHARI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_29" class="uppercase" href="/calon/8251/mohd-jamil-jahaya">P57-N9 MOHD JAMIL JAHAYA</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_30" class="uppercase" href="/calon/8253/khairul-azman-ahmad">P58-N10 KHAIRUL AZMAN AHMAD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_31" class="uppercase" href="/calon/1066/sham-mat-sahat">P58-N10 SHAM MAT SAHAT</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_32" class="uppercase" href="/calon/8256/noor-azman-ghazali">P58-N10 NOOR AZMAN GHAZALI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_33" class="uppercase" href="/calon/8264/sheikh-khuzaifah-sheikh-abu-bakar">P58-N11 SHEIKH KHUZAIFAH SHEIKH ABU BAKAR</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_34" class="uppercase" href="/calon/2164/razman-zakaria">P58-N11 RAZMAN ZAKARIA</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_35" class="uppercase" href="/calon/8267/nazirul-jamaluddin">P58-N11 NAZIRUL JAMALUDDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_36" class="uppercase" href="/calon/5647/ahmad-saqif-ansorullah-ahmad-jihbadz-mokhlis">P58-N12 AHMAD SAQIF ANSORULLAH AHMAD JIHBADZ MOKHLIS</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_37" class="uppercase" href="/calon/5646/mohamad-noor-dawoo">P58-N12 MOHAMAD NOOR DAWOO</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_38" class="uppercase" href="/calon/8274/sallehuddin-abdullah">P58-N12 SALLEHUDDIN ABDULLAH</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_39" class="uppercase" href="/calon/8278/zainal-azman-abu-seman">P59-N13 ZAINAL AZMAN ABU SEMAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_40" class="uppercase" href="/calon/5632/mohd-kamaruddin-abu-bakar">P59-N13 MOHD KAMARUDDIN ABU BAKAR</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_41" class="uppercase" href="/calon/4583/zainal-abidin-abd-rahman">P59-N13 ZAINAL ABIDIN ABD RAHMAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_42" class="uppercase" href="/calon/8287/ahmad-man">P59-N13 AHMAD MAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_43" class="uppercase" href="/calon/5636/megat-shariffuddin-ibrahim">P59-N14 MEGAT SHARIFFUDDIN IBRAHIM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_44" class="uppercase" href="/calon/5635/ahmad-saidi-mohamad-daud">P59-N14 AHMAD SAIDI MOHAMAD DAUD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_45" class="uppercase" href="/calon/8293/nazar-talib">P59-N14 NAZAR TALIB</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_46" class="uppercase" href="/calon/5634/rahim-ismail">P59-N14 RAHIM ISMAIL</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_47" class="uppercase" href="/calon/5638/jamilah-zakaria">P59-N15 JAMILAH ZAKARIA</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_48" class="uppercase" href="/calon/8297/junaida-jamaluddin">P59-N15 JUNAIDA JAMALUDDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_49" class="uppercase" href="/calon/8300/muhd-faisal-abdul-rahman">P59-N15 MUHD FAISAL ABDUL RAHMAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_50" class="uppercase" href="/calon/8307/mustafaa-kamal-ariffin-abu-talib">P59-N15 MUSTAFAA KAMAL ARIFFIN ABU TALIB</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_51" class="uppercase" href="/calon/5624/muhd-fadhil-nuruddin">P60-N16 MUHD FADHIL NURUDDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_52" class="uppercase" href="/calon/8311/ahmad-shalimin-ahmad-shaffie">P60-N16 AHMAD SHALIMIN AHMAD SHAFFIE</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_53" class="uppercase" href="/calon/5625/mohd-fakhruddin-abd-aziz">P60-N16 MOHD FAKHRUDDIN ABD AZIZ</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_54" class="uppercase" href="/calon/3837/leow-thye-yih">P60-N17 LEOW THYE YIH</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_55" class="uppercase" href="/calon/8321/ong-seng-guan">P60-N17 ONG SENG GUAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_56" class="uppercase" href="/calon/8322/ang-sui-eng">P60-N17 ANG SUI ENG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_57" class="uppercase" href="/calon/8323/shariful-juhari-abu-kassim">P60-N17 SHARIFUL JUHARI ABU KASSIM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_58" class="uppercase" href="/calon/4336/mohd-yusoff-abdull-hamid">P60-N17 MOHD YUSOFF ABDULL HAMID</a>
+ <a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_59" class="uppercase" href="/calon/3836/teh-kok-lim">P60-N18 TEH KOK LIM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_60" class="uppercase" href="/calon/8335/koay-boon-hui">P60-N18 KOAY BOON HUI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_61" class="uppercase" href="/calon/8338/shanmuganelloo">P60-N18 SHANMUGANELLOO</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_62" class="uppercase" href="/calon/8342/lee-seng-yap">P60-N18 LEE SENG YAP</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_63" class="uppercase" href="/calon/8347/abu-bakar-abdul-rahman">P60-N18 ABU BAKAR ABDUL RAHMAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_64" class="uppercase" href="/calon/8352/mohd-khairul-iwan-mat-khairi">P61-N19 MOHD KHAIRUL IWAN MAT KHAIRI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_65" class="uppercase" href="/calon/8355/ahmad-rodzi-abdul-rahim">P61-N19 AHMAD RODZI ABDUL RAHIM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_66" class="uppercase" href="/calon/8356/khairuddin-mohamed-azahari">P61-N19 KHAIRUDDIN MOHAMED AZAHARI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_67" class="uppercase" href="/calon/8361/syed-lukman-hakim-syed-mohd-zin">P61-N19 SYED LUKMAN HAKIM SYED MOHD ZIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_68" class="uppercase" href="/calon/5619/azizi-mohamed-ridzuwan">P61-N20 AZIZI MOHAMED RIDZUWAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_69" class="uppercase" href="/calon/8363/mohamad-azir-ismail">P61-N20 MOHAMAD AZIR ISMAIL</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_70" class="uppercase" href="/calon/5522/zaiton-latiff">P61-N20 ZAITON LATIFF</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_71" class="uppercase" href="/calon/8376/zaim-sidqi-zulkifly">P62-N21 ZAIM SIDQI ZULKIFLY</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_72" class="uppercase" href="/calon/1074/mohd-zolkafly-harun">P62-N21 MOHD ZOLKAFLY HARUN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_73" class="uppercase" href="/calon/8382/ahmad-daslie-osman">P62-N21 AHMAD DASLIE OSMAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_74" class="uppercase" href="/calon/3838/loh-sze-yee">P62-N22 LOH SZE YEE</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_75" class="uppercase" href="/calon/8390/naran-singh-asa-singh">P62-N22 NARAN SINGH ASA SINGH</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_76" class="uppercase" href="/calon/8395/pan-chean-chang">P62-N22 PAN CHEAN CHANG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_77" class="uppercase" href="/calon/8103/r-indrani">P62-N22 R INDRANI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_78" class="uppercase" href="/calon/2748/asmuni-awi">P63-N23 ASMUNI AWI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_79" class="uppercase" href="/calon/8403/azizul-kama-abd-aziz">P63-N23 AZIZUL KAMA ABD AZIZ</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_80" class="uppercase" href="/calon/8405/hafez-sabri">P63-N23 HAFEZ SABRI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_81" class="uppercase" href="/calon/5596/muhamad-arafat-varisai-mahamad">P63-N24 MUHAMAD ARAFAT VARISAI MAHAMAD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_82" class="uppercase" href="/calon/4830/mazlan-abd-rahman">P63-N24 MAZLAN ABD RAHMAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_83" class="uppercase" href="/calon/8409/puteri-holijah-muhamad-rali">P63-N24 PUTERI HOLIJAH MUHAMAD RALI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_84" class="uppercase" href="/calon/6452/murugiah-al-subramaniam">P63-N24 MURUGIAH AL SUBRAMANIAM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_85" class="uppercase" href="/calon/5437/jenny-choy-tsi-jen">P64-N25 JENNY CHOY TSI JEN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_86" class="uppercase" href="/calon/8414/woo-kok-toong">P64-N25 WOO KOK TOONG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_87" class="uppercase" href="/calon/8417/pang-boon-yang">P64-N25 PANG BOON YANG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_88" class="uppercase" href="/calon/3025/abdul-aziz-bari">P64-N26 ABDUL AZIZ BARI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_89" class="uppercase" href="/calon/5439/tony-khoo-boon-chuan">P64-N26 TONY KHOO BOON CHUAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_90" class="uppercase" href="/calon/8073/mior-nor-haidir-suhaimi">P64-N26 MIOR NOR HAIDIR SUHAIMI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_91" class="uppercase" href="/calon/8429/mohammad-iskandar-abd-rahman">P64-N26 MOHAMMAD ISKANDAR ABD RAHMAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_92" class="uppercase" href="/calon/8432/goh-see-hua">P64-N27 GOH SEE HUA</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_93" class="uppercase" href="/calon/8435/soo-poh-yeow">P64-N27 SOO POH YEOW</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_94" class="uppercase" href="/calon/8434/lam-kin-yip">P64-N27 LAM KIN YIP</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_95" class="uppercase" href="/calon/3763/ong-boon-piow">P65-N28 ONG BOON PIOW</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_96" class="uppercase" href="/calon/8439/albert-ho-wai-mun">P65-N28 ALBERT HO WAI MUN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_97" class="uppercase" href="/calon/8440/lim-jin-sheng">P65-N28 LIM JIN SHENG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_98" class="uppercase" href="/calon/3617/nga-kor-ming">P65-N29 NGA KOR MING</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_99" class="uppercase" href="/calon/8442/richard-ng">P65-N29 RICHARD NG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_100" class="uppercase" href="/calon/1551/lim-huey-shan">P65-N29 LIM HUEY SHAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_101" class="uppercase" href="/calon/8446/thulsi-manogaran">P65-N30 THULSI MANOGARAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_102" class="uppercase" href="/calon/3842/sivasubramaniam-al-athinarayanan">P65-N30 SIVASUBRAMANIAM AL ATHINARAYANAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_103" class="uppercase" href="/calon/8447/s-jayagopi">P65-N30 S JAYAGOPI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_104" class="uppercase" href="/calon/8450/muhammad-faiz-abdullah">P65-N30 MUHAMMAD FAIZ ABDULLAH</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_105" class="uppercase" href="/calon/8452/sebastiar">P65-N30 SEBASTIAR</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_106" class="uppercase" href="/calon/7826/hamidah-binti-muhamad">P66-N31 HAMIDAH BINTI MUHAMAD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_107" class="uppercase" href="/calon/7827/navinten-al-sundarajan">P66-N31 NAVINTEN AL SUNDARAJAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_108" class="uppercase" href="/calon/5585/cheah-pou-hian">P66-N31 CHEAH POU HIAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_109" class="uppercase" href="/calon/7836/wong-kean-rong">P66-N32 WONG KEAN RONG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_110" class="uppercase" href="/calon/5587/steven-chaw-kam-foon">P66-N32 STEVEN CHAW KAM FOON</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_111" class="uppercase" href="/calon/7837/phoon-kai-mun">P66-N32 PHOON KAI MUN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_112" class="uppercase" href="/calon/8276/steven-tiw">P66-N33 STEVEN TIW</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_113" class="uppercase" href="/calon/8279/bryan-yong-wu-sean">P66-N33 BRYAN YONG WU SEAN</a>
+ <a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_114" class="uppercase" href="/calon/8280/meor-shahimudin-bin-hj-hasim">P66-N33 MEOR SHAHIMUDIN BIN HJ HASIM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_115" class="uppercase" href="/calon/8283/sin-koon-yen">P66-N33 SIN KOON YEN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_116" class="uppercase" href="/calon/8284/roslan-bin-ismail">P66-N33 ROSLAN BIN ISMAIL</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_117" class="uppercase" href="/calon/5583/leong-chee-wai">P66-N33 LEONG CHEE WAI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_118" class="uppercase" href="/calon/7841/hashim-bin-bujang">P67-N34 HASHIM BIN BUJANG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_119" class="uppercase" href="/calon/7842/azizul-rahim">P67-N34 AZIZUL RAHIM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_120" class="uppercase" href="/calon/7844/amir-sabri">P67-N34 AMIR SABRI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_121" class="uppercase" href="/calon/7848/jamsari-mahamood">P67-N35 JAMSARI MAHAMOOD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_122" class="uppercase" href="/calon/7850/mustafa-shah">P67-N35 MUSTAFA SHAH</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_123" class="uppercase" href="/calon/7857/berhanudin-ahmad">P67-N35 BERHANUDIN AHMAD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_124" class="uppercase" href="/calon/7861/ahmad-faisal-bin-haji-mansor">P68-N36 AHMAD FAISAL BIN HAJI MANSOR</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_125" class="uppercase" href="/calon/7872/abdul-halim-bin-mat-isa">P68-N36 ABDUL HALIM BIN MAT ISA</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_126" class="uppercase" href="/calon/7885/azman-noh">P68-N36 AZMAN NOH</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_127" class="uppercase" href="/calon/7875/jais-ashfaq">P68-N36 JAIS ASHFAQ</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_128" class="uppercase" href="/calon/3844/wong-may-ing">P68-N37 WONG MAY ING</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_129" class="uppercase" href="/calon/8288/albert-looi-tuan-gin">P68-N37 ALBERT LOOI TUAN GIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_130" class="uppercase" href="/calon/8291/eee-chin-oon">P68-N37 EEE CHIN OON</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_131" class="uppercase" href="/calon/8295/ah-yong-ian">P68-N38 AH YONG IAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_132" class="uppercase" href="/calon/8299/jason-ng-thien-yeong">P68-N38 JASON NG THIEN YEONG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_133" class="uppercase" href="/calon/8303/chieng-lee-chong">P68-N38 CHIENG LEE CHONG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_134" class="uppercase" href="/calon/8308/khairudin-abu-hanipah">P69-N39 KHAIRUDIN ABU HANIPAH</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_135" class="uppercase" href="/calon/4582/shaharuzzaman-bistamam">P69-N39 SHAHARUZZAMAN BISTAMAM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_136" class="uppercase" href="/calon/8314/meor-naqiuddin">P69-N39 MEOR NAQIUDDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_137" class="uppercase" href="/calon/8316/hishamuddin-abdullah">P69-N39 HISHAMUDDIN ABDULLAH</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_138" class="uppercase" href="/calon/5560/najihatussalehah-ahmad">P69-N40 NAJIHATUSSALEHAH AHMAD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_139" class="uppercase" href="/calon/3113/usaili-alias">P69-N40 USAILI ALIAS</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_140" class="uppercase" href="/calon/8328/shahril-harahab">P69-N40 SHAHRIL HARAHAB</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_141" class="uppercase" href="/calon/5564/khairul-shahril-mohamed">P69-N40 KHAIRUL SHAHRIL MOHAMED</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_142" class="uppercase" href="/calon/8330/sherry-syed">P70-N41 SHERRY SYED</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_143" class="uppercase" href="/calon/3845/leong-cheok-keng">P70-N41 LEONG CHEOK KENG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_144" class="uppercase" href="/calon/8333/chin-woon-kheong">P70-N41 CHIN WOON KHEONG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_145" class="uppercase" href="/calon/8336/bavani-veraiah">P70-N41 BAVANI VERAIAH</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_146" class="uppercase" href="/calon/8337/angeline-koo-haai-yen">P70-N42 ANGELINE KOO HAAI YEN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_147" class="uppercase" href="/calon/8343/foong-kar-sing">P70-N42 FOONG KAR SING</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_148" class="uppercase" href="/calon/8344/puah-chee-haur">P70-N42 PUAH CHEE HAUR</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_149" class="uppercase" href="/calon/8345/ng-wah-leng">P70-N42 NG WAH LENG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_150" class="uppercase" href="/calon/8348/pazli-abdullah-sani">P70-N43 PAZLI ABDULLAH SANI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_151" class="uppercase" href="/calon/5557/mohd-azlan-helmi">P70-N43 MOHD AZLAN HELMI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_152" class="uppercase" href="/calon/8354/abd-rahman-md-som">P70-N43 ABD RAHMAN MD SOM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_153" class="uppercase" href="/calon/8357/hang-tuah-din">P71-N44 HANG TUAH DIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_154" class="uppercase" href="/calon/8358/roshanita-binti-mohamad-basir">P71-N44 ROSHANITA BINTI MOHAMAD BASIR</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_155" class="uppercase" href="/calon/2742/mohammad-nizar-jamaluddin">P71-N44 MOHAMMAD NIZAR JAMALUDDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_156" class="uppercase" href="/calon/8360/mahader-ayob">P71-N44 MAHADER AYOB</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_157" class="uppercase" href="/calon/8364/k-selvam">P71-N45 K SELVAM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_158" class="uppercase" href="/calon/8368/lee-wai-yin">P71-N45 LEE WAI YIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_159" class="uppercase" href="/calon/8369/hooi-mi-suet">P71-N45 HOOI MI SUET</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_160" class="uppercase" href="/calon/8372/wong-chai-yi">P71-N45 WONG CHAI YI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_161" class="uppercase" href="/calon/8373/low-leong-sin">P71-N46 LOW LEONG SIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_162" class="uppercase" href="/calon/8374/aswannudin-bin-hariffudin">P71-N46 ASWANNUDIN BIN HARIFFUDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_163" class="uppercase" href="/calon/5543/sandrea-ng-shy-ching">P71-N46 SANDREA NG SHY CHING</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_164" class="uppercase" href="/calon/5540/elynn-liew-yee-lin">P71-N46 ELYNN LIEW YEE LIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_165" class="uppercase" href="/calon/8378/ahmad-ishak">P71-N46 AHMAD ISHAK</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_166" class="uppercase" href="/calon/8381/mohd-yunus-bin-mohd-yusop">P72-N47 MOHD YUNUS BIN MOHD YUSOP</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_167" class="uppercase" href="/calon/5528/choong-shin-heng">P72-N47 CHOONG SHIN HENG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_168" class="uppercase" href="/calon/8384/ahmad-tarmizi-bin-mohd-ghazali">P72-N47 AHMAD TARMIZI BIN MOHD GHAZALI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_169" class="uppercase" href="/calon/8387/atan-katering">P72-N47 ATAN KATERING</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_170" class="uppercase" href="/calon/8392/mohd-amin-bin-man">P72-N47 MOHD AMIN BIN MAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_171" class="uppercase" href="/calon/8394/teratai-ap-bah-arom">P72-N47 TERATAI AP BAH AROM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_172" class="uppercase" href="/calon/8396/atyrah-hanim">P72-N47 ATYRAH HANIM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_173" class="uppercase" href="/calon/8397/ishsam-shahruddin">P72-N48 ISHSAM SHAHRUDDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_174" class="uppercase" href="/calon/8399/mohd-nazri-hashim">P72-N48 MOHD NAZRI HASHIM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_175" class="uppercase" href="/calon/8404/muhammad-noor-farid-bin-zainal">P72-N48 MUHAMMAD NOOR FARID BIN ZAINAL</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_176" class="uppercase" href="/calon/8407/maziah-binti-salim">P72-N48 MAZIAH BINTI SALIM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_177" class="uppercase" href="/calon/6456/bawani-ap-kaniappan">P72-N48 BAWANI AP KANIAPPAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_178" class="uppercase" href="/calon/1086/zainol-fadzi-paharudin">P73-N49 ZAINOL FADZI PAHARUDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_179" class="uppercase" href="/calon/5518/mohamad-maharani-md-tasi">P73-N49 MOHAMAD MAHARANI MD TASI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_180" class="uppercase" href="/calon/463/ibrahim-katop">P73-N49 IBRAHIM KATOP</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_181" class="uppercase" href="/calon/5516/zafarul-azhan-zan">P73-N50 ZAFARUL AZHAN ZAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_182" class="uppercase" href="/calon/5520/wan-norashikin-wan-nordin">P73-N50 WAN NORASHIKIN WAN NORDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_183" class="uppercase" href="/calon/8415/mohd-safian-sauri-bin-pandak-abd-samad">P73-N50 MOHD SAFIAN SAURI BIN PANDAK ABD SAMAD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_184" class="uppercase" href="/calon/8416/mohd-syamsul-bin-alauddin">P73-N50 MOHD SYAMSUL BIN ALAUDDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_185" class="uppercase" href="/calon/8420/mohd-rafiq-bin-mohd">P74-N51 MOHD RAFIQ BIN MOHD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_186" class="uppercase" href="/calon/8421/nur-inderasyawalis-bin-ahmad-mukhtar">P74-N51 NUR INDERASYAWALIS BIN AHMAD MUKHTAR</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_187" class="uppercase" href="/calon/5507/yahaya-mat-nor">P74-N51 YAHAYA MAT NOR</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_188" class="uppercase" href="/calon/8424/rosli-abd-rahman">P74-N51 ROSLI ABD RAHMAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_189" class="uppercase" href="/calon/8426/mohd-norazlee-bin-mohd">P74-N51 MOHD NORAZLEE BIN MOHD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_190" class="uppercase" href="/calon/8427/norzaman-man">P74-N52 NORZAMAN MAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_191" class="uppercase" href="/calon/8430/mohd-azlan-bin-suhaimi">P74-N52 MOHD AZLAN BIN SUHAIMI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_192" class="uppercase" href="/calon/8431/yahaya-ahmad">P74-N52 YAHAYA AHMAD</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_193" class="uppercase" href="/calon/8433/norhaslinda-zakaria">P74-N52 NORHASLINDA ZAKARIA</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_194" class="uppercase" href="/calon/8436/abdul-razak-nazri">P74-N52 ABDUL RAZAK NAZRI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_195" class="uppercase" href="/calon/8441/munzirie-kabir">P75-N53 MUNZIRIE KABIR</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_196" class="uppercase" href="/calon/1090/shahrul-zaman-yahya">P75-N53 SHAHRUL ZAMAN YAHYA</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_197" class="uppercase" href="/calon/5492/mohd-mohkheri-jalil">P75-N53 MOHD MOHKHERI JALIL</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_198" class="uppercase" href="/calon/8445/wasanthee-sinnasamy">P75-N54 WASANTHEE SINNASAMY</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_199" class="uppercase" href="/calon/5494/khairudin-tarmizi">P75-N54 KHAIRUDIN TARMIZI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_200" class="uppercase" href="/calon/8449/khairun-nizam-bin-marsom">P75-N54 KHAIRUN NIZAM BIN MARSOM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_201" class="uppercase" href="/calon/5481/kong-sun-chin">P76-N55 KONG SUN CHIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_202" class="uppercase" href="/calon/8454/suriyanarayanan-sannasy-naidu">P76-N55 SURIYANARAYANAN SANNASY NAIDU</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_203" class="uppercase" href="/calon/8456/woo-kah-leong">P76-N55 WOO KAH LEONG</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_204" class="uppercase" href="/calon/1092/mohd-azhar-jamaluddin">P76-N56 MOHD AZHAR JAMALUDDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_205" class="uppercase" href="/calon/8458/nadziruddin-bin-mohamed-bandi">P76-N56 NADZIRUDDIN BIN MOHAMED BANDI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_206" class="uppercase" href="/calon/8459/badrul-hisham-bin-badarudin">P76-N56 BADRUL HISHAM BIN BADARUDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_207" class="uppercase" href="/calon/8460/muhammad-amirul-mahfuz">P76-N56 MUHAMMAD AMIRUL MAHFUZ</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_208" class="uppercase" href="/calon/3771/sivanesan-al-achalingam">P77-N57 SIVANESAN AL ACHALINGAM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_209" class="uppercase" href="/calon/8461/mahhadee-ramli">P77-N57 MAHHADEE RAMLI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_210" class="uppercase" href="/calon/8462/thilak-raj-gunasekaran">P77-N57 THILAK RAJ GUNASEKARAN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_211" class="uppercase" href="/calon/5470/elango-al-vadiveloo">P77-N57 ELANGO AL VADIVELOO</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_212" class="uppercase" href="/calon/5475/muhammad-zulfadli-zainal">P77-N58 MUHAMMAD ZULFADLI ZAINAL</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_213" class="uppercase" href="/calon/6743/mohd-zaidi-aziz">P77-N58 MOHD ZAIDI AZIZ</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_214" class="uppercase" href="/calon/8464/meor-muhammad-azim-meor-aznam">P77-N58 MEOR MUHAMMAD AZIM MEOR AZNAM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_215" class="uppercase" href="/calon/8467/mohd-syahid-bin-mohd-zaini">P77-N58 MOHD SYAHID BIN MOHD ZAINI</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_216" class="uppercase" href="/calon/8468/khairol-najib-hashim">P77-N59 KHAIROL NAJIB HASHIM</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_217" class="uppercase" href="/calon/8469/hazvee-bin-hafiz">P77-N59 HAZVEE BIN HAFIZ</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_218" class="uppercase" href="/calon/8471/salina-samsudin">P77-N59 SALINA SAMSUDIN</a>
+<a id="ContentPlaceHolder1_uscKeputusanDun_Repeater2_HyperLink1_219" class="uppercase" href="/calon/5474/mohd-amran-ibrahim">P77-N59 MOHD AMRAN IBRAHIM</a>
