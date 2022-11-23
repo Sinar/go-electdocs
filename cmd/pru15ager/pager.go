@@ -24,7 +24,7 @@ type matchCandidate struct {
 	name            string
 	candidateDir    string
 	matchedFileName string
-	candidateAge    []string
+	url             string
 }
 
 func Run() {
@@ -78,7 +78,7 @@ func extractCandidates() {
 				//	spew.Dump(mc)
 				//}
 			}
-			finalData = append(finalData, fmt.Sprintf("%s,%s,%s,%s", code, officialName, jantina, age))
+			finalData = append(finalData, fmt.Sprintf("%s,%s,%s,%s,%s", code, officialName, jantina, age, mc.url))
 			fmt.Println("================================================================")
 		}
 		// DEBUG
@@ -137,11 +137,23 @@ func matchCandidateName(mc *matchCandidate) {
 
 func extractCandidatesAge(mc *matchCandidate) (age string) {
 	age = "2022"
+	// Used multopleplaces ..
+	replaceTemplate := "$1"
+	// Extract metadata from the content
+	reURL := regexp.MustCompile("^.+content=\"(.+)\".+$")
+	urlMatches, uerr := script.File(mc.matchedFileName).Match("og:url").ReplaceRegexp(reURL, replaceTemplate).Slice()
+	if uerr != nil {
+		panic(uerr)
+	}
+	if len(urlMatches) > 0 {
+		// DEBUG
+		//fmt.Println(">>>>>>>>>>>>>>>>>>>>> URL:", urlMatches[0])
+		mc.url = urlMatches[0]
+	}
 	// If find DOB; extract and leave first!
 	// DOB pattern "ContentPlaceHolder1_lblDob"
 	// Pattern DD/M/YYYY e.g. 18/1/1967
 	reDOB := regexp.MustCompile("^.+\\d+/\\d+/(\\d+).+$")
-	replaceTemplate := "$1"
 	dobMatches, derr := script.File(mc.matchedFileName).Match("ContentPlaceHolder1_lblDob").ReplaceRegexp(reDOB, replaceTemplate).Slice()
 	if derr != nil {
 		panic(derr)
