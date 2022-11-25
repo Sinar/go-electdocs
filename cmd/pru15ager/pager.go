@@ -37,7 +37,7 @@ func Run() {
 
 func extractCandidates() {
 	//duns := []string{"perlis","pahang"}
-	duns := []string{"perak"}
+	duns := []string{"perak", "pahang"}
 	for _, dunName := range duns {
 		// FInal data
 		var finalData []string
@@ -121,6 +121,11 @@ func matchCandidateName(mc *matchCandidate) {
 
 			if strings.ToUpper(namePart) == "BINTI" {
 				fmt.Println("Skipping common namePart - BINTI")
+				continue
+			}
+
+			if strings.ToUpper(namePart) == "MOHD" {
+				fmt.Println("Skipping common namePart - MOHD")
 				continue
 			}
 
