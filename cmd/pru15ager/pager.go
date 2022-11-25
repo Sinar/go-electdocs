@@ -24,6 +24,7 @@ type matchCandidate struct {
 	name            string
 	candidateDir    string
 	matchedFileName string
+	candidateRawAge string
 	url             string
 }
 
@@ -35,8 +36,8 @@ func Run() {
 }
 
 func extractCandidates() {
-	//duns := []string{"perlis"}
-	duns := []string{"perak", "pahang"}
+	//duns := []string{"perlis","pahang"}
+	duns := []string{"perak"}
 	for _, dunName := range duns {
 		// FInal data
 		var finalData []string
@@ -74,11 +75,11 @@ func extractCandidates() {
 				age = extractCandidatesAge(&mc)
 				fmt.Println("FINAL_AGE:", age)
 				// DEBUG
-				//if len(mc.candidateAge) > 0 {
+				//if len(mc.candidateRawAge) > 0 {
 				//	spew.Dump(mc)
 				//}
 			}
-			finalData = append(finalData, fmt.Sprintf("%s,%s,%s,%s,%s", code, officialName, jantina, age, mc.url))
+			finalData = append(finalData, fmt.Sprintf("%s,%s,%s,%s,%s,%s", code, officialName, jantina, age, mc.candidateRawAge, mc.url))
 			fmt.Println("================================================================")
 		}
 		// DEBUG
@@ -112,6 +113,17 @@ func matchCandidateName(mc *matchCandidate) {
 		}
 
 		for _, namePart := range strings.Split(safeName, "-") {
+			// Skip common name like BIN BINTI A/L A/P?
+			if strings.ToUpper(namePart) == "BIN" {
+				fmt.Println("Skipping common namePart - BIN")
+				continue
+			}
+
+			if strings.ToUpper(namePart) == "BINTI" {
+				fmt.Println("Skipping common namePart - BINTI")
+				continue
+			}
+
 			//spew.Dump(namePart)
 			if strings.Contains(dataFilePath, namePart) {
 				candidateFilePath = dataFilePath
@@ -160,7 +172,9 @@ func extractCandidatesAge(mc *matchCandidate) (age string) {
 	}
 	if len(dobMatches) > 0 {
 		// Not needed quite useless
-		//mc.candidateAge = append(mc.candidateAge, dobMatches...)
+		//mc.candidateRawAge = append(mc.candidateRawAge, dobMatches...)
+		mc.candidateRawAge = dobMatches[0]
+		fmt.Println("DATA:")
 		// DEBUG
 		//spew.Dump(dobMatches)
 		year, cerr := strconv.Atoi(dobMatches[0])
@@ -180,12 +194,14 @@ func extractCandidatesAge(mc *matchCandidate) (age string) {
 		panic(err)
 	}
 	//if len(matches) > 0 {
-	//	mc.candidateAge = append(mc.candidateAge, matches...)
+	//	mc.candidateRawAge = append(mc.candidateRawAge, matches...)
 	//	// Check should at least be 21
 	//}
 	if len(matches) > 0 {
 		// Not needed quite useless
-		//mc.candidateAge = append(mc.candidateAge, dobMatches...)
+		//mc.candidateRawAge = append(mc.candidateRawAge, dobMatches...)
+		// Just for recording it down ..
+		mc.candidateRawAge = matches[0]
 		// DEBUG
 		//spew.Dump(matches)
 		possibleAge, cerr := strconv.Atoi(matches[0])
