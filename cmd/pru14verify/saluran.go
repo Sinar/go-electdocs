@@ -10,7 +10,7 @@ import (
 )
 
 // votesResult is Map of BallotID to voteCount
-type votesResult map[string]string
+type votesResult map[string]string // KEY --> DUN_ID/BALLOT_ID
 
 // 0 - Bil,
 // 1 - No. Kod Daerah Mengundi,
@@ -80,12 +80,64 @@ func NewSaluranRow(prefixSlice, suffixSlice, candidatesSlice []string) saluran {
 	}
 }
 
+func SanityTestPARSaluran(par string) {
+	// Open the file
+	recordFile, err := os.Open(fmt.Sprintf("testdata/%s.csv", par))
+	if err != nil {
+		fmt.Println("An error encountered ::", err)
+		panic(err)
+	}
+
+	r := csv.NewReader(recordFile)
+
+	records, err := r.ReadAll()
+	if err != nil {
+		log.Fatal(err)
+	}
+	// DEBUG
+	//	fmt.Print(records)
+	var numCols, numCandidates int
+	//var salurans []saluran
+	// TODO: Have a map KEY to DMID so can do sanity check
+	for _, cols := range records {
+		// DEBUZG
+		//spew.Dump(cols[0])
+		if cols[0] == "Bil" {
+			// DEBUG
+			//fmt.Println("IN!!!")
+			numCols = len(cols)
+			numCandidates = len(cols) - 10
+			fmt.Println(fmt.Sprintf("PAR: %s NO Candidates: %d", par, numCandidates))
+
+			// Just sanity test so can move on .
+			continue
+		} else {
+			// DEBUG
+			//fmt.Println("NOT", cols[0])
+			// Verify
+			if len(cols) != numCols {
+				panic("Incorrect cols!!")
+			}
+			//x := numCols - 5
+			//y := numCols
+			// NOw can structure + append
+			//currentSaluran := NewSaluranRow(cols[0:5], cols[x:y], cols[5:x])
+			//salurans = append(salurans, currentSaluran)
+		}
+		// DEBUG
+		//		spew.Dump(cols)
+	}
+	// DEBUG
+	//	spew.Dump(salurans)
+
+}
+
 func LoadPARSaluran(par string) []saluran {
 	// Open the file
 	recordFile, err := os.Open(fmt.Sprintf("testdata/%s.csv", par))
 	if err != nil {
 		fmt.Println("An error encountered ::", err)
-		return nil
+		panic(err)
 	}
 
 	r := csv.NewReader(recordFile)
@@ -98,7 +150,7 @@ func LoadPARSaluran(par string) []saluran {
 	//	fmt.Print(records)
 	var numCols, numCandidates int
 	var salurans []saluran
-
+	// TODO: Have a map KEY to DMID so can do sanity check
 	for _, cols := range records {
 		// DEBUZG
 		//spew.Dump(cols[0])

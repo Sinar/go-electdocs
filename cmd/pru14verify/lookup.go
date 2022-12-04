@@ -7,6 +7,39 @@ import (
 	"strings"
 )
 
+// results data
+// ID, - 0
+// BALLOT_NAME, - 1
+// JOB, - 2
+// PID, - 3
+// JANTINA, - 4
+// DUN_ID, - 5
+// TYPE (PAR/DUN), - 6
+// IND_SYMBOL_ID, - 7
+// STATUS (WIN/LOSE/DEPOSIT), - 8
+// LAST_UPDATED, - 9
+// BALLOT_ID, - 10
+// TOTAL_VOTES, - 11
+// MAJORITY, - 12
+// WINNER_BALLOT_ID (?) - 13
+
+// candidatesMap - DUN_ID/BALLOT_ID?
+
+type candidate struct {
+	ID         string // DUN_ID/BALLOT_ID
+	name       string
+	gender     string
+	totalVotes string
+	party      string
+	coalition  string
+}
+
+// resultsDUN model per candidate of each DUNID
+type resultsDUN struct {
+	ID          string // DUN_ID
+	votesResult        // BALLOT_ID -> CANDIDATE_ID
+}
+
 // Lookup data; return map tied to Primary keys
 
 // LookupState for Parliament Data
