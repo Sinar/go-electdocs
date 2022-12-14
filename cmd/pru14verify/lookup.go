@@ -25,8 +25,12 @@ import (
 
 // candidatesMap - DUN_ID/BALLOT_ID?
 
+// votesResult is Map of BallotID to voteCount
+type votesResult map[string]string // KEY --> DM_ID/BALLOT_ID /coalition?
+
+// candidate final value ..
 type candidate struct {
-	ID         string // DUN_ID/BALLOT_ID
+	ID         string // PAR_ID/BALLOT_ID
 	name       string
 	gender     string
 	totalVotes string
@@ -36,8 +40,8 @@ type candidate struct {
 
 // resultsDUN model per candidate of each DUNID
 type resultsDUN struct {
-	ID          string // DUN_ID
-	votesResult        // BALLOT_ID -> CANDIDATE_ID
+	ID          string // DUN_ID/BALLOT_ID
+	votesResult        // DM_ID/BALLOT_ID -> votes
 }
 
 // Lookup data; return map tied to Primary keys
@@ -113,18 +117,39 @@ func LookupResults(state string) {
 		panic(err)
 	}
 	numCols := 0
+	candidates := make(map[string]candidate, 200)
+
 	for _, l := range data {
 		cols := strings.Split(l, ",")
+		// DEBUG
+		//spew.Dump(cols)
 		if cols[0] == "id" || cols[0] == "ID" {
 			numCols = len(cols)
-		} else {
-			// Verify
-			if len(cols) != numCols {
-				panic("Incorrect cols!!" + l)
-			}
 		}
-		spew.Dump(cols)
+		// Verify
+		if len(cols) != numCols {
+			panic("Incorrect cols!!" + l)
+		}
+
 		// Annotate against state, par, party
+		// KEY --> PAR_ID/BALLOT_ID
+		// PAR_ID - 5 split --> 01800
+		// BALLOT_ID - 10
+		// Name - 1
+		// Gender - 4 --> convert to long text?
+		// Age
+		// Party - 3 --> LOOKUP
+		// COALITION_ID --> LOOKUP
+		candidate := candidate{
+			ID:         fmt.Sprintf("%s/%s", cols[5], cols[10]),
+			name:       cols[1],
+			gender:     cols[4],
+			totalVotes: cols[11],
+			party:      cols[3],
+			coalition:  cols[3],
+		}
+		candidates[candidate.ID] = candidate
 	}
+	spew.Dump(candidates)
 
 }

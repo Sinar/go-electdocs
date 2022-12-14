@@ -3,14 +3,10 @@ package main
 import (
 	"encoding/csv"
 	"fmt"
-	"github.com/davecgh/go-spew/spew"
 	"log"
 	"os"
 	"strings"
 )
-
-// votesResult is Map of BallotID to voteCount
-type votesResult map[string]string // KEY --> DUN_ID/BALLOT_ID
 
 // 0 - Bil,
 // 1 - No. Kod Daerah Mengundi,
@@ -38,7 +34,7 @@ type saluran struct {
 	totalVotesNotCast  string // 10
 	daerahMengundi     string // 11
 	voteType           string // 12
-	votesResult        votesResult
+	candidateVotes     []string
 }
 
 // For 3 candidates - it is 5 + 3 + 5 = 13
@@ -65,6 +61,11 @@ func NewSaluranRow(prefixSlice, suffixSlice, candidatesSlice []string) saluran {
 		dunID = strings.ReplaceAll(dmID, "/", "")[0:5]
 	}
 
+	// DEBUG
+	//for i, votes := range candidatesSlice {
+	//	fmt.Println(dmID, "CANDIDATE:", dunID, "/", i, "got", votes, "in SALURAN", prefixSlice[3])
+	//}
+
 	return saluran{
 		ID:                 dmID,
 		dunID:              dunID,
@@ -76,7 +77,7 @@ func NewSaluranRow(prefixSlice, suffixSlice, candidatesSlice []string) saluran {
 		totalVotesNotCast:  suffixSlice[2],
 		daerahMengundi:     suffixSlice[3],
 		voteType:           suffixSlice[4],
-		votesResult:        nil,
+		candidateVotes:     candidatesSlice,
 	}
 }
 
@@ -176,18 +177,30 @@ func LoadPARSaluran(par string) []saluran {
 		// DEBUG
 		//		spew.Dump(cols)
 	}
-
-	spew.Dump(salurans)
-	// Determine the number of columns for
+	// DEBUG
+	//	spew.Dump(salurans)
+	// Do the mapping now and then output it immediately ..
+	// DEBUG
+	//parID := par[1:]
+	//fmt.Println("RESULTS: ", parID)
+	//for _, saluran := range salurans {
+	//	// Passed in the slice of votes as a Lookup method
+	//	// or output method for that row .. as csv?
+	//	// Each COALTION will fit into a certain order in the slice;
+	//	//	known a-priori per STATE
+	//	// If COALITION not there; leave as blank
+	//	keyID := fmt.Sprintf("%s/%s", parID, saluran.saluranID)
+	//	fmt.Println("LOOkUP:", keyID)
+	//}
 
 	// DEBUG
 	//s := saluran{
-	//	votesResult: map[string]string{
+	//	candidateVotes: map[string]string{
 	//		"1": "456",
 	//		"2": "123",
 	//	},
 	//}
-	//if _, ok := s.votesResult["100"]; ok {
+	//if _, ok := s.candidateVotes["100"]; ok {
 	//	fmt.Println("Found KEY 100")
 	//} else {
 	//	fmt.Println("Did NOT find KEY 100")
