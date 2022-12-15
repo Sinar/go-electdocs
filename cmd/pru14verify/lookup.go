@@ -38,6 +38,19 @@ type candidate struct {
 	coalition  string
 }
 
+type par struct {
+	name string
+}
+
+type state struct {
+	name string
+}
+
+type party struct {
+	name      string
+	coalition string
+}
+
 // resultsDUN model per candidate of each DUNID
 type resultsDUN struct {
 	ID          string // DUN_ID/BALLOT_ID
@@ -47,7 +60,7 @@ type resultsDUN struct {
 // Lookup data; return map tied to Primary keys
 
 // LookupState for Parliament Data
-func LookupState() {
+func LookupState() map[string]string {
 	data, err := script.File("testdata/states.csv").Slice()
 	if err != nil {
 		panic(err)
@@ -64,11 +77,47 @@ func LookupState() {
 			}
 		}
 		spew.Dump(cols)
+		// StateID --> Official Name
 	}
+
+	return nil
+}
+
+// lookupCoalitionKedah is the unique map for Kedah
+func lookupCoalitionKedah() map[string]party {
+	// KEDAH LOOKUP Table ..
+	//2	PAS	GS
+	//37	PKR	PH
+	//1	BN	BN
+	//20	25	KEY
+	//9	PRM
+	parties := make(map[string]party, 0)
+	parties["1"] = party{
+		name:      "BN",
+		coalition: "BN",
+	}
+	parties["2"] = party{
+		name:      "PAS",
+		coalition: "GS",
+	}
+	parties["9"] = party{
+		name:      "PRM",
+		coalition: "",
+	}
+	parties["37"] = party{
+		name:      "PKR",
+		coalition: "PH",
+	}
+	parties["2025"] = party{
+		name:      "IND",
+		coalition: "KEY",
+	}
+
+	return parties
 }
 
 // LookupParty for Parliament Data
-func LookupParty() {
+func LookupParty() map[string]party {
 	data, err := script.File("testdata/party.csv").Slice()
 	if err != nil {
 		panic(err)
@@ -86,11 +135,13 @@ func LookupParty() {
 		}
 		spew.Dump(cols)
 		// Enrichment with coalition ..
+		// PartyID --> Official Name
 	}
+	return nil
 }
 
 // LookupPAR for Parliament Data
-func LookupPAR() {
+func LookupPAR() map[string]par {
 	data, err := script.File("testdata/par.csv").Slice()
 	if err != nil {
 		panic(err)
@@ -108,17 +159,20 @@ func LookupPAR() {
 		}
 		spew.Dump(cols)
 		// Annotate against state
+		// PAR_ID --> Official Name
 	}
+	return nil
 }
 
-func LookupResults(state string) {
+// LookupResults gets the candidate totals on aggregate; for every PAR
+func LookupResults(state string) map[string]candidate {
 	data, err := script.File(fmt.Sprintf("testdata/%s.csv", state)).Slice()
 	if err != nil {
 		panic(err)
 	}
 	numCols := 0
 	candidates := make(map[string]candidate, 200)
-
+	parties := lookupCoalitionKedah()
 	for _, l := range data {
 		cols := strings.Split(l, ",")
 		// DEBUG
@@ -145,11 +199,12 @@ func LookupResults(state string) {
 			name:       cols[1],
 			gender:     cols[4],
 			totalVotes: cols[11],
-			party:      cols[3],
-			coalition:  cols[3],
+			party:      parties[cols[3]].name,
+			coalition:  parties[cols[3]].coalition,
 		}
 		candidates[candidate.ID] = candidate
 	}
-	spew.Dump(candidates)
-
+	// DEBUG
+	//spew.Dump(candidates)
+	return candidates
 }
