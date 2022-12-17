@@ -89,8 +89,8 @@ func LookupState() map[string]string {
 	return nil
 }
 
-// lookupCoalitionKedah is the unique map for Kedah
-func lookupCoalitionKedah() map[string]party {
+// lookupCoalition is the unique map for Kedah,Melaka,N9
+func lookupCoalition() map[string]party {
 	// KEDAH LOOKUP Table ..
 	//2	PAS	GS
 	//37	PKR	PH
@@ -219,7 +219,7 @@ func LookupResults(state string) map[string]candidate {
 	}
 	numCols := 0
 	candidates := make(map[string]candidate, 200)
-	parties := lookupCoalitionKedah()
+	parties := lookupCoalition()
 	for _, l := range data {
 		cols := strings.Split(l, ",")
 		// DEBUG
@@ -246,10 +246,20 @@ func LookupResults(state string) map[string]candidate {
 			cols[3] = fmt.Sprintf("20%s", cols[7])
 			fmt.Println("IND_ID: ", cols[3])
 		}
+		// Translate to English
+		gender := cols[4]
+		switch gender {
+		case "L":
+			gender = "MALE"
+		case "P":
+			gender = "FEMALE"
+		default:
+			gender = "UNKNOWN"
+		}
 		candidate := candidate{
 			ID:         fmt.Sprintf("%s/%s", cols[5], cols[10]),
 			name:       cols[1],
-			gender:     cols[4],
+			gender:     gender,
 			totalVotes: cols[11],
 			party:      parties[cols[3]].name,
 			coalition:  parties[cols[3]].coalition,

@@ -87,6 +87,8 @@ func processPrefix(par string, salurans []saluran) [][]string {
 		data = append(data, singleRow)
 
 	}
+	// Add an empty last line for use in validation + boundary ..
+	data = append(data, make([]string, 12))
 	return data
 }
 
@@ -102,6 +104,7 @@ func processSuffix(par string, salurans []saluran, candidates map[string]candida
 	// PARLIAMENTARY CODE,	PARLIAMENTARY NAME
 	// STATE CONSTITUENCY CODE,	STATE CONSTITUENCY NAME
 	// Output CSV
+	lastRow := make([]string, 15)
 	data := make([][]string, 0)
 	for _, saluran := range salurans {
 		// DEBUG
@@ -115,10 +118,11 @@ func processSuffix(par string, salurans []saluran, candidates map[string]candida
 				fmt.Println("Skipping non-IND")
 				continue
 			}
+			lastRow[4] = candidates[keyID].totalVotes
 			singleRow[0] = candidates[keyID].party
 			singleRow[1] = candidates[keyID].name
 			singleRow[2] = candidates[keyID].gender
-			singleRow[3] = "2020" // Age to be replaced later ..
+			singleRow[3] = "" // Age to be replaced later ..
 			singleRow[4] = votes
 			// If more than 1 IND ..
 		}
@@ -131,6 +135,7 @@ func processSuffix(par string, salurans []saluran, candidates map[string]candida
 		singleRow[12] = saluran.totalVotesNotCast
 		data = append(data, singleRow)
 	}
+	data = append(data, lastRow)
 	return data
 }
 
@@ -141,7 +146,6 @@ func processCandidates(par string, salurans []saluran, candidates map[string]can
 	//fmt.Println("PAR:", par)
 	parID := par[1:]
 	//fmt.Println("RESULTS: ", parID)
-
 	data := make([][]string, 0)
 	for _, saluran := range salurans {
 		// DEBUG
@@ -197,7 +201,30 @@ func processCandidates(par string, salurans []saluran, candidates map[string]can
 	// BN | PH | GS | OTHERS | IND_KEY
 	// Write the output of CSV ..
 	outputCSV(fmt.Sprintf("testdata/%s-candidates.csv", par), data)
+	lastRow := make([]string, 20)
+	// TODO: Refactor; can be collapsed to one lookup likely .. so ugly :P
+	for i, _ := range salurans[0].candidateVotes {
+		keyID := fmt.Sprintf("%s00/%d", parID, i+1)
+		if candidates[keyID].party == "IND" {
+			fmt.Println("Skipping IND")
+			continue
+		}
 
+		var mult int
+		switch candidates[keyID].coalition {
+		case "BN":
+			mult = 0
+		case "PH":
+			mult = 5
+		case "GS":
+			mult = 10
+		default:
+			mult = 15
+		}
+		lastRow[mult+4] = candidates[keyID].totalVotes
+	}
+
+	data = append(data, lastRow)
 	return data
 }
 

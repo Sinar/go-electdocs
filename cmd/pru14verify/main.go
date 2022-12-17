@@ -20,6 +20,19 @@ func main() {
 
 	fmt.Println("Welcome to PRU14 Verifier!")
 	// DEBUG
+	//ProcessKedah()
+	ProcessMelaka()
+}
+
+func ProcessMelaka() {
+	pars := []string{
+		"P134", "P135", "P136", "P137", "P138", "P139",
+	}
+	AssembleResultsPerPAR("MELAKA", pars)
+}
+
+func ProcessKedah() {
+	// DEBUG
 	//LookupState()
 	//LookupParty()
 	//LookupPAR()
@@ -34,7 +47,6 @@ func main() {
 
 	AssembleResultsPerPAR("KEDAH", pars)
 }
-
 func AssembleResultsPerPAR(state string, pars []string) {
 	candidates := LookupResults(state)
 	// DEBUG
