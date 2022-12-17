@@ -20,4 +20,4 @@ Extract out to buffer
 $ node ./0-data.js | pbcopy
 ```
 
-Paste in ; and download the results
+Paste in https://www.convertcsv.com/json-to-csv.htm; and download the results

@@ -1,10 +1,7 @@
 package main
 
 import (
-	"encoding/csv"
 	"fmt"
-	"log"
-	"os"
 	"sync"
 )
 
@@ -40,80 +37,20 @@ func AssembleResultsPerPAR(pars []string) {
 	var wg sync.WaitGroup
 	for _, par := range pars {
 		//SanityTestPARSaluran(par)
-		salurans := LoadPARSaluran(par)
-		wg.Add(1)
+		currentPAR := par
+		//fmt.Println("Processing PAR: ", currentPAR)
+		salurans := LoadPARSaluran(currentPAR)
+		wg.Add(2) // MUST match the number of concurrent funcs ..
 		go func() {
-			processPart1(par, salurans)
+			//processPart1(currentPAR, salurans)
 			wg.Done()
 		}()
 		go func() {
-			processCandidates(par, salurans, candidates)
+			processCandidates(currentPAR, salurans, candidates)
 			wg.Done()
 		}()
 		// Block till done ..
 		wg.Wait()
 		break
-	}
-}
-
-func processPart1(par string, salurans []saluran) {
-	fmt.Println("IN processPart1!!!!")
-	fmt.Println("PAR:", par)
-	parID := par[1:]
-	fmt.Println("RESULTS: ", parID)
-
-	// UNIQUE CODE,	STATE,	BALLOT TYPE,
-	// PARLIAMENTARY CODE,	PARLIAMENTARY NAME
-	// STATE CONSTITUENCY CODE,	STATE CONSTITUENCY NAME
-	// Output CSV
-}
-
-func processCandidates(par string, salurans []saluran, candidates map[string]candidate) {
-	fmt.Println("IN processCandidates************ ")
-	fmt.Println("PAR:", par)
-	parID := par[1:]
-	fmt.Println("RESULTS: ", parID)
-
-	for _, saluran := range salurans {
-		fmt.Println("DUN_ID:", saluran.dunID)
-		// DUN_ID == "UNDI POS"
-		// Passed in the slice of votes as a Lookup method
-		// or output method for that row .. as csv?
-		// Each COALTION will fit into a certain order in the slice;
-		//	known a-priori per STATE
-		// If COALITION not there; leave as blank
-		//keyID := fmt.Sprintf("%s/%s", parID, saluran.saluranID)
-		//fmt.Println("LOOkUP:", keyID)
-		for i, votes := range saluran.candidateVotes {
-			keyID := fmt.Sprintf("%s00/%d", parID, i+1)
-			fmt.Println("LOOkUP:", keyID)
-			//spew.Dump(candidates[keyID])
-			fmt.Println("DM:", saluran.ID, "VOTE FOR:", candidates[keyID].name, "VOTES:", votes)
-		}
-		// Saluran Enhanced - PART1
-		// GROUPED Candidates - PART2
-		// Suffix - PART3
-
-		// Map[COALITION] ==> votes; now ordered in the state-wide COLs
-	}
-	// Write the output of CSV ..
-	singleRow := []string{"", "", ""}
-	data := [][]string{singleRow}
-	outputCSV(par, data)
-}
-
-func outputCSV(par string, records [][]string) {
-	records = [][]string{
-		{"first_name", "last_name", "username"},
-		{"Rob", "Pike", "rob"},
-		{"Ken", "Thompson", "ken"},
-		{"Robert", "Griesemer", "gri"},
-	}
-
-	w := csv.NewWriter(os.Stdout)
-	w.WriteAll(records) // calls Flush internally
-
-	if err := w.Error(); err != nil {
-		log.Fatalln("error writing csv:", err)
 	}
 }
