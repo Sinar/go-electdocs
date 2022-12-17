@@ -25,7 +25,8 @@ func main() {
 }
 
 func AssembleResultsPerPAR(pars []string) {
-	candidates := LookupResults("KEDAH")
+	state := "KEDAH"
+	candidates := LookupResults(state)
 	// DEBUG
 	//spew.Dump(candidates)
 
@@ -35,22 +36,36 @@ func AssembleResultsPerPAR(pars []string) {
 	// For each pars; extract the number; remove the P
 	// Look up the candidates; ordered by the BallotID
 	var wg sync.WaitGroup
+	candidateData := make([][]string, 0)
+	suffixData := make([][]string, 0)
 	for _, par := range pars {
 		//SanityTestPARSaluran(par)
 		currentPAR := par
 		//fmt.Println("Processing PAR: ", currentPAR)
 		salurans := LoadPARSaluran(currentPAR)
-		wg.Add(2) // MUST match the number of concurrent funcs ..
+		wg.Add(3) // MUST match the number of concurrent funcs ..
 		go func() {
-			//processPart1(currentPAR, salurans)
+			//processPrefix(currentPAR, salurans)
 			wg.Done()
 		}()
 		go func() {
-			processCandidates(currentPAR, salurans, candidates)
+			candidateData = append(candidateData,
+				processCandidates(currentPAR, salurans, candidates)...,
+			)
+			wg.Done()
+		}()
+		go func() {
+			suffixData = append(suffixData,
+				processSuffix(currentPAR, salurans, candidates)...,
+			)
 			wg.Done()
 		}()
 		// Block till done ..
 		wg.Wait()
-		break
+		//break
 	}
+	// Assemble the sections ..
+	outputCSV(fmt.Sprintf("testdata/%s-candidates.csv", state), candidateData)
+	outputCSV(fmt.Sprintf("testdata/%s-suffix.csv", state), suffixData)
+
 }

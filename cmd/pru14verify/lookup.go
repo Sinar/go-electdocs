@@ -193,7 +193,12 @@ func LookupResults(state string) map[string]candidate {
 		// Gender - 4 --> convert to long text?
 		// Age
 		// Party - 3 --> LOOKUP
+		// 	If Party == 20; append 7 to it
 		// COALITION_ID --> LOOKUP
+		if cols[3] == "20" {
+			cols[3] = fmt.Sprintf("20%s", cols[7])
+			fmt.Println("IND_ID: ", cols[3])
+		}
 		candidate := candidate{
 			ID:         fmt.Sprintf("%s/%s", cols[5], cols[10]),
 			name:       cols[1],
