@@ -8,24 +8,95 @@ import (
 	"os"
 )
 
-func processPrefix(par string, salurans []saluran) {
-	fmt.Println("IN processPrefix!!!!")
-	fmt.Println("PAR:", par)
-	parID := par[1:]
+// processPrefix
+func processPrefix(par string, salurans []saluran) [][]string {
+	// DEBUG
+	//fmt.Println("IN processPrefix!!!!")
+	//fmt.Println("PAR:", par)
+	parID := fmt.Sprintf("%s00", par[1:])
 	fmt.Println("RESULTS: ", parID)
 
-	// UNIQUE CODE,	STATE,	BALLOT TYPE,
-	// PARLIAMENTARY CODE,	PARLIAMENTARY NAME
-	// STATE CONSTITUENCY CODE,	STATE CONSTITUENCY NAME
+	// Prefix FORMAT
+	// UNIQUE CODE	STATE	BALLOT TYPE
+	// PARLIAMENTARY CODE	PARLIAMENTARY NAME
+	// STATE CONSTITUENCY CODE	STATE CONSTITUENCY NAME
+	// POLLING DISTRICT CODE	POLLING DISTRICT NAME	POLLING CENTRE
+	// VOTING CHANNEL NUMBER	TOTAL BALLOTS ISSUED
 	// Output CSV
+	data := make([][]string, 0)
+	for _, saluran := range salurans {
+		// DEBUG
+		//fmt.Println("DUN_ID:", saluran.dunID)
+		singleRow := make([]string, 12)
+		// UNIQUE CODE - <PAR_CODE>_<DUN_CODE>_<DM_ID>_<SALURAN_ID>
+		//P.041_P.41/POSTAL VOTE_UNDI POS_1
+		//P.041_P.41/EARLY VOTE_041/02/00_1
+		//P.041_P.41/EARLY VOTE_041/02/00_2
+		//P.041_N.01_041/01/01_1
+		//P.041_N.01_041/01/01_2
+		parCode := lookupPAR[parID].code
+		dunCode := lookupDUN[saluran.dunID].code
+		dunName := lookupDUN[saluran.dunID].name
+		if saluran.ID == "UNDI POS" {
+			dunName = "POSTAL VOTE"
+			dunCode = fmt.Sprintf("%s/%s", parCode, dunName)
+		}
+		// If Early Vote (end with 00)  -
+		if saluran.ID[len(saluran.ID)-2:] == "00" {
+			// dunCode = P.41/EARLY VOTE
+			// dunName = EARLY VOTE
+			dunName = "EARLY VOTE"
+			dunCode = fmt.Sprintf("%s/%s", parCode, dunName)
+		}
+		uniqueCode := fmt.Sprintf("%s_%s_%s_%s",
+			parCode,
+			dunCode,
+			saluran.ID,
+			saluran.saluranID,
+		)
+		singleRow[0] = uniqueCode
+		// STATE	BALLOT TYPE
+		singleRow[1] = "" // just paste manually
+		// Translate to English
+		ballotType := saluran.voteType
+		switch ballotType {
+		case "UNDI BIASA":
+			ballotType = "NORMAL VOTE"
+		case "UNDI AWAL":
+			ballotType = "EARLY VOTE"
+		case "UNDI POS":
+			ballotType = "POSTAL VOTE"
+		default:
+			ballotType = "UNKNOWN"
+		}
+		singleRow[2] = ballotType
+		// PARLIAMENTARY CODE	PARLIAMENTARY NAME
+		singleRow[3] = parCode
+		singleRow[4] = lookupPAR[parID].name
+		// STATE CONSTITUENCY CODE	STATE CONSTITUENCY NAME
+		singleRow[5] = dunCode
+		singleRow[6] = dunName
+		// DM related
+		// POLLING DISTRICT CODE	POLLING DISTRICT NAME	POLLING CENTRE
+		// VOTING CHANNEL NUMBER	TOTAL BALLOTS ISSUED
+		singleRow[7] = saluran.ID
+		singleRow[8] = saluran.daerahMengundi
+		singleRow[9] = saluran.votingLocationName
+		singleRow[10] = saluran.saluranID
+		singleRow[11] = saluran.totalVotesIssued
+		data = append(data, singleRow)
+
+	}
+	return data
 }
 
 // processSuffix has the end portion: Independents + TOTAL VALID VOTES	TOTAL REJECTED VOTES	TOTAL UNRETURNED BALLOTS
 func processSuffix(par string, salurans []saluran, candidates map[string]candidate) [][]string {
-	fmt.Println("IN processPrefix!!!!")
-	fmt.Println("PAR:", par)
+	// DEBUG
+	//fmt.Println("IN processPrefix!!!!")
+	//fmt.Println("PAR:", par)
 	parID := par[1:]
-	fmt.Println("RESULTS: ", parID)
+	//fmt.Println("RESULTS: ", parID)
 
 	// UNIQUE CODE,	STATE,	BALLOT TYPE,
 	// PARLIAMENTARY CODE,	PARLIAMENTARY NAME
@@ -33,7 +104,8 @@ func processSuffix(par string, salurans []saluran, candidates map[string]candida
 	// Output CSV
 	data := make([][]string, 0)
 	for _, saluran := range salurans {
-		fmt.Println("DUN_ID:", saluran.dunID)
+		// DEBUG
+		//fmt.Println("DUN_ID:", saluran.dunID)
 		// Loop through candidates, fill in the know order
 		// One Candidate: PARTY, NAME, AGE, GENDER, VOTES
 		singleRow := make([]string, 15)
@@ -111,7 +183,7 @@ func processCandidates(par string, salurans []saluran, candidates map[string]can
 			singleRow[mult] = candidates[keyID].party
 			singleRow[mult+1] = candidates[keyID].name
 			singleRow[mult+2] = candidates[keyID].gender
-			singleRow[mult+3] = "2020" // Age to be replaced later ..
+			singleRow[mult+3] = "" // Age to be replaced later ..
 			singleRow[mult+4] = votes
 		}
 		// Saluran Enhanced - PART1

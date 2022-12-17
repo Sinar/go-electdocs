@@ -5,6 +5,17 @@ import (
 	"sync"
 )
 
+var (
+	lookupPAR map[string]par
+	lookupDUN map[string]dun
+)
+
+func init() {
+	// Setup global lookup .. the only allowed use of global :(
+	lookupPAR = LookupPAR()
+	lookupDUN = LookupDUN()
+}
+
 func main() {
 
 	fmt.Println("Welcome to PRU14 Verifier!")
@@ -21,11 +32,10 @@ func main() {
 		"P016", "P017", "P018",
 	}
 
-	AssembleResultsPerPAR(pars)
+	AssembleResultsPerPAR("KEDAH", pars)
 }
 
-func AssembleResultsPerPAR(pars []string) {
-	state := "KEDAH"
+func AssembleResultsPerPAR(state string, pars []string) {
 	candidates := LookupResults(state)
 	// DEBUG
 	//spew.Dump(candidates)
@@ -36,6 +46,7 @@ func AssembleResultsPerPAR(pars []string) {
 	// For each pars; extract the number; remove the P
 	// Look up the candidates; ordered by the BallotID
 	var wg sync.WaitGroup
+	prefixData := make([][]string, 0)
 	candidateData := make([][]string, 0)
 	suffixData := make([][]string, 0)
 	for _, par := range pars {
@@ -45,7 +56,9 @@ func AssembleResultsPerPAR(pars []string) {
 		salurans := LoadPARSaluran(currentPAR)
 		wg.Add(3) // MUST match the number of concurrent funcs ..
 		go func() {
-			//processPrefix(currentPAR, salurans)
+			prefixData = append(prefixData,
+				processPrefix(currentPAR, salurans)...,
+			)
 			wg.Done()
 		}()
 		go func() {
@@ -65,6 +78,7 @@ func AssembleResultsPerPAR(pars []string) {
 		//break
 	}
 	// Assemble the sections ..
+	outputCSV(fmt.Sprintf("testdata/%s-prefix.csv", state), prefixData)
 	outputCSV(fmt.Sprintf("testdata/%s-candidates.csv", state), candidateData)
 	outputCSV(fmt.Sprintf("testdata/%s-suffix.csv", state), suffixData)
 

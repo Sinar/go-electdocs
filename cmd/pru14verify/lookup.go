@@ -40,6 +40,12 @@ type candidate struct {
 
 type par struct {
 	name string
+	code string
+}
+
+type dun struct {
+	name string
+	code string
 }
 
 type state struct {
@@ -147,6 +153,7 @@ func LookupPAR() map[string]par {
 		panic(err)
 	}
 	numCols := 0
+	pars := make(map[string]par, 0)
 	for _, l := range data {
 		cols := strings.Split(l, ",")
 		if cols[0] == "id" || cols[0] == "ID" {
@@ -160,8 +167,48 @@ func LookupPAR() map[string]par {
 		spew.Dump(cols)
 		// Annotate against state
 		// PAR_ID --> Official Name
+		// ID - 0
+		// CODE - 1
+		// NAME - 4
+		pars[cols[0]] = par{
+			name: cols[4],
+			code: cols[1],
+		}
 	}
-	return nil
+	return pars
+}
+
+// LookupDUN for DUN Data
+func LookupDUN() map[string]dun {
+	data, err := script.File("testdata/dun.csv").Slice()
+	if err != nil {
+		panic(err)
+	}
+	numCols := 0
+	duns := make(map[string]dun, 0)
+	for _, l := range data {
+		cols := strings.Split(l, ",")
+		if cols[0] == "id" || cols[0] == "ID" {
+			numCols = len(cols)
+		} else {
+			// Verify
+			if len(cols) != numCols {
+				panic("Incorrect cols!!" + l)
+			}
+		}
+		// DBEUG
+		//spew.Dump(cols)
+		// Annotate against state
+		// DUN_ID --> Official Name
+		// ID - 0
+		// CODE - 1
+		// NAME - 4
+		duns[cols[0]] = dun{
+			name: cols[4],
+			code: cols[1],
+		}
+	}
+	return duns
 }
 
 // LookupResults gets the candidate totals on aggregate; for every PAR
