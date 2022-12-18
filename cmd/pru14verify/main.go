@@ -21,7 +21,16 @@ func main() {
 	fmt.Println("Welcome to PRU14 Verifier!")
 	// DEBUG
 	//ProcessKedah()
-	ProcessMelaka()
+	//ProcessMelaka()
+	ProcessN9()
+}
+
+func ProcessN9() {
+	pars := []string{
+		"P126", "P127", "P128", "P129",
+		"P130", "P131", "P132", "P133",
+	}
+	AssembleResultsPerPAR("N9", pars)
 }
 
 func ProcessMelaka() {
