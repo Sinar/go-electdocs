@@ -114,6 +114,10 @@ func lookupCoalition() map[string]party {
 		name:      "PKR",
 		coalition: "PH",
 	}
+	parties["89"] = party{
+		name:      "PAP",
+		coalition: "",
+	}
 	parties["2025"] = party{
 		name:      "IND",
 		coalition: "KEY",
