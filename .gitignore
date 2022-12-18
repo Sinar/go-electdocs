@@ -23,6 +23,9 @@
 # Ignore PDFs
 *.pdf
 
+# Ignore ZIPs
+*.zip
+
 # Except when raw data; to reproduce results
 !data/**/*.pdf
 
