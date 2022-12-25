@@ -3,11 +3,25 @@ package main
 import (
 	"fmt"
 	"github.com/bitfield/script"
+	"github.com/davecgh/go-spew/spew"
 	"net/url"
 	"os"
 	"regexp"
 	"strings"
 )
+
+// Map[KeyID] --> Candidate
+// KeyID: PAR_ID
+// mapCandidate takes from result and assembles
+var mapCandidate map[string][]candidate
+
+type candidate struct {
+	name        string
+	age         string // After transformation
+	matchURL    string
+	matchedName string
+	matchRawAge string
+}
 
 func checkPAR() {
 	// From top level PAR
@@ -85,6 +99,112 @@ func examplePAR() {
 	//p.Post("")
 	//script.Post("")
 
+}
+
+func matchCandidatesName(parID string, c *[]candidate) error {
+	candidateDir := fmt.Sprintf("testdata/%s", parID)
+	// Load up the data parID
+	// each must find in the candidate ..
+	// Look for all files in dataPath
+	candidateFiles, err := script.ListFiles(candidateDir).Slice()
+	if err != nil {
+		panic(err)
+	}
+	//spew.Dump(candidateFiles)
+	for _, dataFilePath := range candidateFiles {
+		candidateFilePath := ""
+		//fmt.Println("<<<<<<<<<<<<", parC.name, "in", candidateDir, ">>>>>>>>>>")
+		// DEBUG
+		//fmt.Println("Look for:", safeName, "  in", dataFilePath)
+		fmt.Println(dataFilePath)
+		for i, candidate := range *c {
+			safeName := strings.ReplaceAll(strings.ToLower(candidate.name), " ", "-")
+			// Exact match ..
+			if strings.Contains(dataFilePath, safeName) {
+				fmt.Println("MATCH_1")
+				candidateFilePath = dataFilePath
+				if (*c)[i].matchedName != "" {
+					return fmt.Errorf("EXISTING: %s CUR: %s", (*c)[i].matchedName, candidateFilePath)
+				}
+				(*c)[i].matchedName = safeName
+				(*c)[i].matchURL = candidateFilePath
+				break
+			}
+
+			for _, namePart := range strings.Split(safeName, "-") {
+				// Skip common name like BIN BINTI A/L A/P?
+				if strings.ToUpper(namePart) == "BIN" {
+					fmt.Println("Skipping common namePart - BIN")
+					continue
+				}
+
+				if strings.ToUpper(namePart) == "BINTI" {
+					fmt.Println("Skipping common namePart - BINTI")
+					continue
+				}
+
+				if strings.ToUpper(namePart) == "MOHD" {
+					fmt.Println("Skipping common namePart - MOHD")
+					continue
+				}
+
+				// DEBUZg
+				//spew.Dump(namePart)
+				if strings.Contains(dataFilePath, namePart) {
+					fmt.Println("MATCH_2")
+					candidateFilePath = dataFilePath
+					if (*c)[i].matchedName != "" {
+						return fmt.Errorf("EXISTING: %s CUR: %s", (*c)[i].matchedName, candidateFilePath)
+					}
+					(*c)[i].matchedName = safeName
+					(*c)[i].matchURL = candidateFilePath
+					break
+				}
+
+			}
+		}
+	}
+
+	spew.Dump(c)
+
+	// If already matched before; it is a FATAL error!!
+
+	return nil
+}
+
+func ExtractCandidatePerPAR(state string, pars []string) {
+	// Load all Results ..
+	candidatesPAR := LookupResults(state)
+	// DEBUG
+	//spew.Dump(candidatesPAR)
+	// maybe no need
+	//mapCandidate = make(map[string][]candidate, len(pars))
+	// For each PAR
+	for _, par := range pars {
+		// Derive PAR_ID
+		parID := fmt.Sprintf("%s00", par[1:])
+		fmt.Println("PAR:", parID)
+		// For each ballotID; find the match first?
+		// load the file; safeName is encoded ..
+
+		candidatesInPAR := candidatesPAR[parID]
+		err := matchCandidatesName(parID, &candidatesInPAR)
+		if err != nil {
+			panic(err)
+		}
+		// Then run another round?
+		//var candidates []candidate
+		//// Append all candidates by BallotID order
+		//// Add into map by PAR_ID
+		//mapCandidate[parID] = candidates
+		//
+		fmt.Println("After ....")
+		spew.Dump(candidatesPAR[parID])
+		break
+	}
+
+	// For each mapKey; dump it all out!
+	//spew.Dump(mapCandidate)
 }
 
 func downloadCandidates(par string, calons []string) {

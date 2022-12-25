@@ -41,7 +41,10 @@ func ProcessMelaka() {
 	//LookupResults("MELAKA")
 	//LookupSaluran("MELAKA")
 	//AssembleResultsPerPAR("MELAKA", pars)
-	DownloadCandidatePerPAR("MELAKA", pars)
+	// Step #1
+	//DownloadCandidatePerPAR("MELAKA", pars)
+	// Step #2:
+	ExtractCandidatePerPAR("MELAKA", pars)
 }
 
 func ProcessKedah() {
