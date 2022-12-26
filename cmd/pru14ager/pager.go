@@ -7,6 +7,7 @@ import (
 	"net/url"
 	"os"
 	"regexp"
+	"strconv"
 	"strings"
 )
 
@@ -101,42 +102,139 @@ func examplePAR() {
 
 }
 
-func ExtractCandidateAgePerPAR(state string, pars []string) {
+func findCandidateRawAge(filePath string) (candidateRawAge, age, url string) {
+	age = "2018" // PRU14 is on 2018 ..
+	// Used multopleplaces ..
+	replaceTemplate := "$1"
+
+	// Extract metadata from the content
+	reURL := regexp.MustCompile("^.+content=\"(.+)\".+$")
+	urlMatches, uerr := script.File(filePath).Match("og:url").ReplaceRegexp(reURL, replaceTemplate).Slice()
+	if uerr != nil {
+		panic(uerr)
+	}
+	if len(urlMatches) > 0 {
+		// DEBUG
+		//fmt.Println(">>>>>>>>>>>>>>>>>>>>> URL:", urlMatches[0])
+		for _, urlMatch := range urlMatches {
+			// Only take URL that has http!
+			if strings.Contains(urlMatch, "http") {
+				url = urlMatch
+			}
+		}
+	}
+	// If find DOB; extract and leave first!
+	// DOB pattern "ContentPlaceHolder1_lblDob"
+	// Pattern DD/M/YYYY e.g. 18/1/1967
+	reDOB := regexp.MustCompile("^.+\\d+/\\d+/(\\d+).+$")
+	dobMatches, derr := script.File(filePath).Match("ContentPlaceHolder1_lblDob").ReplaceRegexp(reDOB, replaceTemplate).Slice()
+	if derr != nil {
+		panic(derr)
+	}
+	if len(dobMatches) > 0 {
+		// Not needed quite useless
+		//mc.candidateRawAge = append(mc.candidateRawAge, dobMatches...)
+		candidateRawAge = dobMatches[0]
+		// DEBUG
+		//fmt.Println("DATA_DOB:")
+		//spew.Dump(dobMatches)
+		year, cerr := strconv.Atoi(dobMatches[0])
+		if cerr != nil {
+			panic(cerr)
+		}
+		// DEBUG
+		//fmt.Println("YEAR_BIRTH:", year)
+		//fmt.Println("DEBUG_AGE:", 2018-year)
+		age = strconv.Itoa(2018 - year)
+		return candidateRawAge, age, url
+	}
+	// If cannot find DOB; try a more generic search; add the findings?
+	re := regexp.MustCompile("^.+(\\d{2})\\s+.+tahun.*$")
+	matches, err := script.File(filePath).MatchRegexp(re).ReplaceRegexp(re, replaceTemplate).Slice()
+	if err != nil {
+		panic(err)
+	}
+	//if len(matches) > 0 {
+	//	mc.candidateRawAge = append(mc.candidateRawAge, matches...)
+	//	// Check should at least be 21
+	//}
+	if len(matches) > 0 {
+		// Just for recording it down ..
+		candidateRawAge = matches[0]
+		// DEBUG
+		//fmt.Println("DATA_MATCHES:")
+		//spew.Dump(matches)
+		possibleAge, cerr := strconv.Atoi(matches[0])
+		if cerr != nil {
+			panic(cerr)
+		}
+		if possibleAge < 21 {
+			fmt.Println("IMPOSSIBLE: AGE MUST >21", possibleAge)
+		} else if possibleAge > 100 {
+			fmt.Println("IMPOSSIBLE: AGE MUST <100", possibleAge)
+		} else {
+			age = strconv.Itoa(possibleAge)
+		}
+		return candidateRawAge, age, url
+	}
+	// Default is zero value .. if find nothing ...
+	return "", "", url
+}
+
+func ExtractCandidateAgePerPAR(state string) {
 	// Load all Results ..
-	candidatesPAR := LookupResults(state)
+	//candidatesPAR := LookupResults(state)
 	// DEBUG
 	//spew.Dump(candidatesPAR)
-	// maybe no need
-	//mapCandidate = make(map[string][]candidate, len(pars))
-	// For each PAR
-	for _, par := range pars {
-		// Derive PAR_ID
-		parID := fmt.Sprintf("%s00", par[1:])
-		fmt.Println("PAR:", parID)
-		// For each ballotID; find the match first?
-		// load the file; safeName is encoded ..
-
-		// ReadFrom CSV: pru14-<state>.csv
-		// parID, Name, MatchedName, Age..
-
-		//candidatesInPAR := candidatesPAR[parID]
-		//err := matchCandidatesName(parID, &candidatesInPAR)
-		//if err != nil {
-		//	panic(err)
-		//}
-		// Then run another round?
-		//var candidates []candidate
-		//// Append all candidates by BallotID order
-		//// Add into map by PAR_ID
-		//mapCandidate[parID] = candidates
-		//
-		fmt.Println("After ....")
-		spew.Dump(candidatesPAR[parID])
-		//break
+	rows, err := script.File(fmt.Sprintf("testdata/%s-candidates.csv", state)).Slice()
+	if err != nil {
+		panic(err)
 	}
+	numCols := 0
+	candidateData := make([][]string, 0)
+	// Header ..
+	row := make([]string, 6)
+	row[0] = "ID"
+	row[1] = "NAME"
+	row[2] = "AGE"
+	row[3] = "MATCH_NAME"
+	row[4] = "RAW_AGE"
+	row[5] = "MATCH_URL"
+	candidateData = append(candidateData, row)
 
-	// For each mapKey; dump it all out!
-	//spew.Dump(mapCandidate)
+	for _, row := range rows {
+		cols := strings.Split(row, ",")
+		// DEBUG
+		//spew.Dump(cols)
+		// DEBUG
+		//spew.Dump(cols)
+		if cols[0] == "id" || cols[0] == "ID" {
+			numCols = len(cols)
+			continue
+		}
+		// Verify
+		if len(cols) != numCols {
+			panic("Incorrect cols!!" + row)
+		}
+		// Open file and see if got Age ..
+		/*
+			row[0] = fmt.Sprintf("%s/%d", parID, i+1)
+			row[1] = c.name
+			row[2] = c.age
+			row[3] = c.matchedName
+			row[4] = c.matchRawAge
+			row[5] = c.matchURL
+
+		*/
+		cols[4], cols[2], cols[5] = findCandidateRawAge(cols[5])
+		// DEBUG
+		//fmt.Println("CANDIDATE:", cols[1], "AGE:", cols[2], "RAW_AGE:", cols[4])
+		//spew.Dump(cols)
+		// Append it back; the manipulated cols ..
+		candidateData = append(candidateData, cols)
+	}
+	// Output with filename suffix -age ..
+	outputCSV(fmt.Sprintf("testdata/%s-candidates-age.csv", state), candidateData)
 }
 
 func matchCandidatesName(parID string, c *[]candidate) error {
