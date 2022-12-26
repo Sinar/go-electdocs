@@ -159,21 +159,32 @@ func findCandidateRawAge(filePath string) (candidateRawAge, age, url string) {
 	//	// Check should at least be 21
 	//}
 	if len(matches) > 0 {
-		// Just for recording it down ..
-		candidateRawAge = matches[0]
-		// DEBUG
-		//fmt.Println("DATA_MATCHES:")
-		//spew.Dump(matches)
-		possibleAge, cerr := strconv.Atoi(matches[0])
-		if cerr != nil {
-			panic(cerr)
-		}
-		if possibleAge < 21 {
-			fmt.Println("IMPOSSIBLE: AGE MUST >21", possibleAge)
-		} else if possibleAge > 100 {
-			fmt.Println("IMPOSSIBLE: AGE MUST <100", possibleAge)
-		} else {
-			age = strconv.Itoa(possibleAge)
+		// NOTE: Below are unsure
+		fmt.Println("FUZZY search for: ", filePath, "SOURCE:", url)
+		for _, match := range matches {
+			if match == "" {
+				continue
+			}
+			candidateRawAge = match
+			// DEBUG
+			//fmt.Println("DATA_MATCHES:")
+			//spew.Dump(matches)
+			possibleAge, cerr := strconv.Atoi(match)
+			if cerr != nil {
+				panic(cerr)
+			}
+			if age != "2018" {
+				fmt.Println("POTENTIAL CONFLICT:", url, "PREV:", age, "NEW:", possibleAge)
+			}
+			if possibleAge < 21 {
+				fmt.Println("IMPOSSIBLE: AGE MUST >21", possibleAge)
+				age = ""
+			} else if possibleAge > 100 {
+				fmt.Println("IMPOSSIBLE: AGE MUST <100", possibleAge)
+				age = ""
+			} else {
+				age = strconv.Itoa(possibleAge)
+			}
 		}
 		return candidateRawAge, age, url
 	}
