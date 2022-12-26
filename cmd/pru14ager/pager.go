@@ -101,6 +101,44 @@ func examplePAR() {
 
 }
 
+func ExtractCandidateAgePerPAR(state string, pars []string) {
+	// Load all Results ..
+	candidatesPAR := LookupResults(state)
+	// DEBUG
+	//spew.Dump(candidatesPAR)
+	// maybe no need
+	//mapCandidate = make(map[string][]candidate, len(pars))
+	// For each PAR
+	for _, par := range pars {
+		// Derive PAR_ID
+		parID := fmt.Sprintf("%s00", par[1:])
+		fmt.Println("PAR:", parID)
+		// For each ballotID; find the match first?
+		// load the file; safeName is encoded ..
+
+		// ReadFrom CSV: pru14-<state>.csv
+		// parID, Name, MatchedName, Age..
+
+		//candidatesInPAR := candidatesPAR[parID]
+		//err := matchCandidatesName(parID, &candidatesInPAR)
+		//if err != nil {
+		//	panic(err)
+		//}
+		// Then run another round?
+		//var candidates []candidate
+		//// Append all candidates by BallotID order
+		//// Add into map by PAR_ID
+		//mapCandidate[parID] = candidates
+		//
+		fmt.Println("After ....")
+		spew.Dump(candidatesPAR[parID])
+		//break
+	}
+
+	// For each mapKey; dump it all out!
+	//spew.Dump(mapCandidate)
+}
+
 func matchCandidatesName(parID string, c *[]candidate) error {
 	candidateDir := fmt.Sprintf("testdata/%s", parID)
 	// Load up the data parID
@@ -116,56 +154,67 @@ func matchCandidatesName(parID string, c *[]candidate) error {
 		//fmt.Println("<<<<<<<<<<<<", parC.name, "in", candidateDir, ">>>>>>>>>>")
 		// DEBUG
 		//fmt.Println("Look for:", safeName, "  in", dataFilePath)
-		fmt.Println(dataFilePath)
+		//fmt.Println(dataFilePath)
 		for i, candidate := range *c {
 			safeName := strings.ReplaceAll(strings.ToLower(candidate.name), " ", "-")
 			// Exact match ..
 			if strings.Contains(dataFilePath, safeName) {
-				fmt.Println("MATCH_1")
+				// DEBUG
+				//fmt.Println("MATCH_1")
 				candidateFilePath = dataFilePath
 				if (*c)[i].matchedName != "" {
-					return fmt.Errorf("EXISTING: %s CUR: %s", (*c)[i].matchedName, candidateFilePath)
+					//return fmt.Errorf("EXISTING: %s CUR: %s", (*c)[i].matchedName, candidateFilePath)
+					fmt.Println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+					fmt.Printf("UNEPXECTED: EXISTING: %s CUR: %s", (*c)[i].matchedName, candidateFilePath)
+					fmt.Println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+					goto nextCandidate
 				}
 				(*c)[i].matchedName = safeName
 				(*c)[i].matchURL = candidateFilePath
-				break
-			}
-
-			for _, namePart := range strings.Split(safeName, "-") {
-				// Skip common name like BIN BINTI A/L A/P?
-				if strings.ToUpper(namePart) == "BIN" {
-					fmt.Println("Skipping common namePart - BIN")
-					continue
-				}
-
-				if strings.ToUpper(namePart) == "BINTI" {
-					fmt.Println("Skipping common namePart - BINTI")
-					continue
-				}
-
-				if strings.ToUpper(namePart) == "MOHD" {
-					fmt.Println("Skipping common namePart - MOHD")
-					continue
-				}
-
-				// DEBUZg
-				//spew.Dump(namePart)
-				if strings.Contains(dataFilePath, namePart) {
-					fmt.Println("MATCH_2")
-					candidateFilePath = dataFilePath
-					if (*c)[i].matchedName != "" {
-						return fmt.Errorf("EXISTING: %s CUR: %s", (*c)[i].matchedName, candidateFilePath)
+				goto nextCandidate
+			} else {
+				for _, namePart := range strings.Split(safeName, "-") {
+					// Skip common name like BIN BINTI A/L A/P?
+					if strings.ToUpper(namePart) == "BIN" {
+						fmt.Println("Skipping common namePart - BIN")
+						continue
 					}
-					(*c)[i].matchedName = safeName
-					(*c)[i].matchURL = candidateFilePath
-					break
-				}
 
+					if strings.ToUpper(namePart) == "BINTI" {
+						fmt.Println("Skipping common namePart - BINTI")
+						continue
+					}
+
+					if strings.ToUpper(namePart) == "MOHD" {
+						fmt.Println("Skipping common namePart - MOHD")
+						continue
+					}
+
+					// DEBUZg
+					//spew.Dump(namePart)
+					if strings.Contains(dataFilePath, namePart) {
+						// DEBUG
+						//fmt.Println("MATCH_2")
+						candidateFilePath = dataFilePath
+						if (*c)[i].matchedName != "" {
+							//return fmt.Errorf("EXISTING: %s CUR: %s", (*c)[i].matchedName, candidateFilePath)
+							fmt.Println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+							fmt.Printf("UNEPXECTED: EXISTING: %s CUR: %s", (*c)[i].matchedName, candidateFilePath)
+							fmt.Println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+							goto nextCandidate
+						}
+						(*c)[i].matchedName = safeName
+						(*c)[i].matchURL = candidateFilePath
+						goto nextCandidate
+					}
+				}
 			}
+		nextCandidate:
 		}
 	}
 
-	spew.Dump(c)
+	// DEBUG
+	//spew.Dump(c)
 
 	// If already matched before; it is a FATAL error!!
 
@@ -179,6 +228,16 @@ func ExtractCandidatePerPAR(state string, pars []string) {
 	//spew.Dump(candidatesPAR)
 	// maybe no need
 	//mapCandidate = make(map[string][]candidate, len(pars))
+	candidateData := make([][]string, 0)
+	// Header ..
+	row := make([]string, 6)
+	row[0] = "ID"
+	row[1] = "NAME"
+	row[2] = "AGE"
+	row[3] = "MATCH_NAME"
+	row[4] = "RAW_AGE"
+	row[5] = "MATCH_URL"
+	candidateData = append(candidateData, row)
 	// For each PAR
 	for _, par := range pars {
 		// Derive PAR_ID
@@ -198,13 +257,29 @@ func ExtractCandidatePerPAR(state string, pars []string) {
 		//// Add into map by PAR_ID
 		//mapCandidate[parID] = candidates
 		//
-		fmt.Println("After ....")
-		spew.Dump(candidatesPAR[parID])
-		break
+		// DEBUG
+		//fmt.Println("After ....")
+		//spew.Dump(candidatesInPAR)
+		// Each Row has Column
+		// PAR_ID, Name, Age, MatchedName, RawAge, MatchedURL
+		for i, c := range candidatesInPAR {
+			row := make([]string, 6)
+			row[0] = fmt.Sprintf("%s/%d", parID, i+1)
+			row[1] = c.name
+			row[2] = c.age
+			row[3] = c.matchedName
+			row[4] = c.matchRawAge
+			row[5] = c.matchURL
+			candidateData = append(candidateData, row)
+		}
+		//break
 	}
 
 	// For each mapKey; dump it all out!
-	//spew.Dump(mapCandidate)
+	//spew.Dump(candidateData)
+	// WriteTo CSV: <state>-candidates.csv
+	// parID/ballotID, Name, MatchedName, Age..
+	outputCSV(fmt.Sprintf("testdata/%s-candidates.csv", state), candidateData)
 }
 
 func downloadCandidates(par string, calons []string) {
@@ -239,6 +314,11 @@ func downloadCandidates(par string, calons []string) {
 			(string) (len=49) "/calon/6066/mohd-redzuan-yusof,mohd-redzuan-yusof"
 		*/
 		c := strings.Split(s, ",")
+		if len(c) != 2 {
+			fmt.Println("UNEXPECTED calon! Skipping ..")
+			spew.Dump(c)
+			continue
+		}
 		candidateURL := baseURL + c[0]
 		safeName := c[1]
 		candidatePath := fmt.Sprintf("%s/%s.html", dataPath, safeName)
@@ -270,7 +350,7 @@ func DownloadCandidatePerPAR(state string, pars []string) {
 	//	file: testdata/Saluran-<STATE>.csv
 	// Create pru14-<state>.txt
 	for _, par := range pars {
-		lines, err := script.File(fmt.Sprintf("testdata/%s.html", par)).Match("/calon").Slice()
+		lines, err := script.Exec(fmt.Sprintf("grep -i calon testdata/%s.html", par)).Match("/calon").Slice()
 		if err != nil {
 			panic(err)
 		}

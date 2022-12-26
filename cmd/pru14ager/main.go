@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/davecgh/go-spew/spew"
 )
 
 func main() {
@@ -19,9 +18,9 @@ func Run() {
 	//examplePAR()
 	// Above not working; bypass by just getting raw data directly :(
 
-	//ProcessKedah()
+	ProcessKedah()
 	ProcessMelaka()
-	//ProcessN9()
+	ProcessN9()
 }
 
 func ProcessN9() {
@@ -29,8 +28,9 @@ func ProcessN9() {
 		"P126", "P127", "P128", "P129",
 		"P130", "P131", "P132", "P133",
 	}
-	spew.Dump(pars)
-	//AssembleResultsPerPAR("N9", pars)
+	//DownloadCandidatePerPAR("N9", pars)
+	//spew.Dump(pars)
+	ExtractCandidatePerPAR("N9", pars)
 }
 
 func ProcessMelaka() {
@@ -60,6 +60,7 @@ func ProcessKedah() {
 		"P010", "P011", "P012", "P013", "P014", "P015",
 		"P016", "P017", "P018",
 	}
-	spew.Dump(pars)
-	//AssembleResultsPerPAR("KEDAH", pars)
+	//DownloadCandidatePerPAR("KEDAH", pars)
+	//spew.Dump(pars)
+	ExtractCandidatePerPAR("KEDAH", pars)
 }
