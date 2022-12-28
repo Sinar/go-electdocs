@@ -31,8 +31,9 @@ func ProcessN9() {
 	//DownloadCandidatePerPAR("N9", pars)
 	//spew.Dump(pars)
 	//ExtractCandidatePerPAR("N9", pars)
-	fmt.Println("LEN:", len(pars))
-	ExtractCandidateAgePerPAR("N9")
+	fmt.Println("N9_LEN:", len(pars))
+	// Extracted out final ..
+	//ExtractCandidateAgePerPAR("N9")
 }
 
 func ProcessMelaka() {
@@ -47,8 +48,9 @@ func ProcessMelaka() {
 	//DownloadCandidatePerPAR("MELAKA", pars)
 	// Step #2:
 	//ExtractCandidatePerPAR("MELAKA", pars)
-	fmt.Println("LEN:", len(pars))
-	ExtractCandidateAgePerPAR("MELAKA")
+	fmt.Println("MELAKA_LEN:", len(pars))
+	// Extracted out ,,
+	//ExtractCandidateAgePerPAR("MELAKA")
 }
 
 func ProcessKedah() {
@@ -67,6 +69,7 @@ func ProcessKedah() {
 	//DownloadCandidatePerPAR("KEDAH", pars)
 	//spew.Dump(pars)
 	//ExtractCandidatePerPAR("KEDAH", pars)
-	fmt.Println("LEN:", len(pars))
-	ExtractCandidateAgePerPAR("KEDAH")
+	fmt.Println("KEDAH_LEN:", len(pars))
+	// Extracted out and corrected
+	//ExtractCandidateAgePerPAR("KEDAH")
 }
