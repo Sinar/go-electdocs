@@ -22,7 +22,19 @@ func main() {
 	// DEBUG
 	//ProcessKedah()
 	//ProcessMelaka()
-	ProcessN9()
+	//ProcessN9()
+	ProcessPahang()
+}
+
+func ProcessPahang() {
+	pars := []string{"P078"}
+	//pars := []string{
+	//	"P078", "P079", "P080", "P081",
+	//	"P082", "P083", "P084", "P085",
+	//	"P086", "P087", "P088", "P089",
+	//	"P090", "P091",
+	//}
+	AssembleResultsPerPAR("PAHANG", pars)
 }
 
 func ProcessN9() {

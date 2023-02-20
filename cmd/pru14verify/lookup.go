@@ -106,6 +106,10 @@ func lookupCoalition() map[string]party {
 		name:      "PAS",
 		coalition: "GS",
 	}
+	parties["4"] = party{
+		name:      "BERJASA",
+		coalition: "GS",
+	}
 	parties["9"] = party{
 		name:      "PRM",
 		coalition: "",
@@ -114,9 +118,25 @@ func lookupCoalition() map[string]party {
 		name:      "PKR",
 		coalition: "PH",
 	}
+	parties["79"] = party{
+		name:      "PSM",
+		coalition: "",
+	}
 	parties["89"] = party{
 		name:      "PAP",
 		coalition: "",
+	}
+	parties["204"] = party{
+		name:      "IND",
+		coalition: "BOOK",
+	}
+	parties["2017"] = party{
+		name:      "IND",
+		coalition: "ELEPHANT",
+	}
+	parties["2021"] = party{
+		name:      "IND",
+		coalition: "AIRPLANE",
 	}
 	parties["2025"] = party{
 		name:      "IND",
