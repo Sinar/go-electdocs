@@ -27,7 +27,7 @@ func main() {
 }
 
 func ProcessPahang() {
-	pars := []string{"P078"}
+	pars := []string{"P078", "P079"}
 	//pars := []string{
 	//	"P078", "P079", "P080", "P081",
 	//	"P082", "P083", "P084", "P085",
