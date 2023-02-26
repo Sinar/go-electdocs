@@ -18,9 +18,18 @@ func Run() {
 	//examplePAR()
 	// Above not working; bypass by just getting raw data directly :(
 
-	ProcessKedah()
-	ProcessMelaka()
-	ProcessN9()
+	//ProcessKedah()
+	//ProcessMelaka()
+	//ProcessN9()
+
+	// Using fuxxy method as direct html gone :(
+	ProcessPahang()
+}
+
+func ProcessPahang() {
+	pars := []string{"P078"}
+	fmt.Println("PAHANG_LEN:", len(pars))
+	FuzzyDownloadCandidatePerPAR("PAHANG", pars)
 }
 
 func ProcessN9() {
