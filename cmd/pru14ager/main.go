@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/davecgh/go-spew/spew"
 )
 
 func main() {
@@ -39,8 +40,11 @@ func ProcessPahang() {
 	// Below one time only; no lock for now .. careful of Google rate limit + block ..
 	//FuzzyDownloadCandidatePerPAR("PAHANG", pars)
 	// Below is fast so can run multiple times?
-	ExactCandidatePerPAR("PAHANG", pars)
-	ExtractCandidateAgePerPAR("PAHANG")
+	// Below should not be run after manual correction ..
+	//ExactCandidatePerPAR("PAHANG", pars)
+	// Below after manual check should be frozen
+	//ExtractCandidateAgePerPAR("PAHANG")
+	spew.Dump(pars)
 }
 
 func ProcessN9() {

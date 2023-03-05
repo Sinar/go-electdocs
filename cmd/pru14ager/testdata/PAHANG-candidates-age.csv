@@ -1,12 +1,14 @@
 ID,NAME,AGE,MATCH_NAME,RAW_AGE,MATCH_URL
 07800/1,MANOGARAN,59,manogaran,1959,http://pru.sinarharian.com.my/calon/3649/manogaran-al-marimuthu
+07800/2,CIKGU WAN MAHADIR,,cikgu-wan-mahadir,,http://pru.sinarharian.com.my/calon/5354/wan-mahdzir-wan-mahmud
 07800/3,DATO' SIVARRAAJH CHANDRAN,42,dato'-sivarraajh-chandran,1976,http://pru.sinarharian.com.my/calon/5351/sivarraajh-chandran
 07800/4,USTAZ TAHIR,,ustaz-tahir,,http://pru.sinarharian.com.my/calon/6598/mohd-tahir-kassim
 07800/5,SURESH KUMAR,42,suresh-kumar,1976,http://pru.sinarharian.com.my/calon/6601/suresh-kumar-al-balasubramaniam
-07900/1,DATO BADARUDIN ABD RAHAMAN,54,dato-badarudin-abd-rahaman,1964,http://pru.sinarharian.com.my/calon/258/abdul-rahman-mohamad
+07900/1,DATO BADARUDIN ABD RAHAMAN,65,dato-badarudin-abd-rahaman,meninggal dunia pada usia 68 (2021),https://bersatu.org/2021/01/25/dato-badarudin-abd-rahaman-pulang-ke-rahmatullah
 07900/2,ABDUL RAHMAN BIN MOHAMAD,54,abdul-rahman-bin-mohamad,1964,http://pru.sinarharian.com.my/calon/258/abdul-rahman-mohamad
+07900/3,CIKGU HJ SOBIRIN BIN HJ DULI,68,cikgu-hj-sobirin-bin-hj-duli,1950,http://pru.sinarharian.com.my/calon/5122/sobirin-duli
 08000/1,TENGKU ZULPURI SHAH,54,tengku-zulpuri-shah,1964,http://pru.sinarharian.com.my/calon/3849/tengku-zulpuri-shah-raja-puji
-08000/2,CHEW MEI FUN,54,chew-mei-fun,1964,http://pru.sinarharian.com.my/calon/3849/tengku-zulpuri-shah-raja-puji
+08000/2,CHEW MEI FUN,54,chew-mei-fun,1964,https://en.wikipedia.org/wiki/Chew_Mei_Fun
 08000/3,DR MOHAMED NILAM,,dr-mohamed-nilam,,http://pru.sinarharian.com.my/calon/2108/mohamed-nilam-abdul-manap
 08100/1,DATO' AHMAD NAZLAN,60,dato'-ahmad-nazlan,1958,http://pru.sinarharian.com.my/calon/259/ahmad-nazlan-idris
 08100/2,USTAZ YOHANIS AHMAD,,ustaz-yohanis-ahmad,,http://pru.sinarharian.com.my/calon/2763/yohanis-ahmad
@@ -19,17 +21,19 @@ ID,NAME,AGE,MATCH_NAME,RAW_AGE,MATCH_URL
 08300/3,DATO' WONG KEAN HWEE,57,dato'-wong-kean-hwee,1961,http://pru.sinarharian.com.my/calon/5936/wong-kean-hwee
 08400/1,MOHD ASHRAF MUSTAQIM,,mohd-ashraf-mustaqim,,http://pru.sinarharian.com.my/calon/6134/mohd-ashraf-mustaqim-badrul-munir
 08400/2,MOHD SHAHAR BIN ABDULLAH,38,mohd-shahar-bin-abdullah,1980,http://pru.sinarharian.com.my/calon/6095/mohd-shahar-abdullah
-08400/3,MOHAMAD AZHAR BIN MOHD NOOR,,mohamad-azhar-bin-mohd-noor,,http://pru.sinarharian.com.my/calon/4940/mohd-noor-mohd-shahar
+08400/3,MOHAMAD AZHAR BIN MOHD NOOR,,mohamad-azhar-bin-mohd-noor,,
 08500/1,MUHD ZAHID MD ARIP,52,muhd-zahid-md-arip,1966,http://pru.sinarharian.com.my/calon/6618/muhammad-zahid-md-arip
 08500/2,DATO' SRI MOHD NAJIB BIN TUN ABD RAZAK,65,dato'-sri-mohd-najib-bin-tun-abd-razak,1953,http://pru.sinarharian.com.my/calon/263/mohd-najib-abdul-razak
 08500/3,ABD KADIR BIN SAINUDIN,,abd-kadir-bin-sainudin,,http://pru.sinarharian.com.my/calon/3462/abd-kadir-sainudin
-08600/1,CIKGU HASENAN HARON,64,cikgu-hasenan-haron,1954,http://pru.sinarharian.com.my/calon/264/ismail-abd-muttalib
+08500/4,KAPT (B) AHIATUDIN BIN DAUD,,kapt-(b)-ahiatudin-bin-daud,,http://pru.sinarharian.com.my/calon/2548/ahiatudin-daud
+08600/1,CIKGU HASENAN HARON,,cikgu-hasenan-haron,,http://pru.sinarharian.com.my/calon/2772/hasenan-haron
 08600/2,DATO' SRI DR HJ ISMAIL BIN HJ ABD MUTTALIB,64,dato'-sri-dr-hj-ismail-bin-hj-abd-muttalib,1954,http://pru.sinarharian.com.my/calon/264/ismail-abd-muttalib
 08600/3,AHMAD FARID BIN AHMAD NORDIN,,ahmad-farid-bin-ahmad-nordin,,http://pru.sinarharian.com.my/calon/6583/ahmad-farid-ahman-nordin
 08700/1,MOHAMAD RAFIDEE,,mohamad-rafidee,,http://pru.sinarharian.com.my/calon/6619/mohamad-rafidee-hassim
 08700/2,USTAZ HAJI KAMAL BIN ASHAARI,48,ustaz-haji-kamal-bin-ashaari,1970,http://pru.sinarharian.com.my/calon/2773/kamal-ashaari
 08700/3,DATO' SRI HAJI ISMAIL BIN HAJI MOHAMED SAID,53,dato'-sri-haji-ismail-bin-haji-mohamed-said,1965,http://pru.sinarharian.com.my/calon/265/ismail-mohamed-said
 08800/1,KHAIDIR AHMAD,56,khaidir-ahmad,1962,http://pru.sinarharian.com.my/calon/6588/khaidir-ahmad
+08800/2,MUHD FAKHRUDIN B ABU HANIPAH,,muhd-fakhrudin-b-abu-hanipah,,http://pru.sinarharian.com.my/calon/6622/muhamad-fakhrudin-abu-hanipah
 08800/3,DATO' SRI HAJI MOHD SHARKAR BIN HAJI SHAMSUDIN,56,dato'-sri-haji-mohd-sharkar-bin-haji-shamsudin,1962,http://pru.sinarharian.com.my/calon/1119/mohd-sharkar-shamsudin
 08800/4,HAJI MD JUSOH BIN DARUS,62,haji-md-jusoh-bin-darus,1956,http://pru.sinarharian.com.my/calon/4969/md-jusoh-darus
 08800/5,HJ ANUAR TAHIR,,hj-anuar-tahir,,http://pru.sinarharian.com.my/calon/4904/mohd-anuar-tahir
@@ -37,7 +41,8 @@ ID,NAME,AGE,MATCH_NAME,RAW_AGE,MATCH_URL
 08900/2,BALASUBRAMANIAM A/L NACHIAPPAN,,balasubramaniam-al-nachiappan,,http://pru.sinarharian.com.my/calon/5721/balasubramaniam-al-nachiappan
 08900/3,WONG TACK,59,wong-tack,1959,http://pru.sinarharian.com.my/calon/3651/wong-tack
 09000/1,ZAKARIA ABDUL HAMID,69,zakaria-abdul-hamid,69,http://pru.sinarharian.com.my/calon/3024/zakaria-abdul-hamid
+09000/2,MUSANIFF BIN AB. RAHMAN,,musaniff-bin-ab.-rahman,,
 09000/3,ISMAIL SABRI YAAKOB,58,ismail-sabri-yaakob,1960,http://pru.sinarharian.com.my/calon/267/ismail-sabri-yaakob
 09100/1,USTAZ SHAHRUL,39,ustaz-shahrul,1979,http://pru.sinarharian.com.my/calon/2771/m-shahrul-nizam-abdul-haliff
 09100/2,SITARUNISAH BINTI AB KADIR,,sitarunisah-binti-ab-kadir,,http://pru.sinarharian.com.my/calon/3412/sitarunisah-ab-kadir
-09100/3,DATO' SRI HASAN BIN ARIFIN,,dato'-sri-hasan-bin-arifin,,
+09100/3,DATO' SRI HASAN BIN ARIFIN,,dato'-sri-hasan-bin-arifin,,http://pru.sinarharian.com.my/calon/4937/hasan-arifin
