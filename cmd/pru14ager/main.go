@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/davecgh/go-spew/spew"
 )
 
 func main() {
@@ -18,9 +19,32 @@ func Run() {
 	//examplePAR()
 	// Above not working; bypass by just getting raw data directly :(
 
-	ProcessKedah()
-	ProcessMelaka()
-	ProcessN9()
+	//ProcessKedah()
+	//ProcessMelaka()
+	//ProcessN9()
+
+	// Using fuxxy method as direct html gone :(
+	ProcessPahang()
+}
+
+func ProcessPahang() {
+	//pars := []string{"P078", "P079"}
+	pars := []string{
+		"P078", "P079", "P080", "P081",
+		"P082", "P083", "P084", "P085",
+		"P086", "P087", "P088",
+		"P089", "P090", "P091",
+	}
+	//pars := []string{"P089", "P090", "P091"}
+	fmt.Println("PAHANG_LEN:", len(pars))
+	// Below one time only; no lock for now .. careful of Google rate limit + block ..
+	//FuzzyDownloadCandidatePerPAR("PAHANG", pars)
+	// Below is fast so can run multiple times?
+	// Below should not be run after manual correction ..
+	//ExactCandidatePerPAR("PAHANG", pars)
+	// Below after manual check should be frozen
+	//ExtractCandidateAgePerPAR("PAHANG")
+	spew.Dump(pars)
 }
 
 func ProcessN9() {
