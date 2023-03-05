@@ -27,9 +27,20 @@ func Run() {
 }
 
 func ProcessPahang() {
-	pars := []string{"P078"}
+	//pars := []string{"P078", "P079"}
+	pars := []string{
+		"P078", "P079", "P080", "P081",
+		"P082", "P083", "P084", "P085",
+		"P086", "P087", "P088",
+		//"P089", "P090", "P091",
+	}
+	//pars := []string{"P089", "P090", "P091"}
 	fmt.Println("PAHANG_LEN:", len(pars))
-	FuzzyDownloadCandidatePerPAR("PAHANG", pars)
+	// Below one time only; no lock for now .. careful of Google rate limit + block ..
+	//FuzzyDownloadCandidatePerPAR("PAHANG", pars)
+	// Below is fast so can run multiple times?
+	ExactCandidatePerPAR("PAHANG", pars)
+	//ExtractCandidateAgePerPAR("PAHANG")
 }
 
 func ProcessN9() {

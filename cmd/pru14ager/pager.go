@@ -227,6 +227,11 @@ func ExtractCandidateAgePerPAR(state string) {
 		if len(cols) != numCols {
 			panic("Incorrect cols!!" + row)
 		}
+		// Verify if the calon file exist; if not should skip it ..
+		if cols[5] == "" {
+			fmt.Println("No file so Skipping ...", cols[1])
+			continue
+		}
 		// Open file and see if got Age ..
 		/*
 			row[0] = fmt.Sprintf("%s/%d", parID, i+1)
