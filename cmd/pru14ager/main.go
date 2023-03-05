@@ -32,7 +32,7 @@ func ProcessPahang() {
 		"P078", "P079", "P080", "P081",
 		"P082", "P083", "P084", "P085",
 		"P086", "P087", "P088",
-		//"P089", "P090", "P091",
+		"P089", "P090", "P091",
 	}
 	//pars := []string{"P089", "P090", "P091"}
 	fmt.Println("PAHANG_LEN:", len(pars))
@@ -40,7 +40,7 @@ func ProcessPahang() {
 	//FuzzyDownloadCandidatePerPAR("PAHANG", pars)
 	// Below is fast so can run multiple times?
 	ExactCandidatePerPAR("PAHANG", pars)
-	//ExtractCandidateAgePerPAR("PAHANG")
+	ExtractCandidateAgePerPAR("PAHANG")
 }
 
 func ProcessN9() {

@@ -41,7 +41,7 @@ func fuzzySearch(parID, fullName string) {
 	// Will search only if no lock already ..
 	// For each PAR; use the components to fuzzy match possibility via Google ..
 	// Limit to 5 per sec; 10 burstable ..
-	googlesearch.RateLimit = rate.NewLimiter(5.0, 10)
+	googlesearch.RateLimit = rate.NewLimiter(1.0, 5)
 	sopt := googlesearch.SearchOptions{
 		CountryCode: "my",
 		Limit:       2,
