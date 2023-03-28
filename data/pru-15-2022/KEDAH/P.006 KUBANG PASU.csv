@@ -1,5 +1,5 @@
 Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) DATO' WIRA DR KU ABD RAHMAN BIN KU ISMAIL,Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) AIZUDDIN ARIFFIN,Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) AMIRUDDIN HAMZAH (TOK MET),Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) HASMUNI BIN HASSAN (TOK MUNI),Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) Jumlah undian oleh pemilih,Bilangan kertas undi yang ditolak(C),Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi(D)
-1,UNDI POS,,,3330,1842,298,170,634,2944,144,242
+1,UNDI POS,,1,3330,1842,298,170,634,2944,144,242
 2,UNDI AWAL 006/05/00,"BILIK LATIHAN, KOMPENI D BATALION 1 PASUKAN GERAKAN AM BUKIT KAYU HITAM",1,259,148,8,4,99,259,0,0
 2,UNDI AWAL 006/05/00,"DEWAN MAKAN PASUKAN, KEM BUKIT KAYU HITAM",1,52,25,6,0,21,52,0,0
 2,UNDI AWAL 006/05/00,"DEWAN MAKAN PASUKAN, KEM BUKIT KAYU HITAM",2,58,34,1,0,18,53,5,0
@@ -13,15 +13,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 4,BUKIT KAYU HITAM 006/05/01,"SEKOLAH KEBANGSAAN BANDAR BUKIT KAYU HITAM, BUKIT KAYU HITAM",3,520,336,37,32,111,516,4,0
 4,BUKIT KAYU HITAM 006/05/01,"SEKOLAH KEBANGSAAN BANDAR BUKIT KAYU HITAM, BUKIT KAYU HITAM",4,505,377,36,22,68,503,2,0
 4,BUKIT KAYU HITAM 006/05/01,"SEKOLAH KEBANGSAAN BANDAR BUKIT KAYU HITAM, BUKIT KAYU HITAM",5,568,439,49,21,58,567,1,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.006 KUBANG PASU
-JUMLAH PEMILIH: 108,217                                                                                                                                                                                             MUKASURAT: 2/11",BUKIT KAYU HITAM 006/05/01,"SEKOLAH KEBANGSAAN BANDAR BUKIT KAYU HITAM, BUKIT KAYU HITAM",5,568,439,49,21,58,567,1,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",49,21,58,567,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),DATO' WIRA DR KU ABD RAHMAN BIN KU ISMAIL,AIZUDDIN ARIFFIN,AMIRUDDIN HAMZAH (TOK MET),HASMUNI BIN HASSAN (TOK MUNI),Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 5,FELDA BUKIT TANGGA 006/05/02,"SEKOLAH KEBANGSAAN FELDA BUKIT TANGGA, BANDAR BUKIT KAYU HITAM",1,372,131,28,28,176,363,9,0
 5,FELDA BUKIT TANGGA 006/05/02,"SEKOLAH KEBANGSAAN FELDA BUKIT TANGGA, BANDAR BUKIT KAYU HITAM",2,367,184,27,25,124,360,7,0
 5,FELDA BUKIT TANGGA 006/05/02,"SEKOLAH KEBANGSAAN FELDA BUKIT TANGGA, BANDAR BUKIT KAYU HITAM",3,395,243,25,39,83,390,5,0
@@ -38,15 +29,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 8,FELDA BATU LAPAN 006/05/05,"SEKOLAH KEBANGSAAN BATU 8, CHANGLUN",1,344,157,38,16,124,335,9,0
 8,FELDA BATU LAPAN 006/05/05,"SEKOLAH KEBANGSAAN BATU 8, CHANGLUN",2,551,350,42,33,121,546,5,0
 8,FELDA BATU LAPAN 006/05/05,"SEKOLAH KEBANGSAAN BATU 8, CHANGLUN",3,583,399,73,16,94,582,1,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.006 KUBANG PASU
-JUMLAH PEMILIH: 108,217                                                                                                                                                                                             MUKASURAT: 3/11",FELDA BATU LAPAN 006/05/05,"SEKOLAH KEBANGSAAN BATU 8, CHANGLUN",3,583,399,73,16,94,582,1,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",73,16,94,582,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),DATO' WIRA DR KU ABD RAHMAN BIN KU ISMAIL,AIZUDDIN ARIFFIN,AMIRUDDIN HAMZAH (TOK MET),HASMUNI BIN HASSAN (TOK MUNI),Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 9,PEKAN BARU CHANGLUN 006/05/06,"SEKOLAH JENIS KEBANGSAAN (CINA) YIT MIN, CHANGLUN",1,288,91,108,16,73,288,0,0
 9,PEKAN BARU CHANGLUN 006/05/06,"SEKOLAH JENIS KEBANGSAAN (CINA) YIT MIN, CHANGLUN",2,360,142,111,29,76,358,2,0
 9,PEKAN BARU CHANGLUN 006/05/06,"SEKOLAH JENIS KEBANGSAAN (CINA) YIT MIN, CHANGLUN",3,509,249,144,23,89,505,4,0
@@ -68,15 +50,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 12,KAMPUNG DARAT 006/05/09,"SEKOLAH MENENGAH KEBANGSAAN CHANGLUN, CHANGLUN",3,474,346,33,26,64,469,5,0
 12,KAMPUNG DARAT 006/05/09,"SEKOLAH MENENGAH KEBANGSAAN CHANGLUN, CHANGLUN",4,449,343,32,21,49,445,4,0
 12,KAMPUNG DARAT 006/05/09,"SEKOLAH MENENGAH KEBANGSAAN CHANGLUN, CHANGLUN",5,542,401,52,31,50,534,8,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.006 KUBANG PASU
-JUMLAH PEMILIH: 108,217                                                                                                                                                                                             MUKASURAT: 4/11",KAMPUNG DARAT 006/05/09,"SEKOLAH MENENGAH KEBANGSAAN CHANGLUN, CHANGLUN",5,542,401,52,31,50,534,8,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",52,31,50,534,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),DATO' WIRA DR KU ABD RAHMAN BIN KU ISMAIL,AIZUDDIN ARIFFIN,AMIRUDDIN HAMZAH (TOK MET),HASMUNI BIN HASSAN (TOK MUNI),Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 13,KUBANG PASU 006/05/10,"SEKOLAH MENENGAH KEBANGSAAN HOSBA, CHANGLUN",1,322,105,23,50,132,310,12,0
 13,KUBANG PASU 006/05/10,"SEKOLAH MENENGAH KEBANGSAAN HOSBA, CHANGLUN",2,331,198,22,44,67,331,0,0
 13,KUBANG PASU 006/05/10,"SEKOLAH MENENGAH KEBANGSAAN HOSBA, CHANGLUN",3,333,220,31,26,54,331,2,0
@@ -98,15 +71,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 19,PULAU PISANG 006/05/16,"SEKOLAH KEBANGSAAN PULAU NYIOR, JITRA",1,351,162,42,31,115,350,1,0
 19,PULAU PISANG 006/05/16,"SEKOLAH KEBANGSAAN PULAU NYIOR, JITRA",2,538,330,55,66,85,536,2,0
 19,PULAU PISANG 006/05/16,"SEKOLAH KEBANGSAAN PULAU NYIOR, JITRA",3,528,380,53,37,55,525,3,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.006 KUBANG PASU
-JUMLAH PEMILIH: 108,217                                                                                                                                                                                             MUKASURAT: 5/11",PULAU PISANG 006/05/16,"SEKOLAH KEBANGSAAN PULAU NYIOR, JITRA",3,528,380,53,37,55,525,3,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",53,37,55,525,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),DATO' WIRA DR KU ABD RAHMAN BIN KU ISMAIL,AIZUDDIN ARIFFIN,AMIRUDDIN HAMZAH (TOK MET),HASMUNI BIN HASSAN (TOK MUNI),Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 20,PEKAN TUNJANG 006/05/17,"SEKOLAH KEBANGSAAN TUNJANG, JITRA",1,288,57,156,19,52,284,3,1
 20,PEKAN TUNJANG 006/05/17,"SEKOLAH KEBANGSAAN TUNJANG, JITRA",2,317,80,169,14,54,317,0,0
 20,PEKAN TUNJANG 006/05/17,"SEKOLAH KEBANGSAAN TUNJANG, JITRA",3,329,147,131,9,39,326,3,0
@@ -128,15 +92,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 25,GELONG RAMBAI 006/05/22,"SEKOLAH JENIS KEBANGSAAN (CINA) HWA MIN, TUNJANG",1,348,186,30,35,88,339,9,0
 25,GELONG RAMBAI 006/05/22,"SEKOLAH JENIS KEBANGSAAN (CINA) HWA MIN, TUNJANG",2,372,250,29,21,68,368,4,0
 25,GELONG RAMBAI 006/05/22,"SEKOLAH JENIS KEBANGSAAN (CINA) HWA MIN, TUNJANG",3,372,272,40,10,44,366,6,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.006 KUBANG PASU
-JUMLAH PEMILIH: 108,217                                                                                                                                                                                             MUKASURAT: 6/11",GELONG RAMBAI 006/05/22,"SEKOLAH JENIS KEBANGSAAN (CINA) HWA MIN, TUNJANG",3,372,272,40,10,44,366,6,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",40,10,44,366,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),DATO' WIRA DR KU ABD RAHMAN BIN KU ISMAIL,AIZUDDIN ARIFFIN,AMIRUDDIN HAMZAH (TOK MET),HASMUNI BIN HASSAN (TOK MUNI),Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 26,PAYA KEMUNTING 006/06/01,"SEKOLAH JENIS KEBANGSAAN (TAMIL) PAYA KEMUNTING, JITRA",1,330,125,89,16,88,318,12,0
 26,PAYA KEMUNTING 006/06/01,"SEKOLAH JENIS KEBANGSAAN (TAMIL) PAYA KEMUNTING, JITRA",2,390,186,76,27,95,384,6,0
 26,PAYA KEMUNTING 006/06/01,"SEKOLAH JENIS KEBANGSAAN (TAMIL) PAYA KEMUNTING, JITRA",3,521,297,144,30,48,519,2,0
@@ -155,15 +110,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 30,WANG TEPUS 006/06/05,"SEKOLAH KEBANGSAAN PENGHULU HJ DARUS, WANG TEPUS",1,360,146,31,23,154,354,6,0
 30,WANG TEPUS 006/06/05,"SEKOLAH KEBANGSAAN PENGHULU HJ DARUS, WANG TEPUS",2,495,317,38,25,114,494,1,0
 30,WANG TEPUS 006/06/05,"SEKOLAH KEBANGSAAN PENGHULU HJ DARUS, WANG TEPUS",3,522,341,35,18,124,518,4,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.006 KUBANG PASU
-JUMLAH PEMILIH: 108,217                                                                                                                                                                                             MUKASURAT: 7/11",WANG TEPUS 006/06/05,"SEKOLAH KEBANGSAAN PENGHULU HJ DARUS, WANG TEPUS",3,522,341,35,18,124,518,4,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",35,18,124,518,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),DATO' WIRA DR KU ABD RAHMAN BIN KU ISMAIL,AIZUDDIN ARIFFIN,AMIRUDDIN HAMZAH (TOK MET),HASMUNI BIN HASSAN (TOK MUNI),Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 31,TAMAN JITRA JAYA 006/06/06,"SEKOLAH KEBANGSAAN JITRA, JITRA",1,326,79,157,23,63,322,4,0
 31,TAMAN JITRA JAYA 006/06/06,"SEKOLAH KEBANGSAAN JITRA, JITRA",2,366,96,200,23,46,365,1,0
 31,TAMAN JITRA JAYA 006/06/06,"SEKOLAH KEBANGSAAN JITRA, JITRA",3,470,182,212,36,38,468,2,0
@@ -179,15 +125,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 33,TAMAN PASU 006/06/08,"SEKOLAH KEBANGSAAN SULTAN AHMAD TAJUDDIN, JITRA",5,420,230,100,34,56,420,0,0
 33,TAMAN PASU 006/06/08,"SEKOLAH KEBANGSAAN SULTAN AHMAD TAJUDDIN, JITRA",6,441,214,156,29,41,440,1,0
 33,TAMAN PASU 006/06/08,"SEKOLAH KEBANGSAAN SULTAN AHMAD TAJUDDIN, JITRA",7,513,274,162,36,39,511,2,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.006 KUBANG PASU
-JUMLAH PEMILIH: 108,217                                                                                                                                                                                             MUKASURAT: 8/11",TAMAN PASU 006/06/08,"SEKOLAH KEBANGSAAN SULTAN AHMAD TAJUDDIN, JITRA",7,513,274,162,36,39,511,2,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",162,36,39,511,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),DATO' WIRA DR KU ABD RAHMAN BIN KU ISMAIL,AIZUDDIN ARIFFIN,AMIRUDDIN HAMZAH (TOK MET),HASMUNI BIN HASSAN (TOK MUNI),Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 34,KAMPUNG TELOK NIBONG  006/06/09,"SEKOLAH KEBANGSAAN JITRA 3, JITRA",1,295,95,62,39,85,281,14,0
 34,KAMPUNG TELOK NIBONG  006/06/09,"SEKOLAH KEBANGSAAN JITRA 3, JITRA",2,377,183,80,54,57,374,3,0
 34,KAMPUNG TELOK NIBONG  006/06/09,"SEKOLAH KEBANGSAAN JITRA 3, JITRA",3,564,281,126,48,104,559,5,0
@@ -203,15 +140,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 36,TAMAN JITRA 006/06/11,"SEKOLAH MENENGAH KEBANGSAAN JITRA, JITRA",3,443,162,185,36,58,441,2,0
 36,TAMAN JITRA 006/06/11,"SEKOLAH MENENGAH KEBANGSAAN JITRA, JITRA",4,412,157,202,26,24,409,3,0
 36,TAMAN JITRA 006/06/11,"SEKOLAH MENENGAH KEBANGSAAN JITRA, JITRA",5,457,167,242,12,34,455,2,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.006 KUBANG PASU
-JUMLAH PEMILIH: 108,217                                                                                                                                                                                             MUKASURAT: 9/11",TAMAN JITRA 006/06/11,"SEKOLAH MENENGAH KEBANGSAAN JITRA, JITRA",5,457,167,242,12,34,455,2,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",242,12,34,455,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),DATO' WIRA DR KU ABD RAHMAN BIN KU ISMAIL,AIZUDDIN ARIFFIN,AMIRUDDIN HAMZAH (TOK MET),HASMUNI BIN HASSAN (TOK MUNI),Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 37,PANTAI HALBAN 006/06/12,"SEKOLAH KEBANGSAAN BANDAR BARU DARULAMAN, JITRA",1,325,111,100,19,87,317,8,0
 37,PANTAI HALBAN 006/06/12,"SEKOLAH KEBANGSAAN BANDAR BARU DARULAMAN, JITRA",2,376,139,135,34,67,375,1,0
 37,PANTAI HALBAN 006/06/12,"SEKOLAH KEBANGSAAN BANDAR BARU DARULAMAN, JITRA",3,512,204,187,55,65,511,1,0
@@ -231,15 +159,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 39,TANAH MERAH 006/06/14,"SEKOLAH MENENGAH KEBANGSAAN TANJUNG PAUH, JITRA",4,473,303,94,19,56,472,1,0
 39,TANAH MERAH 006/06/14,"SEKOLAH MENENGAH KEBANGSAAN TANJUNG PAUH, JITRA",5,480,321,86,26,47,480,0,0
 39,TANAH MERAH 006/06/14,"SEKOLAH MENENGAH KEBANGSAAN TANJUNG PAUH, JITRA",6,560,398,98,12,48,556,4,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.006 KUBANG PASU
-JUMLAH PEMILIH: 108,217                                                                                                                                                                                           MUKASURAT: 10/11",TANAH MERAH 006/06/14,"SEKOLAH MENENGAH KEBANGSAAN TANJUNG PAUH, JITRA",6,560,398,98,12,48,556,4,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",98,12,48,556,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),DATO' WIRA DR KU ABD RAHMAN BIN KU ISMAIL,AIZUDDIN ARIFFIN,AMIRUDDIN HAMZAH (TOK MET),HASMUNI BIN HASSAN (TOK MUNI),Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 40,"KAMPUNG TELOK MALIK
 006/06/15","SEKOLAH KEBANGSAAN TELOK MALEK, JITRA",1,368,195,24,17,125,361,7,0
 40,"KAMPUNG TELOK MALIK
@@ -264,15 +183,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 43,TAMAN MAHSURI 006/06/18,"SEKOLAH MENENGAH KEBANGSAAN BANDAR BARU DARULAMAN, JITRA",5,407,261,92,16,34,403,4,0
 43,TAMAN MAHSURI 006/06/18,"SEKOLAH MENENGAH KEBANGSAAN BANDAR BARU DARULAMAN, JITRA",6,449,249,112,24,51,436,13,0
 43,TAMAN MAHSURI 006/06/18,"SEKOLAH MENENGAH KEBANGSAAN BANDAR BARU DARULAMAN, JITRA",7,492,277,139,13,63,492,0,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.006 KUBANG PASU
-JUMLAH PEMILIH: 108,217                                                                                                                                                                                            MUKASURAT: 11/11",TAMAN MAHSURI 006/06/18,"SEKOLAH MENENGAH KEBANGSAAN BANDAR BARU DARULAMAN, JITRA",7,492,277,139,13,63,492,0,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",139,13,63,492,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),DATO' WIRA DR KU ABD RAHMAN BIN KU ISMAIL,AIZUDDIN ARIFFIN,AMIRUDDIN HAMZAH (TOK MET),HASMUNI BIN HASSAN (TOK MUNI),Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 44,ALOR RAMBAI 006/06/19,"SEKOLAH MENENGAH KEBANGSAAN TUNKU ANUM TUNKU ABDUL RAHMAN, JITRA",1,348,167,47,24,103,341,7,0
 44,ALOR RAMBAI 006/06/19,"SEKOLAH MENENGAH KEBANGSAAN TUNKU ANUM TUNKU ABDUL RAHMAN, JITRA",2,417,249,59,41,66,415,2,0
 44,ALOR RAMBAI 006/06/19,"SEKOLAH MENENGAH KEBANGSAAN TUNKU ANUM TUNKU ABDUL RAHMAN, JITRA",3,366,254,54,16,41,365,1,0
@@ -293,4 +203,5 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 47,KEPALA BATAS 006/06/22,"SEKOLAH KEBANGSAAN KEPALA BATAS, KEPALA BATAS",2,360,202,67,32,56,357,3,0
 47,KEPALA BATAS 006/06/22,"SEKOLAH KEBANGSAAN KEPALA BATAS, KEPALA BATAS",3,419,291,61,21,43,416,3,0
 47,KEPALA BATAS 006/06/22,"SEKOLAH KEBANGSAAN KEPALA BATAS, KEPALA BATAS",4,466,357,53,25,31,466,0,0
+,,,,,,,,,,,
 JUMLAH,JUMLAH,JUMLAH,200,84486,47584,16000,5329,14489,83402,837,247

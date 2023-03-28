@@ -1,5 +1,5 @@
 Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) NORAINI BINTI MD SALLEH,Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) DATO' AHMAD YAHAYA,Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) NORAN ZAMINI BIN JAMALUDDIN,Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) DATO' WIRA HJ MAHFUZ OMAR,Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) Jumlah undian oleh pemilih,Bilangan kertas undi yang ditolak(C),Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi(D)
-1,UNDI POS,,,2851,16,1726,422,391,2555,92,204
+1,UNDI POS,,1,2851,16,1726,422,391,2555,92,204
 2,UNDI AWAL 008/09/00,"DEWAN UTAMA, IBU PEJABAT POLIS KONTINJEN NEGERI KEDAH",1,15,0,10,5,0,15,0,0
 3,UNDI AWAL 008/10/00,"DEWAN UTAMA, IBU PEJABAT POLIS KONTINJEN NEGERI KEDAH",1,42,0,31,7,4,42,0,0
 3,UNDI AWAL 008/10/00,"DEWAN AEROANGKASA, KOLEJ TENTERA UDARA, KEPALA BATAS",1,268,2,183,51,29,265,3,0
@@ -14,15 +14,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 6,DERANG 008/09/02,"SEKOLAH KEBANGSAAN BUKIT HIJAU, POKOK SENA",4,562,1,386,113,56,556,6,0
 6,DERANG 008/09/02,"SEKOLAH KEBANGSAAN BUKIT HIJAU, POKOK SENA",5,508,0,394,65,44,503,5,0
 6,DERANG 008/09/02,"SEKOLAH KEBANGSAAN BUKIT HIJAU, POKOK SENA",6,560,1,418,72,66,557,3,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.008 POKOK SENA
-JUMLAH PEMILIH: 114,838                                                                                                                                                                                             MUKASURAT: 2/12",DERANG 008/09/02,"SEKOLAH KEBANGSAAN BUKIT HIJAU, POKOK SENA",6,560,1,418,72,66,557,3,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",418,72,66,557,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),NORAINI BINTI MD SALLEH,DATO' AHMAD YAHAYA,NORAN ZAMINI BIN JAMALUDDIN,DATO' WIRA HJ MAHFUZ OMAR,Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 7,KAMPUNG KEJAL 008/09/03,"SEKOLAH KEBANGSAAN BUKIT TAMPOI, KUALA NERANG",1,329,0,207,99,14,320,9,0
 7,KAMPUNG KEJAL 008/09/03,"SEKOLAH KEBANGSAAN BUKIT TAMPOI, KUALA NERANG",2,348,0,263,64,16,343,5,0
 7,KAMPUNG KEJAL 008/09/03,"SEKOLAH KEBANGSAAN BUKIT TAMPOI, KUALA NERANG",3,339,0,261,54,24,339,0,0
@@ -42,15 +33,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 11,PEKAN LAMA POKOK SENA 008/09/07,"SEKOLAH KEBANGSAAN WAN ABDUL SAMAD, POKOK SENA",2,332,2,160,70,98,330,2,0
 11,PEKAN LAMA POKOK SENA 008/09/07,"SEKOLAH KEBANGSAAN WAN ABDUL SAMAD, POKOK SENA",3,364,3,184,76,96,359,5,0
 11,PEKAN LAMA POKOK SENA 008/09/07,"SEKOLAH KEBANGSAAN WAN ABDUL SAMAD, POKOK SENA",4,383,1,241,60,80,382,1,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.008 POKOK SENA
-JUMLAH PEMILIH: 114,838                                                                                                                                                                                             MUKASURAT: 3/12",PEKAN LAMA POKOK SENA 008/09/07,"SEKOLAH KEBANGSAAN WAN ABDUL SAMAD, POKOK SENA",4,383,1,241,60,80,382,1,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",241,60,80,382,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),NORAINI BINTI MD SALLEH,DATO' AHMAD YAHAYA,NORAN ZAMINI BIN JAMALUDDIN,DATO' WIRA HJ MAHFUZ OMAR,Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 12,KAMPUNG KOLON 008/09/08,"SEKOLAH MENENGAH KEBANGSAAN POKOK SENA 2, POKOK SENA",1,333,7,81,124,113,325,8,0
 12,KAMPUNG KOLON 008/09/08,"SEKOLAH MENENGAH KEBANGSAAN POKOK SENA 2, POKOK SENA",2,449,1,183,103,159,446,3,0
 12,KAMPUNG KOLON 008/09/08,"SEKOLAH MENENGAH KEBANGSAAN POKOK SENA 2, POKOK SENA",3,385,1,158,75,144,378,7,0
@@ -72,15 +54,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 15,TANJONG MUSANG 008/09/11,"SEKOLAH MENENGAH KEBANGSAAN JABI, POKOK SENA",3,454,0,363,36,53,452,2,0
 16,KEBUN 500 008/09/12,"SEKOLAH JENIS KEBANGSAAN (CINA) CHUNG HWA, KEBUN 500",1,364,4,105,140,109,358,6,0
 16,KEBUN 500 008/09/12,"SEKOLAH JENIS KEBANGSAAN (CINA) CHUNG HWA, KEBUN 500",2,464,3,249,102,110,464,0,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.008 POKOK SENA
-JUMLAH PEMILIH: 114,838                                                                                                                                                                                             MUKASURAT: 4/12",KEBUN 500 008/09/12,"SEKOLAH JENIS KEBANGSAAN (CINA) CHUNG HWA, KEBUN 500",2,464,3,249,102,110,464,0,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",249,102,110,464,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),NORAINI BINTI MD SALLEH,DATO' AHMAD YAHAYA,NORAN ZAMINI BIN JAMALUDDIN,DATO' WIRA HJ MAHFUZ OMAR,Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 17,KEPALA BENDANG 008/09/13,"MASJID KAMPUNG KOLAM
 / TABIKA KEMAS KAMPUNG KOLAM, POKOK SENA",1,374,1,226,115,27,369,5,0
 17,KEPALA BENDANG 008/09/13,"MASJID KAMPUNG KOLAM
@@ -103,15 +76,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 22,BUKIT PAYONG 008/09/18,"SEKOLAH KEBANGSAAN BUKIT PAYONG, POKOK SENA",3,499,1,352,124,19,496,3,0
 22,BUKIT PAYONG 008/09/18,"SEKOLAH KEBANGSAAN BUKIT PAYONG, POKOK SENA",4,495,0,343,118,32,493,2,0
 22,BUKIT PAYONG 008/09/18,"SEKOLAH KEBANGSAAN BUKIT PAYONG, POKOK SENA",5,533,2,396,103,30,531,2,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.008 POKOK SENA
-JUMLAH PEMILIH: 114,838                                                                                                                                                                                             MUKASURAT: 5/12",BUKIT PAYONG 008/09/18,"SEKOLAH KEBANGSAAN BUKIT PAYONG, POKOK SENA",5,533,2,396,103,30,531,2,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",396,103,30,531,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),NORAINI BINTI MD SALLEH,DATO' AHMAD YAHAYA,NORAN ZAMINI BIN JAMALUDDIN,DATO' WIRA HJ MAHFUZ OMAR,Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 23,KUBANG LERET 008/09/19,"SEKOLAH KEBANGSAAN KUBANG LERET, KUBUR PANJANG",1,376,5,216,118,30,369,7,0
 23,KUBANG LERET 008/09/19,"SEKOLAH KEBANGSAAN KUBANG LERET, KUBUR PANJANG",2,362,2,248,81,28,359,3,0
 23,KUBANG LERET 008/09/19,"SEKOLAH KEBANGSAAN KUBANG LERET, KUBUR PANJANG",3,397,1,292,72,30,395,2,0
@@ -131,15 +95,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 27,PAYA LENGKUAS 008/10/01,"SEKOLAH KEBANGSAAN LENGKUAS, KEPALA BATAS",2,332,2,229,72,26,329,3,0
 27,PAYA LENGKUAS 008/10/01,"SEKOLAH KEBANGSAAN LENGKUAS, KEPALA BATAS",3,336,0,268,46,21,335,1,0
 27,PAYA LENGKUAS 008/10/01,"SEKOLAH KEBANGSAAN LENGKUAS, KEPALA BATAS",4,363,1,296,39,27,363,0,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.008 POKOK SENA
-JUMLAH PEMILIH: 114,838                                                                                                                                                                                             MUKASURAT: 6/12",PAYA LENGKUAS 008/10/01,"SEKOLAH KEBANGSAAN LENGKUAS, KEPALA BATAS",4,363,1,296,39,27,363,0,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",296,39,27,363,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),NORAINI BINTI MD SALLEH,DATO' AHMAD YAHAYA,NORAN ZAMINI BIN JAMALUDDIN,DATO' WIRA HJ MAHFUZ OMAR,Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 28,BUKIT PINANG 008/10/02,"SEKOLAH JENIS KEBANGSAAN (CINA) SOON CHENG, BUKIT PINANG",1,312,4,109,72,124,309,3,0
 28,BUKIT PINANG 008/10/02,"SEKOLAH JENIS KEBANGSAAN (CINA) SOON CHENG, BUKIT PINANG",2,372,1,171,70,127,369,3,0
 28,BUKIT PINANG 008/10/02,"SEKOLAH JENIS KEBANGSAAN (CINA) SOON CHENG, BUKIT PINANG",3,451,1,243,67,138,449,2,0
@@ -159,15 +114,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 31,HUTAN KAMPUNG 008/10/05,"KOLEJ TINGKATAN ENAM SULTAN SALLEHUDDIN, HUTAN KAMPUNG",4,493,2,356,44,89,491,2,0
 31,HUTAN KAMPUNG 008/10/05,"KOLEJ TINGKATAN ENAM SULTAN SALLEHUDDIN, HUTAN KAMPUNG",5,518,3,332,37,146,518,0,0
 31,HUTAN KAMPUNG 008/10/05,"KOLEJ TINGKATAN ENAM SULTAN SALLEHUDDIN, HUTAN KAMPUNG",6,595,5,392,45,152,594,1,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.008 POKOK SENA
-JUMLAH PEMILIH: 114,838                                                                                                                                                                                             MUKASURAT: 7/12",HUTAN KAMPUNG 008/10/05,"KOLEJ TINGKATAN ENAM SULTAN SALLEHUDDIN, HUTAN KAMPUNG",6,595,5,392,45,152,594,1,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",392,45,152,594,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),NORAINI BINTI MD SALLEH,DATO' AHMAD YAHAYA,NORAN ZAMINI BIN JAMALUDDIN,DATO' WIRA HJ MAHFUZ OMAR,Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 32,TAMAN BAYU 008/10/06,"SEKOLAH MENENGAH KEBANGSAAN DATO' SYED OMAR, ALOR SETAR",1,276,9,113,49,104,275,1,0
 32,TAMAN BAYU 008/10/06,"SEKOLAH MENENGAH KEBANGSAAN DATO' SYED OMAR, ALOR SETAR",2,351,11,161,44,133,349,2,0
 32,TAMAN BAYU 008/10/06,"SEKOLAH MENENGAH KEBANGSAAN DATO' SYED OMAR, ALOR SETAR",3,375,4,205,47,117,373,2,0
@@ -193,16 +139,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 008/10/09",MAKTAB MAHMUD POKOK SENA,5,467,1,368,32,62,463,4,0
 35,"KAMPUNG SUNGAI MATI
 008/10/09",MAKTAB MAHMUD POKOK SENA,6,533,1,398,50,81,530,3,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.008 POKOK SENA
-JUMLAH PEMILIH: 114,838                                                                                                                                                                                             MUKASURAT: 8/12","KAMPUNG SUNGAI MATI
-008/10/09",MAKTAB MAHMUD POKOK SENA,6,533,1,398,50,81,530,3,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",398,50,81,530,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),NORAINI BINTI MD SALLEH,DATO' AHMAD YAHAYA,NORAN ZAMINI BIN JAMALUDDIN,DATO' WIRA HJ MAHFUZ OMAR,Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 36,LIMBONG 008/10/10,"SEKOLAH KEBANGSAAN TAMAN AWANA, ALOR SETAR",1,364,2,198,111,42,353,11,0
 36,LIMBONG 008/10/10,"SEKOLAH KEBANGSAAN TAMAN AWANA, ALOR SETAR",2,356,3,259,56,33,351,5,0
 36,LIMBONG 008/10/10,"SEKOLAH KEBANGSAAN TAMAN AWANA, ALOR SETAR",3,383,1,290,62,28,381,2,0
@@ -222,15 +158,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 40,TELOK JAMAT 008/10/14,"SEKOLAH KEBANGSAAN TELUK JAMAT, LANGGAR",3,497,0,384,65,45,494,3,0
 41,ALOR SENIBONG 008/10/15,PERTUBUHAN PELADANG KAWASAN GERAK MAJU B-111 ALOR SENIBONG,1,363,5,237,85,31,358,5,0
 41,ALOR SENIBONG 008/10/15,PERTUBUHAN PELADANG KAWASAN GERAK MAJU B-111 ALOR SENIBONG,2,472,0,377,47,48,472,0,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.008 POKOK SENA
-JUMLAH PEMILIH: 114,838                                                                                                                                                                                             MUKASURAT: 9/12",ALOR SENIBONG 008/10/15,PERTUBUHAN PELADANG KAWASAN GERAK MAJU B-111 ALOR SENIBONG,2,472,0,377,47,48,472,0,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",377,47,48,472,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),NORAINI BINTI MD SALLEH,DATO' AHMAD YAHAYA,NORAN ZAMINI BIN JAMALUDDIN,DATO' WIRA HJ MAHFUZ OMAR,Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 42,TUALANG 008/10/16,"SEKOLAH KEBANGSAAN TUALANG, POKOK SENA",1,357,5,222,94,32,353,4,0
 42,TUALANG 008/10/16,"SEKOLAH KEBANGSAAN TUALANG, POKOK SENA",2,390,2,285,63,34,384,5,1
 42,TUALANG 008/10/16,"SEKOLAH KEBANGSAAN TUALANG, POKOK SENA",3,535,1,424,71,37,533,2,0
@@ -253,15 +180,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 46,JALAN STADIUM 008/11/04,"SEKOLAH KEBANGSAAN TUNKU ABDUL HALIM, JALAN STADIUM",1,306,2,59,47,194,302,4,0
 46,JALAN STADIUM 008/11/04,"SEKOLAH KEBANGSAAN TUNKU ABDUL HALIM, JALAN STADIUM",2,312,7,109,39,152,307,5,0
 46,JALAN STADIUM 008/11/04,"SEKOLAH KEBANGSAAN TUNKU ABDUL HALIM, JALAN STADIUM",3,350,6,166,23,153,348,2,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.008 POKOK SENA
-JUMLAH PEMILIH: 114,838                                                                                                                                                                                           MUKASURAT: 10/12",JALAN STADIUM 008/11/04,"SEKOLAH KEBANGSAAN TUNKU ABDUL HALIM, JALAN STADIUM",3,350,6,166,23,153,348,2,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",166,23,153,348,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),NORAINI BINTI MD SALLEH,DATO' AHMAD YAHAYA,NORAN ZAMINI BIN JAMALUDDIN,DATO' WIRA HJ MAHFUZ OMAR,Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 47,SENTOSA 008/11/05,"SEKOLAH MENENGAH KEBANGSAAN SULTANAH ASMA, JALAN LANGGAR",1,276,3,40,37,193,273,3,0
 47,SENTOSA 008/11/05,"SEKOLAH MENENGAH KEBANGSAAN SULTANAH ASMA, JALAN LANGGAR",2,329,7,73,28,219,327,2,0
 47,SENTOSA 008/11/05,"SEKOLAH MENENGAH KEBANGSAAN SULTANAH ASMA, JALAN LANGGAR",3,401,7,171,28,193,399,2,0
@@ -277,15 +195,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 50,JALAN SHERIFF 008/11/08,"SEKOLAH JENIS KEBANGSAAN (CINA) KEE CHEE, JALAN LANGGAR",3,399,2,57,26,312,397,2,0
 50,JALAN SHERIFF 008/11/08,"SEKOLAH JENIS KEBANGSAAN (CINA) KEE CHEE, JALAN LANGGAR",4,372,2,71,25,273,371,1,0
 50,JALAN SHERIFF 008/11/08,"SEKOLAH JENIS KEBANGSAAN (CINA) KEE CHEE, JALAN LANGGAR",5,375,0,85,18,271,374,1,0
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.008 POKOK SENA
-JUMLAH PEMILIH: 114,838                                                                                                                                                                                            MUKASURAT: 11/12",JALAN SHERIFF 008/11/08,"SEKOLAH JENIS KEBANGSAAN (CINA) KEE CHEE, JALAN LANGGAR",5,375,0,85,18,271,374,1,0
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",85,18,271,374,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),NORAINI BINTI MD SALLEH,DATO' AHMAD YAHAYA,NORAN ZAMINI BIN JAMALUDDIN,DATO' WIRA HJ MAHFUZ OMAR,Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 51,ALOR SEGAMAT 008/11/09,"SEKOLAH KEBANGSAAN SULTANAH ASMA, JALAN LANGGAR",1,273,7,76,74,110,267,6,0
 51,ALOR SEGAMAT 008/11/09,"SEKOLAH KEBANGSAAN SULTANAH ASMA, JALAN LANGGAR",2,350,4,85,64,189,342,8,0
 51,ALOR SEGAMAT 008/11/09,"SEKOLAH KEBANGSAAN SULTANAH ASMA, JALAN LANGGAR",3,438,5,156,56,215,432,6,0
@@ -305,15 +214,6 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 53,TAMAN NURI 008/11/11,"SEKOLAH KEBANGSAAN CONVENT, ALOR SETAR",5,434,3,272,56,100,431,3,0
 53,TAMAN NURI 008/11/11,"SEKOLAH KEBANGSAAN CONVENT, ALOR SETAR",6,475,5,295,44,129,473,2,0
 53,TAMAN NURI 008/11/11,"SEKOLAH KEBANGSAAN CONVENT, ALOR SETAR",7,520,1,337,40,131,509,10,1
-"HELAIAN MATA (SCORE SHEET)                                                        (BORANG SPR 760 Pin. 1/99) BAHAGIAN PILIHAN RAYA NEGERI: P.008 POKOK SENA
-JUMLAH PEMILIH: 114,838                                                                                                                                                                                           MUKASURAT: 12/12",TAMAN NURI 008/11/11,"SEKOLAH KEBANGSAAN CONVENT, ALOR SETAR",7,520,1,337,40,131,509,10,1
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),"Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding
-(B)",337,40,131,509,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
-Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi (A),NORAINI BINTI MD SALLEH,DATO' AHMAD YAHAYA,NORAN ZAMINI BIN JAMALUDDIN,DATO' WIRA HJ MAHFUZ OMAR,Jumlah undian oleh pemilih,"Bilangan kertas undi yang ditolak
-(C)","Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi
-(D)"
 54,TAMAN INTAN 008/11/12,"SEKOLAH KEBANGSAAN JALAN DATUK KUMBAR, ALOR SETAR",1,308,4,133,47,122,306,2,0
 54,TAMAN INTAN 008/11/12,"SEKOLAH KEBANGSAAN JALAN DATUK KUMBAR, ALOR SETAR",2,359,5,153,44,150,352,7,0
 54,TAMAN INTAN 008/11/12,"SEKOLAH KEBANGSAAN JALAN DATUK KUMBAR, ALOR SETAR",3,541,4,301,55,178,538,3,0
@@ -332,4 +232,5 @@ Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran)
 56,TAMAN DERGA JAYA 008/11/14,"SEKOLAH RENDAH ISLAM ALOR SETAR, JALAN DATUK KUMBAR",6,435,0,197,21,216,434,1,0
 56,TAMAN DERGA JAYA 008/11/14,"SEKOLAH RENDAH ISLAM ALOR SETAR, JALAN DATUK KUMBAR",7,493,0,234,40,218,492,1,0
 56,TAMAN DERGA JAYA 008/11/14,"SEKOLAH RENDAH ISLAM ALOR SETAR, JALAN DATUK KUMBAR",8,569,3,294,35,233,565,4,0
+,,,,,,,,,,,
 JUMLAH,JUMLAH,JUMLAH,221,88976,622,52275,14523,20524,87944,823,209
