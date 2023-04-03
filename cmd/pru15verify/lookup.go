@@ -102,45 +102,57 @@ func lookupCoalition() map[string]party {
 		name:      "BN",
 		coalition: "BN",
 	}
-	parties["2"] = party{
-		name:      "PAS",
-		coalition: "GS",
-	}
-	parties["4"] = party{
-		name:      "BERJASA",
-		coalition: "GS",
-	}
-	parties["9"] = party{
+	//parties["4"] = party{
+	//	name:      "BERJASA",
+	//	coalition: "GS",
+	//}
+	parties["7"] = party{
 		name:      "PRM",
 		coalition: "",
 	}
-	parties["37"] = party{
-		name:      "PKR",
+	parties["25"] = party{
+		name:      "PEJUANG",
+		coalition: "GTA",
+	}
+	parties["27"] = party{
+		name:      "PN",
+		coalition: "PN",
+	}
+	parties["31"] = party{
+		name:      "PH",
 		coalition: "PH",
 	}
-	parties["79"] = party{
-		name:      "PSM",
-		coalition: "",
+	parties["54"] = party{
+		name:      "WARISAN",
+		coalition: "WARISAN",
 	}
-	parties["89"] = party{
-		name:      "PAP",
-		coalition: "",
-	}
-	parties["204"] = party{
-		name:      "IND",
-		coalition: "BOOK",
-	}
-	parties["2017"] = party{
-		name:      "IND",
-		coalition: "ELEPHANT",
-	}
+	//parties["79"] = party{
+	//	name:      "PSM",
+	//	coalition: "",
+	//}
+	//parties["89"] = party{
+	//	name:      "PAP",
+	//	coalition: "",
+	//}
+	//parties["204"] = party{
+	//	name:      "IND",
+	//	coalition: "BOOK???",
+	//}
 	parties["2021"] = party{
 		name:      "IND",
 		coalition: "AIRPLANE",
 	}
-	parties["2025"] = party{
+	parties["2024"] = party{
 		name:      "IND",
-		coalition: "KEY",
+		coalition: "HORSE",
+	}
+	parties["2027"] = party{
+		name:      "IND",
+		coalition: "PEN",
+	}
+	parties["2029"] = party{
+		name:      "IND",
+		coalition: "TREE",
 	}
 
 	return parties

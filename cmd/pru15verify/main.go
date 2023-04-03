@@ -60,15 +60,21 @@ func ProcessKedah() {
 	//LookupPAR()
 	// DEBUG
 	//pars := []string{"P006"}
-	pars := []string{"P006", "P007", "P008"}
+	pars := []string{
+		//"P004", "P005",
+		"P006", "P007", "P008", "P009",
+		"P010", "P011", "P012", "P013",
+		"P014", "P015", "P016", "P017",
+		"P018",
+	}
 	//pars := []string{
 	//	"P004", "P005", "P006", "P007", "P008", "P009",
 	//	"P010", "P011", "P012", "P013", "P014", "P015",
 	//	"P016", "P017", "P018",
 	//}
 
-	//AssembleResultsPerPAR("KEDAH", pars)
-	SanityAssembleResultsPerPAR("KEDAH", pars)
+	AssembleResultsPerPAR("KEDAH", pars)
+	//SanityAssembleResultsPerPAR("KEDAH", pars)
 }
 
 // SanityAssembleResultsPerPAR is stripped down version to ensure col correct ..

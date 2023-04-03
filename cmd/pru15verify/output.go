@@ -104,35 +104,47 @@ func processSuffix(par string, salurans []saluran, candidates map[string]candida
 	// PARLIAMENTARY CODE,	PARLIAMENTARY NAME
 	// STATE CONSTITUENCY CODE,	STATE CONSTITUENCY NAME
 	// Output CSV
-	lastRow := make([]string, 15)
+	lastRow := make([]string, 25)
 	data := make([][]string, 0)
 	for _, saluran := range salurans {
 		// DEBUG
 		//fmt.Println("DUN_ID:", saluran.dunID)
 		// Loop through candidates, fill in the know order
 		// One Candidate: PARTY, NAME, AGE, GENDER, VOTES
-		singleRow := make([]string, 15)
+		singleRow := make([]string, 25)
 		for i, votes := range saluran.candidateVotes {
 			keyID := fmt.Sprintf("%s00/%d", parID, i+1)
 			if candidates[keyID].party != "IND" {
 				fmt.Println("Skipping non-IND")
 				continue
 			}
-			lastRow[4] = candidates[keyID].totalVotes
-			singleRow[0] = candidates[keyID].party
-			singleRow[1] = candidates[keyID].name
-			singleRow[2] = candidates[keyID].gender
-			singleRow[3] = "" // Age to be replaced later ..
-			singleRow[4] = votes
-			// If more than 1 IND ..
+			// Map the IND is ascending order
+			var mult int
+			switch candidates[keyID].coalition {
+			case "AIRPLANE":
+				mult = 0
+			case "HORSE":
+				mult = 5
+			case "PEN":
+				mult = 10
+			case "TREE":
+				mult = 15
+			}
+			// Fill in the col for INDs
+			singleRow[mult] = candidates[keyID].coalition
+			singleRow[mult+1] = candidates[keyID].name
+			singleRow[mult+2] = candidates[keyID].gender
+			singleRow[mult+3] = "" // Age to be replaced later ..
+			singleRow[mult+4] = votes
+			lastRow[mult+4] = candidates[keyID].totalVotes
 		}
 		// Everything else..
 		// TOTAL VALID VOTES
 		// TOTAL REJECTED VOTES
 		// TOTAL UNRETURNED BALLOTS
-		singleRow[10] = saluran.totalVotesCast
-		singleRow[11] = saluran.totalVotesSpoilt
-		singleRow[12] = saluran.totalVotesNotCast
+		singleRow[22] = saluran.totalVotesCast
+		singleRow[23] = saluran.totalVotesSpoilt
+		singleRow[24] = saluran.totalVotesNotCast
 		data = append(data, singleRow)
 	}
 	data = append(data, lastRow)
@@ -161,7 +173,7 @@ func processCandidates(par string, salurans []saluran, candidates map[string]can
 
 		// Loop through candidates, fill in the know order
 		// One Candidate: PARTY, NAME, AGE, GENDER, VOTES
-		singleRow := make([]string, 20)
+		singleRow := make([]string, 40)
 		for i, votes := range saluran.candidateVotes {
 			keyID := fmt.Sprintf("%s00/%d", parID, i+1)
 			// DEBUG
@@ -179,10 +191,18 @@ func processCandidates(par string, salurans []saluran, candidates map[string]can
 				mult = 0
 			case "PH":
 				mult = 5
-			case "GS":
+			case "PN":
 				mult = 10
-			default:
+			case "GTA":
 				mult = 15
+			case "GPS":
+				mult = 20
+			case "GRS":
+				mult = 25
+			case "WARISAN":
+				mult = 30
+			default:
+				mult = 35
 			}
 			singleRow[mult] = candidates[keyID].party
 			singleRow[mult+1] = candidates[keyID].name
@@ -201,7 +221,7 @@ func processCandidates(par string, salurans []saluran, candidates map[string]can
 	// BN | PH | GS | OTHERS | IND_KEY
 	// Write the output of CSV ..
 	outputCSV(fmt.Sprintf("testdata/%s-candidates.csv", par), data)
-	lastRow := make([]string, 20)
+	lastRow := make([]string, 40)
 	// TODO: Refactor; can be collapsed to one lookup likely .. so ugly :P
 	for i, _ := range salurans[0].candidateVotes {
 		keyID := fmt.Sprintf("%s00/%d", parID, i+1)
@@ -216,10 +236,18 @@ func processCandidates(par string, salurans []saluran, candidates map[string]can
 			mult = 0
 		case "PH":
 			mult = 5
-		case "GS":
+		case "PN":
 			mult = 10
-		default:
+		case "GTA":
 			mult = 15
+		case "GPS":
+			mult = 20
+		case "GRS":
+			mult = 25
+		case "WARISAN":
+			mult = 30
+		default:
+			mult = 35
 		}
 		lastRow[mult+4] = candidates[keyID].totalVotes
 	}
