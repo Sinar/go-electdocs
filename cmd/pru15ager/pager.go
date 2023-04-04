@@ -11,12 +11,13 @@ import (
 )
 
 type candidate struct {
-	name string
-	url  string
-	par  string
-	dun  string
-	code string
-	age  string // COuld be date pattern or word with tahun ..
+	name  string
+	url   string
+	par   string
+	dun   string
+	code  string
+	age   string // COuld be date pattern or word with tahun ..
+	party string // Could be parti, party ..
 }
 
 type matchCandidate struct {
@@ -28,7 +29,8 @@ type matchCandidate struct {
 	url             string
 }
 
-func Run() {
+// RunClassic is the old way; matching not as clever .. see Run() for latest ..
+func RunClassic() {
 	fmt.Println("Runing ..")
 	//getCandidates()
 	//downloadCandidates()
