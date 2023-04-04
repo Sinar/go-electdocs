@@ -75,13 +75,21 @@ func processPrefix(par string, salurans []saluran) [][]string {
 		singleRow[4] = lookupPAR[parID].name
 		// STATE CONSTITUENCY CODE	STATE CONSTITUENCY NAME
 		singleRow[5] = dunCode
-		singleRow[6] = dunName
-		// DM related
-		// POLLING DISTRICT CODE	POLLING DISTRICT NAME	POLLING CENTRE
-		// VOTING CHANNEL NUMBER	TOTAL BALLOTS ISSUED
-		singleRow[7] = saluran.ID
-		singleRow[8] = saluran.daerahMengundi
-		singleRow[9] = saluran.votingLocationName
+		// Ugly hack ..
+		if saluran.ID == "UNDI POS" {
+			singleRow[6] = saluran.ID
+			singleRow[7] = saluran.ID
+			singleRow[8] = saluran.ID
+			singleRow[9] = saluran.ID
+		} else {
+			singleRow[6] = dunName
+			// DM related
+			// POLLING DISTRICT CODE	POLLING DISTRICT NAME	POLLING CENTRE
+			// VOTING CHANNEL NUMBER	TOTAL BALLOTS ISSUED
+			singleRow[7] = saluran.ID
+			singleRow[8] = saluran.daerahMengundi
+			singleRow[9] = saluran.votingLocationName
+		}
 		singleRow[10] = saluran.saluranID
 		singleRow[11] = saluran.totalVotesIssued
 		data = append(data, singleRow)
@@ -131,7 +139,7 @@ func processSuffix(par string, salurans []saluran, candidates map[string]candida
 				mult = 15
 			}
 			// Fill in the col for INDs
-			singleRow[mult] = candidates[keyID].coalition
+			singleRow[mult] = "INDEPENDENT - " + candidates[keyID].coalition
 			singleRow[mult+1] = candidates[keyID].name
 			singleRow[mult+2] = candidates[keyID].gender
 			singleRow[mult+3] = "" // Age to be replaced later ..
