@@ -35,14 +35,32 @@ func FuzzyDownloadCandidatePerPAR(state string, pars []string) {
 		parID := fmt.Sprintf("%s00", par[1:])
 		fmt.Println("PAR:", parID)
 		candidatesInPAR := candidatesPAR[parID]
-		spew.Dump(candidatesInPAR)
-		//downloadExtractCalonDetails(parID, &candidatesInPAR)
-		//// After filled in ...
-		//for _, candidate := range candidatesInPAR {
-		//	//fuzzySearch(parID, candidate.name)
-		//	// See result
-		//	fmt.Println(candidate)
-		//}
+		// DEBUG
+		//spew.Dump(candidatesInPAR)
+		processCandidates(parID, &candidatesInPAR)
+		// Final output below ..
+		// TOOD: OUtput ..
+		// For each mapKey; dump it all out!
+		//spew.Dump(candidateData)
+		// WriteTo CSV: <state>-candidates.csv
+		// parID/ballotID, Name, MatchedName, Age..
+		//outputCSV(fmt.Sprintf("testdata/%s-candidates.csv", state), candidateData)
+
+	}
+}
+
+func processCandidates(parID string, candidates *[]candidate) {
+	// Load all files in directory .. intp fuzzyCandidate
+	// Get filename .. is calon ..
+	// for each candidate .. pick closest leveschutein ,.
+	//	extract age
+	//	extract party ..
+
+	// for each candidate; leveschite distance of calon ..
+	// try exact match first ..
+	for _, c := range *candidates {
+		fmt.Println("NAME:", c.name) // NAME is the final lookup key ..
+		// Get Age + Party ..
 	}
 }
 
@@ -70,7 +88,11 @@ func cacheCandidates(par string, calons []string) {
 	rexp := regexp.MustCompile("^<a.*href=\"(.+/(.+?))\".*$")
 	replaceTemplate := "$1,$2"
 	for _, calon := range calons {
+		// Pattern assumes start of A tag .. trim any stray ..
+		calon = strings.TrimSpace(calon)
 		s := rexp.ReplaceAllString(calon, replaceTemplate)
+		// DEBUG
+		//fmt.Println("LINE: ", s)
 		// Extract out from template ..
 		/*
 			(string) (len=56) "/calon/288/mas-ermieyati-samsudin,mas-ermieyati-samsudin"
@@ -104,20 +126,4 @@ func cacheCandidates(par string, calons []string) {
 			fmt.Println("FOUND! at", candidatePath)
 		}
 	}
-}
-
-// downloadExtractCalonDetails fuzzy fill things in ..
-func downloadExtractCalonDetails(parID string, candidates *[]candidate) *[]candidate {
-	// URL will be proxy for the Calon Name ..
-	// Go through each calon file inside the parID folder; padded with extra
-	// for each calon; compare distance from candidates ..
-
-	// for each candidate; leveschite distance of calon ..
-	// try exact match first ..
-	for _, c := range *candidates {
-		fmt.Println("NAME:", c.name) // NAME is the final lookup key ..
-		// Get Age + Party ..
-	}
-
-	return candidates
 }

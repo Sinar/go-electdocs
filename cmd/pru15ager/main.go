@@ -19,7 +19,7 @@ func Run() {
 
 func ProcessKedah() {
 
-	pars := []string{"P006"}
+	pars := []string{"P004", "P005", "P006"}
 	//pars := []string{
 	//	//"P004", "P005",
 	//	"P006", "P007", "P008", "P009",
