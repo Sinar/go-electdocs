@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/agnivade/levenshtein"
 	"github.com/bitfield/script"
 	"github.com/davecgh/go-spew/spew"
 	"os"
@@ -11,7 +12,8 @@ import (
 
 // fuzzyCandidate represents the RAW Calons
 type fuzzyCandidate struct {
-	url               string
+	c                 candidate
+	candidateDistance int
 	candidateRawName  string
 	candidateRawAge   string
 	candidateRawParty string
@@ -37,7 +39,13 @@ func FuzzyDownloadCandidatePerPAR(state string, pars []string) {
 		candidatesInPAR := candidatesPAR[parID]
 		// DEBUG
 		//spew.Dump(candidatesInPAR)
-		processCandidates(parID, &candidatesInPAR)
+		fc := processCandidates(parID, &candidatesInPAR)
+		// DEBUG
+		//spew.Dump(fc)
+		for _, c := range fc {
+			fmt.Println("CANDIDATE: ", c.c.name, " IS ", c.candidateRawName, " DIST: ", c.candidateDistance)
+			fmt.Println("FUZZY AGE + PARTY:", c.c.url)
+		}
 		// Final output below ..
 		// TOOD: OUtput ..
 		// For each mapKey; dump it all out!
@@ -49,19 +57,68 @@ func FuzzyDownloadCandidatePerPAR(state string, pars []string) {
 	}
 }
 
-func processCandidates(parID string, candidates *[]candidate) {
+func processCandidates(parID string, candidates *[]candidate) []fuzzyCandidate {
 	// Load all files in directory .. intp fuzzyCandidate
 	// Get filename .. is calon ..
 	// for each candidate .. pick closest leveschutein ,.
 	//	extract age
 	//	extract party ..
+	candidateDir := fmt.Sprintf("testdata/%s", parID)
+	// Load up the data parID
+	// each must find in the candidate ..
+	// Look for all files in dataPath
+	candidateFiles, err := script.ListFiles(candidateDir).Slice()
+	if err != nil {
+		panic(err)
+	}
+	//spew.Dump(candidateFiles)
+	calons := make([]string, 0, len(candidateFiles))
+	for _, dataFilePath := range candidateFiles {
+		//candidateFilePath := ""
+		san := strings.Split(dataFilePath, "/")
+		// DEBUG
+		//fmt.Println("DATA: ", san[2])
+		calons = append(calons, strings.Split(san[2], ".")[0])
+	}
+	// DEBUG
+	//spew.Dump(calons)
 
 	// for each candidate; leveschite distance of calon ..
 	// try exact match first ..
+	fc := make([]fuzzyCandidate, 0, len(candidateFiles))
 	for _, c := range *candidates {
-		fmt.Println("NAME:", c.name) // NAME is the final lookup key ..
+		nfc := fuzzyCandidate{
+			c:                 c,
+			candidateDistance: 999, // big number ..yuck!
+		}
+		cname := strings.ToLower(strings.ReplaceAll(c.name, " ", "-"))
+		// DEBUG
+		//fmt.Println("NAME:", cname) // NAME is the final lookup key ..
+		for _, calon := range calons {
+			distance := levenshtein.ComputeDistance(cname, calon)
+			// DEBUG
+			//fmt.Println("BETWEEN ", cname, calon)
+			//fmt.Println("DISTANCE: ", distance)
+			if distance < nfc.candidateDistance {
+				nfc.candidateDistance = distance
+				nfc.candidateRawName = calon
+			}
+			if distance == 0 {
+				break
+			}
+		}
+		// DEBUG
+		//fmt.Println("MATCHED: ")
+		//spew.Dump(nfc)
+		// need this later for getting the file ..
+		nfc.c.par = parID
+		nfc.c.url = fmt.Sprintf("testdata/%s/%s.html", parID, nfc.candidateRawName)
+		fc = append(fc, nfc)
+		// Winner takes all ..
 		// Get Age + Party ..
 	}
+	// Final result ..
+	return fc
 }
 
 // cacheCandidates will download if file not there ..
