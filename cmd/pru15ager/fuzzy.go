@@ -24,6 +24,18 @@ func FuzzyDownloadCandidatePerPAR(state string, pars []string) {
 	// Load all Results ..
 	candidatesPAR := LookupResults(state)
 	// For each PAR
+	// Start with the headers first ..
+	candidateData := make([][]string, 0)
+	// Header ..
+	row := make([]string, 6)
+	row[0] = "MATCH_URL"
+	row[1] = "NAME"
+	row[2] = "AGE"
+	row[3] = "RAW_AGE"
+	row[4] = "PARTY"
+	row[5] = "RAW_PARTY"
+	candidateData = append(candidateData, row)
+
 	for _, par := range pars {
 		// Open par raw HTML file and cache the calons ..
 		calons, err := script.Exec(fmt.Sprintf("grep -i calon testdata/%s.html", par)).Match("/calon").Slice()
@@ -45,16 +57,26 @@ func FuzzyDownloadCandidatePerPAR(state string, pars []string) {
 		for _, c := range fc {
 			fmt.Println("CANDIDATE: ", c.c.name, " IS ", c.candidateRawName, " DIST: ", c.candidateDistance)
 			fmt.Println("FUZZY AGE + PARTY:", c.c.url)
+			// Final output below based on file
+			// Add one more row ..
+			row := make([]string, 6)
+			row[1] = c.c.name
+			//row[0] = "MATCH_URL"
+			//row[1] = "NAME"
+			//row[2] = "AGE"
+			//row[3] = "RAW_AGE"
+			//row[4] = "PARTY"
+			//row[5] = "RAW_PARTY"
+			row[3], row[2], row[0] = findCandidateRawAge(c.c.url)
+			row[5], row[4] = findCandidateRawParty(c.c.url)
+			candidateData = append(candidateData, row)
 		}
-		// Final output below ..
-		// TOOD: OUtput ..
-		// For each mapKey; dump it all out!
-		//spew.Dump(candidateData)
-		// WriteTo CSV: <state>-candidates.csv
-		// parID/ballotID, Name, MatchedName, Age..
-		//outputCSV(fmt.Sprintf("testdata/%s-candidates.csv", state), candidateData)
-
 	}
+	// DEBUG ..
+	//spew.Dump(candidateData)
+	// Output with filename suffix -age-party ..
+	outputCSV(fmt.Sprintf("testdata/%s-candidates-age-party.csv", state), candidateData)
+
 }
 
 func processCandidates(parID string, candidates *[]candidate) []fuzzyCandidate {
