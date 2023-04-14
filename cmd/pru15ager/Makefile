@@ -1,5 +1,5 @@
 run:
-	@go run main.go pager.go
+	@go run *.go
 
 test:
 	@gotest ./...
