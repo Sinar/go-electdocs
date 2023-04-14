@@ -19,14 +19,15 @@ func Run() {
 
 func ProcessKedah() {
 
-	pars := []string{"P004", "P005", "P006"}
-	//pars := []string{
-	//	//"P004", "P005",
-	//	"P006", "P007", "P008", "P009",
-	//	"P010", "P011", "P012", "P013",
-	//	"P014", "P015", "P016", "P017",
-	//	"P018",
-	//}
+	//pars := []string{"P004", "P005", "P006"}
+	pars := []string{
+		"P004", "P005",
+		"P006", "P007", "P008", "P009",
+		"P010", "P011", "P012", "P013",
+		"P014", "P015", "P016", "P017",
+		"P018",
+	}
+	//pars := []string{"P018"}
 	fmt.Println("KEDAH_LEN:", len(pars))
 	// For each PAR; extract the calon page + download it ..
 	// Fuzzy search + levishtein match name

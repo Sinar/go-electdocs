@@ -315,9 +315,18 @@ func findCandidateRawParty(filePath string) (candidateRawParty, party string) {
 	if perr != nil {
 		panic(perr)
 	}
+	candidateRawParty = strings.TrimSpace(partyMatches[0])
+	party = candidateRawParty
+	// Re-map exceptions
+	switch party {
+	case "AMANAH":
+		party = "PAN"
+	case "PPBM/BERSATU":
+		party = "PPBM"
+	}
 	// DEBUG
-	//spew.Dump(partyMatches)
-	return fmt.Sprintf("%s", partyMatches), strings.TrimSpace(partyMatches[0])
+	//spew.Dump(party)
+	return candidateRawParty, party
 }
 
 func findCandidateRawAge(filePath string) (candidateRawAge, age, url string) {

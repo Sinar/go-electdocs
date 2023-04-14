@@ -76,7 +76,6 @@ func FuzzyDownloadCandidatePerPAR(state string, pars []string) {
 	//spew.Dump(candidateData)
 	// Output with filename suffix -age-party ..
 	outputCSV(fmt.Sprintf("testdata/%s-candidates-age-party.csv", state), candidateData)
-
 }
 
 func processCandidates(parID string, candidates *[]candidate) []fuzzyCandidate {
@@ -115,12 +114,12 @@ func processCandidates(parID string, candidates *[]candidate) []fuzzyCandidate {
 		}
 		cname := strings.ToLower(strings.ReplaceAll(c.name, " ", "-"))
 		// DEBUG
-		//fmt.Println("NAME:", cname) // NAME is the final lookup key ..
+		fmt.Println("NAME:", cname) // NAME is the final lookup key ..
 		for _, calon := range calons {
 			distance := levenshtein.ComputeDistance(cname, calon)
 			// DEBUG
-			//fmt.Println("BETWEEN ", cname, calon)
-			//fmt.Println("DISTANCE: ", distance)
+			fmt.Println("BETWEEN ", cname, calon)
+			fmt.Println("DISTANCE: ", distance)
 			if distance < nfc.candidateDistance {
 				nfc.candidateDistance = distance
 				nfc.candidateRawName = calon
