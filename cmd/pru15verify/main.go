@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/davecgh/go-spew/spew"
 	"sync"
 )
 
@@ -106,7 +105,8 @@ func SanityAssembleResultsPerPAR(state string, pars []string) {
 	// Extract out candidates; much more diverse in PRU15!!
 	candidates := LookupResults(state)
 	// DEBUG
-	spew.Dump(candidates)
+	fmt.Println("CANDIDATES: ", len(candidates))
+	//spew.Dump(candidates)
 	for _, par := range pars {
 		//SanityTestPARSaluran(par)
 		currentPAR := par
@@ -115,6 +115,22 @@ func SanityAssembleResultsPerPAR(state string, pars []string) {
 		// DEBUG
 		//spew.Dump(salurans)
 		fmt.Println("NO ROWS: ", len(salurans))
+		prefixData := make([][]string, 0)
+		prefixData = append(prefixData,
+			processPrefix(currentPAR, salurans)...,
+		)
+		mapID := make(map[string]bool, 0)
+		for _, row := range prefixData {
+			id := row[0]
+			if mapID[id] {
+				// If dupe .. flag it ..
+				fmt.Println("ID: ", id, " PC:", row[10])
+				fmt.Println("NOT unique!!")
+			} else {
+				mapID[id] = true
+			}
+			//spew.Dump(mapID)
+		}
 	}
 }
 
