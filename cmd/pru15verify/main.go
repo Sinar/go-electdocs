@@ -21,7 +21,8 @@ func main() {
 
 	fmt.Println("Welcome to PRU14 Verifier!")
 	// DEBUG
-	ProcessKedah()
+	ProcessKelantan()
+	//ProcessKedah()
 	//ProcessMelaka()
 	//ProcessN9()
 	//ProcessPahang()
@@ -75,6 +76,29 @@ func ProcessKedah() {
 
 	AssembleResultsPerPAR("KEDAH", pars)
 	//SanityAssembleResultsPerPAR("KEDAH", pars)
+}
+
+func ProcessKelantan() {
+	// DEBUG
+	//LookupState()
+	//LookupParty()
+	//LookupPAR()
+	// DEBUG
+	pars := []string{"P019", "P020"}
+	//pars := []string{
+	//	"P019", "P020",
+	//	"P021", "P022", "P023", "P024",
+	//	"P025", "P026", "P027", "P028",
+	//	"P029", "P030", "P031",
+	//}
+	//pars := []string{
+	//	"P004", "P005", "P006", "P007", "P008", "P009",
+	//	"P010", "P011", "P012", "P013", "P014", "P015",
+	//	"P016", "P017", "P018",
+	//}
+
+	//AssembleResultsPerPAR("KELANTAN", pars)
+	SanityAssembleResultsPerPAR("KELANTAN", pars)
 }
 
 // SanityAssembleResultsPerPAR is stripped down version to ensure col correct ..
