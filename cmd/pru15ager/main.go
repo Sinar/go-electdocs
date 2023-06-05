@@ -20,13 +20,13 @@ func Run() {
 
 func ProcessKelantan() {
 	// DEBUG
-	pars := []string{"P019", "P020"}
-	//pars := []string{
-	//	"P019", "P020",
-	//	"P021", "P022", "P023", "P024",
-	//	"P025", "P026", "P027", "P028",
-	//	"P029", "P030", "P031", "P032",
-	//}
+	//pars := []string{"P019", "P020"}
+	pars := []string{
+		"P019", "P020",
+		"P021", "P022", "P023", "P024",
+		"P025", "P026", "P027", "P028",
+		"P029", "P030", "P031", "P032",
+	}
 	// DEBUG
 	fmt.Println("KELANTAN_LEN:", len(pars))
 	// For each PAR; extract the calon page + download it ..
