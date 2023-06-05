@@ -83,13 +83,13 @@ func ProcessKelantan() {
 	//LookupParty()
 	//LookupPAR()
 	// DEBUG
-	pars := []string{"P019", "P020"}
-	//pars := []string{
-	//	"P019", "P020",
-	//	"P021", "P022", "P023", "P024",
-	//	"P025", "P026", "P027", "P028",
-	//	"P029", "P030", "P031",
-	//}
+	//pars := []string{"P019", "P020"}
+	pars := []string{
+		"P019", "P020",
+		"P021", "P022", "P023", "P024",
+		"P025", "P026", "P027", "P028",
+		"P029", "P030", "P031",
+	}
 	//pars := []string{
 	//	"P004", "P005", "P006", "P007", "P008", "P009",
 	//	"P010", "P011", "P012", "P013", "P014", "P015",
@@ -124,8 +124,7 @@ func SanityAssembleResultsPerPAR(state string, pars []string) {
 			id := row[0]
 			if mapID[id] {
 				// If dupe .. flag it ..
-				fmt.Println("ID: ", id, " PC:", row[10])
-				fmt.Println("NOT unique!!")
+				fmt.Println("NOT unique!! ID: ", id, " PC:", row[10])
 			} else {
 				mapID[id] = true
 			}
