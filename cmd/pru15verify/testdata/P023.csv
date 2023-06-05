@@ -1,9 +1,9 @@
 Bil,No. Kod Daerah Mengundi,Nama Pusat Mengundi,Nombor Tempat Mengundi (saluran),Jumlah kertas undi yang patut berada di dalam peti undi(A),Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) DATO' DR. IBRAHIM ALI,Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) KAK LAH,Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) DATUK ZAIN,Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) PROF UST ZUL,Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) DR SHAH,Bilangan undian oleh pemilih bagi setiap orang calon yang bertanding(B) Jumlah undian oleh pemilih,Bilangan kertas undi yang ditolak (C),Jumlah kertas undi yang dikeluarkan kepada pengundi tetapi tidak dimasukkan ke dalam peti undi(D),Nama Daerah Mengundi,Jenis Undi,RAW_DM
 1,UNDI POS,,1,1681,21,823,4,432,85,1365,107,209,UNDI POS,UNDI POS,UNDI POS
-2,023/15/00,BILIK GERAKAN BALAI POLIS RANTAU PANJANG,1,60,1,15,0,44,0,60,0,0,UNDI AWAL,UNDI AWAL,UNDI AWAL 023/15/00
-2,023/15/00,BILIK CAWANGAN KHAS BALAI POLIS RANTAU PANJANG,1,41,0,8,0,33,0,41,0,0,UNDI AWAL,UNDI AWAL,UNDI AWAL 023/15/00
-3,023/16/00,BILIK MAKLUMAT BALAI POLIS TOK UBAN,1,10,0,4,0,6,0,10,0,0,UNDI AWAL,UNDI AWAL,UNDI AWAL 023/16/00
-3,023/16/00,"DEWAN KETUA POLIS NEGARA, IPD PASIR MAS",1,269,1,69,0,192,7,269,0,0,UNDI AWAL,UNDI AWAL,UNDI AWAL 023/16/00
+2,023/15/00,BILIK GERAKAN BALAI POLIS RANTAU PANJANG,1a,60,1,15,0,44,0,60,0,0,UNDI AWAL,UNDI AWAL,UNDI AWAL 023/15/00
+2,023/15/00,BILIK CAWANGAN KHAS BALAI POLIS RANTAU PANJANG,1b,41,0,8,0,33,0,41,0,0,UNDI AWAL,UNDI AWAL,UNDI AWAL 023/15/00
+3,023/16/00,BILIK MAKLUMAT BALAI POLIS TOK UBAN,1a,10,0,4,0,6,0,10,0,0,UNDI AWAL,UNDI AWAL,UNDI AWAL 023/16/00
+3,023/16/00,"DEWAN KETUA POLIS NEGARA, IPD PASIR MAS",1b,269,1,69,0,192,7,269,0,0,UNDI AWAL,UNDI AWAL,UNDI AWAL 023/16/00
 4,023/14/01,SEKOLAH KEBANGSAAN LEMAL,1,283,9,162,0,77,33,281,2,0,TANJONG REDANG ,UNDI BIASA,TANJONG REDANG 023/14/01
 4,023/14/01,SEKOLAH KEBANGSAAN LEMAL,2,404,12,249,3,90,47,401,3,0,TANJONG REDANG ,UNDI BIASA,TANJONG REDANG 023/14/01
 4,023/14/01,SEKOLAH KEBANGSAAN LEMAL,3,364,10,272,0,51,30,363,1,0,TANJONG REDANG ,UNDI BIASA,TANJONG REDANG 023/14/01

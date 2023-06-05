@@ -96,8 +96,8 @@ func ProcessKelantan() {
 	//	"P016", "P017", "P018",
 	//}
 
-	//AssembleResultsPerPAR("KELANTAN", pars)
-	SanityAssembleResultsPerPAR("KELANTAN", pars)
+	AssembleResultsPerPAR("KELANTAN", pars)
+	//SanityAssembleResultsPerPAR("KELANTAN", pars)
 }
 
 // SanityAssembleResultsPerPAR is stripped down version to ensure col correct ..
