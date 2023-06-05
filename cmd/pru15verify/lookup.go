@@ -97,10 +97,24 @@ func lookupCoalition() map[string]party {
 	//1	BN	BN
 	//20	25	KEY
 	//9	PRM
+	// =======================================
+	// KELANTAN LOOKUO TABLE
+	// 54	WARISAN
+	// 2	PAS	PN
+	// 34	PUTRA	GTA
+	// 31	PH	PH
+	// 1	BN	BN
+	// 20	BEBAS
+	// 25	PEJUANG	GTA
+	// 7	PRM
 	parties := make(map[string]party, 0)
 	parties["1"] = party{
 		name:      "BN",
 		coalition: "BN",
+	}
+	parties["2"] = party{
+		name:      "PAS",
+		coalition: "PN",
 	}
 	//parties["4"] = party{
 	//	name:      "BERJASA",
@@ -122,6 +136,10 @@ func lookupCoalition() map[string]party {
 		name:      "PH",
 		coalition: "PH",
 	}
+	parties["34"] = party{
+		name:      "PUTRA",
+		coalition: "GTA",
+	}
 	parties["54"] = party{
 		name:      "WARISAN",
 		coalition: "WARISAN",
@@ -138,6 +156,10 @@ func lookupCoalition() map[string]party {
 	//	name:      "IND",
 	//	coalition: "BOOK???",
 	//}
+	parties["2017"] = party{
+		name:      "IND",
+		coalition: "ELEPHANT",
+	}
 	parties["2021"] = party{
 		name:      "IND",
 		coalition: "AIRPLANE",
