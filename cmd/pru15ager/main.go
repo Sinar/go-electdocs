@@ -13,8 +13,27 @@ func main() {
 }
 
 func Run() {
-	ProcessKedah()
+	ProcessKelantan()
+	//ProcessKedah()
 	// ProcessPahang() // Copied from pru14-ager; maybe future
+}
+
+func ProcessKelantan() {
+	// DEBUG
+	//pars := []string{"P019", "P020"}
+	pars := []string{
+		"P019", "P020",
+		"P021", "P022", "P023", "P024",
+		"P025", "P026", "P027", "P028",
+		"P029", "P030", "P031", "P032",
+	}
+	// DEBUG
+	fmt.Println("KELANTAN_LEN:", len(pars))
+	// For each PAR; extract the calon page + download it ..
+	// Fuzzy search + levishtein match name
+	// Look up the candidate Party if found ..
+	// Below one time only; no lock for now .. careful of Google rate limit + block ..
+	FuzzyDownloadCandidatePerPAR("KELANTAN", pars)
 }
 
 func ProcessKedah() {
