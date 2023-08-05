@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/csv"
+	"encoding/json"
 	"fmt"
 	"github.com/davecgh/go-spew/spew"
 	"os"
@@ -80,14 +81,15 @@ func LoadTSVCandidates(state string) []Candidate {
 	}
 
 	// DEBUG
-	//jsonData, err := json.MarshalIndent(candidates, "", "    ")
-	//if err != nil {
-	//	fmt.Println("Error converting to JSON:", err)
-	//	return candidates
-	//}
-	//
-	//fmt.Println(string(jsonData))
+	jsonData, err := json.MarshalIndent(candidates, "", "    ")
+	if err != nil {
+		fmt.Println("Error converting to JSON:", err)
+		return candidates
+	}
 
+	fmt.Println(string(jsonData))
+
+	spew.Dump(candidates)
 	return candidates
 }
 
@@ -108,14 +110,14 @@ func LookUpN9Candidate() map[string][]string {
 		"N02": {"https://pru.sinarharian.com.my/calon/1165/jalaluddin-alias", "https://pru.sinarharian.com.my/calon/8703/amirudin-hassan"},
 	}
 
-	mapN9["N3"] = []string{}
-	mapN9["N4"] = []string{}
-	mapN9["N5"] = []string{}
-	mapN9["N6"] = []string{}
-	mapN9["N7"] = []string{}
-	mapN9["N8"] = []string{}
-	mapN9["N9"] = []string{}
-	mapN9["N10"] = []string{}
+	mapN9["N03"] = []string{"https://pru.sinarharian.com.my/calon/1166/mohd-razi-mohd-ali", "https://pru.sinarharian.com.my/calon/8707/mohd-nordin-hasim"}
+	mapN9["N04"] = []string{"https://pru.sinarharian.com.my/calon/6384/bakri-sawir", "https://pru.sinarharian.com.my/calon/8708/danni-rais", "https://pru.sinarharian.com.my/calon/8791/angah-saiful"}
+	mapN9["N05"] = []string{"https://pru.sinarharian.com.my/calon/8558/muhamad-zamri-omar", "https://pru.sinarharian.com.my/calon/5917/mohd-fairuz-mohd-isa"}
+	mapN9["N06"] = []string{"https://pru.sinarharian.com.my/calon/5909/mustapha-nagoor", "https://pru.sinarharian.com.my/calon/8695/noor-azuan-parmin"}
+	mapN9["N07"] = []string{"https://pru.sinarharian.com.my/calon/8561/mohd-zaidy-abdul-kadir", "https://pru.sinarharian.com.my/calon/5924/surash-sreenivasan"}
+	mapN9["N08"] = []string{"https://pru.sinarharian.com.my/calon/3658/teo-kok-seong", "https://pru.sinarharian.com.my/calon/5914/kumar-s-paramasivam"}
+	mapN9["N09"] = []string{"https://pru.sinarharian.com.my/calon/8563/mohd-asna-amin", "https://pru.sinarharian.com.my/calon/7806/fadli-che-me", "https://pru.sinarharian.com.my/calon/8792/zul-azki-mat-sulop"}
+	mapN9["N10"] = []string{"https://pru.sinarharian.com.my/calon/3867/arul-kumar-al-jambunathan", "https://pru.sinarharian.com.my/calon/1582/gan-chee-biow", "https://pru.sinarharian.com.my/calon/8794/omar-bin-mohd-isa", "https://pru.sinarharian.com.my/calon/8795/yessu"}
 	mapN9["N11"] = []string{}
 	mapN9["N12"] = []string{}
 	mapN9["N13"] = []string{}
@@ -143,7 +145,8 @@ func LookUpN9Candidate() map[string][]string {
 	mapN9["N35"] = []string{"https://pru.sinarharian.com.my/calon/8572/suhaimizan-bizar", "https://pru.sinarharian.com.my/calon/8687/tengku-abdullah-tengku-rakman"}
 	mapN9["N36"] = []string{"https://pru.sinarharian.com.my/calon/5995/s-veerapan", "https://pru.sinarharian.com.my/calon/8685/yong-li-yi"}
 
-	spew.Dump(mapN9)
+	// DEBUG
+	//spew.Dump(mapN9)
 	return mapN9
 }
 

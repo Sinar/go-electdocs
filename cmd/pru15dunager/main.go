@@ -8,8 +8,8 @@ func main() {
 }
 
 func Run() {
-	ProcessDUN("N9")
-	//LoadTSVCandidates("N9")
+	//ProcessDUN("N9")
+	LoadTSVCandidates("N9")
 	//LoadTSVCandidates("PENANG")
 	//LoadTSVCandidates("SELANGOR")
 }

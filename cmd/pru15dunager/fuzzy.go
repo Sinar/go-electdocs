@@ -30,6 +30,9 @@ func ExtractAgeParty(state string) {
 	dunID := ""
 	for i := 1; i <= endID; i++ {
 		dunID = fmt.Sprintf("N%02d", i)
+		if len(mapCandidate[dunID]) == 0 {
+			continue
+		}
 		fmt.Println("DUNID: ", dunID)
 		// DEBUG
 		//spew.Dump(mapCandidate[dunID])
@@ -56,13 +59,20 @@ func ExtractAgeParty(state string) {
 			// Now can apply fuzzy ..
 			candidateRawParty, party := findCandidateRawParty(candidatePath)
 			fmt.Println(fmt.Sprintf("CANDIDATE: %s PARTY: %s RAW: %s", shortname, party, candidateRawParty))
+			candidateRawAge, age, url := findCandidateRawAge(candidatePath)
+			// If age == 2023 ; not used as source
+			if age != "" {
+				fmt.Println("SOURCE_URL: ", url, "AGE: ", age, "RAW: ", candidateRawAge)
+			}
 		}
-		if i > 1 {
-			break
-		}
+		// DEBUG
+		//if i > 1 {
+		//	break
+		//}
 	}
 }
 
+// findCandidateRawParty will get PARTY map ..
 func findCandidateRawParty(filePath string) (candidateRawParty, party string) {
 	rexp := regexp.MustCompile("<span .+>(.+)</span>.*$")
 	replaceTemplate := "$1"
@@ -86,6 +96,7 @@ func findCandidateRawParty(filePath string) (candidateRawParty, party string) {
 	return candidateRawParty, party
 }
 
+// findCandidateRawAge finds age fuzzily ,,,
 func findCandidateRawAge(filePath string) (candidateRawAge, age, url string) {
 	age = "2023" // PRU15 DUN is on 2023 ..
 	// Used multopleplaces ..
@@ -102,7 +113,7 @@ func findCandidateRawAge(filePath string) (candidateRawAge, age, url string) {
 		panic(urlMatches)
 	} else if len(urlMatches) > 0 {
 		// DEBUG
-		fmt.Println(">>>>>>>>>>>>>>>>>>>>> URL:", urlMatches[0])
+		//fmt.Println(">>>>>>>>>>>>>>>>>>>>> URL:", urlMatches[0])
 		for _, urlMatch := range urlMatches {
 			// Only take URL that has http!
 			if strings.Contains(urlMatch, "http") {
@@ -132,7 +143,7 @@ func findCandidateRawAge(filePath string) (candidateRawAge, age, url string) {
 		// DEBUG
 		//fmt.Println("YEAR_BIRTH:", year)
 		//fmt.Println("DEBUG_AGE:", 2022-year)
-		age = strconv.Itoa(2022 - year)
+		age = strconv.Itoa(2023 - year)
 		return candidateRawAge, age, url
 	}
 	// If cannot find DOB; try a more generic search; add the findings?
@@ -160,7 +171,7 @@ func findCandidateRawAge(filePath string) (candidateRawAge, age, url string) {
 			if cerr != nil {
 				panic(cerr)
 			}
-			if age != "2022" {
+			if age != "2023" {
 				fmt.Println("POTENTIAL CONFLICT:", url, "PREV:", age, "NEW:", possibleAge)
 			}
 			if possibleAge < 21 {
