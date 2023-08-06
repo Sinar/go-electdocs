@@ -10,8 +10,9 @@ func main() {
 func Run() {
 	//LoadTSVCandidates("N9")
 	//ProcessDUN("N9")
-	ExtractAgeParty("N9")
+	//ExtractAgeParty("N9")
 	//LoadTSVCandidates("PENANG")
+	ProcessDUN("PENANG")
 	//LoadTSVCandidates("SELANGOR")
 }
 

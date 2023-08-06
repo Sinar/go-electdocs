@@ -104,6 +104,12 @@ func parseInt(s string) int {
 	return num
 }
 
+// LookUpPenangCandidate has ugly hard code
+func LookUpPenangCandidate() map[string][]string {
+	// Optional .. as SinarHarian more useful for PARTY; than AGE ..
+	return nil
+}
+
 // LookUpN9Candidate has ugly hard code
 func LookUpN9Candidate() map[string][]string {
 	mapN9 := map[string][]string{
@@ -156,15 +162,15 @@ func EnrichCandidateData(state string, candidates []Candidate) {
 	// State will fix the PAR
 	//var mapCandidate map[string][]string
 	var sourceURL string
-
+	// Refer to source used for AGE checks
 	switch state {
 	case "N9":
 		//mapCandidate = LookUpN9Candidate()
 		sourceURL = "https://prn.bernama.com/penamaan/index-en.php?n=05"
 	case "PENANG":
-
+		sourceURL = "https://prn.bernama.com/penamaan/index-en.php?n=07"
 	case "SELANGOR":
-
+		sourceURL = "https://prn.bernama.com/penamaan/index-en.php?n=10"
 	default:
 		panic("INVALID STATE!!")
 
@@ -212,5 +218,4 @@ func EnrichCandidateData(state string, candidates []Candidate) {
 	//spew.Dump(candidateData)
 	// Output with filename suffix -age-party ..
 	outputCSV(fmt.Sprintf("testdata/%s-candidates-age-party.csv", state), candidateData)
-
 }
