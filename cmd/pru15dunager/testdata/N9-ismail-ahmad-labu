@@ -1,0 +1,606 @@
+
+
+<!doctype html>
+<html>
+<head id="Head1"><title>
+	PRU - Sinar Harian
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta charset="utf-8" /><meta property="fb:app_id" content="366668804351797" /><meta property="og:type" content="website" /><meta name="description" content="Dapatkan liputan komprehensif sepanjang Pilihan Raya Umum ke-15 (PRU15) di sini. Anda boleh mendapatkan Senarai Calon-calon PRU15, proses Penamaan Calon dan pelbagai berita menjelang 19 November, 2022 iaitu Tarikh Mengundi PRU15. Di sini, anda juga boleh " /><meta name="keywords" content="Malaysia Memilih, Pilihanraya Umum ke-15, PRU15, Perdana Menteri, Ismail Sabri, General Elections, GE15, pru15 calon , senarai calon , pru , penamaan calon , calon parlimen pru15 , pru 15 , pru15 malaysia , calon pru 15 , spr , pru15 parti , bn , senarai" /><meta property="og:url" content="https://pru.sinarharian.com.my" /><meta property="og:title" content="Keputusan | Pilihan Raya Umum Malaysia Ke-15" /><meta property="og:description" content="Dapatkan liputan komprehensif sepanjang Pilihan Raya Umum ke-15 (PRU15) di sini. Anda boleh mendapatkan Senarai Calon-calon PRU15, proses Penamaan Calon dan pelbagai berita menjelang 19 November, 2022 iaitu Tarikh Mengundi PRU15. Di sini, anda juga boleh " />
+    <meta name="title" content="ISMAIL AHMAD LABU" />
+    <meta name="description" content="">
+    <meta name="keywords" content="ISMAIL AHMAD LABU">
+    <meta property="og:url" content="http://pru.sinarharian.com.my/calon/5839/ismail-ahmad-labu" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="PRU @ Sinar Harian" />
+    <meta property="og:title" content="ISMAIL AHMAD LABU" />
+    <meta property="og:image" content="//pru.sinarharian.com.my/img/calon/5839_ismail-ahmad-labu.jpg" />
+    <meta property="og:description" content="Ismail Ahmad merupakan EXCO Pembangunan Luar Bandar merangkap ADUN Labu apabila berjaya menawan kerusi DUN" />
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/js/sw.js').then(function (registration) {
+                    // Registration was successful
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function (err) {
+                    // registration failed :(
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
+    <link rel="manifest" href="/js/manifest.json" /><link href="/Content/bootstrap.min.css" rel="stylesheet" /><link href="/style/styleNew.min.css" rel="stylesheet" /><link href="/style/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <style>
+        div#wrap-header { background-color: #f8f9fa !important;}
+    </style>
+    
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e1554070ea24f94"></script>
+    <style>
+        .pnlVideo {
+            /*background: url(/img/video-default.png);*/
+            width: 100%;
+            height: auto;
+        }
+        .pnlVideo iframe {
+            width: 100% !important;
+        }
+        .video-intv-calon iframe {
+            /*width: 100% !important;
+            height: 226px !important;*/
+        }
+
+        .bio {
+            width: 100%;
+            background: #cecece;
+            padding: 10px;
+        }
+
+        .bio-text {
+            width: 100%;
+            padding: 10px;
+        }
+
+        @media (min-width: 576px) {
+        }
+
+        @media (min-width: 768px) {
+        }
+
+        @media (min-width: 992px) {
+            .bio {
+                width: 20%;
+            }
+
+            .bio-text {
+                width: 49%;
+            }
+
+            .pnlVideo {
+                width: 30%;
+                height: auto;
+            }
+
+            .card {
+                width: 22%;
+                margin: 0 1%;
+                margin-bottom: 0px;
+                display: inline-block;
+                vertical-align: top;
+            }
+        }
+
+        @media (min-width: 1200px) {
+        }
+    </style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T5GCNQR');</script>
+<!-- End Google Tag Manager --></head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5GCNQR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));
+</script><form method="post" action="./ismail-ahmad-labu" id="form1">
+<input type="hidden" name="__VSTATE" id="__VSTATE" value="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" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAavVXD1oYELeveMr0vHCmYPnwyw0/9Vc8DRLq/miKdrJtPHOlx5Azn4fMemgOi8l5F1O6MzBYes7GWri5ofTgmThnRRk6aQSsJofcPEGmFJX47RHjyysxttEOjTwf1p92FN00E88Y6k9v4bCyQ7CGTThE9lspTY6kcqruhAELYNsQ==" />
+        
+        
+        <div id="desktop">
+	
+            <div id="navbar_top-desktop">
+            <nav style="background-color:#f60105;text-align:center">
+                <a href="/">
+                <img class="imglogo" src="/img/logo-prn-putih.png" /></a>
+            </nav>
+            <nav id="nav-head" class="navbar-dark bg-dark">
+                <ul>
+                    <li><img id="Image5" src="/img/logo-sinar-karangkraf.png" width="80" /></li>
+                    <li><a href="https://www.sinarharian.com.my/" style="color: whitesmoke" target="_blank">Sinar Harian</a></li>
+                    <li><a href="https://www.sinarpremium.com.my/" style="color: whitesmoke" target="_blank">Sinar Premium</a></li>
+                    <li><a href="https://www.sinardaily.my" style="color: whitesmoke" target="_blank">Sinar Daily</a></li>
+                    <li><a href="https://www.sinarplus.com.my/" style="color: whitesmoke" target="_blank">Sinar Plus</a></li>
+                    <li><a href="https://www.sinarbestari.com.my/" style="color: whitesmoke" target="_blank">Sinar Bestari</a></li>
+                    <li><a href="https://www.sinarislamplus.com.my/" style="color: whitesmoke" target="_blank">Sinar Islam Plus</a></li>
+                </ul>
+            </nav>
+            <div id="wrap-header">
+            <div id="header-nav">
+                <ul id="nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Keputusan
+                        <img id="Image2" src="/img/dropdown.png" style="width: 20px; display: inline-block" /></a>
+                        <ul>
+                            <li class="nav-item"><a href="/AllKeputusanParlimen" class="nav-link">Keputusan Keseluruhan</a></li>
+                            <li>
+                                
+                                        <a id="rptNegeri1_HyperLink11_0" class="dropdown-item" href="/undian/perlis">Perlis</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_1" class="dropdown-item" href="/undian/kedah">Kedah</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_2" class="dropdown-item" href="/undian/kelantan">Kelantan</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_3" class="dropdown-item" href="/undian/terengganu">Terengganu</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_4" class="dropdown-item" href="/undian/pulau-pinang">Pulau Pinang</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_5" class="dropdown-item" href="/undian/perak">Perak</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_6" class="dropdown-item" href="/undian/pahang">Pahang</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_7" class="dropdown-item" href="/undian/selangor">Selangor</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_8" class="dropdown-item" href="/undian/kuala-lumpur">Kuala Lumpur</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_9" class="dropdown-item" href="/undian/putrajaya">Putrajaya</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_10" class="dropdown-item" href="/undian/negeri-sembilan">Negeri Sembilan</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_11" class="dropdown-item" href="/undian/melaka">Melaka</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_12" class="dropdown-item" href="/undian/johor">Johor</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_13" class="dropdown-item" href="/undian/labuan">Labuan</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_14" class="dropdown-item" href="/undian/sabah">Sabah</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_15" class="dropdown-item" href="/undian/sarawak">Sarawak</a>
+                                    
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">PRK
+                        <img id="Image3" src="/img/dropdown.png" style="width: 20px; display: inline-block" /></a>
+                        <ul>
+                            <li>
+                                
+                                        <a id="rptPRK_HyperLink1_0" class="dropdown-item" href="../../prk/pahang/pekan/chini">PRK DUN N.23 Chini</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_1" class="dropdown-item" href="../../prk/selangor/hulu-langat/semenyih">PRK DUN N.24 Semenyih</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_2" class="dropdown-item" href="../../prk/selangor/bangi/balakong">PRK DUN N.27 Balakong</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_3" class="dropdown-item" href="../../prk/negeri-sembilan/rembau/rantau">PRK DUN N.27 Rantau</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_4" class="dropdown-item" href="../../prk/selangor/petaling-jaya/seri-setia">PRK DUN N.32 Sri Setia</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_5" class="dropdown-item" href="../../prk/selangor/kota-raja/sungai-kandis">PRK DUN N.49 Sungai Kandis</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_6" class="dropdown-item" href="../../prk/perak/tanjong-malim/slim">PRK DUN Slim</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_7" class="dropdown-item" href="../../prk/sabah/semporna/bugaya">PRK DUN N.66 Bugaya</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_8" class="dropdown-item" href="../../prk/pahang/cameron-highlands">PRK PARLIMEN P.078 Cameron Highlands</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_9" class="dropdown-item" href="../../prk/negeri-sembilan/port-dickson">PRK PARLIMEN P.132 Port Dickson</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_10" class="dropdown-item" href="../../prk/terengganu/kuala-terengganu">PRK PARLIMEN P.136 Kuala Terengganu</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_11" class="dropdown-item" href="../../prk/johor/tanjung-piai">PRK PARLIMEN P.165 Tanjung Piai</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_12" class="dropdown-item" href="../../prk/sabah/kimanis">PRK PARLIMEN P.176 Kimanis</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_13" class="dropdown-item" href="../../prk/sabah/sandakan">PRK PARLIMEN P.186 Sandakan</a>
+                                    
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="/trivia/" class="nav-link">Trivia</a></li>
+                    <li class="nav-item"><a href="/video-news/" class="nav-link">Video</a> </li>
+                    <li class="nav-item"><a href="/infografik/" class="nav-link">Infografik</a> </li>
+                </ul>
+            </div>
+            </div>
+            </div>
+        
+</div>
+
+        
+
+        <div class="container">
+            
+        </div>
+
+        
+        <div class="content">
+            
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="nama-calon"><i class="fa fa-user-circle" style="color: #cecece"></i>
+                    <span id="ContentPlaceHolder1_Label1">ISMAIL AHMAD LABU</span></h1>
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox"></div>
+                <div class="profile">
+                    
+                    <div class="bio">
+                        <div style="display: table; margin: auto">
+                            <img id="ContentPlaceHolder1_Image1" src="/img/calon/5839_ismail-ahmad-labu.jpg" />
+                        </div>
+                        <div id="ContentPlaceHolder1_pnlPrivateInfo" style="display: block; font-size: 10pt; color: #555; text-align: center">
+	
+                            <div style="background: #fe0104; color: #ffffff; text-transform: uppercase">Maklumat Diri</div>
+                            
+                            
+                            <span id="ContentPlaceHolder1_lblTempatLahir" style="padding-bottom: 7px; display: block;"><em>Asal</em><br>Tiram Johor<br></span>
+                            <span id="ContentPlaceHolder1_lblDob" style="padding-bottom: 7px; display: block;"><em>Tarikh lahir</em><br>18/7/1956<br></span>
+                            <span id="ContentPlaceHolder1_lblPasangan" style="padding-bottom: 7px; display: block;"><em>Pasangan</em><br>Selamah Sulaiman<br></span>
+                            <span id="ContentPlaceHolder1_lblAnak"><em>Anak</em><br>10 anak</span>
+                        
+</div>
+                    </div>
+                    <div class="bio-text">
+                        <div id="ContentPlaceHolder1_pnlBackground"><p>Ismail Ahmad merupakan EXCO Pembangunan Luar Bandar merangkap ADUN Labu apabila berjaya menawan kerusi DUN Labu pada Pilihan Raya Umum (PRU) ke-14.</p>
+
+<p>Beliau dibesarkan dan bersekolah di Kampung Batu 8, Labu, Seremban, Negeri Sembilan. Mula mendapat pendidikan di Sekolah Rendah Kebangsaan Labu Ulu, Batu 8, Labu.&nbsp;</p>
+
+<p>Anak kelahiran Tiram Johor telah berkahwin dengan Selamah Sulaiman, seorang pendidik dan dikurniakan 10 orang anak dan 12 orang cucu.&nbsp;</p>
+
+<p>Allahyarham bapanya, Ahmad Mohd Yusof adalah seorang veteran tentera. Allahyarhamah ibu, Maimunah adalah orang asal Kampung Batu 8, Labu dan merupakan anak kepada Datuk Shahbandar Sungai Ujong Datuk Abd Kadir Osman.</p>
+
+<p>Ismail dilahirkan pada 18 Julai 1956 mendapat pendidikan tertinggi dalam akademik kelayakan Ijazah Sarjana Pendidikan Pertanian dari University of Georgia, Amerika Syarikat pada tahun 1986.</p>
+
+<p>Beliau juga memiliki kelayakan Ijazah Sarjana Muda Sains Pertanian di universiti yang sama pada tahun 1984 selepas tamat pengajian dalam Diploma Pertanian di Universiti Putra Malaysia pada tahun 1978.</p>
+
+<p>Bekas pelajar Sekolah Menengah (SM) Alam Shah Kuala Lumpur ini pernah menjadi guru sementara di SM di Seremban, Lenggeng dan Rembau pada tahun 1977 hingga 1978.</p>
+
+<p>Ismail kemudian bertugas di Jabatan Pertanian Malaysia Kuala Lumpur sebagai Pembantu Pertanian pada 1979 dan berpindah di Majlis Perbandaran Seremban (MPS) dalam posisi yang sama selama tujuh tahun.</p>
+
+<p>Seterusnya pada tahun 1986 hingga 2003, Ismail dinaikkan pangkat sebagai Pegawai Pertanian MPS kemudian Pengarah Pengindahan Seni Taman MPS selama sembilan tahun sebelum bersara pada 1 Jun 2012.</p>
+
+<p>Selain menceburi bidang politik, Ismail aktif dalam aktiviti sukarelawan dan badan bukan berkanun. Antara penglibatan dan jawatan yang dipegang seperti, Setiausaha Agung Persatuan Malaysia Islam UPM (PMIUPM) tahun 1975 hingga 1976, Yang Dipertua Angkatan Belia Islam (ABIM) tahun 2001 hingga 2003.</p>
+
+<p>Bukan itu sahaja, beliau juga dilantik Yang Dipertua Badan Kebajikan Islam Majlis Perbandaran Seremban, Yang Dipertua Badan Khairat Taman Temiang Jaya, Ahli Jawatan Kuasa Masjid Sikamat Seremban, Ahli Majlis Syura Kebangsaan dan Pengerusi Wadah Pencerdasan Umat (WADAH) Negeri Sembilan.</p>
+
+<p>Ismail kini menyandang Pengerusi koperasi Masjid Sikamat Seremban Bhd dan Timbalan Pengerusi Syura Negeri Sembilan.</p>
+
+<p>Dalam penglibatan politik, Ketua Cabang Parti Keadilan Rakyat (PKR) Rasah ini pernah dilantik Setiausaha PKR Cabang Rasah dan Timbalan Setiausaha Seketeriat Pakatan Harapan (PH) Negeri Sembilan.</p>
+
+<p>Beliau juga kini menyandang Naib Pengerusi 1 PKR Negeri Sembilan dan Timbalan Pengerusi PH Parlimen Rasah.</p>
+
+<p>Pertama kali dicalonkan semasa PRU14, Ismail daripada PH menang dengan mendapat 6,712 undian ketika menentang Hasim Rusdi daripada parti Barisan Nasional yang mendapat 5,830 undi dengan majoriti undi sebanyak 882.</p>
+
+<p>Pada Ogos 2023, Ismail Ahmad bertanding sebagai calon Pakatan Harapan (PH) bagi N20 Labu dalam PRN Negeri Sembilan.</p>
+
+<p>&nbsp;</p>
+</div>
+                    </div>
+                    <div class="pnlVideo">
+                        <div id="ContentPlaceHolder1_pnlVideoIntv" style="width: 100%">
+	
+                            <div id="ContentPlaceHolder1_videoIntvCalon" style="width: 100%" class="video-intv-calon"></div>
+                        
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="ContentPlaceHolder1_pnlMoreDetail" class="row" style="margin-top: 20px; font-size: 11pt">
+	
+            <div id="ContentPlaceHolder1_Panel9" class="profile-details col-md-6 col-12">
+		
+                <div id="ContentPlaceHolder1_Panel7">
+			
+                    <div style="background: #fe0104; color: #ffffff; text-transform: uppercase; padding: 0 10px">Pencapaian</div>
+                    <div class="detail-calon">
+                        <div id="ContentPlaceHolder1_lblPekerjaan">Kerjaya: </div>
+                        <span id="ContentPlaceHolder1_txtkerjaya"><ul>
+	<li>Ahli Dewan Undangan Negeri (ADUN) Labu (2018 hingga kini)</li>
+	<li>EXCO Pembangunan Luar Bandar (2018 hingga kini)</li>
+	<li>Pengarah Pengindahan dan Seni Taman Majlis Perbandaran Seremban (MPS) (2003 &ndash; 2012)</li>
+	<li>Pegawai Pertanian MPS (1986 -2003)</li>
+	<li>Pembantu Pertanian MPS (1979 &ndash; 1986)</li>
+	<li>Pembantu Pertanian Jabatan Pertanian Malaysia Di Kuala Lumpur (1979)</li>
+	<li>Guru Sementara Sek. Menengah Di Seremban, Lenggeng &amp; Rembau (1977 &ndash; 1978)</li>
+</ul>
+
+<p>Jawatan disandang dalam politik:</p>
+
+<ul>
+	<li>Ketua Cabang PKR Rasah, Penggal (2018 hingga 2021)&nbsp;</li>
+	<li>Naib Pengerusi 1 PKR Negeri Sembilan Darul Khusus (kini)</li>
+	<li>Timbalan Pengerusi PH Parlimen Rasah (kini)</li>
+	<li>Pengerusi BIPPA Keadilan Negeri Sembilan (kini)</li>
+	<li>AJK BIPPA Keadilan Pusat (kini)</li>
+	<li>Setiausaha Perhubungan Negeri PKR Negeri Sembilan (tamat-2018)</li>
+	<li>Setiausaha PKR Cabang Rasah Negeri Sembilan (tamat-2018)</li>
+	<li>Timbalan Setiausaha Seketeriat PH Negeri Sembilan (tamat-2018)</li>
+	<li>Pengarah Biro Manifesto dan Mobilisasi PH Negeri Sembilan (tamat-2018)</li>
+</ul>
+
+<p>Penglibatan dalam badan bukan berkanun:</p>
+
+<ul>
+	<li>Timbalan Pengerusi Syura Negeri Sembilan (2015 hingga kini)</li>
+	<li>Pengerusi Wadah Pencerdasan Umat (WADAH) Negeri Sembilan (2008 hingga 2015)</li>
+	<li>Pengerusi Koperasi Bt 7 (2016 hingga Kini)</li>
+	<li>Pengerusi koperasi Masjid Sikamat Seremban Bhd (2006 hingga kini)</li>
+	<li>Yang Dipertua Badan Khairat Taman Temiang Jaya (2006 hingga kini)</li>
+	<li>Ahli Majlis Syura Kebangsaan (MSK) (2004 hingga 2015)</li>
+	<li>Ahli Jawatankuasa Masjid Sikamat Seremban (2008 hingga 2013)</li>
+	<li>Yang Dipertua Badan Kebajikan Islam Majlis Perbandaran Seremban (2006 hingga 2012)</li>
+	<li>Yang Dipertua Persatuan Ibubapa Sek Men Dato Sheikh Ahmad Seremban (2000 hingga 2010)</li>
+	<li>Ahli Lembaga Koperasi Belia Islam Malaysia (2004 hingga 2008)</li>
+	<li>Pengerusi Lembaga Sek Rendah islam ABIM (1989 hingga 2008)</li>
+	<li>Setiausaha Agung Persatuan Industri Landskap Malaysia (SILARA)(2006)</li>
+	<li>Yang Dipertua Angkatan Belia Islam (ABIM) N.S.D.K (2001 hingga 2003)</li>
+	<li>Yang Dipertua Persatuan Ibubapa Sek SMVP Rembau (1998 hingga 2002)</li>
+	<li>EXCO Pendidikan ABIM NSDK (1986 hingga 1989)</li>
+	<li>Pengerusi Pelajar-pelajar Islam Malaysia University Of Georgia United States (1982 hingga 1985)</li>
+	<li>Timbalan Dipertua Persatuan Pendidikan Islam Negeri Sembilan (PPINS) (1980 hingga 1982)</li>
+	<li>Setiausaha Agong Persatuan Malaysia Islam UPM (PMIUPM)(1975 hingga 1976)</li>
+</ul>
+
+<p>Anugerah Darjah Kebesaran:</p>
+
+<ul>
+	<li>Darjah Dato&rsquo; Paduka Negeri Sembilan (DPNS) (2021)</li>
+	<li>Pingat Perkhidmatan Masyarakat Cemerlang (PMC) (2006)</li>
+	<li>Pingat Jasa Kebaktian (PJK) (2000)</li>
+	<li>Pingat Jubli Perak Pemerintahan Tuanku Jaafar (2001)</li>
+</ul>
+
+<p>Anugerah:</p>
+
+<ul>
+	<li>Anugerah Perkhidmatan Cemerlang MPS (1990, 2000, 2004 &amp; 2012)</li>
+</ul>
+</span>
+                        <div id="ContentPlaceHolder1_lblPelajaran">Pendidikan: </div>
+                        <span id="ContentPlaceHolder1_txtPelajaran"><ul>
+	<li>Ijazah Sarjana Pendidikan Pertanian University of Georgia, Amerika Syarikat (1986)</li>
+	<li>Ijazah Sarjana Muda Sains Pertanian University of Georgia, Amerika Syarikat (1984)</li>
+	<li>Diploma Pertanian di Universiti Putra Malaysia (1978)</li>
+	<li>SM Alam Shah Kuala Lumpur (1973)</li>
+	<li>SM Dato Mohamad Said, Nilai (1971)</li>
+	<li>Sekolah Kebangsaan Labu Ulu, Labu (1968)</li>
+</ul></span>
+                    </div>
+                
+		</div>
+            
+	</div>
+
+            <div id="ContentPlaceHolder1_Panel5" class="profile-details col-md-6 col-12">
+		
+                <div id="ContentPlaceHolder1_Panel8">
+			
+                    <div style="background: #fe0104; color: #ffffff; text-transform: uppercase; padding: 0 10px">Penglibatan Politik</div>
+                    <div class="detail-calon">
+                        <div id="ContentPlaceHolder1_lblManifesto">Manifesto:</div>
+                        
+                    </div>
+                
+		</div>
+                <div>
+                    <!-- sejarah pilihan raya -->
+                    <div class="detail-calon" style="margin-top: 5px">
+                        <b>Parti Gabungan:</b>
+                        <span id="ContentPlaceHolder1_Label2">Pakatan Harapan</span><br />
+                        <b>Parti:</b>
+                        <span id="ContentPlaceHolder1_LabelPartiKomponen">PKR</span><br />
+                        <b>Pilihan Raya Umum Terbaru:</b>
+                        <span id="ContentPlaceHolder1_Label3">PRU PRN15</span><br />
+                        <br />
+                        <span id="ContentPlaceHolder1_Label11"><b>Kerusi Bertanding PARLIMEN:</b></span>
+                        
+                        <span id="ContentPlaceHolder1_Label6">Tiada</span><br />
+                        <span id="ContentPlaceHolder1_Label4"><b>Kerusi Bertanding DUN:</b></span>
+                        
+                                <ul>
+                            
+                                <li>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label11_0" class="uppercase"><font size="3">PRU14-</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label12_0" class="uppercase"><font size="3">P130</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label13_0" class="uppercase"><font size="3">Rasah</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label14_0" class="uppercase"><font size="3">N20</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label15_0" class="uppercase"><font size="3">Labu</font></span></li>
+                            
+                                <li>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label11_1" class="uppercase"><font size="3">PRU PRN15-</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label12_1" class="uppercase"><font size="3">P130</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label13_1" class="uppercase"><font size="3">Rasah</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label14_1" class="uppercase"><font size="3">N20</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label15_1" class="uppercase"><font size="3">Labu</font></span></li>
+                            </ul>
+                        <span id="ContentPlaceHolder1_Label5"></span>
+                    </div>
+                </div>
+                <!-- end sejarah pilihan raya -->
+            
+	</div>
+        
+</div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="ContentPlaceHolder1_panel_facebook">
+	
+                    <div class='comment-area'>
+                        <div style="width: 100%" class="fb-comments" data-href="http://pru.sinarharian.com.my/calon/5839/ismail-ahmad-labu" data-num-posts="5" data-width="100%"></div>
+                    </div>
+                
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="ContentPlaceHolder1_Panel2">
+	
+                    <div class="row-article">
+                        <input type="hidden" name="ctl00$ContentPlaceHolder1$uscCalonArticle$HiddenField1" id="ContentPlaceHolder1_uscCalonArticle_HiddenField1" value="ISMAIL AHMAD LABU" />
+<input type="hidden" name="ctl00$ContentPlaceHolder1$uscCalonArticle$HiddenField2" id="ContentPlaceHolder1_uscCalonArticle_HiddenField2" />
+<div class="artikel-calon">
+    <h2 class="tjk-right">Artikel Berkaitan
+        <span id="ContentPlaceHolder1_uscCalonArticle_lblNama">ISMAIL AHMAD LABU</span></h2>
+
+    
+    <div align="right">
+        <a id="ContentPlaceHolder1_uscCalonArticle_HyperLink1" class="btn btn-outline-secondary" href="/news/tag/ismail-ahmad-labu">Lagi berita ISMAIL AHMAD LABU...</a>
+    </div>
+</div>
+
+                    </div>
+                
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="ContentPlaceHolder1_Panel1">
+	
+                    <div class="row-video">
+                        <input type="hidden" name="ctl00$ContentPlaceHolder1$uscCalonVideo$HiddenField1" id="ContentPlaceHolder1_uscCalonVideo_HiddenField1" value="ISMAIL AHMAD LABU" />
+<input type="hidden" name="ctl00$ContentPlaceHolder1$uscCalonVideo$HiddenField2" id="ContentPlaceHolder1_uscCalonVideo_HiddenField2" />
+<div class="artikel-calon" style="clear:both">
+<h2 class="tjk-right">Video Berkaitan <span id="ContentPlaceHolder1_uscCalonVideo_lblNama">ISMAIL AHMAD LABU</span></h2>
+    
+<ul></ul>
+<div align="right"><a id="ContentPlaceHolder1_uscCalonVideo_HyperLink1" href="/video/tag/ismail-ahmad-labu" style="font-size:10pt;color:#DB3A34">Lagi video ISMAIL AHMAD LABU...</a></div>
+</div>
+                    </div>
+                
+</div>
+            </div>
+        </div>
+    </div>
+
+    <span id="ContentPlaceHolder1_Label12"></span>
+
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$HiddenField2" id="ContentPlaceHolder1_HiddenField2" />
+
+        </div>
+        
+        
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-2 footer-column">
+                   
+              </div>
+      
+              <div class="col-md-7 footer-column">
+                    Semua paparan data daripada laman web ini adalah tepat pada waktu siaran.<br>
+                    Kumpulan Media Karangkraf tidak bertanggungjawab atas sebarang kesalahan maklumat yang mungkin terjadi dari kandungan yang dipaparkan.<br>
+                  2017 All Rights Reserved. Karangkraf Group Media.
+              </div>
+                <div class="col-md-3 footer-column">
+                    <h6>IKUTI KAMI</h6>
+                    <ul class="social-icon">
+                        <li><a href="https://www.facebook.com/SinarHarian" target="_blank"><i class="fa fa-facebook-square" style="color: #4267B2" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/SinarOnline" target="_blank"><i class="fa fa-twitter" style="color: deepskyblue" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/sinaronline/" target="_blank"><i class="fa fa-instagram" style="color: #833AB4" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/SinarHarianWebTV" target="_blank"><i class="fa fa-youtube-play" style="color: #FF0000" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/SinarOnline" target="_blank"><i class="fa fa-telegram" style="color: #0088cc" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/sinaronline/" target="_blank"><i class="fa fa-tiktok" style="color: #69c9d0" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/SinarHarianWebTV" target="_blank"><i class="fa fa-whatsapp" style="color: lawngreen" aria-hidden="true"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-tiktok" style="color: lawngreen" aria-hidden="true"></i></a></li>
+                    </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </form>
+    <script>
+        //document.addEventListener("DOMContentLoaded", function () {
+        //    window.addEventListener('scroll', function () {
+        //        if (window.scrollY > 50) {
+        //            document.getElementById('navbar_top').classList.add('fixed-top');
+        //            //document.getElementById('navbar_top_mobile').classList.add('fixed-top');
+        //            // add padding top to show content behind navbar
+        //            navbar_height = document.querySelector('.navbar').offsetHeight;
+        //            document.body.style.paddingTop = navbar_height + 'px';
+        //        } else {
+        //            document.getElementById('navbar_top').classList.remove('fixed-top');
+        //            //document.getElementById('navbar_top_m').classList.remove('fixed-top');
+        //            // remove padding top from body
+        //            document.body.style.paddingTop = '0';
+        //        }
+        //    });
+        //});
+	// DOMContentLoaded  end
+    </script>
+
+    <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("wrap-header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="overlay">
+    <!-- /6273129/GSK_PRUSinarHarian/GSK_PRUSinarHarian_D_Leaderboard_728x90_900x90_970x90_1024x90_Top -->
+    <div id='GSK_PRUSinarHarian_D_Leaderboard_728x90_900x90_970x90_1024x90_Middle-0'>
+		<script>
+		    googletag.cmd.push(function () { googletag.display('GSK_PRUSinarHarian_D_Leaderboard_728x90_900x90_970x90_1024x90_Middle-0'); });
+        </script>
+    </div>
+</div>
+<script>
+    var overlay = $('.overlay'), close = $('<div class="close"><img src="/img/close-icon2.png" width="30" height="30"></div>');
+    overlay.append(close);
+    $(overlay, close).on('click', function () {
+        overlay.fadeOut();
+    });
+</script>
+</body>
+</html>

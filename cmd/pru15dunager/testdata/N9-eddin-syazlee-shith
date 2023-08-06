@@ -1,0 +1,562 @@
+
+
+<!doctype html>
+<html>
+<head id="Head1"><title>
+	PRU - Sinar Harian
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta charset="utf-8" /><meta property="fb:app_id" content="366668804351797" /><meta property="og:type" content="website" /><meta name="description" content="Dapatkan liputan komprehensif sepanjang Pilihan Raya Umum ke-15 (PRU15) di sini. Anda boleh mendapatkan Senarai Calon-calon PRU15, proses Penamaan Calon dan pelbagai berita menjelang 19 November, 2022 iaitu Tarikh Mengundi PRU15. Di sini, anda juga boleh " /><meta name="keywords" content="Malaysia Memilih, Pilihanraya Umum ke-15, PRU15, Perdana Menteri, Ismail Sabri, General Elections, GE15, pru15 calon , senarai calon , pru , penamaan calon , calon parlimen pru15 , pru 15 , pru15 malaysia , calon pru 15 , spr , pru15 parti , bn , senarai" /><meta property="og:url" content="https://pru.sinarharian.com.my" /><meta property="og:title" content="Keputusan | Pilihan Raya Umum Malaysia Ke-15" /><meta property="og:description" content="Dapatkan liputan komprehensif sepanjang Pilihan Raya Umum ke-15 (PRU15) di sini. Anda boleh mendapatkan Senarai Calon-calon PRU15, proses Penamaan Calon dan pelbagai berita menjelang 19 November, 2022 iaitu Tarikh Mengundi PRU15. Di sini, anda juga boleh " />
+    <meta name="title" content="EDDIN SYAZLEE SHITH" />
+    <meta name="description" content="">
+    <meta name="keywords" content="EDDIN SYAZLEE SHITH">
+    <meta property="og:url" content="http://pru.sinarharian.com.my/calon/5802/eddin-syazlee-shith" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="PRU @ Sinar Harian" />
+    <meta property="og:title" content="EDDIN SYAZLEE SHITH" />
+    <meta property="og:image" content="//pru.sinarharian.com.my/img/calon/5802_eddin-syazlee-shith-1.jpg" />
+    <meta property="og:description" content="Datuk Eddin Syazlee Shith menyandang jawatan sebagai Timbalan Menteri Menteri Kerja Raya pada Mac 2020.
+
+Bekas" />
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/js/sw.js').then(function (registration) {
+                    // Registration was successful
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function (err) {
+                    // registration failed :(
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
+    <link rel="manifest" href="/js/manifest.json" /><link href="/Content/bootstrap.min.css" rel="stylesheet" /><link href="/style/styleNew.min.css" rel="stylesheet" /><link href="/style/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <style>
+        div#wrap-header { background-color: #f8f9fa !important;}
+    </style>
+    
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e1554070ea24f94"></script>
+    <style>
+        .pnlVideo {
+            /*background: url(/img/video-default.png);*/
+            width: 100%;
+            height: auto;
+        }
+        .pnlVideo iframe {
+            width: 100% !important;
+        }
+        .video-intv-calon iframe {
+            /*width: 100% !important;
+            height: 226px !important;*/
+        }
+
+        .bio {
+            width: 100%;
+            background: #cecece;
+            padding: 10px;
+        }
+
+        .bio-text {
+            width: 100%;
+            padding: 10px;
+        }
+
+        @media (min-width: 576px) {
+        }
+
+        @media (min-width: 768px) {
+        }
+
+        @media (min-width: 992px) {
+            .bio {
+                width: 20%;
+            }
+
+            .bio-text {
+                width: 49%;
+            }
+
+            .pnlVideo {
+                width: 30%;
+                height: auto;
+            }
+
+            .card {
+                width: 22%;
+                margin: 0 1%;
+                margin-bottom: 0px;
+                display: inline-block;
+                vertical-align: top;
+            }
+        }
+
+        @media (min-width: 1200px) {
+        }
+    </style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T5GCNQR');</script>
+<!-- End Google Tag Manager --></head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5GCNQR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));
+</script><form method="post" action="./eddin-syazlee-shith" id="form1">
+<input type="hidden" name="__VSTATE" id="__VSTATE" value="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" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAavVXD1oYELeveMr0vHCmYPnwyw0/9Vc8DRLq/miKdrJtPHOlx5Azn4fMemgOi8l5F1O6MzBYes7GWri5ofTgmThnRRk6aQSsJofcPEGmFJX47RHjyysxttEOjTwf1p92FN00E88Y6k9v4bCyQ7CGTThE9lspTY6kcqruhAELYNsQ==" />
+        
+        
+        <div id="desktop">
+	
+            <div id="navbar_top-desktop">
+            <nav style="background-color:#f60105;text-align:center">
+                <a href="/">
+                <img class="imglogo" src="/img/logo-prn-putih.png" /></a>
+            </nav>
+            <nav id="nav-head" class="navbar-dark bg-dark">
+                <ul>
+                    <li><img id="Image5" src="/img/logo-sinar-karangkraf.png" width="80" /></li>
+                    <li><a href="https://www.sinarharian.com.my/" style="color: whitesmoke" target="_blank">Sinar Harian</a></li>
+                    <li><a href="https://www.sinarpremium.com.my/" style="color: whitesmoke" target="_blank">Sinar Premium</a></li>
+                    <li><a href="https://www.sinardaily.my" style="color: whitesmoke" target="_blank">Sinar Daily</a></li>
+                    <li><a href="https://www.sinarplus.com.my/" style="color: whitesmoke" target="_blank">Sinar Plus</a></li>
+                    <li><a href="https://www.sinarbestari.com.my/" style="color: whitesmoke" target="_blank">Sinar Bestari</a></li>
+                    <li><a href="https://www.sinarislamplus.com.my/" style="color: whitesmoke" target="_blank">Sinar Islam Plus</a></li>
+                </ul>
+            </nav>
+            <div id="wrap-header">
+            <div id="header-nav">
+                <ul id="nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Keputusan
+                        <img id="Image2" src="/img/dropdown.png" style="width: 20px; display: inline-block" /></a>
+                        <ul>
+                            <li class="nav-item"><a href="/AllKeputusanParlimen" class="nav-link">Keputusan Keseluruhan</a></li>
+                            <li>
+                                
+                                        <a id="rptNegeri1_HyperLink11_0" class="dropdown-item" href="/undian/perlis">Perlis</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_1" class="dropdown-item" href="/undian/kedah">Kedah</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_2" class="dropdown-item" href="/undian/kelantan">Kelantan</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_3" class="dropdown-item" href="/undian/terengganu">Terengganu</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_4" class="dropdown-item" href="/undian/pulau-pinang">Pulau Pinang</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_5" class="dropdown-item" href="/undian/perak">Perak</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_6" class="dropdown-item" href="/undian/pahang">Pahang</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_7" class="dropdown-item" href="/undian/selangor">Selangor</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_8" class="dropdown-item" href="/undian/kuala-lumpur">Kuala Lumpur</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_9" class="dropdown-item" href="/undian/putrajaya">Putrajaya</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_10" class="dropdown-item" href="/undian/negeri-sembilan">Negeri Sembilan</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_11" class="dropdown-item" href="/undian/melaka">Melaka</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_12" class="dropdown-item" href="/undian/johor">Johor</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_13" class="dropdown-item" href="/undian/labuan">Labuan</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_14" class="dropdown-item" href="/undian/sabah">Sabah</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_15" class="dropdown-item" href="/undian/sarawak">Sarawak</a>
+                                    
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">PRK
+                        <img id="Image3" src="/img/dropdown.png" style="width: 20px; display: inline-block" /></a>
+                        <ul>
+                            <li>
+                                
+                                        <a id="rptPRK_HyperLink1_0" class="dropdown-item" href="../../prk/pahang/pekan/chini">PRK DUN N.23 Chini</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_1" class="dropdown-item" href="../../prk/selangor/hulu-langat/semenyih">PRK DUN N.24 Semenyih</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_2" class="dropdown-item" href="../../prk/selangor/bangi/balakong">PRK DUN N.27 Balakong</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_3" class="dropdown-item" href="../../prk/negeri-sembilan/rembau/rantau">PRK DUN N.27 Rantau</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_4" class="dropdown-item" href="../../prk/selangor/petaling-jaya/seri-setia">PRK DUN N.32 Sri Setia</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_5" class="dropdown-item" href="../../prk/selangor/kota-raja/sungai-kandis">PRK DUN N.49 Sungai Kandis</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_6" class="dropdown-item" href="../../prk/perak/tanjong-malim/slim">PRK DUN Slim</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_7" class="dropdown-item" href="../../prk/sabah/semporna/bugaya">PRK DUN N.66 Bugaya</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_8" class="dropdown-item" href="../../prk/pahang/cameron-highlands">PRK PARLIMEN P.078 Cameron Highlands</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_9" class="dropdown-item" href="../../prk/negeri-sembilan/port-dickson">PRK PARLIMEN P.132 Port Dickson</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_10" class="dropdown-item" href="../../prk/terengganu/kuala-terengganu">PRK PARLIMEN P.136 Kuala Terengganu</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_11" class="dropdown-item" href="../../prk/johor/tanjung-piai">PRK PARLIMEN P.165 Tanjung Piai</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_12" class="dropdown-item" href="../../prk/sabah/kimanis">PRK PARLIMEN P.176 Kimanis</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_13" class="dropdown-item" href="../../prk/sabah/sandakan">PRK PARLIMEN P.186 Sandakan</a>
+                                    
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="/trivia/" class="nav-link">Trivia</a></li>
+                    <li class="nav-item"><a href="/video-news/" class="nav-link">Video</a> </li>
+                    <li class="nav-item"><a href="/infografik/" class="nav-link">Infografik</a> </li>
+                </ul>
+            </div>
+            </div>
+            </div>
+        
+</div>
+
+        
+
+        <div class="container">
+            
+        </div>
+
+        
+        <div class="content">
+            
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="nama-calon"><i class="fa fa-user-circle" style="color: #cecece"></i>
+                    <span id="ContentPlaceHolder1_Label1">EDDIN SYAZLEE SHITH</span></h1>
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox"></div>
+                <div class="profile">
+                    
+                    <div class="bio">
+                        <div style="display: table; margin: auto">
+                            <img id="ContentPlaceHolder1_Image1" src="/img/calon/5802_eddin-syazlee-shith-1.jpg" />
+                        </div>
+                        <div id="ContentPlaceHolder1_pnlPrivateInfo" style="display: block; font-size: 10pt; color: #555; text-align: center">
+	
+                            <div style="background: #fe0104; color: #ffffff; text-transform: uppercase">Maklumat Diri</div>
+                            
+                            
+                            
+                            <span id="ContentPlaceHolder1_lblDob" style="padding-bottom: 7px; display: block;"><em>Tarikh lahir</em><br>2/1/1974<br></span>
+                            <span id="ContentPlaceHolder1_lblPasangan" style="padding-bottom: 7px; display: block;"><em>Pasangan</em><br>Datin Dr. Nurul Azlin Datuk Ibrahim <br></span>
+                            
+                        
+</div>
+                    </div>
+                    <div class="bio-text">
+                        <div id="ContentPlaceHolder1_pnlBackground"><p>Datuk Eddin Syazlee Shith menyandang jawatan sebagai Timbalan Menteri Menteri Kerja Raya pada Mac 2020.</p>
+
+<p>Bekas Timbalan Menteri Komunikasi dan Multimedia juga merupakan Ahli Parlimen Kuala Pilah, Negeri Sembilan.</p>
+
+<p>Eddin merupakan Ahli Majlis Pimpinan Tertinggi Bersatu yang telah dipilih pada 2020 lalu merangkap Ketua Bahagian Penaja Bersatu Bahagian Kuala Pilah&nbsp;dan Timbalan Pengerusi Perhubungan Bersatu Negeri Sembilan.</p>
+
+<p>Eddin sebelum menceburi bidang politik merupakan seorang peguam dan sering terlibat dengan khidmat masyarakat.</p>
+
+<p>Antara sumbangannya menjadi Penasihat Undang-Undang Pertubuhan Kebajikan Islam Malaysia (Perkim) Negeri Sembilan dan Penasihat Persatuan Alumni Sekolah Menengah Sains Tuanku Jaafar.</p>
+
+<p>Pada Pilihan Raya Umum Ke-14, Eddin Syazlee daripada Pakatan Harapan menang dengan mendapat 18,045 undian ketika menentang Hasan Malek daripada parti Barisan Nasional yang mendapat 17,845 undi. Majoriti undi sebanyak 200.</p>
+
+<p>Pada Ogos 2023, beliau bertanding sebagai calon Perikatan Nasional (PN) atas tiket Bersatu pada PRN Negeri Sembilan.&nbsp;</p>
+
+<p>&nbsp;</p>
+</div>
+                    </div>
+                    <div class="pnlVideo">
+                        <div id="ContentPlaceHolder1_pnlVideoIntv" style="width: 100%">
+	
+                            <div id="ContentPlaceHolder1_videoIntvCalon" style="width: 100%" class="video-intv-calon"></div>
+                        
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="ContentPlaceHolder1_pnlMoreDetail" class="row" style="margin-top: 20px; font-size: 11pt">
+	
+            <div id="ContentPlaceHolder1_Panel9" class="profile-details col-md-6 col-12">
+		
+                <div id="ContentPlaceHolder1_Panel7">
+			
+                    <div style="background: #fe0104; color: #ffffff; text-transform: uppercase; padding: 0 10px">Pencapaian</div>
+                    <div class="detail-calon">
+                        <div id="ContentPlaceHolder1_lblPekerjaan">Kerjaya: </div>
+                        <span id="ContentPlaceHolder1_txtkerjaya"><ul>
+	<li>Timbalan Menteri Menteri Kerja Raya (2020 hingga kini)</li>
+	<li>Ahli Parlimen Kuala Pilah (2018 hingga kini)</li>
+	<li>Timbalan Menteri Kementerian Komunikasi dan Multimedia (2018 hingga 2020)</li>
+	<li>Timbalan Menteri di Jabatan Perdana Menteri (Parlimen dan Undang-undang) (Mac 2020 hingga Julai 2020)</li>
+	<li>Peguambela dan Peguamcara Messrs Rosli Abu Zarim &amp; Co (2004 hingga 2005)</li>
+	<li>Pengamal Undang-Undang Messrs Wriglresworth &amp; Co (2006)</li>
+	<li>Peguambela, Peguamcara, Peguam Syarie Serta Rakan Kongsi Tetuan Fadzil &amp; Eddin (2007 - 2018)</li>
+</ul>
+
+<p>Jawatan disandang dalam politik:</p>
+
+<ul>
+	<li>Ketua Bahagian Penaja Bersatu Bahagian Kuala Pilah (2019 hingga kini)</li>
+	<li>Timbalan Pengerusi Perhubungan Bersatu Negeri Sembilan (2018 hingga kini)</li>
+	<li>Ahli Parlimen Kuala Pilah P.129 (2018 hingga kini)</li>
+</ul>
+</span>
+                        <div id="ContentPlaceHolder1_lblPelajaran">Pendidikan: </div>
+                        <span id="ContentPlaceHolder1_txtPelajaran"><ul>
+	<li>Ijazah Sarjana Muda Undang-Undang Universiti Teknologi Mara (UiTM) 2003</li>
+	<li>Ijazah Sarjana Undang-Undang Universiti Kebangsaan Malaysia 2007</li>
+	<li>Diploma Dalam Amalan Hukum Syariah Universiti Teknologi Mara (UiTM) 2015</li>
+</ul></span>
+                    </div>
+                
+		</div>
+            
+	</div>
+
+            <div id="ContentPlaceHolder1_Panel5" class="profile-details col-md-6 col-12">
+		
+                <div id="ContentPlaceHolder1_Panel8">
+			
+                    <div style="background: #fe0104; color: #ffffff; text-transform: uppercase; padding: 0 10px">Penglibatan Politik</div>
+                    <div class="detail-calon">
+                        <div id="ContentPlaceHolder1_lblManifesto">Manifesto:</div>
+                        
+                    </div>
+                
+		</div>
+                <div>
+                    <!-- sejarah pilihan raya -->
+                    <div class="detail-calon" style="margin-top: 5px">
+                        <b>Parti Gabungan:</b>
+                        <span id="ContentPlaceHolder1_Label2">Parti Perikatan Nasional</span><br />
+                        <b>Parti:</b>
+                        <span id="ContentPlaceHolder1_LabelPartiKomponen">PPBM/BERSATU</span><br />
+                        <b>Pilihan Raya Umum Terbaru:</b>
+                        <span id="ContentPlaceHolder1_Label3">PRU PRN15</span><br />
+                        <br />
+                        <span id="ContentPlaceHolder1_Label11"><b>Kerusi Bertanding PARLIMEN:</b></span>
+                        
+                                <ul>
+                            
+                                <li>
+                                    <span id="ContentPlaceHolder1_Repeater1_Label8_0" class="uppercase"><font size="3">PRU14-</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater1_Label9_0" class="uppercase"><font size="3">P129</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater1_Label10_0" class="uppercase"><font size="3">Kuala Pilah</font></span>
+                                    
+                            
+                                <li>
+                                    <span id="ContentPlaceHolder1_Repeater1_Label8_1" class="uppercase"><font size="3">PRU15-</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater1_Label9_1" class="uppercase"><font size="3">P129</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater1_Label10_1" class="uppercase"><font size="3">Kuala Pilah</font></span>
+                                    
+                            </ul>
+                        <span id="ContentPlaceHolder1_Label6"></span><br />
+                        <span id="ContentPlaceHolder1_Label4"><b>Kerusi Bertanding DUN:</b></span>
+                        
+                                <ul>
+                            
+                                <li>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label11_0" class="uppercase"><font size="3">PRU PRN15-</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label12_0" class="uppercase"><font size="3">P129</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label13_0" class="uppercase"><font size="3">Kuala Pilah</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label14_0" class="uppercase"><font size="3">N15</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label15_0" class="uppercase"><font size="3">Juasseh</font></span></li>
+                            </ul>
+                        <span id="ContentPlaceHolder1_Label5"></span>
+                    </div>
+                </div>
+                <!-- end sejarah pilihan raya -->
+            
+	</div>
+        
+</div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="ContentPlaceHolder1_panel_facebook">
+	
+                    <div class='comment-area'>
+                        <div style="width: 100%" class="fb-comments" data-href="http://pru.sinarharian.com.my/calon/5802/eddin-syazlee-shith" data-num-posts="5" data-width="100%"></div>
+                    </div>
+                
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="ContentPlaceHolder1_Panel2">
+	
+                    <div class="row-article">
+                        <input type="hidden" name="ctl00$ContentPlaceHolder1$uscCalonArticle$HiddenField1" id="ContentPlaceHolder1_uscCalonArticle_HiddenField1" value="EDDIN SYAZLEE SHITH" />
+<input type="hidden" name="ctl00$ContentPlaceHolder1$uscCalonArticle$HiddenField2" id="ContentPlaceHolder1_uscCalonArticle_HiddenField2" />
+<div class="artikel-calon">
+    <h2 class="tjk-right">Artikel Berkaitan
+        <span id="ContentPlaceHolder1_uscCalonArticle_lblNama">EDDIN SYAZLEE SHITH</span></h2>
+
+    
+            <div class="card text-dark bg-light mb-3">
+                <div class="card-body">
+                    
+                    
+                    <span id="ContentPlaceHolder1_uscCalonArticle_Repeater1_lblimage_0"><div class='img'><a href='/info-berita/426/kuasa-rakyat-di-hujung-jari'><a href><img src="https://pru.sinarharian.com.my/galeripru/464_pilah.jpg"></a></div></span>
+                </div>
+                <div class="card-header">
+                    <span id="ContentPlaceHolder1_uscCalonArticle_Repeater1_lbltajuk_0"><div class='berita-title'><a href='/info-berita/426/kuasa-rakyat-di-hujung-jari'>Kuasa rakyat di hujung jari</a></div></span>
+                    <span id="ContentPlaceHolder1_uscCalonArticle_Repeater1_lblblurb_0"></span>
+                </div>
+            </div>
+        
+    <div align="right">
+        <a id="ContentPlaceHolder1_uscCalonArticle_HyperLink1" class="btn btn-outline-secondary" href="/news/tag/eddin-syazlee-shith">Lagi berita EDDIN SYAZLEE SHITH...</a>
+    </div>
+</div>
+
+                    </div>
+                
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="ContentPlaceHolder1_Panel1">
+	
+                    <div class="row-video">
+                        <input type="hidden" name="ctl00$ContentPlaceHolder1$uscCalonVideo$HiddenField1" id="ContentPlaceHolder1_uscCalonVideo_HiddenField1" value="EDDIN SYAZLEE SHITH" />
+<input type="hidden" name="ctl00$ContentPlaceHolder1$uscCalonVideo$HiddenField2" id="ContentPlaceHolder1_uscCalonVideo_HiddenField2" />
+<div class="artikel-calon" style="clear:both">
+<h2 class="tjk-right">Video Berkaitan <span id="ContentPlaceHolder1_uscCalonVideo_lblNama">EDDIN SYAZLEE SHITH</span></h2>
+    
+<ul></ul>
+<div align="right"><a id="ContentPlaceHolder1_uscCalonVideo_HyperLink1" href="/video/tag/eddin-syazlee-shith" style="font-size:10pt;color:#DB3A34">Lagi video EDDIN SYAZLEE SHITH...</a></div>
+</div>
+                    </div>
+                
+</div>
+            </div>
+        </div>
+    </div>
+
+    <span id="ContentPlaceHolder1_Label12"></span>
+
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$HiddenField2" id="ContentPlaceHolder1_HiddenField2" />
+
+        </div>
+        
+        
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-2 footer-column">
+                   
+              </div>
+      
+              <div class="col-md-7 footer-column">
+                    Semua paparan data daripada laman web ini adalah tepat pada waktu siaran.<br>
+                    Kumpulan Media Karangkraf tidak bertanggungjawab atas sebarang kesalahan maklumat yang mungkin terjadi dari kandungan yang dipaparkan.<br>
+                  2017 All Rights Reserved. Karangkraf Group Media.
+              </div>
+                <div class="col-md-3 footer-column">
+                    <h6>IKUTI KAMI</h6>
+                    <ul class="social-icon">
+                        <li><a href="https://www.facebook.com/SinarHarian" target="_blank"><i class="fa fa-facebook-square" style="color: #4267B2" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/SinarOnline" target="_blank"><i class="fa fa-twitter" style="color: deepskyblue" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/sinaronline/" target="_blank"><i class="fa fa-instagram" style="color: #833AB4" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/SinarHarianWebTV" target="_blank"><i class="fa fa-youtube-play" style="color: #FF0000" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/SinarOnline" target="_blank"><i class="fa fa-telegram" style="color: #0088cc" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/sinaronline/" target="_blank"><i class="fa fa-tiktok" style="color: #69c9d0" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/SinarHarianWebTV" target="_blank"><i class="fa fa-whatsapp" style="color: lawngreen" aria-hidden="true"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-tiktok" style="color: lawngreen" aria-hidden="true"></i></a></li>
+                    </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </form>
+    <script>
+        //document.addEventListener("DOMContentLoaded", function () {
+        //    window.addEventListener('scroll', function () {
+        //        if (window.scrollY > 50) {
+        //            document.getElementById('navbar_top').classList.add('fixed-top');
+        //            //document.getElementById('navbar_top_mobile').classList.add('fixed-top');
+        //            // add padding top to show content behind navbar
+        //            navbar_height = document.querySelector('.navbar').offsetHeight;
+        //            document.body.style.paddingTop = navbar_height + 'px';
+        //        } else {
+        //            document.getElementById('navbar_top').classList.remove('fixed-top');
+        //            //document.getElementById('navbar_top_m').classList.remove('fixed-top');
+        //            // remove padding top from body
+        //            document.body.style.paddingTop = '0';
+        //        }
+        //    });
+        //});
+	// DOMContentLoaded  end
+    </script>
+
+    <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("wrap-header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="overlay">
+    <!-- /6273129/GSK_PRUSinarHarian/GSK_PRUSinarHarian_D_Leaderboard_728x90_900x90_970x90_1024x90_Top -->
+    <div id='GSK_PRUSinarHarian_D_Leaderboard_728x90_900x90_970x90_1024x90_Middle-0'>
+		<script>
+		    googletag.cmd.push(function () { googletag.display('GSK_PRUSinarHarian_D_Leaderboard_728x90_900x90_970x90_1024x90_Middle-0'); });
+        </script>
+    </div>
+</div>
+<script>
+    var overlay = $('.overlay'), close = $('<div class="close"><img src="/img/close-icon2.png" width="30" height="30"></div>');
+    overlay.append(close);
+    $(overlay, close).on('click', function () {
+        overlay.fadeOut();
+    });
+</script>
+</body>
+</html>

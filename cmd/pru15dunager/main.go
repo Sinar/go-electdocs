@@ -8,8 +8,9 @@ func main() {
 }
 
 func Run() {
+	//LoadTSVCandidates("N9")
 	//ProcessDUN("N9")
-	LoadTSVCandidates("N9")
+	ExtractAgeParty("N9")
 	//LoadTSVCandidates("PENANG")
 	//LoadTSVCandidates("SELANGOR")
 }
@@ -21,8 +22,6 @@ func ProcessDUN(state string) {
 	//	For each DUN, find exact match; and fuzzy options for each candidate
 	//	Pick the best options for each .. 2 - 4 candidates ..
 	//		leftovers fight for scraps!
-	ExtractAgeParty(state)
-	//candidates := LoadTSVCandidates(state)
-	//EnrichCandidateData(state, candidates)
-
+	candidates := LoadTSVCandidates(state)
+	EnrichCandidateData(state, candidates)
 }
