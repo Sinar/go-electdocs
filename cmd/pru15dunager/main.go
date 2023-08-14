@@ -12,8 +12,9 @@ func Run() {
 	//ProcessDUN("N9")
 	//ExtractAgeParty("N9")
 	//LoadTSVCandidates("PENANG")
-	ProcessDUN("PENANG")
+	//ProcessDUN("PENANG")
 	//LoadTSVCandidates("SELANGOR")
+	ProcessDUN("SELANGOR")
 }
 
 func ProcessDUN(state string) {
