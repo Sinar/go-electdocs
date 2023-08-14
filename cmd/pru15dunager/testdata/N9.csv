@@ -1,0 +1,85 @@
+Kod DUN 	Nama DUN 	Bilangan Pemilih 	No Calon 	Nama 	Jantina 	Umur 	Parti
+N01 	CHENNAH 	14,561 	1 	Rosmadi Arif 	LELAKI 	51 	PN
+N01 	CHENNAH 	14,561 	2 	Loke Siew Fook 	LELAKI 	46 	PH
+N02 	PERTANG 	12,854 	1 	Jalaluddin Alias 	LELAKI 	59 	BN-UMNO
+N02 	PERTANG 	12,854 	2 	Amirudin Hassan 	LELAKI 	64 	PN
+N03 	SUNGAI LUI 	19,115 	1 	Mohd.razi Mohd.ali 	LELAKI 	50 	BN-UMNO
+N03 	SUNGAI LUI 	19,115 	2 	Mohd Nordin Hasim 	LELAKI 	43 	PN
+N04 	KLAWANG 	13,031 	1 	Saiful Bahri Jaaman @ Sharman 	LELAKI 	56 	BEBAS
+N04 	KLAWANG 	13,031 	2 	Danni Rais 	LELAKI 	35 	PN
+N04 	KLAWANG 	13,031 	3 	Bakri Sawir 	LELAKI 	64 	PH
+N05 	SERTING 	30,248 	1 	Mohd Fairuz Mohd Isa 	LELAKI 	47 	PN
+N05 	SERTING 	30,248 	2 	Muhamad Zamri Omar 	LELAKI 	56 	BN-UMNO
+N06 	PALONG 	23,546 	1 	Noor Azuan Parmin 	LELAKI 	52 	PN
+N06 	PALONG 	23,546 	2 	Mustapha Nagoor 	LELAKI 	55 	BN-UMNO
+N07 	JERAM PADANG 	16,284 	1 	Mohd Zaidy Abdul Kadir 	LELAKI 	41 	BN-UMNO
+N07 	JERAM PADANG 	16,284 	2 	Surash Sreenivasan 	LELAKI 	49 	PN
+N08 	BAHAU 	25,735 	1 	Kumar S. Paramasivam 	LELAKI 	53 	PN
+N08 	BAHAU 	25,735 	2 	Teo Kok Seong 	LELAKI 	43 	PH
+N09 	LENGGENG 	26,993 	1 	Zul Azki Mat Sulop 	LELAKI 	57 	BEBAS
+N09 	LENGGENG 	26,993 	2 	Mohd Fadli Che Me 	LELAKI 	50 	PN
+N09 	LENGGENG 	26,993 	3 	Mohd Asna Amin 	LELAKI 	44 	BN-UMNO
+N10 	NILAI 	41,123 	1 	Gan Chee Biow 	LELAKI 	56 	PN
+N10 	NILAI 	41,123 	2 	Omar Mohd Isa 	LELAKI 	57 	BEBAS
+N10 	NILAI 	41,123 	3 	Yessu Samuel 	LELAKI 	47 	BEBAS
+N10 	NILAI 	41,123 	4 	Arul Kumar Jambunathan 	LELAKI 	37 	PH
+N11 	LOBAK 	23,264 	1 	Ng Soon Lean 	PEREMPUAN 	58 	PN
+N11 	LOBAK 	23,264 	2 	Chew Seh Yong 	LELAKI 	61 	PH
+N12 	TEMIANG 	13,121 	1 	Ng Chin Tsai 	LELAKI 	45 	PH
+N12 	TEMIANG 	13,121 	2 	Ahmad Qusyairi Abdull Rahim 	LELAKI 	34 	MUDA
+N12 	TEMIANG 	13,121 	3 	Chua Eng Pu 	LELAKI 	54 	PN
+N13 	SIKAMAT 	31,821 	1 	Ahmad Raihan Muhamad Hilal 	LELAKI 	33 	PN
+N13 	SIKAMAT 	31,821 	2 	Aminuddin Harun 	LELAKI 	56 	PH
+N13 	SIKAMAT 	31,821 	3 	Bujang Abu 	LELAKI 	71 	BEBAS
+N13 	SIKAMAT 	31,821 	4 	Mohammed Hafiz Baharudin 	LELAKI 	47 	BEBAS
+N14 	AMPANGAN 	20,922 	1 	Tengku Zamrah Tengku Sulaiman 	PEREMPUAN 	64 	PH
+N14 	AMPANGAN 	20,922 	2 	Muhammad Ghazali Zainal Abidin 	LELAKI 	37 	PN
+N14 	AMPANGAN 	20,922 	3 	Mohamad Rafie Ab Malek 	LELAKI 	59 	BEBAS
+N15 	JUASSEH 	13,299 	1 	Eddin Syazlee Shith 	LELAKI 	49 	PN
+N15 	JUASSEH 	13,299 	2 	Bibi Sharliza Mohd Khalid 	PEREMPUAN 	52 	BN-UMNO
+N16 	SERI MENANTI 	10,052 	1 	Muhammad Sufian Maradzi 	LELAKI 	40 	BN-UMNO
+N16 	SERI MENANTI 	10,052 	2 	Jamali Salam 	LELAKI 	70 	PN
+N17 	SENALING 	9,896 	1 	Ismail Lasim 	LELAKI 	64 	BN-UMNO
+N17 	SENALING 	9,896 	2 	Amrina Mohd Khalid 	PEREMPUAN 	52 	PN
+N18 	PILAH 	17,679 	1 	Rafiei Mustapha 	LELAKI 	69 	PN
+N18 	PILAH 	17,679 	2 	Noorzunita Begum Mohd Ibrahim 	PEREMPUAN 	42 	PH
+N19 	JOHOL 	12,321 	1 	Saiful Yazan Sulaiman 	LELAKI 	56 	BN-UMNO
+N19 	JOHOL 	12,321 	2 	Kamarudin Md Tahir 	LELAKI 	75 	PN
+N20 	LABU 	29,651 	1 	Mohamad Hanifah Abu Baker 	LELAKI 	42 	PN
+N20 	LABU 	29,651 	2 	Ismail Ahmad 	LELAKI 	67 	PH
+N21 	BUKIT KEPAYANG 	45,177 	1 	Subramaniam Purushothama 	LELAKI 	62 	PN
+N21 	BUKIT KEPAYANG 	45,177 	2 	Ahmad Zamali Mohamad 	LELAKI 	49 	BEBAS
+N21 	BUKIT KEPAYANG 	45,177 	3 	Nicole Tan Lee Koon 	PEREMPUAN 	52 	PH
+N22 	RAHANG 	20,359 	1 	Siau Meow Kong 	LELAKI 	51 	PH
+N22 	RAHANG 	20,359 	2 	Lee Boon Shian 	LELAKI 	38 	PN
+N23 	MAMBAU 	28,804 	1 	Yap Yew Weng 	LELAKI 	59 	PH
+N23 	MAMBAU 	28,804 	2 	Kumaravel Ramiah 	LELAKI 	50 	BEBAS
+N23 	MAMBAU 	28,804 	3 	Sathes Kumar Nilameham 	LELAKI 	43 	PN
+N24 	SEREMBAN JAYA 	31,905 	1 	Gunasekaren Palasamy 	LELAKI 	64 	PH
+N24 	SEREMBAN JAYA 	31,905 	2 	Lee Ban Fatt 	LELAKI 	48 	PN
+N25 	PAROI 	59,554 	1 	Muhammad Syakir Fitri Sadri 	LELAKI 	25 	BEBAS
+N25 	PAROI 	59,554 	2 	Norwani Ahmat 	PEREMPUAN 	47 	PH
+N25 	PAROI 	59,554 	3 	Kamarol Ridzuan Mohd Zain 	LELAKI 	56 	PN
+N26 	CHEMBONG 	25,376 	1 	Bakly Baba 	LELAKI 	70 	PN
+N26 	CHEMBONG 	25,376 	2 	Zaifulbahri Idris 	LELAKI 	55 	BN-UMNO
+N27 	RANTAU 	32,139 	1 	Rozmal Malakan 	LELAKI 	57 	PN
+N27 	RANTAU 	32,139 	2 	Mohamad Haji Hasan 	LELAKI 	67 	BN-UMNO
+N28 	KOTA 	16,486 	1 	Suhaimi Aini 	LELAKI 	43 	BN-UMNO
+N28 	KOTA 	16,486 	2 	Ahmad Shukri Abdul Shukor 	LELAKI 	61 	PN
+N29 	CHUAH 	15,039 	1 	Tang Jay Son 	LELAKI 	49 	PN
+N29 	CHUAH 	15,039 	2 	Yew Boon Lye 	LELAKI 	52 	PH
+N30 	LUKUT 	26,466 	1 	Ragu Subramaniam 	LELAKI 	49 	PN
+N30 	LUKUT 	26,466 	2 	Choo Ken Hwa 	LELAKI 	46 	PH
+N31 	BAGAN PINANG 	23,184 	1 	Abdul Fatah Zakaria 	LELAKI 	57 	PN
+N31 	BAGAN PINANG 	23,184 	2 	Mohd Najib Mohd Isa 	LELAKI 	44 	BN-UMNO
+N32 	LINGGI 	20,387 	1 	Mohd Faizal Ramli 	LELAKI 	51 	BN-UMNO
+N32 	LINGGI 	20,387 	2 	Zamri Md Said 	LELAKI 	51 	PN
+N33 	SRI TANJUNG 	19,374 	1 	Zabidi Ariffin 	LELAKI 	60 	PN
+N33 	SRI TANJUNG 	19,374 	2 	Rajasekaran Gunnasekaran 	LELAKI 	42 	PH
+N34 	GEMAS 	29,346 	1 	Ridzuan Ahmad 	LELAKI 	46 	PN
+N34 	GEMAS 	29,346 	2 	Abd Razak Ab Said 	LELAKI 	58 	BN-UMNO
+N35 	GEMENCHEH 	24,587 	1 	Tengku Abdullah Tengku Rakman 	LELAKI 	64 	PN
+N35 	GEMENCHEH 	24,587 	2 	Suhaimizan Bizar 	LELAKI 	39 	BN-UMNO
+N36 	REPAH 	27,166 	1 	Yong Li Yi 	PEREMPUAN 	34 	PN
+N36 	REPAH 	27,166 	2 	Veerapan Superamaniam 	LELAKI 	48 	PH
+

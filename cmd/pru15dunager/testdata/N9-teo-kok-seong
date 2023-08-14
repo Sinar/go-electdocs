@@ -1,0 +1,579 @@
+
+
+<!doctype html>
+<html>
+<head id="Head1"><title>
+	PRU - Sinar Harian
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta charset="utf-8" /><meta property="fb:app_id" content="366668804351797" /><meta property="og:type" content="website" /><meta name="description" content="Dapatkan liputan komprehensif sepanjang Pilihan Raya Umum ke-15 (PRU15) di sini. Anda boleh mendapatkan Senarai Calon-calon PRU15, proses Penamaan Calon dan pelbagai berita menjelang 19 November, 2022 iaitu Tarikh Mengundi PRU15. Di sini, anda juga boleh " /><meta name="keywords" content="Malaysia Memilih, Pilihanraya Umum ke-15, PRU15, Perdana Menteri, Ismail Sabri, General Elections, GE15, pru15 calon , senarai calon , pru , penamaan calon , calon parlimen pru15 , pru 15 , pru15 malaysia , calon pru 15 , spr , pru15 parti , bn , senarai" /><meta property="og:url" content="https://pru.sinarharian.com.my" /><meta property="og:title" content="Keputusan | Pilihan Raya Umum Malaysia Ke-15" /><meta property="og:description" content="Dapatkan liputan komprehensif sepanjang Pilihan Raya Umum ke-15 (PRU15) di sini. Anda boleh mendapatkan Senarai Calon-calon PRU15, proses Penamaan Calon dan pelbagai berita menjelang 19 November, 2022 iaitu Tarikh Mengundi PRU15. Di sini, anda juga boleh " />
+    <meta name="title" content="TEO KOK SEONG" />
+    <meta name="description" content="">
+    <meta name="keywords" content="TEO KOK SEONG">
+    <meta property="og:url" content="http://pru.sinarharian.com.my/calon/3658/teo-kok-seong" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="PRU @ Sinar Harian" />
+    <meta property="og:title" content="TEO KOK SEONG" />
+    <meta property="og:image" content="//pru.sinarharian.com.my/img/calon/3658_teo-kok-seong-1.jpg" />
+    <meta property="og:description" content="Teo Kok Seong merupakan EXCO Kesejahteraan Bandar, Perumahan Kerajaan Tempatan dan Kampung Baru merangkap ADUN Bahau.
+
+Beliau" />
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/js/sw.js').then(function (registration) {
+                    // Registration was successful
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function (err) {
+                    // registration failed :(
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
+    <link rel="manifest" href="/js/manifest.json" /><link href="/Content/bootstrap.min.css" rel="stylesheet" /><link href="/style/styleNew.min.css" rel="stylesheet" /><link href="/style/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <style>
+        div#wrap-header { background-color: #f8f9fa !important;}
+    </style>
+    
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e1554070ea24f94"></script>
+    <style>
+        .pnlVideo {
+            /*background: url(/img/video-default.png);*/
+            width: 100%;
+            height: auto;
+        }
+        .pnlVideo iframe {
+            width: 100% !important;
+        }
+        .video-intv-calon iframe {
+            /*width: 100% !important;
+            height: 226px !important;*/
+        }
+
+        .bio {
+            width: 100%;
+            background: #cecece;
+            padding: 10px;
+        }
+
+        .bio-text {
+            width: 100%;
+            padding: 10px;
+        }
+
+        @media (min-width: 576px) {
+        }
+
+        @media (min-width: 768px) {
+        }
+
+        @media (min-width: 992px) {
+            .bio {
+                width: 20%;
+            }
+
+            .bio-text {
+                width: 49%;
+            }
+
+            .pnlVideo {
+                width: 30%;
+                height: auto;
+            }
+
+            .card {
+                width: 22%;
+                margin: 0 1%;
+                margin-bottom: 0px;
+                display: inline-block;
+                vertical-align: top;
+            }
+        }
+
+        @media (min-width: 1200px) {
+        }
+    </style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T5GCNQR');</script>
+<!-- End Google Tag Manager --></head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5GCNQR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));
+</script><form method="post" action="./teo-kok-seong" id="form1">
+<input type="hidden" name="__VSTATE" id="__VSTATE" value="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" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAavVXD1oYELeveMr0vHCmYPnwyw0/9Vc8DRLq/miKdrJtPHOlx5Azn4fMemgOi8l5F1O6MzBYes7GWri5ofTgmThnRRk6aQSsJofcPEGmFJX47RHjyysxttEOjTwf1p92FN00E88Y6k9v4bCyQ7CGTThE9lspTY6kcqruhAELYNsQ==" />
+        
+        
+        <div id="desktop">
+	
+            <div id="navbar_top-desktop">
+            <nav style="background-color:#f60105;text-align:center">
+                <a href="/">
+                <img class="imglogo" src="/img/logo-prn-putih.png" /></a>
+            </nav>
+            <nav id="nav-head" class="navbar-dark bg-dark">
+                <ul>
+                    <li><img id="Image5" src="/img/logo-sinar-karangkraf.png" width="80" /></li>
+                    <li><a href="https://www.sinarharian.com.my/" style="color: whitesmoke" target="_blank">Sinar Harian</a></li>
+                    <li><a href="https://www.sinarpremium.com.my/" style="color: whitesmoke" target="_blank">Sinar Premium</a></li>
+                    <li><a href="https://www.sinardaily.my" style="color: whitesmoke" target="_blank">Sinar Daily</a></li>
+                    <li><a href="https://www.sinarplus.com.my/" style="color: whitesmoke" target="_blank">Sinar Plus</a></li>
+                    <li><a href="https://www.sinarbestari.com.my/" style="color: whitesmoke" target="_blank">Sinar Bestari</a></li>
+                    <li><a href="https://www.sinarislamplus.com.my/" style="color: whitesmoke" target="_blank">Sinar Islam Plus</a></li>
+                </ul>
+            </nav>
+            <div id="wrap-header">
+            <div id="header-nav">
+                <ul id="nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Keputusan
+                        <img id="Image2" src="/img/dropdown.png" style="width: 20px; display: inline-block" /></a>
+                        <ul>
+                            <li class="nav-item"><a href="/AllKeputusanParlimen" class="nav-link">Keputusan Keseluruhan</a></li>
+                            <li>
+                                
+                                        <a id="rptNegeri1_HyperLink11_0" class="dropdown-item" href="/undian/perlis">Perlis</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_1" class="dropdown-item" href="/undian/kedah">Kedah</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_2" class="dropdown-item" href="/undian/kelantan">Kelantan</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_3" class="dropdown-item" href="/undian/terengganu">Terengganu</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_4" class="dropdown-item" href="/undian/pulau-pinang">Pulau Pinang</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_5" class="dropdown-item" href="/undian/perak">Perak</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_6" class="dropdown-item" href="/undian/pahang">Pahang</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_7" class="dropdown-item" href="/undian/selangor">Selangor</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_8" class="dropdown-item" href="/undian/kuala-lumpur">Kuala Lumpur</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_9" class="dropdown-item" href="/undian/putrajaya">Putrajaya</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_10" class="dropdown-item" href="/undian/negeri-sembilan">Negeri Sembilan</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_11" class="dropdown-item" href="/undian/melaka">Melaka</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_12" class="dropdown-item" href="/undian/johor">Johor</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_13" class="dropdown-item" href="/undian/labuan">Labuan</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_14" class="dropdown-item" href="/undian/sabah">Sabah</a>
+                                    
+                                        <a id="rptNegeri1_HyperLink11_15" class="dropdown-item" href="/undian/sarawak">Sarawak</a>
+                                    
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">PRK
+                        <img id="Image3" src="/img/dropdown.png" style="width: 20px; display: inline-block" /></a>
+                        <ul>
+                            <li>
+                                
+                                        <a id="rptPRK_HyperLink1_0" class="dropdown-item" href="../../prk/pahang/pekan/chini">PRK DUN N.23 Chini</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_1" class="dropdown-item" href="../../prk/selangor/hulu-langat/semenyih">PRK DUN N.24 Semenyih</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_2" class="dropdown-item" href="../../prk/selangor/bangi/balakong">PRK DUN N.27 Balakong</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_3" class="dropdown-item" href="../../prk/negeri-sembilan/rembau/rantau">PRK DUN N.27 Rantau</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_4" class="dropdown-item" href="../../prk/selangor/petaling-jaya/seri-setia">PRK DUN N.32 Sri Setia</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_5" class="dropdown-item" href="../../prk/selangor/kota-raja/sungai-kandis">PRK DUN N.49 Sungai Kandis</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_6" class="dropdown-item" href="../../prk/perak/tanjong-malim/slim">PRK DUN Slim</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_7" class="dropdown-item" href="../../prk/sabah/semporna/bugaya">PRK DUN N.66 Bugaya</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_8" class="dropdown-item" href="../../prk/pahang/cameron-highlands">PRK PARLIMEN P.078 Cameron Highlands</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_9" class="dropdown-item" href="../../prk/negeri-sembilan/port-dickson">PRK PARLIMEN P.132 Port Dickson</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_10" class="dropdown-item" href="../../prk/terengganu/kuala-terengganu">PRK PARLIMEN P.136 Kuala Terengganu</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_11" class="dropdown-item" href="../../prk/johor/tanjung-piai">PRK PARLIMEN P.165 Tanjung Piai</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_12" class="dropdown-item" href="../../prk/sabah/kimanis">PRK PARLIMEN P.176 Kimanis</a>
+                                    
+                                        <a id="rptPRK_HyperLink1_13" class="dropdown-item" href="../../prk/sabah/sandakan">PRK PARLIMEN P.186 Sandakan</a>
+                                    
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="/trivia/" class="nav-link">Trivia</a></li>
+                    <li class="nav-item"><a href="/video-news/" class="nav-link">Video</a> </li>
+                    <li class="nav-item"><a href="/infografik/" class="nav-link">Infografik</a> </li>
+                </ul>
+            </div>
+            </div>
+            </div>
+        
+</div>
+
+        
+
+        <div class="container">
+            
+        </div>
+
+        
+        <div class="content">
+            
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="nama-calon"><i class="fa fa-user-circle" style="color: #cecece"></i>
+                    <span id="ContentPlaceHolder1_Label1">TEO KOK SEONG</span></h1>
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox"></div>
+                <div class="profile">
+                    
+                    <div class="bio">
+                        <div style="display: table; margin: auto">
+                            <img id="ContentPlaceHolder1_Image1" src="/img/calon/3658_teo-kok-seong-1.jpg" />
+                        </div>
+                        <div id="ContentPlaceHolder1_pnlPrivateInfo" style="display: block; font-size: 10pt; color: #555; text-align: center">
+	
+                            <div style="background: #fe0104; color: #ffffff; text-transform: uppercase">Maklumat Diri</div>
+                            
+                            
+                            
+                            <span id="ContentPlaceHolder1_lblDob" style="padding-bottom: 7px; display: block;"><em>Tarikh lahir</em><br>18/10/1979<br></span>
+                            
+                            
+                        
+</div>
+                    </div>
+                    <div class="bio-text">
+                        <div id="ContentPlaceHolder1_pnlBackground"><p>Teo Kok Seong&nbsp;merupakan EXCO Kesejahteraan Bandar, Perumahan Kerajaan Tempatan dan Kampung Baru merangkap ADUN Bahau.</p>
+
+<p>Beliau pernah menyandang jawatan&nbsp;Ketua Pemuda Sosialis DAP (DAPSY) selama tiga tahun dari 2012 hingga 2015.</p>
+
+<p>Dilahirkan pada 18 Oktober 1979, Kok Seong pernah mendapat pendidikan awal di Sekolah Jenis Kebangsaan Cina (SJKC) Chung San Rompin, kemudian peringkat menengah di Sekolah Menengah Kebangsaan (SMK) Chi Wen Bahau.</p>
+
+<p>Sebaik tamat alam persekolahan, beliau melanjutkan pengajian dalam Ijazah Sarjana&nbsp;Muda Sastera (Kepujian) Pemasaran&nbsp;di Universiti&nbsp;Northumbria dan meneruskan ke peringkat Ijazah Sarjana &nbsp;Pentadbiran Perniagaan&nbsp;di Universiti &nbsp;Tun Abdul Razak.</p>
+
+<p>Naib Pengerusi DAPNS&nbsp;ini pernah menyandang sebagai ADUN Bahau selepas menang pada Pilihan Raya Umum (PRU) 2008 dengan memperoleh&nbsp;6,188 undi dengan majoriti 837 undi.</p>
+
+<p>Manakala pada PRU 2013, beliau menang di kerusi Parlimen Rasah selepas memperoleh undian 49,272 ketika menentang&nbsp;Teo Eng Kian&nbsp;daripada parti Barisan Nasional yang beroleh&nbsp;25,171&nbsp;undi dengan&nbsp;majoriti 24,101.</p>
+
+<p>Namun pada PRU14, Kok Seong&nbsp;kembali semula bertanding di kerusi DUN Bahau mewakili Pakatan Harapan&nbsp;menang&nbsp;dengan mendapat&nbsp;10,094&nbsp;undian ketika menentang&nbsp;Chong Wan Yu&nbsp;daripada parti Barisan Nasional yang mendapat&nbsp;3,985&nbsp;undi. Majoriti undi sebanyak&nbsp;6,109.</p>
+
+<p>Pada Ogos 2023, beliau bertanding sebagai calon Pakatan Harapan&nbsp;N08 Bahau &nbsp;pada PRN Negeri Sembilan.</p>
+</div>
+                    </div>
+                    <div class="pnlVideo">
+                        <div id="ContentPlaceHolder1_pnlVideoIntv" style="width: 100%">
+	
+                            <div id="ContentPlaceHolder1_videoIntvCalon" style="width: 100%" class="video-intv-calon"></div>
+                        
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="ContentPlaceHolder1_pnlMoreDetail" class="row" style="margin-top: 20px; font-size: 11pt">
+	
+            <div id="ContentPlaceHolder1_Panel9" class="profile-details col-md-6 col-12">
+		
+                <div id="ContentPlaceHolder1_Panel7">
+			
+                    <div style="background: #fe0104; color: #ffffff; text-transform: uppercase; padding: 0 10px">Pencapaian</div>
+                    <div class="detail-calon">
+                        <div id="ContentPlaceHolder1_lblPekerjaan">Kerjaya: </div>
+                        <span id="ContentPlaceHolder1_txtkerjaya"><ul>
+	<li>Ahli Dewan Undangan Negeri (ADUN) Bahau (2018 hingga kini)</li>
+	<li>EXCO Kesejahteraan Bandar, Perumahan Kerajaan Tempatan dan Kampung Baru&nbsp;(2018 hingga kini)</li>
+	<li>Parlimen Rasah (2013 hingga 2018)</li>
+	<li>Ahli Dewan Undangan Negeri (ADUN) Bahau (2008 hingga 2013)</li>
+</ul>
+
+<p>Jawatan disandang dalam politik:</p>
+
+<ul>
+	<li>Naib Pengerusi DAPNS (&nbsp;Oktober 2018 hingga 2024)</li>
+	<li>Ketua Pemuda Sosialis DAP (DAPSY) (&nbsp;2012 hingga 2015)</li>
+</ul>
+</span>
+                        <div id="ContentPlaceHolder1_lblPelajaran">Pendidikan: </div>
+                        <span id="ContentPlaceHolder1_txtPelajaran"><ul>
+	<li>Ijazah Sarjana &nbsp;Pentadbiran Perniagaan&nbsp;di Universiti &nbsp;Tun Abdul Razak</li>
+	<li>Ijazah Saujana Muda Sastera (Kepujian) Pemasaran&nbsp;Universiti Northumbria</li>
+	<li>Sekolah Menengah Chi Wen Bahau&nbsp;(1992hingga 1996)</li>
+	<li>SJK (C) Chung San, Rompin (1986&nbsp;hingga 1991)</li>
+</ul></span>
+                    </div>
+                
+		</div>
+            
+	</div>
+
+            <div id="ContentPlaceHolder1_Panel5" class="profile-details col-md-6 col-12">
+		
+                <div id="ContentPlaceHolder1_Panel8">
+			
+                    <div style="background: #fe0104; color: #ffffff; text-transform: uppercase; padding: 0 10px">Penglibatan Politik</div>
+                    <div class="detail-calon">
+                        <div id="ContentPlaceHolder1_lblManifesto">Manifesto:</div>
+                        
+                    </div>
+                
+		</div>
+                <div>
+                    <!-- sejarah pilihan raya -->
+                    <div class="detail-calon" style="margin-top: 5px">
+                        <b>Parti Gabungan:</b>
+                        <span id="ContentPlaceHolder1_Label2">Pakatan Harapan</span><br />
+                        <b>Parti:</b>
+                        <span id="ContentPlaceHolder1_LabelPartiKomponen">DAP</span><br />
+                        <b>Pilihan Raya Umum Terbaru:</b>
+                        <span id="ContentPlaceHolder1_Label3">PRU PRN15</span><br />
+                        <br />
+                        <span id="ContentPlaceHolder1_Label11"><b>Kerusi Bertanding PARLIMEN:</b></span>
+                        
+                                <ul>
+                            
+                                <li>
+                                    <span id="ContentPlaceHolder1_Repeater1_Label8_0" class="uppercase"><font size="3">PRU13-</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater1_Label9_0" class="uppercase"><font size="3">P130</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater1_Label10_0" class="uppercase"><font size="3">Rasah</font></span>
+                                    
+                            </ul>
+                        <span id="ContentPlaceHolder1_Label6"></span><br />
+                        <span id="ContentPlaceHolder1_Label4"><b>Kerusi Bertanding DUN:</b></span>
+                        
+                                <ul>
+                            
+                                <li>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label11_0" class="uppercase"><font size="3">PRU12-</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label12_0" class="uppercase"><font size="3">P127</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label13_0" class="uppercase"><font size="3">Jempol</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label14_0" class="uppercase"><font size="3">N8</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label15_0" class="uppercase"><font size="3">Bahau</font></span></li>
+                            
+                                <li>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label11_1" class="uppercase"><font size="3">PRU14-</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label12_1" class="uppercase"><font size="3">P127</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label13_1" class="uppercase"><font size="3">Jempol</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label14_1" class="uppercase"><font size="3">N8</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label15_1" class="uppercase"><font size="3">Bahau</font></span></li>
+                            
+                                <li>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label11_2" class="uppercase"><font size="3">PRU PRN15-</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label12_2" class="uppercase"><font size="3">P128</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label13_2" class="uppercase"><font size="3">Seremban</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label14_2" class="uppercase"><font size="3">N8</font></span>
+                                    <span id="ContentPlaceHolder1_Repeater2_Label15_2" class="uppercase"><font size="3">Bahau</font></span></li>
+                            </ul>
+                        <span id="ContentPlaceHolder1_Label5"></span>
+                    </div>
+                </div>
+                <!-- end sejarah pilihan raya -->
+            
+	</div>
+        
+</div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="ContentPlaceHolder1_panel_facebook">
+	
+                    <div class='comment-area'>
+                        <div style="width: 100%" class="fb-comments" data-href="http://pru.sinarharian.com.my/calon/3658/teo-kok-seong" data-num-posts="5" data-width="100%"></div>
+                    </div>
+                
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="ContentPlaceHolder1_Panel2">
+	
+                    <div class="row-article">
+                        <input type="hidden" name="ctl00$ContentPlaceHolder1$uscCalonArticle$HiddenField1" id="ContentPlaceHolder1_uscCalonArticle_HiddenField1" value="TEO KOK SEONG" />
+<input type="hidden" name="ctl00$ContentPlaceHolder1$uscCalonArticle$HiddenField2" id="ContentPlaceHolder1_uscCalonArticle_HiddenField2" />
+<div class="artikel-calon">
+    <h2 class="tjk-right">Artikel Berkaitan
+        <span id="ContentPlaceHolder1_uscCalonArticle_lblNama">TEO KOK SEONG</span></h2>
+
+    
+            <div class="card text-dark bg-light mb-3">
+                <div class="card-body">
+                    
+                    
+                    <span id="ContentPlaceHolder1_uscCalonArticle_Repeater1_lblimage_0"><div class='img'><a href='/info-berita/431/kemenangan-rakyat-bahau'><a href><img src="https://pru.sinarharian.com.my/galeripru/469_ph.jpg"></a></div></span>
+                </div>
+                <div class="card-header">
+                    <span id="ContentPlaceHolder1_uscCalonArticle_Repeater1_lbltajuk_0"><div class='berita-title'><a href='/info-berita/431/kemenangan-rakyat-bahau'>Kemenangan rakyat Bahau</a></div></span>
+                    <span id="ContentPlaceHolder1_uscCalonArticle_Repeater1_lblblurb_0"></span>
+                </div>
+            </div>
+        
+            <div class="card text-dark bg-light mb-3">
+                <div class="card-body">
+                    
+                    
+                    <span id="ContentPlaceHolder1_uscCalonArticle_Repeater1_lblimage_1"><div class='img'><a href='/info-berita/299/dap-masih-kukuh-di-bahau'><a href><img src="https://pru.sinarharian.com.my/galeripru/324_bahau.jpg"></a></div></span>
+                </div>
+                <div class="card-header">
+                    <span id="ContentPlaceHolder1_uscCalonArticle_Repeater1_lbltajuk_1"><div class='berita-title'><a href='/info-berita/299/dap-masih-kukuh-di-bahau'>DAP masih kukuh di Bahau?</a></div></span>
+                    <span id="ContentPlaceHolder1_uscCalonArticle_Repeater1_lblblurb_1"></span>
+                </div>
+            </div>
+        
+    <div align="right">
+        <a id="ContentPlaceHolder1_uscCalonArticle_HyperLink1" class="btn btn-outline-secondary" href="/news/tag/teo-kok-seong">Lagi berita TEO KOK SEONG...</a>
+    </div>
+</div>
+
+                    </div>
+                
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="ContentPlaceHolder1_Panel1">
+	
+                    <div class="row-video">
+                        <input type="hidden" name="ctl00$ContentPlaceHolder1$uscCalonVideo$HiddenField1" id="ContentPlaceHolder1_uscCalonVideo_HiddenField1" value="TEO KOK SEONG" />
+<input type="hidden" name="ctl00$ContentPlaceHolder1$uscCalonVideo$HiddenField2" id="ContentPlaceHolder1_uscCalonVideo_HiddenField2" />
+<div class="artikel-calon" style="clear:both">
+<h2 class="tjk-right">Video Berkaitan <span id="ContentPlaceHolder1_uscCalonVideo_lblNama">TEO KOK SEONG</span></h2>
+    
+<ul></ul>
+<div align="right"><a id="ContentPlaceHolder1_uscCalonVideo_HyperLink1" href="/video/tag/teo-kok-seong" style="font-size:10pt;color:#DB3A34">Lagi video TEO KOK SEONG...</a></div>
+</div>
+                    </div>
+                
+</div>
+            </div>
+        </div>
+    </div>
+
+    <span id="ContentPlaceHolder1_Label12"></span>
+
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$HiddenField2" id="ContentPlaceHolder1_HiddenField2" />
+
+        </div>
+        
+        
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-2 footer-column">
+                   
+              </div>
+      
+              <div class="col-md-7 footer-column">
+                    Semua paparan data daripada laman web ini adalah tepat pada waktu siaran.<br>
+                    Kumpulan Media Karangkraf tidak bertanggungjawab atas sebarang kesalahan maklumat yang mungkin terjadi dari kandungan yang dipaparkan.<br>
+                  2017 All Rights Reserved. Karangkraf Group Media.
+              </div>
+                <div class="col-md-3 footer-column">
+                    <h6>IKUTI KAMI</h6>
+                    <ul class="social-icon">
+                        <li><a href="https://www.facebook.com/SinarHarian" target="_blank"><i class="fa fa-facebook-square" style="color: #4267B2" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/SinarOnline" target="_blank"><i class="fa fa-twitter" style="color: deepskyblue" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/sinaronline/" target="_blank"><i class="fa fa-instagram" style="color: #833AB4" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/SinarHarianWebTV" target="_blank"><i class="fa fa-youtube-play" style="color: #FF0000" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/SinarOnline" target="_blank"><i class="fa fa-telegram" style="color: #0088cc" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/sinaronline/" target="_blank"><i class="fa fa-tiktok" style="color: #69c9d0" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/SinarHarianWebTV" target="_blank"><i class="fa fa-whatsapp" style="color: lawngreen" aria-hidden="true"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-tiktok" style="color: lawngreen" aria-hidden="true"></i></a></li>
+                    </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </form>
+    <script>
+        //document.addEventListener("DOMContentLoaded", function () {
+        //    window.addEventListener('scroll', function () {
+        //        if (window.scrollY > 50) {
+        //            document.getElementById('navbar_top').classList.add('fixed-top');
+        //            //document.getElementById('navbar_top_mobile').classList.add('fixed-top');
+        //            // add padding top to show content behind navbar
+        //            navbar_height = document.querySelector('.navbar').offsetHeight;
+        //            document.body.style.paddingTop = navbar_height + 'px';
+        //        } else {
+        //            document.getElementById('navbar_top').classList.remove('fixed-top');
+        //            //document.getElementById('navbar_top_m').classList.remove('fixed-top');
+        //            // remove padding top from body
+        //            document.body.style.paddingTop = '0';
+        //        }
+        //    });
+        //});
+	// DOMContentLoaded  end
+    </script>
+
+    <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("wrap-header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="overlay">
+    <!-- /6273129/GSK_PRUSinarHarian/GSK_PRUSinarHarian_D_Leaderboard_728x90_900x90_970x90_1024x90_Top -->
+    <div id='GSK_PRUSinarHarian_D_Leaderboard_728x90_900x90_970x90_1024x90_Middle-0'>
+		<script>
+		    googletag.cmd.push(function () { googletag.display('GSK_PRUSinarHarian_D_Leaderboard_728x90_900x90_970x90_1024x90_Middle-0'); });
+        </script>
+    </div>
+</div>
+<script>
+    var overlay = $('.overlay'), close = $('<div class="close"><img src="/img/close-icon2.png" width="30" height="30"></div>');
+    overlay.append(close);
+    $(overlay, close).on('click', function () {
+        overlay.fadeOut();
+    });
+</script>
+</body>
+</html>
