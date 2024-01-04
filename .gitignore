@@ -31,3 +31,6 @@
 # Except when raw data; to reproduce results
 !data/**/*.pdf
 
+# Ignore Go Workspace
+go.work*
+
