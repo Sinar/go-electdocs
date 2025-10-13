@@ -102,3 +102,47 @@ The following rules should be applied to each row of the input CSV file to gener
 - **Scalability**: For larger datasets, consider automating party mapping via API or database.
 - **Documentation**: Update this file with new learnings after each major task.
 - **Backup**: Preserve original scripts for reference.
+
+## Duplicate ID Resolution
+
+### Problem Identification
+After initial transformation, duplicate UNIQUE CODE values were identified in column 1 across multiple output files. These duplicates violated the uniqueness constraint required for proper data integrity.
+
+### Root Cause
+Some combinations of Parliamentary Constituency Code, State Constituency Code, KODDM, and Voting Channel Number were not unique across different Polling Centers within the same file, resulting in identical UNIQUE CODE values.
+
+### Solution: Suffix Assignment Algorithm
+A Python script (`fix_duplicate_ids.py`) was created to resolve duplicates by appending alphabetical suffixes based on Polling Center:
+
+**Rule**: When duplicate IDs exist in a file:
+1. Group all occurrences of the duplicate ID by their Polling Center (column 10)
+2. Assign suffixes (a, b, c, d...) to ALL occurrences of the duplicate ID
+3. Same Polling Center gets the same suffix letter
+4. Suffix assignment is based on the order of first appearance of each unique Polling Center
+5. ONLY column 1 (UNIQUE CODE) is modified; all other columns remain unchanged
+
+**Example**:
+```
+Original duplicate IDs:
+- P.220_N.77_220/77/01_1 at SK KAMPONG TANJONG ASSAM → P.220_N.77_220/77/01_1a
+- P.220_N.77_220/77/01_1 at SK NYABOR → P.220_N.77_220/77/01_1b
+- P.220_N.77_220/77/01_1 at SJK CHUNG HUA NYABOR → P.220_N.77_220/77/01_1c
+```
+
+### Implementation Details
+- **Script**: `/Users/leow/GOMOD/go-electdocs/data/sarawak-dun-2016/OUTPUT/fix_duplicate_ids.py`
+- **Execution**: `uv run fix_duplicate_ids.py` (standalone with contained dependencies)
+- **Files Processed**: All N.01-N.81 files (80 files total; N.79 doesn't exist)
+- **Results**:
+  - 1,527 duplicate IDs fixed across 69 files
+  - 12 files had no duplicates (N.01, N.03, N.09, N.18, N.24, N.35, N.54, N.56, N.78, and others)
+
+### Key Learnings
+- **Data Integrity**: Same Polling Center with same channel number cannot exist (they are always different centers)
+- **All Suffixes Required**: When duplicates exist, ALL occurrences get suffixes starting from 'a' (not just subsequent ones)
+- **Column-Specific Modification**: Only modify column 1; preserve all other data including spacing and formatting
+- **Ignore Non-Data Rows**: Skip header rows, summary rows (no polling center), and empty lines when identifying duplicates
+- **Standalone Scripts**: Use `uv` for Python scripts to ensure portability and contained dependencies
+
+### Verification
+After execution, all UNIQUE CODE values in column 1 are guaranteed unique within each file while maintaining the relationship to their respective Polling Centers.
