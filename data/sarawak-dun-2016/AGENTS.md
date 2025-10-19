@@ -146,3 +146,102 @@ Original duplicate IDs:
 
 ### Verification
 After execution, all UNIQUE CODE values in column 1 are guaranteed unique within each file while maintaining the relationship to their respective Polling Centers.
+
+## Data Concatenation and Final Verification (2025-10-19)
+
+### Objective
+Combine all 80 individual constituency files (Sarawak-N.01.csv through Sarawak-N.81.csv) into batched output files for easier review and upload to final destination.
+
+### Requirements
+1. **Batch Processing**: Group files in batches of 10 in ascending order:
+   - N.01-N.10 → `combined-N.01_N.10.csv`
+   - N.11-N.20 → `combined-N.11_N.20.csv`
+   - N.21-N.30 → `combined-N.21_N.30.csv`
+   - N.31-N.40 → `combined-N.31_N.40.csv`
+   - N.41-N.50 → `combined-N.41_N.50.csv`
+   - N.51-N.60 → `combined-N.51_N.60.csv`
+   - N.61-N.70 → `combined-N.61_N.70.csv`
+   - N.71-N.81 → `combined-N.71_N.81.csv` (Note: N.79 doesn't exist, only 9 files)
+
+2. **Data Cleaning Rules**:
+   - Skip header row (line 1) from each file
+   - Skip empty lines anywhere in the file
+   - Skip summary line (last non-empty line before final empty line)
+   - Extract only data rows between header and footer
+   - NO data mutation allowed - preserve exact column count and values
+
+3. **Formatting**:
+   - Add 1 empty row between each file's data for easy visual review
+   - No empty row after the last file in each batch
+
+### Implementation
+
+#### Tool Choice
+- **Selected**: Go for concurrent processing and speed
+- **Script**: `process_batches.go` in OUTPUT directory
+- **Execution**: Standard library only, no external dependencies
+- **Concurrency**: All 8 batches processed in parallel using goroutines and WaitGroup
+
+#### Script Details
+- **File Processing**:
+  - Reads each CSV file, skips first line (header)
+  - Removes trailing empty lines and summary lines from end
+  - Concatenates data rows with empty separator between files
+
+- **Batch Processing**:
+  - 8 goroutines running concurrently (one per batch)
+  - Error channel collects any processing errors
+  - Console output shows progress for each file being processed
+
+#### Results
+- **Total Output Files**: 8 batched CSV files created
+- **Line Counts**:
+  - `combined-N.01_N.10.csv`: 418 lines
+  - `combined-N.11_N.20.csv`: 455 lines
+  - `combined-N.21_N.30.csv`: 329 lines
+  - `combined-N.31_N.40.csv`: 350 lines
+  - `combined-N.41_N.50.csv`: 345 lines
+  - `combined-N.51_N.60.csv`: 442 lines
+  - `combined-N.61_N.70.csv`: 433 lines
+  - `combined-N.71_N.81.csv`: 427 lines (includes N.71-N.78, N.80-N.81)
+
+- **Files Missing**: Only Sarawak-N.79.csv (BUKIT KOTA - uncontested seat)
+
+### Final Uniqueness Verification
+
+#### Tool Created
+A separate Go program (`check_duplicates.go`) was created to verify UNIQUE CODE uniqueness across the final combined dataset (`Final-Sarawak-DUN-2016.csv`).
+
+#### Verification Scope
+- **File Analyzed**: `Final-Sarawak-DUN-2016.csv` (810.8KB)
+- **Columns Checked**:
+  - Column 1: UNIQUE CODE (primary check)
+  - Column 9: POLLING CENTRE (for duplicate reporting)
+  - Column 10: VOTING CHANNEL NUMBER (for duplicate reporting)
+
+#### Results
+✓ **All IDs are unique across the entire dataset**
+- Total unique IDs analyzed: **2,961**
+- Duplicate IDs found: **0**
+- All rows have unique identifiers in the first column
+
+### Key Learnings
+
+1. **Concurrent Processing**: Go's goroutines enable fast batch processing - all 8 batches processed simultaneously
+2. **File Size Handling**: Large CSV files (>256KB) require specialized tools; Go with bufio.Scanner handles efficiently
+3. **CSV Reader Configuration**:
+   - Set `FieldsPerRecord = -1` for variable field counts
+   - Use `LazyQuotes = true` for flexible quote handling
+4. **Data Integrity**: Throughout concatenation and verification, no data mutations occurred - all original values preserved
+5. **Cleanup**: Old/irrelevant files removed (combined.csv, concatenate_files.py, combined-N.71_N.80.csv)
+
+### Files Created in OUTPUT Directory
+1. `process_batches.go` - Concurrent batch concatenation tool
+2. `check_duplicates.go` - Uniqueness verification tool
+3. 8 combined CSV files (`combined-N.XX_N.YY.csv`) - Ready for review and upload
+
+### Recommendations for Future Tasks
+- **Batch Size**: 10 files per batch provides good balance for review; adjust based on file sizes
+- **Verification First**: Always verify data integrity (duplicates, column counts) before final concatenation
+- **Go for Performance**: Use Go for large dataset operations requiring concurrency and speed
+- **Preserve Scripts**: Keep verification scripts for future data validation needs
