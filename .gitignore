@@ -35,3 +35,7 @@ PDF
 # Ignore Go Workspace
 go.work*
 
+# Ignore mise
+.env
+mise.local.toml
+
