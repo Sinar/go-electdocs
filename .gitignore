@@ -24,6 +24,7 @@
 
 # Ignore PDFs
 *.pdf
+PDF
 
 # Ignore ZIPs
 *.zip
@@ -33,4 +34,8 @@
 
 # Ignore Go Workspace
 go.work*
+
+# Ignore mise
+.env
+mise.local.toml
 
