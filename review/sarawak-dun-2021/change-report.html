@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Sarawak DUN 2021 – Change Report</title>
+<style>
+@page {
+    size: A4;
+    margin: 18mm 15mm 18mm 15mm;
+    @bottom-center {
+        content: "Page " counter(page) " of " counter(pages);
+        font-size: 8pt;
+        color: #888;
+    }
+}
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 9pt;
+    color: #222;
+    line-height: 1.45;
+}
+
+h1 {
+    font-size: 17pt;
+    color: #1a3a5c;
+    border-bottom: 3px solid #1a3a5c;
+    padding-bottom: 4pt;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 12pt;
+    color: #1a3a5c;
+    border-left: 4px solid #2e7bbf;
+    padding-left: 7pt;
+    margin-top: 22pt;
+    margin-bottom: 6pt;
+}
+
+h3 {
+    font-size: 10pt;
+    color: #444;
+    margin-top: 14pt;
+    margin-bottom: 4pt;
+}
+
+.meta {
+    background: #f0f4f9;
+    border: 1px solid #c8d8ea;
+    border-radius: 4px;
+    padding: 8pt 12pt;
+    margin-bottom: 14pt;
+    font-size: 9pt;
+}
+
+.meta table { border-collapse: collapse; width: 100%; }
+.meta td { padding: 2pt 8pt 2pt 0; }
+.meta td:first-child { font-weight: bold; color: #1a3a5c; width: 160px; }
+
+/* Summary scorecards */
+.scorecard-row {
+    display: flex;
+    gap: 10pt;
+    margin-bottom: 14pt;
+}
+.scorecard {
+    flex: 1;
+    border-radius: 5px;
+    padding: 8pt 10pt;
+    text-align: center;
+}
+.scorecard .num  { font-size: 20pt; font-weight: bold; display: block; }
+.scorecard .lbl  { font-size: 7.5pt; display: block; margin-top: 2pt; }
+
+.sc-total    { background: #e8f0fa; color: #1a3a5c; border: 1px solid #b0c8e8; }
+.sc-changed  { background: #fff3e0; color: #bf6000; border: 1px solid #ffc97a; }
+.sc-unchanged{ background: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; }
+
+/* Fix badge */
+.fix-badge {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 1pt 6pt;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 4pt;
+}
+.badge-postal    { background: #d32f2f; }
+.badge-backtick  { background: #7b1fa2; }
+.badge-newline   { background: #e65100; }
+.badge-suffix    { background: #1565c0; }
+.badge-other     { background: #555; }
+
+/* Section summary strip */
+.section-meta {
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5pt 10pt;
+    margin-bottom: 8pt;
+    font-size: 8.5pt;
+}
+.section-meta strong { color: #1a3a5c; }
+
+/* Tables */
+table.data {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 7.8pt;
+    margin-top: 4pt;
+    page-break-inside: auto;
+}
+table.data thead tr {
+    background: #1a3a5c;
+    color: #fff;
+}
+table.data thead th {
+    padding: 4pt 6pt;
+    text-align: left;
+    font-weight: bold;
+}
+table.data tbody tr:nth-child(even) { background: #f4f8fc; }
+table.data tbody tr:nth-child(odd)  { background: #ffffff; }
+table.data tbody td {
+    padding: 3pt 6pt;
+    border-bottom: 1px solid #e0e8f0;
+    vertical-align: top;
+}
+table.data tbody tr:hover { background: #e8f0fa; }
+
+code {
+    font-family: "Courier New", monospace;
+    font-size: 7.5pt;
+    background: #f0f4f9;
+    padding: 0 3pt;
+    border-radius: 2px;
+}
+
+.arrow { color: #888; padding: 0 4pt; }
+.tag-before { color: #c0392b; }
+.tag-after  { color: #27ae60; }
+
+.note {
+    background: #fffde7;
+    border-left: 4px solid #f9a825;
+    padding: 5pt 10pt;
+    font-size: 8.5pt;
+    margin: 8pt 0;
+}
+
+.page-break { page-break-before: always; }
+
+/* suffix table — compact two-column layout */
+.suffix-grid {
+    column-count: 2;
+    column-gap: 12pt;
+}
+.suffix-grid table.data { margin-top: 0; }
+</style>
+</head>
+<body>
+
+<h1>Sarawak DUN 2021 — Data Change Report</h1>
+
+<div class="meta">
+  <table>
+    <tr><td>Source file</td><td><code>to-review.csv.orig</code></td></tr>
+    <tr><td>Final file</td><td><code>to-review.csv</code></td></tr>
+    <tr><td>Generated</td><td>5 April 2026</td></tr>
+    <tr><td>Scope</td><td>Sarawak State Assembly (DUN) 2021 election results — 82 DUNs</td></tr>
+  </table>
+</div>
+
+<div class="scorecard-row">
+  <div class="scorecard sc-total">
+    <span class="num">3,748</span>
+    <span class="lbl">Total data rows</span>
+  </div>
+  <div class="scorecard sc-changed">
+    <span class="num">2,320</span>
+    <span class="lbl">Rows changed</span>
+  </div>
+  <div class="scorecard sc-unchanged">
+    <span class="num">1,428</span>
+    <span class="lbl">Rows unchanged</span>
+  </div>
+</div>
+
+<div class="note">
+  All changes are limited to structural / identifier corrections.
+  <strong>No vote tallies, candidate names, or party assignments were modified.</strong>
+  The only columns affected are: UNIQUE CODE (col&nbsp;1), POLLING DISTRICT CODE (col&nbsp;8),
+  STATE CONSTITUENCY NAME (col&nbsp;7), POLLING DISTRICT NAME (col&nbsp;9), and POLLING CENTRE (col&nbsp;10).
+</div>
+
+<h2>Summary of fixes</h2>
+<table class="data">
+<thead>
+  <tr>
+    <th>#</th><th>Fix</th><th>Description</th><th style="text-align:right">Rows</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><span class="fix-badge badge-postal">FIX 1</span></td>
+    <td><strong>Postal DMKOD corrected</strong></td>
+    <td>UNIQUE CODE &amp; POLLING DISTRICT CODE: <code>/UNDI POS</code> → <code>/POS</code> (correct per EC rule; POLLING DISTRICT NAME &amp; POLLING CENTRE keep <code>UNDI POS</code>)</td>
+    <td style="text-align:right"><strong>81</strong></td>
+  </tr>
+  <tr>
+    <td><span class="fix-badge badge-backtick">FIX 2</span></td>
+    <td><strong>BA'KELALAN typo corrected</strong></td>
+    <td>STATE CONSTITUENCY NAME &amp; POLLING DISTRICT NAME for N.81: grave accent U+0060 → apostrophe U+0027 in <code>BA'KELALAN</code></td>
+    <td style="text-align:right"><strong>28</strong></td>
+  </tr>
+  <tr>
+    <td><span class="fix-badge badge-newline">FIX 3</span></td>
+    <td><strong>Embedded newlines removed</strong></td>
+    <td>POLLING CENTRE names containing an embedded <code>\n</code> (multi-line quoted CSV field) cleaned up — affects 5 distinct centre names across 4 DUNs</td>
+    <td style="text-align:right"><strong>10</strong></td>
+  </tr>
+  <tr>
+    <td><span class="fix-badge badge-suffix">FIX 4</span></td>
+    <td><strong>UNIQUE CODE suffixes applied</strong></td>
+    <td>For every Polling District Code serving multiple Polling Centres, a consistent letter suffix (a, b, c…) is appended to UNIQUE CODE — same centre always gets the same letter across all voting channels</td>
+    <td style="text-align:right"><strong>2,201</strong></td>
+  </tr>
+</tbody></table>
+
+<div class="page-break"></div>
+<h2><span class="fix-badge badge-postal">FIX 1</span> Fix 1 — Postal DMKOD: <code>/UNDI POS</code> → <code>/POS</code></h2>
+<div class="section-meta">
+  <strong>81 rows affected</strong> — one POSTAL VOTE row per DUN (N.01 was already correct in the original; N.02–N.82 corrected).<br/>
+  Columns changed: <code>UNIQUE CODE</code> (col 1), <code>POLLING DISTRICT CODE</code> (col 8).<br/>
+  <code>POLLING DISTRICT NAME</code> and <code>POLLING CENTRE</code> retain the value <code>UNDI POS</code> — unchanged.
+</div>
+<table class="data">
+<thead>
+  <tr>
+    <th>CSV Row</th><th>DUN</th>
+    <th>UNIQUE CODE — before</th><th>UNIQUE CODE — after</th>
+    <th>PD Code — before</th><th>PD Code — after</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>35</td>
+    <td><strong>N.02</strong><br/><small>TASIK BIRU</small></td>
+    <td class="tag-before"><code>P.192_N.02_192/02/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.192_N.02_192/02/POS_1</code></td>
+    <td class="tag-before"><code>192/02/UNDI POS</code></td>
+    <td class="tag-after"><code>192/02/POS</code></td>
+  </tr>
+  <tr>
+    <td>83</td>
+    <td><strong>N.03</strong><br/><small>TANJONG DATU</small></td>
+    <td class="tag-before"><code>P.193_N.03_193/03/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.193_N.03_193/03/POS_1</code></td>
+    <td class="tag-before"><code>193/03/UNDI POS</code></td>
+    <td class="tag-after"><code>193/03/POS</code></td>
+  </tr>
+  <tr>
+    <td>120</td>
+    <td><strong>N.04</strong><br/><small>PANTAI DAMAI</small></td>
+    <td class="tag-before"><code>P.193_N.04_193/04/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.193_N.04_193/04/POS_1</code></td>
+    <td class="tag-before"><code>193/04/UNDI POS</code></td>
+    <td class="tag-after"><code>193/04/POS</code></td>
+  </tr>
+  <tr>
+    <td>176</td>
+    <td><strong>N.05</strong><br/><small>DEMAK LAUT</small></td>
+    <td class="tag-before"><code>P.193_N.05_193/05/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.193_N.05_193/05/POS_1</code></td>
+    <td class="tag-before"><code>193/05/UNDI POS</code></td>
+    <td class="tag-after"><code>193/05/POS</code></td>
+  </tr>
+  <tr>
+    <td>218</td>
+    <td><strong>N.06</strong><br/><small>TUPONG</small></td>
+    <td class="tag-before"><code>P.194_N.06_194/06/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.194_N.06_194/06/POS_1</code></td>
+    <td class="tag-before"><code>194/06/UNDI POS</code></td>
+    <td class="tag-after"><code>194/06/POS</code></td>
+  </tr>
+  <tr>
+    <td>286</td>
+    <td><strong>N.07</strong><br/><small>SAMARIANG</small></td>
+    <td class="tag-before"><code>P.194_N.07_194/07/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.194_N.07_194/07/POS_1</code></td>
+    <td class="tag-before"><code>194/07/UNDI POS</code></td>
+    <td class="tag-after"><code>194/07/POS</code></td>
+  </tr>
+  <tr>
+    <td>338</td>
+    <td><strong>N.08</strong><br/><small>SATOK</small></td>
+    <td class="tag-before"><code>P.194_N.08_194/08/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.194_N.08_194/08/POS_1</code></td>
+    <td class="tag-before"><code>194/08/UNDI POS</code></td>
+    <td class="tag-after"><code>194/08/POS</code></td>
+  </tr>
+  <tr>
+    <td>374</td>
+    <td><strong>N.09</strong><br/><small>PADUNGAN</small></td>
+    <td class="tag-before"><code>P.195_N.09_195/09/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.195_N.09_195/09/POS_1</code></td>
+    <td class="tag-before"><code>195/09/UNDI POS</code></td>
+    <td class="tag-after"><code>195/09/POS</code></td>
+  </tr>
+  <tr>
+    <td>426</td>
+    <td><strong>N.10</strong><br/><small>PENDING</small></td>
+    <td class="tag-before"><code>P.195_N.10_195/10/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.195_N.10_195/10/POS_1</code></td>
+    <td class="tag-before"><code>195/10/UNDI POS</code></td>
+    <td class="tag-after"><code>195/10/POS</code></td>
+  </tr>
+  <tr>
+    <td>494</td>
+    <td><strong>N.11</strong><br/><small>BATU LINTANG</small></td>
+    <td class="tag-before"><code>P.195_N.11_195/11/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.195_N.11_195/11/POS_1</code></td>
+    <td class="tag-before"><code>195/11/UNDI POS</code></td>
+    <td class="tag-after"><code>195/11/POS</code></td>
+  </tr>
+  <tr>
+    <td>565</td>
+    <td><strong>N.12</strong><br/><small>KOTA SENTOSA</small></td>
+    <td class="tag-before"><code>P.196_N.12_196/12/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.196_N.12_196/12/POS_1</code></td>
+    <td class="tag-before"><code>196/12/UNDI POS</code></td>
+    <td class="tag-after"><code>196/12/POS</code></td>
+  </tr>
+  <tr>
+    <td>627</td>
+    <td><strong>N.13</strong><br/><small>BATU KITANG</small></td>
+    <td class="tag-before"><code>P.196_N.13_196/13/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.196_N.13_196/13/POS_1</code></td>
+    <td class="tag-before"><code>196/13/UNDI POS</code></td>
+    <td class="tag-after"><code>196/13/POS</code></td>
+  </tr>
+  <tr>
+    <td>676</td>
+    <td><strong>N.14</strong><br/><small>BATU KAWAH</small></td>
+    <td class="tag-before"><code>P.196_N.14_196/14/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.196_N.14_196/14/POS_1</code></td>
+    <td class="tag-before"><code>196/14/UNDI POS</code></td>
+    <td class="tag-after"><code>196/14/POS</code></td>
+  </tr>
+  <tr>
+    <td>725</td>
+    <td><strong>N.15</strong><br/><small>ASAJAYA</small></td>
+    <td class="tag-before"><code>P.197_N.15_197/15/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.197_N.15_197/15/POS_1</code></td>
+    <td class="tag-before"><code>197/15/UNDI POS</code></td>
+    <td class="tag-after"><code>197/15/POS</code></td>
+  </tr>
+  <tr>
+    <td>775</td>
+    <td><strong>N.16</strong><br/><small>MUARA TUANG</small></td>
+    <td class="tag-before"><code>P.197_N.16_197/16/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.197_N.16_197/16/POS_1</code></td>
+    <td class="tag-before"><code>197/16/UNDI POS</code></td>
+    <td class="tag-after"><code>197/16/POS</code></td>
+  </tr>
+  <tr>
+    <td>844</td>
+    <td><strong>N.17</strong><br/><small>STAKAN</small></td>
+    <td class="tag-before"><code>P.197_N.17_197/17/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.197_N.17_197/17/POS_1</code></td>
+    <td class="tag-before"><code>197/17/UNDI POS</code></td>
+    <td class="tag-after"><code>197/17/POS</code></td>
+  </tr>
+  <tr>
+    <td>896</td>
+    <td><strong>N.18</strong><br/><small>SEREMBU</small></td>
+    <td class="tag-before"><code>P.198_N.18_198/18/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.198_N.18_198/18/POS_1</code></td>
+    <td class="tag-before"><code>198/18/UNDI POS</code></td>
+    <td class="tag-after"><code>198/18/POS</code></td>
+  </tr>
+  <tr>
+    <td>935</td>
+    <td><strong>N.19</strong><br/><small>MAMBONG</small></td>
+    <td class="tag-before"><code>P.198_N.19_198/19/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.198_N.19_198/19/POS_1</code></td>
+    <td class="tag-before"><code>198/19/UNDI POS</code></td>
+    <td class="tag-after"><code>198/19/POS</code></td>
+  </tr>
+  <tr>
+    <td>999</td>
+    <td><strong>N.20</strong><br/><small>TARAT</small></td>
+    <td class="tag-before"><code>P.198_N.20_198/20/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.198_N.20_198/20/POS_1</code></td>
+    <td class="tag-before"><code>198/20/UNDI POS</code></td>
+    <td class="tag-after"><code>198/20/POS</code></td>
+  </tr>
+  <tr>
+    <td>1061</td>
+    <td><strong>N.21</strong><br/><small>TEBEDU</small></td>
+    <td class="tag-before"><code>P.199_N.21_199/21/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.199_N.21_199/21/POS_1</code></td>
+    <td class="tag-before"><code>199/21/UNDI POS</code></td>
+    <td class="tag-after"><code>199/21/POS</code></td>
+  </tr>
+  <tr>
+    <td>1105</td>
+    <td><strong>N.22</strong><br/><small>KEDUP</small></td>
+    <td class="tag-before"><code>P.199_N.22_199/22/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.199_N.22_199/22/POS_1</code></td>
+    <td class="tag-before"><code>199/22/UNDI POS</code></td>
+    <td class="tag-after"><code>199/22/POS</code></td>
+  </tr>
+  <tr>
+    <td>1149</td>
+    <td><strong>N.23</strong><br/><small>BUKIT SEMUJA</small></td>
+    <td class="tag-before"><code>P.199_N.23_199/23/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.199_N.23_199/23/POS_1</code></td>
+    <td class="tag-before"><code>199/23/UNDI POS</code></td>
+    <td class="tag-after"><code>199/23/POS</code></td>
+  </tr>
+  <tr>
+    <td>1195</td>
+    <td><strong>N.24</strong><br/><small>SADONG JAYA</small></td>
+    <td class="tag-before"><code>P.200_N.24_200/24/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.200_N.24_200/24/POS_1</code></td>
+    <td class="tag-before"><code>200/24/UNDI POS</code></td>
+    <td class="tag-after"><code>200/24/POS</code></td>
+  </tr>
+  <tr>
+    <td>1217</td>
+    <td><strong>N.25</strong><br/><small>SIMUNJAN</small></td>
+    <td class="tag-before"><code>P.200_N.25_200/25/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.200_N.25_200/25/POS_1</code></td>
+    <td class="tag-before"><code>200/25/UNDI POS</code></td>
+    <td class="tag-after"><code>200/25/POS</code></td>
+  </tr>
+  <tr>
+    <td>1246</td>
+    <td><strong>N.26</strong><br/><small>GEDONG</small></td>
+    <td class="tag-before"><code>P.200_N.26_200/26/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.200_N.26_200/26/POS_1</code></td>
+    <td class="tag-before"><code>200/26/UNDI POS</code></td>
+    <td class="tag-after"><code>200/26/POS</code></td>
+  </tr>
+  <tr>
+    <td>1273</td>
+    <td><strong>N.27</strong><br/><small>SEBUYAU</small></td>
+    <td class="tag-before"><code>P.201_N.27_201/27/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.201_N.27_201/27/POS_1</code></td>
+    <td class="tag-before"><code>201/27/UNDI POS</code></td>
+    <td class="tag-after"><code>201/27/POS</code></td>
+  </tr>
+  <tr>
+    <td>1316</td>
+    <td><strong>N.28</strong><br/><small>LINGGA</small></td>
+    <td class="tag-before"><code>P.201_N.28_201/28/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.201_N.28_201/28/POS_1</code></td>
+    <td class="tag-before"><code>201/28/UNDI POS</code></td>
+    <td class="tag-after"><code>201/28/POS</code></td>
+  </tr>
+  <tr>
+    <td>1349</td>
+    <td><strong>N.29</strong><br/><small>BETING MARO</small></td>
+    <td class="tag-before"><code>P.201_N.29_201/29/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.201_N.29_201/29/POS_1</code></td>
+    <td class="tag-before"><code>201/29/UNDI POS</code></td>
+    <td class="tag-after"><code>201/29/POS</code></td>
+  </tr>
+  <tr>
+    <td>1379</td>
+    <td><strong>N.30</strong><br/><small>BALAI RINGIN</small></td>
+    <td class="tag-before"><code>P.202_N.30_202/30/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.202_N.30_202/30/POS_1</code></td>
+    <td class="tag-before"><code>202/30/UNDI POS</code></td>
+    <td class="tag-after"><code>202/30/POS</code></td>
+  </tr>
+  <tr>
+    <td>1420</td>
+    <td><strong>N.31</strong><br/><small>BUKIT BEGUNAN</small></td>
+    <td class="tag-before"><code>P.202_N.31_202/31/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.202_N.31_202/31/POS_1</code></td>
+    <td class="tag-before"><code>202/31/UNDI POS</code></td>
+    <td class="tag-after"><code>202/31/POS</code></td>
+  </tr>
+  <tr>
+    <td>1454</td>
+    <td><strong>N.32</strong><br/><small>SIMANGGANG</small></td>
+    <td class="tag-before"><code>P.202_N.32_202/32/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.202_N.32_202/32/POS_1</code></td>
+    <td class="tag-before"><code>202/32/UNDI POS</code></td>
+    <td class="tag-after"><code>202/32/POS</code></td>
+  </tr>
+  <tr>
+    <td>1489</td>
+    <td><strong>N.33</strong><br/><small>ENGKILILI</small></td>
+    <td class="tag-before"><code>P.203_N.33_203/33/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.203_N.33_203/33/POS_1</code></td>
+    <td class="tag-before"><code>203/33/UNDI POS</code></td>
+    <td class="tag-after"><code>203/33/POS</code></td>
+  </tr>
+  <tr>
+    <td>1525</td>
+    <td><strong>N.34</strong><br/><small>BATANG AI</small></td>
+    <td class="tag-before"><code>P.203_N.34_203/34/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.203_N.34_203/34/POS_1</code></td>
+    <td class="tag-before"><code>203/34/UNDI POS</code></td>
+    <td class="tag-after"><code>203/34/POS</code></td>
+  </tr>
+  <tr>
+    <td>1565</td>
+    <td><strong>N.35</strong><br/><small>SARIBAS</small></td>
+    <td class="tag-before"><code>P.204_N.35_204/35/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.204_N.35_204/35/POS_1</code></td>
+    <td class="tag-before"><code>204/35/UNDI POS</code></td>
+    <td class="tag-after"><code>204/35/POS</code></td>
+  </tr>
+  <tr>
+    <td>1599</td>
+    <td><strong>N.36</strong><br/><small>LAYAR</small></td>
+    <td class="tag-before"><code>P.204_N.36_204/36/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.204_N.36_204/36/POS_1</code></td>
+    <td class="tag-before"><code>204/36/UNDI POS</code></td>
+    <td class="tag-after"><code>204/36/POS</code></td>
+  </tr>
+  <tr>
+    <td>1638</td>
+    <td><strong>N.37</strong><br/><small>BUKIT SABAN</small></td>
+    <td class="tag-before"><code>P.204_N.37_204/37/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.204_N.37_204/37/POS_1</code></td>
+    <td class="tag-before"><code>204/37/UNDI POS</code></td>
+    <td class="tag-after"><code>204/37/POS</code></td>
+  </tr>
+  <tr>
+    <td>1683</td>
+    <td><strong>N.38</strong><br/><small>KALAKA</small></td>
+    <td class="tag-before"><code>P.205_N.38_205/38/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.205_N.38_205/38/POS_1</code></td>
+    <td class="tag-before"><code>205/38/UNDI POS</code></td>
+    <td class="tag-after"><code>205/38/POS</code></td>
+  </tr>
+  <tr>
+    <td>1707</td>
+    <td><strong>N.39</strong><br/><small>KRIAN</small></td>
+    <td class="tag-before"><code>P.205_N.39_205/39/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.205_N.39_205/39/POS_1</code></td>
+    <td class="tag-before"><code>205/39/UNDI POS</code></td>
+    <td class="tag-after"><code>205/39/POS</code></td>
+  </tr>
+  <tr>
+    <td>1756</td>
+    <td><strong>N.40</strong><br/><small>KABONG</small></td>
+    <td class="tag-before"><code>P.205_N.40_205/40/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.205_N.40_205/40/POS_1</code></td>
+    <td class="tag-before"><code>205/40/UNDI POS</code></td>
+    <td class="tag-after"><code>205/40/POS</code></td>
+  </tr>
+  <tr>
+    <td>1784</td>
+    <td><strong>N.41</strong><br/><small>KUALA RAJANG</small></td>
+    <td class="tag-before"><code>P.206_N.41_206/41/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.206_N.41_206/41/POS_1</code></td>
+    <td class="tag-before"><code>206/41/UNDI POS</code></td>
+    <td class="tag-after"><code>206/41/POS</code></td>
+  </tr>
+  <tr>
+    <td>1818</td>
+    <td><strong>N.42</strong><br/><small>SEMOP</small></td>
+    <td class="tag-before"><code>P.206_N.42_206/42/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.206_N.42_206/42/POS_1</code></td>
+    <td class="tag-before"><code>206/42/UNDI POS</code></td>
+    <td class="tag-after"><code>206/42/POS</code></td>
+  </tr>
+  <tr>
+    <td>1854</td>
+    <td><strong>N.43</strong><br/><small>DARO</small></td>
+    <td class="tag-before"><code>P.207_N.43_207/43/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.207_N.43_207/43/POS_1</code></td>
+    <td class="tag-before"><code>207/43/UNDI POS</code></td>
+    <td class="tag-after"><code>207/43/POS</code></td>
+  </tr>
+  <tr>
+    <td>1881</td>
+    <td><strong>N.44</strong><br/><small>JEMORENG</small></td>
+    <td class="tag-before"><code>P.207_N.44_207/44/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.207_N.44_207/44/POS_1</code></td>
+    <td class="tag-before"><code>207/44/UNDI POS</code></td>
+    <td class="tag-after"><code>207/44/POS</code></td>
+  </tr>
+  <tr>
+    <td>1909</td>
+    <td><strong>N.45</strong><br/><small>REPOK</small></td>
+    <td class="tag-before"><code>P.208_N.45_208/45/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.208_N.45_208/45/POS_1</code></td>
+    <td class="tag-before"><code>208/45/UNDI POS</code></td>
+    <td class="tag-after"><code>208/45/POS</code></td>
+  </tr>
+  <tr>
+    <td>1963</td>
+    <td><strong>N.46</strong><br/><small>MERADONG</small></td>
+    <td class="tag-before"><code>P.208_N.46_208/46/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.208_N.46_208/46/POS_1</code></td>
+    <td class="tag-before"><code>208/46/UNDI POS</code></td>
+    <td class="tag-after"><code>208/46/POS</code></td>
+  </tr>
+  <tr>
+    <td>2014</td>
+    <td><strong>N.47</strong><br/><small>PAKAN</small></td>
+    <td class="tag-before"><code>P.209_N.47_209/47/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.209_N.47_209/47/POS_1</code></td>
+    <td class="tag-before"><code>209/47/UNDI POS</code></td>
+    <td class="tag-after"><code>209/47/POS</code></td>
+  </tr>
+  <tr>
+    <td>2048</td>
+    <td><strong>N.48</strong><br/><small>MELUAN</small></td>
+    <td class="tag-before"><code>P.209_N.48_209/48/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.209_N.48_209/48/POS_1</code></td>
+    <td class="tag-before"><code>209/48/UNDI POS</code></td>
+    <td class="tag-after"><code>209/48/POS</code></td>
+  </tr>
+  <tr>
+    <td>2088</td>
+    <td><strong>N.49</strong><br/><small>NGEMAH</small></td>
+    <td class="tag-before"><code>P.210_N.49_210/49/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.210_N.49_210/49/POS_1</code></td>
+    <td class="tag-before"><code>210/49/UNDI POS</code></td>
+    <td class="tag-after"><code>210/49/POS</code></td>
+  </tr>
+  <tr>
+    <td>2117</td>
+    <td><strong>N.50</strong><br/><small>MACHAN</small></td>
+    <td class="tag-before"><code>P.210_N.50_210/50/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.210_N.50_210/50/POS_1</code></td>
+    <td class="tag-before"><code>210/50/UNDI POS</code></td>
+    <td class="tag-after"><code>210/50/POS</code></td>
+  </tr>
+  <tr>
+    <td>2151</td>
+    <td><strong>N.51</strong><br/><small>BUKIT ASSEK</small></td>
+    <td class="tag-before"><code>P.211_N.51_211/51/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.211_N.51_211/51/POS_1</code></td>
+    <td class="tag-before"><code>211/51/UNDI POS</code></td>
+    <td class="tag-after"><code>211/51/POS</code></td>
+  </tr>
+  <tr>
+    <td>2218</td>
+    <td><strong>N.52</strong><br/><small>DUDONG</small></td>
+    <td class="tag-before"><code>P.211_N.52_211/52/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.211_N.52_211/52/POS_1</code></td>
+    <td class="tag-before"><code>211/52/UNDI POS</code></td>
+    <td class="tag-after"><code>211/52/POS</code></td>
+  </tr>
+  <tr>
+    <td>2300</td>
+    <td><strong>N.53</strong><br/><small>BAWANG ASSAN</small></td>
+    <td class="tag-before"><code>P.212_N.53_212/53/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.212_N.53_212/53/POS_1</code></td>
+    <td class="tag-before"><code>212/53/UNDI POS</code></td>
+    <td class="tag-after"><code>212/53/POS</code></td>
+  </tr>
+  <tr>
+    <td>2355</td>
+    <td><strong>N.54</strong><br/><small>PELAWAN</small></td>
+    <td class="tag-before"><code>P.212_N.54_212/54/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.212_N.54_212/54/POS_1</code></td>
+    <td class="tag-before"><code>212/54/UNDI POS</code></td>
+    <td class="tag-after"><code>212/54/POS</code></td>
+  </tr>
+  <tr>
+    <td>2430</td>
+    <td><strong>N.55</strong><br/><small>NANGKA</small></td>
+    <td class="tag-before"><code>P.212_N.55_212/55/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.212_N.55_212/55/POS_1</code></td>
+    <td class="tag-before"><code>212/55/UNDI POS</code></td>
+    <td class="tag-after"><code>212/55/POS</code></td>
+  </tr>
+  <tr>
+    <td>2483</td>
+    <td><strong>N.56</strong><br/><small>DALAT</small></td>
+    <td class="tag-before"><code>P.213_N.56_213/56/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.213_N.56_213/56/POS_1</code></td>
+    <td class="tag-before"><code>213/56/UNDI POS</code></td>
+    <td class="tag-after"><code>213/56/POS</code></td>
+  </tr>
+  <tr>
+    <td>2519</td>
+    <td><strong>N.57</strong><br/><small>TELLIAN</small></td>
+    <td class="tag-before"><code>P.213_N.57_213/57/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.213_N.57_213/57/POS_1</code></td>
+    <td class="tag-before"><code>213/57/UNDI POS</code></td>
+    <td class="tag-after"><code>213/57/POS</code></td>
+  </tr>
+  <tr>
+    <td>2549</td>
+    <td><strong>N.58</strong><br/><small>BALINGIAN</small></td>
+    <td class="tag-before"><code>P.213_N.58_213/58/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.213_N.58_213/58/POS_1</code></td>
+    <td class="tag-before"><code>213/58/UNDI POS</code></td>
+    <td class="tag-after"><code>213/58/POS</code></td>
+  </tr>
+  <tr>
+    <td>2576</td>
+    <td><strong>N.59</strong><br/><small>TAMIN</small></td>
+    <td class="tag-before"><code>P.214_N.59_214/59/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.214_N.59_214/59/POS_1</code></td>
+    <td class="tag-before"><code>214/59/UNDI POS</code></td>
+    <td class="tag-after"><code>214/59/POS</code></td>
+  </tr>
+  <tr>
+    <td>2623</td>
+    <td><strong>N.60</strong><br/><small>KAKUS</small></td>
+    <td class="tag-before"><code>P.214_N.60_214/60/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.214_N.60_214/60/POS_1</code></td>
+    <td class="tag-before"><code>214/60/UNDI POS</code></td>
+    <td class="tag-after"><code>214/60/POS</code></td>
+  </tr>
+  <tr>
+    <td>2668</td>
+    <td><strong>N.61</strong><br/><small>PELAGUS</small></td>
+    <td class="tag-before"><code>P.215_N.61_215/61/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.215_N.61_215/61/POS_1</code></td>
+    <td class="tag-before"><code>215/61/UNDI POS</code></td>
+    <td class="tag-after"><code>215/61/POS</code></td>
+  </tr>
+  <tr>
+    <td>2708</td>
+    <td><strong>N.62</strong><br/><small>KATIBAS</small></td>
+    <td class="tag-before"><code>P.215_N.62_215/62/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.215_N.62_215/62/POS_1</code></td>
+    <td class="tag-before"><code>215/62/UNDI POS</code></td>
+    <td class="tag-after"><code>215/62/POS</code></td>
+  </tr>
+  <tr>
+    <td>2771</td>
+    <td><strong>N.63</strong><br/><small>BUKIT GORAM</small></td>
+    <td class="tag-before"><code>P.215_N.63_215/63/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.215_N.63_215/63/POS_1</code></td>
+    <td class="tag-before"><code>215/63/UNDI POS</code></td>
+    <td class="tag-after"><code>215/63/POS</code></td>
+  </tr>
+  <tr>
+    <td>2820</td>
+    <td><strong>N.64</strong><br/><small>BALEH</small></td>
+    <td class="tag-before"><code>P.216_N.64_216/64/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.216_N.64_216/64/POS_1</code></td>
+    <td class="tag-before"><code>216/64/UNDI POS</code></td>
+    <td class="tag-after"><code>216/64/POS</code></td>
+  </tr>
+  <tr>
+    <td>2889</td>
+    <td><strong>N.65</strong><br/><small>BELAGA</small></td>
+    <td class="tag-before"><code>P.216_N.65_216/65/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.216_N.65_216/65/POS_1</code></td>
+    <td class="tag-before"><code>216/65/UNDI POS</code></td>
+    <td class="tag-after"><code>216/65/POS</code></td>
+  </tr>
+  <tr>
+    <td>2934</td>
+    <td><strong>N.66</strong><br/><small>MURUM</small></td>
+    <td class="tag-before"><code>P.216_N.66_216/66/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.216_N.66_216/66/POS_1</code></td>
+    <td class="tag-before"><code>216/66/UNDI POS</code></td>
+    <td class="tag-after"><code>216/66/POS</code></td>
+  </tr>
+  <tr>
+    <td>2978</td>
+    <td><strong>N.67</strong><br/><small>JEPAK</small></td>
+    <td class="tag-before"><code>P.217_N.67_217/67/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.217_N.67_217/67/POS_1</code></td>
+    <td class="tag-before"><code>217/67/UNDI POS</code></td>
+    <td class="tag-after"><code>217/67/POS</code></td>
+  </tr>
+  <tr>
+    <td>3017</td>
+    <td><strong>N.68</strong><br/><small>TANJONG BATU</small></td>
+    <td class="tag-before"><code>P.217_N.68_217/68/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.217_N.68_217/68/POS_1</code></td>
+    <td class="tag-before"><code>217/68/UNDI POS</code></td>
+    <td class="tag-after"><code>217/68/POS</code></td>
+  </tr>
+  <tr>
+    <td>3067</td>
+    <td><strong>N.69</strong><br/><small>KEMENA</small></td>
+    <td class="tag-before"><code>P.217_N.69_217/69/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.217_N.69_217/69/POS_1</code></td>
+    <td class="tag-before"><code>217/69/UNDI POS</code></td>
+    <td class="tag-after"><code>217/69/POS</code></td>
+  </tr>
+  <tr>
+    <td>3110</td>
+    <td><strong>N.70</strong><br/><small>SAMALAJU</small></td>
+    <td class="tag-before"><code>P.217_N.70_217/70/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.217_N.70_217/70/POS_1</code></td>
+    <td class="tag-before"><code>217/70/UNDI POS</code></td>
+    <td class="tag-after"><code>217/70/POS</code></td>
+  </tr>
+  <tr>
+    <td>3154</td>
+    <td><strong>N.71</strong><br/><small>BEKENU</small></td>
+    <td class="tag-before"><code>P.218_N.71_218/71/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.218_N.71_218/71/POS_1</code></td>
+    <td class="tag-before"><code>218/71/UNDI POS</code></td>
+    <td class="tag-after"><code>218/71/POS</code></td>
+  </tr>
+  <tr>
+    <td>3193</td>
+    <td><strong>N.72</strong><br/><small>LAMBIR</small></td>
+    <td class="tag-before"><code>P.218_N.72_218/72/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.218_N.72_218/72/POS_1</code></td>
+    <td class="tag-before"><code>218/72/UNDI POS</code></td>
+    <td class="tag-after"><code>218/72/POS</code></td>
+  </tr>
+  <tr>
+    <td>3243</td>
+    <td><strong>N.73</strong><br/><small>PIASAU</small></td>
+    <td class="tag-before"><code>P.219_N.73_219/73/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.219_N.73_219/73/POS_1</code></td>
+    <td class="tag-before"><code>219/73/UNDI POS</code></td>
+    <td class="tag-after"><code>219/73/POS</code></td>
+  </tr>
+  <tr>
+    <td>3298</td>
+    <td><strong>N.74</strong><br/><small>PUJUT</small></td>
+    <td class="tag-before"><code>P.219_N.74_219/74/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.219_N.74_219/74/POS_1</code></td>
+    <td class="tag-before"><code>219/74/UNDI POS</code></td>
+    <td class="tag-after"><code>219/74/POS</code></td>
+  </tr>
+  <tr>
+    <td>3360</td>
+    <td><strong>N.75</strong><br/><small>SENADIN</small></td>
+    <td class="tag-before"><code>P.219_N.75_219/75/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.219_N.75_219/75/POS_1</code></td>
+    <td class="tag-before"><code>219/75/UNDI POS</code></td>
+    <td class="tag-after"><code>219/75/POS</code></td>
+  </tr>
+  <tr>
+    <td>3438</td>
+    <td><strong>N.76</strong><br/><small>MARUDI</small></td>
+    <td class="tag-before"><code>P.220_N.76_220/76/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.220_N.76_220/76/POS_1</code></td>
+    <td class="tag-before"><code>220/76/UNDI POS</code></td>
+    <td class="tag-after"><code>220/76/POS</code></td>
+  </tr>
+  <tr>
+    <td>3509</td>
+    <td><strong>N.77</strong><br/><small>TELANG USAN</small></td>
+    <td class="tag-before"><code>P.220_N.77_220/77/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.220_N.77_220/77/POS_1</code></td>
+    <td class="tag-before"><code>220/77/UNDI POS</code></td>
+    <td class="tag-after"><code>220/77/POS</code></td>
+  </tr>
+  <tr>
+    <td>3557</td>
+    <td><strong>N.78</strong><br/><small>MULU</small></td>
+    <td class="tag-before"><code>P.220_N.78_220/78/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.220_N.78_220/78/POS_1</code></td>
+    <td class="tag-before"><code>220/78/UNDI POS</code></td>
+    <td class="tag-after"><code>220/78/POS</code></td>
+  </tr>
+  <tr>
+    <td>3601</td>
+    <td><strong>N.79</strong><br/><small>BUKIT KOTA</small></td>
+    <td class="tag-before"><code>P.221_N.79_221/79/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.221_N.79_221/79/POS_1</code></td>
+    <td class="tag-before"><code>221/79/UNDI POS</code></td>
+    <td class="tag-after"><code>221/79/POS</code></td>
+  </tr>
+  <tr>
+    <td>3647</td>
+    <td><strong>N.80</strong><br/><small>BATU DANAU</small></td>
+    <td class="tag-before"><code>P.221_N.80_221/80/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.221_N.80_221/80/POS_1</code></td>
+    <td class="tag-before"><code>221/80/UNDI POS</code></td>
+    <td class="tag-after"><code>221/80/POS</code></td>
+  </tr>
+  <tr>
+    <td>3680</td>
+    <td><strong>N.81</strong><br/><small>BA`KELALAN</small></td>
+    <td class="tag-before"><code>P.222_N.81_222/81/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.222_N.81_222/81/POS_1</code></td>
+    <td class="tag-before"><code>222/81/UNDI POS</code></td>
+    <td class="tag-after"><code>222/81/POS</code></td>
+  </tr>
+  <tr>
+    <td>3709</td>
+    <td><strong>N.82</strong><br/><small>BUKIT SARI</small></td>
+    <td class="tag-before"><code>P.222_N.82_222/82/UNDI POS_1</code></td>
+    <td class="tag-after"><code>P.222_N.82_222/82/POS_1</code></td>
+    <td class="tag-before"><code>222/82/UNDI POS</code></td>
+    <td class="tag-after"><code>222/82/POS</code></td>
+  </tr>
+</tbody></table>
+
+<div class="page-break"></div>
+<h2><span class="fix-badge badge-backtick">FIX 2</span> Fix 2 — <code>BA`KELALAN</code> Backtick → Apostrophe</h2>
+<div class="section-meta">
+  <strong>28 rows affected</strong> — all rows for DUN N.81 (BA'KELALAN).<br/>
+  The grave accent character U+0060 (`) was replaced with a standard apostrophe U+0027 (')
+  in every cell where it appeared: <code>STATE CONSTITUENCY NAME</code>, <code>POLLING DISTRICT NAME</code>,
+  and <code>UNIQUE CODE</code> where applicable.
+</div>
+<table class="data">
+<thead>
+  <tr>
+    <th>CSV Row</th><th>DUN</th><th>Column</th>
+    <th>Before</th><th></th><th>After</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>3681</td>
+    <td>N.81</td>
+    <td><code>STATE CONSTITUENCY NAME</code></td>
+    <td class="tag-before"><code>BA`KELALAN</code></td>
+    <td class="arrow">→</td>
+    <td class="tag-after"><code>BA'KELALAN</code></td>
+  </tr>
+</tbody></table>
+<div class="note">All 28 rows in N.81 were corrected with the same substitution — only one representative row shown above per column.</div>
+
+<h2><span class="fix-badge badge-newline">FIX 3</span> Fix 3 — Embedded Newlines Removed from Polling Centre</h2>
+<div class="section-meta">
+  <strong>10 rows affected</strong> across 4 DUNs — 5 distinct polling centre names contained
+  an embedded newline character (<code>\n</code>) inside a quoted CSV field.
+  Each was joined with the appropriate separator (space, nothing, or punctuation) based on context.
+</div>
+<table class="data">
+<thead>
+  <tr>
+    <th>CSV Row</th><th>DUN</th>
+    <th>POLLING CENTRE — before</th><th></th><th>POLLING CENTRE — after</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>121</td>
+    <td><strong>N.04</strong><br/><small>PANTAI DAMAI</small></td>
+    <td class="tag-before"><code>RUANG D, DEWAN BADMINTON↵, KOMPLEKS POLIS TABUAN JAYA</code></td>
+    <td class="arrow">→</td>
+    <td class="tag-after"><code>RUANG D, DEWAN BADMINTON, KOMPLEKS POLIS TABUAN JAYA</code></td>
+  </tr>
+  <tr>
+    <td>2263</td>
+    <td><strong>N.52</strong><br/><small>DUDONG</small></td>
+    <td class="tag-before"><code>SEKOLAH KEBANGSAAN BANDARAN SIBU NO.↵2</code></td>
+    <td class="arrow">→</td>
+    <td class="tag-after"><code>SEKOLAH KEBANGSAAN BANDARAN SIBU NO.2</code></td>
+  </tr>
+  <tr>
+    <td>2264</td>
+    <td><strong>N.52</strong><br/><small>DUDONG</small></td>
+    <td class="tag-before"><code>SEKOLAH KEBANGSAAN BANDARAN SIBU NO.↵2</code></td>
+    <td class="arrow">→</td>
+    <td class="tag-after"><code>SEKOLAH KEBANGSAAN BANDARAN SIBU NO.2</code></td>
+  </tr>
+  <tr>
+    <td>2265</td>
+    <td><strong>N.52</strong><br/><small>DUDONG</small></td>
+    <td class="tag-before"><code>SEKOLAH KEBANGSAAN BANDARAN SIBU NO.↵2</code></td>
+    <td class="arrow">→</td>
+    <td class="tag-after"><code>SEKOLAH KEBANGSAAN BANDARAN SIBU NO.2</code></td>
+  </tr>
+  <tr>
+    <td>2266</td>
+    <td><strong>N.52</strong><br/><small>DUDONG</small></td>
+    <td class="tag-before"><code>SEKOLAH KEBANGSAAN BANDARAN SIBU NO.↵2</code></td>
+    <td class="arrow">→</td>
+    <td class="tag-after"><code>SEKOLAH KEBANGSAAN BANDARAN SIBU NO.2</code></td>
+  </tr>
+  <tr>
+    <td>2267</td>
+    <td><strong>N.52</strong><br/><small>DUDONG</small></td>
+    <td class="tag-before"><code>SEKOLAH KEBANGSAAN BANDARAN SIBU NO.↵2</code></td>
+    <td class="arrow">→</td>
+    <td class="tag-after"><code>SEKOLAH KEBANGSAAN BANDARAN SIBU NO.2</code></td>
+  </tr>
+  <tr>
+    <td>2268</td>
+    <td><strong>N.52</strong><br/><small>DUDONG</small></td>
+    <td class="tag-before"><code>SEKOLAH KEBANGSAAN BANDARAN SIBU NO.↵2</code></td>
+    <td class="arrow">→</td>
+    <td class="tag-after"><code>SEKOLAH KEBANGSAAN BANDARAN SIBU NO.2</code></td>
+  </tr>
+  <tr>
+    <td>3023</td>
+    <td><strong>N.68</strong><br/><small>TANJONG BATU</small></td>
+    <td class="tag-before"><code>BANGUNAN PERSEKUTUAN PERKUMPULAN WANITA SARAWAK DAERAH BINTULU ( W.I↵)</code></td>
+    <td class="arrow">→</td>
+    <td class="tag-after"><code>BANGUNAN PERSEKUTUAN PERKUMPULAN WANITA SARAWAK DAERAH BINTULU ( W.I)</code></td>
+  </tr>
+  <tr>
+    <td>3264</td>
+    <td><strong>N.73</strong><br/><small>PIASAU</small></td>
+    <td class="tag-before"><code>SEKOLAH RENDAH AGAMA RAKYAT MIRI (MADRASAH↵AS-SYIBYAN)</code></td>
+    <td class="arrow">→</td>
+    <td class="tag-after"><code>SEKOLAH RENDAH AGAMA RAKYAT MIRI (MADRASAH AS-SYIBYAN)</code></td>
+  </tr>
+  <tr>
+    <td>3641</td>
+    <td><strong>N.79</strong><br/><small>BUKIT KOTA</small></td>
+    <td class="tag-before"><code>SEKOLAH KEBANGSAAN R.↵C. KUBONG</code></td>
+    <td class="arrow">→</td>
+    <td class="tag-after"><code>SEKOLAH KEBANGSAAN R.C. KUBONG</code></td>
+  </tr>
+</tbody></table>
+
+<div class="page-break"></div>
+<h2><span class="fix-badge badge-suffix">FIX 4</span> Fix 4 — UNIQUE CODE Suffixes Added (2,201 rows)</h2>
+<div class="section-meta">
+  <strong>2,201 rows affected</strong> across
+  <strong>75 DUNs</strong> —
+  309 polling districts where a single district code served multiple polling centres.<br/>
+  Letter suffixes <code>a</code> through <code>r</code> were appended to UNIQUE CODE (col 1) only.
+  The same letter is applied to <em>every</em> voting channel row for the same district+centre combination
+  so the suffix is consistent (e.g. both <code>_1b</code> and <code>_2b</code> for the same centre).<br/>
+  <strong>No vote counts or candidate data were modified.</strong>
+</div>
+<table class="data">
+<thead>
+  <tr>
+    <th>DUN Code</th><th>DUN Name</th>
+    <th>Rows suffixed</th><th>Letters used</th>
+    <th>Example UNIQUE CODE — before</th><th>after</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><strong>N.02</strong></td>
+    <td>TASIK BIRU</td>
+    <td style="text-align:right">5</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.192_N.02_192/02/00_1</code></td>
+    <td class="tag-after"><code>P.192_N.02_192/02/00_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.03</strong></td>
+    <td>TANJONG DATU</td>
+    <td style="text-align:right">5</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.193_N.03_193/03/00_1</code></td>
+    <td class="tag-after"><code>P.193_N.03_193/03/00_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.04</strong></td>
+    <td>PANTAI DAMAI</td>
+    <td style="text-align:right">34</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.193_N.04_193/04/01_1</code></td>
+    <td class="tag-after"><code>P.193_N.04_193/04/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.05</strong></td>
+    <td>DEMAK LAUT</td>
+    <td style="text-align:right">21</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.193_N.05_193/05/04_1</code></td>
+    <td class="tag-after"><code>P.193_N.05_193/05/04_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.06</strong></td>
+    <td>TUPONG</td>
+    <td style="text-align:right">58</td>
+    <td><code>a, b, c, d, e, f, g</code></td>
+    <td class="tag-before"><code>P.194_N.06_194/06/01_1</code></td>
+    <td class="tag-after"><code>P.194_N.06_194/06/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.07</strong></td>
+    <td>SAMARIANG</td>
+    <td style="text-align:right">15</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.194_N.07_194/07/01_1</code></td>
+    <td class="tag-after"><code>P.194_N.07_194/07/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.08</strong></td>
+    <td>SATOK</td>
+    <td style="text-align:right">13</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.194_N.08_194/08/01_1</code></td>
+    <td class="tag-after"><code>P.194_N.08_194/08/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.10</strong></td>
+    <td>PENDING</td>
+    <td style="text-align:right">41</td>
+    <td><code>a, b, c</code></td>
+    <td class="tag-before"><code>P.195_N.10_195/10/00_1</code></td>
+    <td class="tag-after"><code>P.195_N.10_195/10/00_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.11</strong></td>
+    <td>BATU LINTANG</td>
+    <td style="text-align:right">29</td>
+    <td><code>a, b, c</code></td>
+    <td class="tag-before"><code>P.195_N.11_195/11/02_1</code></td>
+    <td class="tag-after"><code>P.195_N.11_195/11/02_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.12</strong></td>
+    <td>KOTA SENTOSA</td>
+    <td style="text-align:right">39</td>
+    <td><code>a, b, c, d</code></td>
+    <td class="tag-before"><code>P.196_N.12_196/12/00_1</code></td>
+    <td class="tag-after"><code>P.196_N.12_196/12/00_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.13</strong></td>
+    <td>BATU KITANG</td>
+    <td style="text-align:right">31</td>
+    <td><code>a, b, c, d, e, f</code></td>
+    <td class="tag-before"><code>P.196_N.13_196/13/03_1</code></td>
+    <td class="tag-after"><code>P.196_N.13_196/13/03_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.14</strong></td>
+    <td>BATU KAWAH</td>
+    <td style="text-align:right">34</td>
+    <td><code>a, b, c, d, e, f, g, h, i</code></td>
+    <td class="tag-before"><code>P.196_N.14_196/14/00_1</code></td>
+    <td class="tag-after"><code>P.196_N.14_196/14/00_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.15</strong></td>
+    <td>ASAJAYA</td>
+    <td style="text-align:right">3</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.197_N.15_197/15/02_1</code></td>
+    <td class="tag-after"><code>P.197_N.15_197/15/02_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.16</strong></td>
+    <td>MUARA TUANG</td>
+    <td style="text-align:right">61</td>
+    <td><code>a, b, c, d, e, f, g, h, i, j, k, l</code></td>
+    <td class="tag-before"><code>P.197_N.16_197/16/00_1</code></td>
+    <td class="tag-after"><code>P.197_N.16_197/16/00_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.17</strong></td>
+    <td>STAKAN</td>
+    <td style="text-align:right">44</td>
+    <td><code>a, b, c, d, e, f</code></td>
+    <td class="tag-before"><code>P.197_N.17_197/17/00_1</code></td>
+    <td class="tag-after"><code>P.197_N.17_197/17/00_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.18</strong></td>
+    <td>SEREMBU</td>
+    <td style="text-align:right">4</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.198_N.18_198/18/15_1</code></td>
+    <td class="tag-after"><code>P.198_N.18_198/18/15_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.19</strong></td>
+    <td>MAMBONG</td>
+    <td style="text-align:right">13</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.198_N.19_198/19/00_1</code></td>
+    <td class="tag-after"><code>P.198_N.19_198/19/00_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.20</strong></td>
+    <td>TARAT</td>
+    <td style="text-align:right">5</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.198_N.20_198/20/28_1</code></td>
+    <td class="tag-after"><code>P.198_N.20_198/20/28_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.21</strong></td>
+    <td>TEBEDU</td>
+    <td style="text-align:right">42</td>
+    <td><code>a, b, c, d, e, f, g, h, i, j</code></td>
+    <td class="tag-before"><code>P.199_N.21_199/21/01_1</code></td>
+    <td class="tag-after"><code>P.199_N.21_199/21/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.22</strong></td>
+    <td>KEDUP</td>
+    <td style="text-align:right">42</td>
+    <td><code>a, b, c, d, e, f, g, h, i, j</code></td>
+    <td class="tag-before"><code>P.199_N.22_199/22/01_1</code></td>
+    <td class="tag-after"><code>P.199_N.22_199/22/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.23</strong></td>
+    <td>BUKIT SEMUJA</td>
+    <td style="text-align:right">31</td>
+    <td><code>a, b, c, d, e, f, g</code></td>
+    <td class="tag-before"><code>P.199_N.23_199/23/01_1</code></td>
+    <td class="tag-after"><code>P.199_N.23_199/23/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.25</strong></td>
+    <td>SIMUNJAN</td>
+    <td style="text-align:right">16</td>
+    <td><code>a, b, c, d</code></td>
+    <td class="tag-before"><code>P.200_N.25_200/25/08_1</code></td>
+    <td class="tag-after"><code>P.200_N.25_200/25/08_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.26</strong></td>
+    <td>GEDONG</td>
+    <td style="text-align:right">16</td>
+    <td><code>a, b, c, d, e</code></td>
+    <td class="tag-before"><code>P.200_N.26_200/26/03_1</code></td>
+    <td class="tag-after"><code>P.200_N.26_200/26/03_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.27</strong></td>
+    <td>SEBUYAU</td>
+    <td style="text-align:right">39</td>
+    <td><code>a, b, c, d, e, f, g</code></td>
+    <td class="tag-before"><code>P.201_N.27_201/27/02_1</code></td>
+    <td class="tag-after"><code>P.201_N.27_201/27/02_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.28</strong></td>
+    <td>LINGGA</td>
+    <td style="text-align:right">22</td>
+    <td><code>a, b, c, d</code></td>
+    <td class="tag-before"><code>P.201_N.28_201/28/01_1</code></td>
+    <td class="tag-after"><code>P.201_N.28_201/28/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.29</strong></td>
+    <td>BETING MARO</td>
+    <td style="text-align:right">21</td>
+    <td><code>a, b, c, d</code></td>
+    <td class="tag-before"><code>P.201_N.29_201/29/01_1</code></td>
+    <td class="tag-after"><code>P.201_N.29_201/29/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.30</strong></td>
+    <td>BALAI RINGIN</td>
+    <td style="text-align:right">39</td>
+    <td><code>a, b, c, d, e, f, g, h</code></td>
+    <td class="tag-before"><code>P.202_N.30_202/30/01_1</code></td>
+    <td class="tag-after"><code>P.202_N.30_202/30/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.31</strong></td>
+    <td>BUKIT BEGUNAN</td>
+    <td style="text-align:right">33</td>
+    <td><code>a, b, c, d, e, f, g, h</code></td>
+    <td class="tag-before"><code>P.202_N.31_202/31/00_1</code></td>
+    <td class="tag-after"><code>P.202_N.31_202/31/00_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.32</strong></td>
+    <td>SIMANGGANG</td>
+    <td style="text-align:right">31</td>
+    <td><code>a, b, c, d, e</code></td>
+    <td class="tag-before"><code>P.202_N.32_202/32/02_1</code></td>
+    <td class="tag-after"><code>P.202_N.32_202/32/02_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.33</strong></td>
+    <td>ENGKILILI</td>
+    <td style="text-align:right">2</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.203_N.33_203/33/10_1</code></td>
+    <td class="tag-after"><code>P.203_N.33_203/33/10_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.34</strong></td>
+    <td>BATANG AI</td>
+    <td style="text-align:right">9</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.203_N.34_203/34/04_1</code></td>
+    <td class="tag-after"><code>P.203_N.34_203/34/04_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.36</strong></td>
+    <td>LAYAR</td>
+    <td style="text-align:right">6</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.204_N.36_204/36/08_1</code></td>
+    <td class="tag-after"><code>P.204_N.36_204/36/08_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.37</strong></td>
+    <td>BUKIT SABAN</td>
+    <td style="text-align:right">6</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.204_N.37_204/37/05_1</code></td>
+    <td class="tag-after"><code>P.204_N.37_204/37/05_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.38</strong></td>
+    <td>KALAKA</td>
+    <td style="text-align:right">14</td>
+    <td><code>a, b, c, d</code></td>
+    <td class="tag-before"><code>P.205_N.38_205/38/01_1</code></td>
+    <td class="tag-after"><code>P.205_N.38_205/38/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.39</strong></td>
+    <td>KRIAN</td>
+    <td style="text-align:right">48</td>
+    <td><code>a, b, c, d, e, f, g, h, i</code></td>
+    <td class="tag-before"><code>P.205_N.39_205/39/01_1</code></td>
+    <td class="tag-after"><code>P.205_N.39_205/39/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.40</strong></td>
+    <td>KABONG</td>
+    <td style="text-align:right">26</td>
+    <td><code>a, b, c, d, e, f, g, h</code></td>
+    <td class="tag-before"><code>P.205_N.40_205/40/01_1</code></td>
+    <td class="tag-after"><code>P.205_N.40_205/40/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.41</strong></td>
+    <td>KUALA RAJANG</td>
+    <td style="text-align:right">29</td>
+    <td><code>a, b, c, d, e</code></td>
+    <td class="tag-before"><code>P.206_N.41_206/41/02_1</code></td>
+    <td class="tag-after"><code>P.206_N.41_206/41/02_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.42</strong></td>
+    <td>SEMOP</td>
+    <td style="text-align:right">27</td>
+    <td><code>a, b, c, d, e</code></td>
+    <td class="tag-before"><code>P.206_N.42_206/42/01_1</code></td>
+    <td class="tag-after"><code>P.206_N.42_206/42/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.43</strong></td>
+    <td>DARO</td>
+    <td style="text-align:right">24</td>
+    <td><code>a, b, c, d, e</code></td>
+    <td class="tag-before"><code>P.207_N.43_207/43/01_1</code></td>
+    <td class="tag-after"><code>P.207_N.43_207/43/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.44</strong></td>
+    <td>JEMORENG</td>
+    <td style="text-align:right">11</td>
+    <td><code>a, b, c</code></td>
+    <td class="tag-before"><code>P.207_N.44_207/44/01_1</code></td>
+    <td class="tag-after"><code>P.207_N.44_207/44/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.45</strong></td>
+    <td>REPOK</td>
+    <td style="text-align:right">22</td>
+    <td><code>a, b, c</code></td>
+    <td class="tag-before"><code>P.208_N.45_208/45/01_1</code></td>
+    <td class="tag-after"><code>P.208_N.45_208/45/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.46</strong></td>
+    <td>MERADONG</td>
+    <td style="text-align:right">46</td>
+    <td><code>a, b, c, d, e</code></td>
+    <td class="tag-before"><code>P.208_N.46_208/46/02_1</code></td>
+    <td class="tag-after"><code>P.208_N.46_208/46/02_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.47</strong></td>
+    <td>PAKAN</td>
+    <td style="text-align:right">33</td>
+    <td><code>a, b, c, d, e</code></td>
+    <td class="tag-before"><code>P.209_N.47_209/47/01_1</code></td>
+    <td class="tag-after"><code>P.209_N.47_209/47/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.48</strong></td>
+    <td>MELUAN</td>
+    <td style="text-align:right">38</td>
+    <td><code>a, b, c, d, e, f, g</code></td>
+    <td class="tag-before"><code>P.209_N.48_209/48/01_1</code></td>
+    <td class="tag-after"><code>P.209_N.48_209/48/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.49</strong></td>
+    <td>NGEMAH</td>
+    <td style="text-align:right">26</td>
+    <td><code>a, b, c, d</code></td>
+    <td class="tag-before"><code>P.210_N.49_210/49/02_1</code></td>
+    <td class="tag-after"><code>P.210_N.49_210/49/02_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.50</strong></td>
+    <td>MACHAN</td>
+    <td style="text-align:right">32</td>
+    <td><code>a, b, c, d, e, f</code></td>
+    <td class="tag-before"><code>P.210_N.50_210/50/01_1</code></td>
+    <td class="tag-after"><code>P.210_N.50_210/50/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.51</strong></td>
+    <td>BUKIT ASSEK</td>
+    <td style="text-align:right">8</td>
+    <td><code>a, b, c</code></td>
+    <td class="tag-before"><code>P.211_N.51_211/51/03_1</code></td>
+    <td class="tag-after"><code>P.211_N.51_211/51/03_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.52</strong></td>
+    <td>DUDONG</td>
+    <td style="text-align:right">45</td>
+    <td><code>a, b, c, d</code></td>
+    <td class="tag-before"><code>P.211_N.52_211/52/00_1</code></td>
+    <td class="tag-after"><code>P.211_N.52_211/52/00_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.53</strong></td>
+    <td>BAWANG ASSAN</td>
+    <td style="text-align:right">37</td>
+    <td><code>a, b, c, d, e, f</code></td>
+    <td class="tag-before"><code>P.212_N.53_212/53/01_1</code></td>
+    <td class="tag-after"><code>P.212_N.53_212/53/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.55</strong></td>
+    <td>NANGKA</td>
+    <td style="text-align:right">34</td>
+    <td><code>a, b, c, d</code></td>
+    <td class="tag-before"><code>P.212_N.55_212/55/00_1</code></td>
+    <td class="tag-after"><code>P.212_N.55_212/55/00_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.57</strong></td>
+    <td>TELLIAN</td>
+    <td style="text-align:right">2</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.213_N.57_213/57/05_1</code></td>
+    <td class="tag-after"><code>P.213_N.57_213/57/05_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.58</strong></td>
+    <td>BALINGIAN</td>
+    <td style="text-align:right">4</td>
+    <td><code>a, b, c</code></td>
+    <td class="tag-before"><code>P.213_N.58_213/58/08_1</code></td>
+    <td class="tag-after"><code>P.213_N.58_213/58/08_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.59</strong></td>
+    <td>TAMIN</td>
+    <td style="text-align:right">45</td>
+    <td><code>a, b, c, d, e, f, g</code></td>
+    <td class="tag-before"><code>P.214_N.59_214/59/01_1</code></td>
+    <td class="tag-after"><code>P.214_N.59_214/59/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.60</strong></td>
+    <td>KAKUS</td>
+    <td style="text-align:right">13</td>
+    <td><code>a, b, c, d, e, f</code></td>
+    <td class="tag-before"><code>P.214_N.60_214/60/02_1</code></td>
+    <td class="tag-after"><code>P.214_N.60_214/60/02_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.61</strong></td>
+    <td>PELAGUS</td>
+    <td style="text-align:right">37</td>
+    <td><code>a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r</code></td>
+    <td class="tag-before"><code>P.215_N.61_215/61/01_1</code></td>
+    <td class="tag-after"><code>P.215_N.61_215/61/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.62</strong></td>
+    <td>KATIBAS</td>
+    <td style="text-align:right">61</td>
+    <td><code>a, b, c, d, e, f, g, h, i, j, k, l</code></td>
+    <td class="tag-before"><code>P.215_N.62_215/62/01_1</code></td>
+    <td class="tag-after"><code>P.215_N.62_215/62/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.63</strong></td>
+    <td>BUKIT GORAM</td>
+    <td style="text-align:right">37</td>
+    <td><code>a, b, c, d, e, f, g, h, i, j, k, l, m</code></td>
+    <td class="tag-before"><code>P.215_N.63_215/63/01_1</code></td>
+    <td class="tag-after"><code>P.215_N.63_215/63/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.64</strong></td>
+    <td>BALEH</td>
+    <td style="text-align:right">68</td>
+    <td><code>a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q</code></td>
+    <td class="tag-before"><code>P.216_N.64_216/64/01_1</code></td>
+    <td class="tag-after"><code>P.216_N.64_216/64/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.65</strong></td>
+    <td>BELAGA</td>
+    <td style="text-align:right">37</td>
+    <td><code>a, b, c, d, e, f, g, h, i, j, k, l, m, n</code></td>
+    <td class="tag-before"><code>P.216_N.65_216/65/02_1</code></td>
+    <td class="tag-after"><code>P.216_N.65_216/65/02_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.66</strong></td>
+    <td>MURUM</td>
+    <td style="text-align:right">43</td>
+    <td><code>a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r</code></td>
+    <td class="tag-before"><code>P.216_N.66_216/66/01_1</code></td>
+    <td class="tag-after"><code>P.216_N.66_216/66/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.67</strong></td>
+    <td>JEPAK</td>
+    <td style="text-align:right">21</td>
+    <td><code>a, b, c, d</code></td>
+    <td class="tag-before"><code>P.217_N.67_217/67/01_1</code></td>
+    <td class="tag-after"><code>P.217_N.67_217/67/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.68</strong></td>
+    <td>TANJONG BATU</td>
+    <td style="text-align:right">25</td>
+    <td><code>a, b, c</code></td>
+    <td class="tag-before"><code>P.217_N.68_217/68/01_1</code></td>
+    <td class="tag-after"><code>P.217_N.68_217/68/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.69</strong></td>
+    <td>KEMENA</td>
+    <td style="text-align:right">29</td>
+    <td><code>a, b, c, d, e, f</code></td>
+    <td class="tag-before"><code>P.217_N.69_217/69/01_1</code></td>
+    <td class="tag-after"><code>P.217_N.69_217/69/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.70</strong></td>
+    <td>SAMALAJU</td>
+    <td style="text-align:right">21</td>
+    <td><code>a, b, c, d, e</code></td>
+    <td class="tag-before"><code>P.217_N.70_217/70/01_1</code></td>
+    <td class="tag-after"><code>P.217_N.70_217/70/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.71</strong></td>
+    <td>BEKENU</td>
+    <td style="text-align:right">33</td>
+    <td><code>a, b, c, d, e</code></td>
+    <td class="tag-before"><code>P.218_N.71_218/71/02_1</code></td>
+    <td class="tag-after"><code>P.218_N.71_218/71/02_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.72</strong></td>
+    <td>LAMBIR</td>
+    <td style="text-align:right">40</td>
+    <td><code>a, b, c, d, e, f</code></td>
+    <td class="tag-before"><code>P.218_N.72_218/72/00_1</code></td>
+    <td class="tag-after"><code>P.218_N.72_218/72/00_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.73</strong></td>
+    <td>PIASAU</td>
+    <td style="text-align:right">30</td>
+    <td><code>a, b, c</code></td>
+    <td class="tag-before"><code>P.219_N.73_219/73/02_1</code></td>
+    <td class="tag-after"><code>P.219_N.73_219/73/02_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.74</strong></td>
+    <td>PUJUT</td>
+    <td style="text-align:right">61</td>
+    <td><code>a, b, c, d, e, f, g</code></td>
+    <td class="tag-before"><code>P.219_N.74_219/74/01_1</code></td>
+    <td class="tag-after"><code>P.219_N.74_219/74/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.75</strong></td>
+    <td>SENADIN</td>
+    <td style="text-align:right">62</td>
+    <td><code>a, b, c, d, e, f, g, h, i</code></td>
+    <td class="tag-before"><code>P.219_N.75_219/75/01_1</code></td>
+    <td class="tag-after"><code>P.219_N.75_219/75/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.76</strong></td>
+    <td>MARUDI</td>
+    <td style="text-align:right">69</td>
+    <td><code>a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p</code></td>
+    <td class="tag-before"><code>P.220_N.76_220/76/01_1</code></td>
+    <td class="tag-after"><code>P.220_N.76_220/76/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.77</strong></td>
+    <td>TELANG USAN</td>
+    <td style="text-align:right">46</td>
+    <td><code>a, b, c, d, e, f, g, h, i</code></td>
+    <td class="tag-before"><code>P.220_N.77_220/77/01_1</code></td>
+    <td class="tag-after"><code>P.220_N.77_220/77/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.78</strong></td>
+    <td>MULU</td>
+    <td style="text-align:right">40</td>
+    <td><code>a, b, c, d, e, f, g, h, i, j, k</code></td>
+    <td class="tag-before"><code>P.220_N.78_220/78/01_1</code></td>
+    <td class="tag-after"><code>P.220_N.78_220/78/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.79</strong></td>
+    <td>BUKIT KOTA</td>
+    <td style="text-align:right">34</td>
+    <td><code>a, b, c, d, e, f</code></td>
+    <td class="tag-before"><code>P.221_N.79_221/79/00_1</code></td>
+    <td class="tag-after"><code>P.221_N.79_221/79/00_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.80</strong></td>
+    <td>BATU DANAU</td>
+    <td style="text-align:right">31</td>
+    <td><code>a, b, c, d, e, f</code></td>
+    <td class="tag-before"><code>P.221_N.80_221/80/01_1</code></td>
+    <td class="tag-after"><code>P.221_N.80_221/80/01_1a</code></td>
+  </tr>
+  <tr>
+    <td><strong>N.82</strong></td>
+    <td>BUKIT SARI</td>
+    <td style="text-align:right">2</td>
+    <td><code>a, b</code></td>
+    <td class="tag-before"><code>P.222_N.82_222/82/15_1</code></td>
+    <td class="tag-after"><code>P.222_N.82_222/82/15_1a</code></td>
+  </tr>
+</tbody></table>
+
+</body></html>
