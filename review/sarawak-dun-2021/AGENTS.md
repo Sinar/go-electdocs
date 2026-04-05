@@ -14,6 +14,25 @@ We will start the review of the file to-review.csv in phases from easiest to har
 
 Do each phase one by one; at the end of the phase write out the review of the phase in the file PHASE-<NUMBER>-REVIEW.md
 
+### PHASE-0: Check against PRN DUN Sarawak 2016 results
+
+The file final-sarawak-dun-2016.csv should be compared against to-review.csv.  The expected changes might be the candidates and votes but actually most should be the same.  Compare against the fields that should be the same (expected a few changes as there might be new areas) but most are the same: 
+
+     1  UNIQUE CODE 
+     2	STATE
+     3	BALLOT TYPE
+     4	PARLIAMENTARY CONSTITUENCY CODE
+     5	PARLIAMENTARY CONSTITUENCY NAME
+     6	STATE CONSTITUENCY CODE
+     7	STATE CONSTITUENCY NAME
+     8	POLLING DISTRICT CODE
+     9	POLLING DISTRICT NAME
+    10	POLLING CENTRE
+    11	VOTING CHANNEL NUMBER
+
+Highlight differences in table and justify with evidence. 
+
+
 ### PHASE-1: Ensure ID field is unique
 
 The first column of the file to be reviewed is UNIQUE CODE.
@@ -35,12 +54,15 @@ Original duplicate IDs:
 - P.220_N.77_220/77/01_1 at SJK CHUNG HUA NYABOR → P.220_N.77_220/77/01_1c
 ```
 
+
 ### PHASE-2: Find Missing OR Incorrect DUN
 
+Check against the list in raw-dun.csv. Flag out incorrect DUN name and if not all DUNs are matched.  There should not be any unaccounted for.
 
 ### PHASE-3: Find Missing OR Incorrect Candidates
 
 Check against the list in raw-candidates.csv.  Flag out incorrect name and if not all candidates are matched.  There should not be any unaccounted for.
+
 
 ### PHASE-4: Check consistency of coallition
 
