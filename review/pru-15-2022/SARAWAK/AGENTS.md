@@ -191,3 +191,48 @@ If needed to do more advanced processing, write Golang code using stdlib as much
 ## TRACKING OF REVIEW PROGRESS
 
 Can place summary + phases of review after every step here so the next agent can know where to continue. Store details + evidence in own file PHASE-<NUMBER>-<DESC>.md insude this folder
+
+---
+
+## REVIEW PROGRESS TRACKER
+
+**File**: `to-review.csv` (4,316 data rows, 92 columns, 31 PARs P.192–P.222, 82 DUNs N.01–N.82)
+**Overall Status**: ✅ ALL 7 PHASES COMPLETE — Data is in good shape
+**Full summary**: See `REVIEW-SUMMARY.md`
+
+### Phase Status
+
+| Phase | Description | Status | Key Finding |
+|-------|-------------|--------|-------------|
+| **0** | Compare against 2016 DUN baseline | ✅ DONE | No anomalies in to-review.csv; 28 PAR code errors in 2016 source (not our file) |
+| **1** | UNIQUE CODE uniqueness | ✅ DONE | 22 duplicate codes found across 7 districts; fix table in PHASE-1-REVIEW.md; 2 items need PDF verification |
+| **2** | DUN + PAR validation | ✅ DONE | All 31 PARs + 82 DUNs present & correct; 1 typo: BA\`KELALAN backtick→apostrophe (32 rows) |
+| **3** | Candidate validation | ✅ DONE | 92/92 candidates present, vote totals match exactly; 1 name discrepancy ZULHAIDAH vs ZULBAIDAH SUBOH (P.218) |
+| **4** | Coalition/party consistency | ✅ DONE | All 92 candidates in correct slots; GPS(31), PH(30), PN(4), OTHER(15), INDEP(11), BN/GTA/GRS/WARISAN(0) |
+| **5** | Column mapping consistency | ✅ DONE | 19/21 checks pass; 2 comma-formatted numbers (rows 671, 3700); 493 trailing whitespace in col 9 |
+| **6** | Ballot total validation | ✅ DONE | All 31 PARs: A=B+C+D ✅, candidate sums match raw ✅; Discovery: raw `ut` field = rejected votes (mislabelled) |
+
+### Open Action Items
+
+**🔴 HIGH — Must Fix:**
+1. Apply UNIQUE CODE suffix corrections (44 rows) — see PHASE-1-REVIEW.md fix table
+2. Fix comma-formatted TOTAL VALID VOTES: row 671 `"1,616"`→`1616`, row 3700 `"1,488"`→`1488`
+
+**🟡 MEDIUM — Should Fix:**
+3. Replace backtick with apostrophe in BA'KELALAN (32 rows, col 7)
+4. Normalize suffix convention `_1a`→`_a1` in P.203 (11 rows)
+5. Correct suffix consistency in 3 districts (3 rows)
+
+**🟠 INVESTIGATE — Needs PDF:**
+6. Genuine duplicate at P.213_N.58_213/58/08_a1 (lines 2921–2922): same centre, different vote data
+7. Ambiguous channel at 198/20/33 SK TANAH PUTEH (lines 1258–1260): two ch1 rows, different data
+8. Name discrepancy P.218: ZULHAIDAH vs ZULBAIDAH SUBOH — verify against nomination PDF
+
+**🔵 LOW — Cosmetic:**
+9. Trim trailing whitespace in POLLING DISTRICT NAME (493 rows)
+
+### Files Produced
+- `PHASE-0-REVIEW.md` through `PHASE-6-REVIEW.md` — Detailed findings per phase
+- `REVIEW-SUMMARY.md` — Consolidated summary of all phases
+- `phase0_compare.go`, `phase3_check.go`, `phase4_party_check.go`, `phase5_validate.go`, `phase6_validate.go` — Analysis scripts
+- `orig-to-review.csv` — Backup of original file before Phase 1 fixes
