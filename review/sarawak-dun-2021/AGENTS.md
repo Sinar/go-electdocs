@@ -138,6 +138,20 @@ It will be important to map data from the source PDF when needed.
 *   **`TOTAL UNRETURNED BALLOTS`**: Mapped from `Jumlah Kertas Undi Yang Dikeluarkan Kepada Pengundi Tetapi Tidak Dimasukkan Ke Dalam Peti Undi(D)`.
 
 
+## LESSONS LEARNED — DO NOT REPEAT THESE MISTAKES
+
+### 1. Postal Vote DMKOD format
+- **POLLING DISTRICT CODE** (col 8) and the KODDM segment inside **UNIQUE CODE** (col 1) use the suffix `/POS` — e.g. `193/04/POS`.
+- **POLLING DISTRICT NAME** (col 9) and **POLLING CENTRE** (col 10) contain the text `UNDI POS`.
+- These are different columns. Do **not** put `UNDI POS` into the POLLING DISTRICT CODE or UNIQUE CODE.
+
+### 2. UNIQUE CODE suffix algorithm (duplicate disambiguation)
+- Suffixes are assigned **per Polling District Code**, not per channel number.
+- Build one `PollingCentre → letter` map for each district (first-appearance order in file).
+- Stamp that letter on **every row** for that district+centre — all channels uniformly.
+- **Wrong**: treating `_1` duplicates and `_2` duplicates as independent groups produces inconsistent letters (same centre gets `a` for channel 1 but `b` for channel 2, or no letter for unique channels).
+- Reference implementation: `fix_unique_codes.go`.
+
 ## TOOLING
 
 If needed to do more advanced processing, write Golang code using stdlib as much as possible; use the Golang scripts library if needed; use slog for strucgtured logging for debugging.  Do NOT use anything else  (e.g. Python) unless it can be justified; even then should be self-contained (e.g. using uvx for Python) as standalone script
@@ -157,11 +171,11 @@ Can place summary + phases of review after every step here so the next agent can
 - **Unmatched rows**: 2,658 only-in-2021 + 2,037 only-in-2016, explained by:
   - **RC-1**: 27 DUNs (N.11–N.37, N.58) have wrong P-codes in 2016 UNIQUE CODEs — a known 2016 dataset error
   - **RC-2**: Multiple DUNs have suffixed IDs in 2016 (`_1a`, `_1b`) vs duplicate IDs in 2021 — tracked in Phase-1
-  - **RC-3**: 79 DUNs changed postal vote KODDM from `POS` to `UNDI POS`; N.01 anomalously retains old `POS` format
+  - **RC-3**: All 82 DUNs had wrong `/UNDI POS` in POLLING DISTRICT CODE and UNIQUE CODE — fixed to `/POS` (correct per rule). `UNDI POS` belongs only in POLLING DISTRICT NAME and POLLING CENTRE columns.
 - **Columns with ZERO differences** (among matched rows): STATE, BALLOT TYPE, PARLIAMENTARY CONSTITUENCY CODE/NAME, STATE CONSTITUENCY CODE, POLLING DISTRICT CODE, VOTING CHANNEL NUMBER
 - **Actionable issues for 2021 data**:
   1. BA`KELALAN backtick → apostrophe (⚠️ Medium, already in Phase-2)
-  2. N.01 postal vote uses old `POS` format instead of `UNDI POS` (ℹ️ Low, inconsistency)
+  2. ~~N.01 postal format~~ — `/POS` in POLLING DISTRICT CODE is **correct** for ALL DUNs. All 82 postal rows were fixed from `/UNDI POS` → `/POS`.
 - **Details**: See `PHASE-0-REVIEW.md`
 
 ### PHASE-1: Ensure ID field is unique — ❌ FAIL (duplicates found)
@@ -169,7 +183,8 @@ Can place summary + phases of review after every step here so the next agent can
 - **Result**: 523 duplicate UNIQUE CODE values found across 1865 rows (out of 3748 total data rows). No empty UNIQUE CODEs. No existing suffixed IDs.
 - **Root cause**: Multiple Polling Centres share the same Polling District Code + Voting Channel Number, so the current ID scheme (`ParliCode_DUNCode_DMKOD_Channel`) does not disambiguate them.
 - **Distribution**: Most duplicates appear 2× (267 codes), but some go up to 18× (e.g. `P.215_N.61_215/61/04_1`, `P.216_N.66_216/66/02_1`).
-- **Fix needed**: Apply letter suffixes (a, b, c, …) to all 523 duplicate UNIQUE CODEs based on order of first appearance of each distinct Polling Centre. Only column 1 (UNIQUE CODE) should be modified.
+- **Fix needed**: For each Polling District Code, assign one letter per distinct Polling Centre (first-appearance order across the whole file). Apply that letter to **ALL rows** for that district+centre combination — every channel number, not just channels that were duplicates. Only column 1 (UNIQUE CODE) is modified.
+- **⚠️ WRONG approach**: Treating each channel (`_1`, `_2`, …) as an independent duplicate group causes the same Polling Centre to receive different letters across channels (e.g. `_1a` but `_2` or `_2b` for the same centre). See `fix_unique_codes.go` for the correct district-level implementation.
 - **Scope**: Systematic issue affecting all 82 DUNs.
 - **Details**: See `PHASE-1-REVIEW.md`
 
@@ -233,8 +248,8 @@ Can place summary + phases of review after every step here so the next agent can
   9. CHECKER (VALID VOTE) correct: sum of candidate votes = TOTAL VALID VOTES for all rows ✅; CHECKER (TOTAL VOTE ISSUED) correct: TOTAL BALLOTS ISSUED = Valid+Rejected+Unreturned for all rows ✅
   10. UNIQUE CODE structure matches `P.XXX_N.YY_XXX/YY/ZZ_C` pattern, internal P/DUN codes consistent with columns 4 and 6 ✅; POLLING DISTRICT CODE in UC matches column 8 ✅
 - **Notable observations** (not violations):
-  1. N.01 postal vote uses older `/POS` DMKOD format; all other 81 DUNs use `/UNDI POS` (already flagged in Phase-0)
-  2. 9 records have multi-line polling centre names (embedded newlines in quoted CSV fields) — valid CSV, not errors
+  1. ~~N.01 postal anomaly~~ — `/POS` in POLLING DISTRICT CODE is correct for ALL 82 DUNs. `UNDI POS` belongs only in POLLING DISTRICT NAME and POLLING CENTRE. All 82 postal rows corrected (`fix_postal_dmkod.go`).
+  2. 9 records had multi-line polling centre names (embedded newlines in quoted CSV fields) — cleaned up (`fix_newlines.go`).
   3. GPS column populated for all 3,748 rows (all 82 seats contested); sub-labels: PBB, PDP, PRS, SUPP
   4. Independent candidates use election symbols as party labels (BUKU, CANGKUL, JAM, KAPAL TERBANG, etc.)
 - **Ballot type distribution**: 82 POSTAL VOTE, 111 EARLY VOTE, 3,555 ORDINARY VOTE
