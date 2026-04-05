@@ -1,5 +1,23 @@
 # AGENTS
 
+### PHASE-6: Validate DUN-level TOTAL BALLOTS ISSUED against raw candidate totals — ✅ COMPLETED
+- **Source for cross-check**: `raw-candidate.csv` (official candidate totals by DUN)
+- **Method**:
+  1. Aggregate `TOTAL BALLOTS ISSUED` (A) per DUN from `to-review.csv`
+  2. Aggregate `ju` per DUN from `raw-candidate.csv` (mapped via `kid` → `N.XX`)
+  3. Aggregate `TOTAL VALID VOTES` (B), `TOTAL REJECTED VOTES` (C), `TOTAL UNRETURNED BALLOTS` (D) per DUN from `to-review.csv`
+  4. Validate:
+     - `RAW_JU == B`
+     - `A == B + C + D`
+     - equivalently `A - RAW_JU == C + D`
+- **Result**:
+  - DUN checked: **82**
+  - Missing DUN in `raw-candidate.csv`: **0**
+  - `RAW_JU != B`: **0 DUN**
+  - `A != B + C + D`: **0 DUN**
+- **Conclusion**: No ballot-total corruption detected. DUN-level calculations are internally consistent across all constituencies.
+- **Details**: See `PHASE-6-REVIEW.md`
+
 ## OBJECTIVE
 
 To thoroughly review the to-review.csv and see if any of the data is not matching, has typo, does not add up and is placed under wrong location.  Any analysis should be backed by strong evidence.
