@@ -1,0 +1,1224 @@
+==========================================================
+  PHASE 3: CANDIDATE COMPARISON REPORT
+  raw-candidate.csv vs to-review.csv
+==========================================================
+
+## SUMMARY
+
+  Reference DUNs:          82
+  Review DUNs:             82
+  Reference candidates:    349
+  Review candidates:       349
+  Total issues found:      0
+
+  By severity:
+
+  By type:
+
+==========================================================
+  DUN-BY-DUN CANDIDATE MAPPING
+==========================================================
+
+--- N.01 OPAR (ref=6, rev=6) ---
+  Reference (raw-candidate.csv):
+    ✓ BAYANG AK TERON                           SEDAR(pid=70)  SEDAR  L  votes=160
+    ✓ BILLY ANAK SUJANG                         GPS(pid=51)  GPS  L  votes=3659
+    ✓ RANUM ANAK MINA                           PSB(pid=54)  PSB  L  votes=1970
+    ✓ MENENG ANAK BIRIS                         PKR(pid=37)  PH  P  votes=327
+    ✓ FREEDY ANAK MISID                         PBK(pid=95)  PBK  L  votes=1487
+    ✓ CIKGU SAINI ANAK KAKONG                   PBDSB(pid=49)  PBDSB  L  votes=220
+  Review (to-review.csv):
+    ✓ BILLY ANAK SUJANG                         label=SUPP        col=GPS              sex=MALE
+    ✓ MENENG ANAK BIRIS                         label=PKR         col=PH               sex=FEMALE
+    ✓ RANUM ANAK MINA                           label=PSB         col=PSB              sex=MALE
+    ✓ FREEDY ANAK MISID                         label=PBK         col=PBK              sex=MALE
+    ✓ CIKGU SAINI ANAK KAKONG                   label=PBDSB       col=PBDSB            sex=MALE
+    ✓ BAYANG AK TERON                           label=SEDAR       col=SEDAR            sex=MALE
+  ✓ No issues
+
+--- N.02 TASIK BIRU (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ PAUL SHANON KENBELL BARIN                 PBK(pid=95)  PBK  L  votes=2113
+    ✓ DR TIKI ANAK LAFE                         PSB(pid=54)  PSB  L  votes=1980
+    ✓ DATO HENRY HARRY JINEP                    GPS(pid=51)  GPS  L  votes=6325
+    ✓ GRANDA ANAK AING                          DAP(pid=3)  PH  L  votes=1359
+  Review (to-review.csv):
+    ✓ DATO HENRY HARRY JINEP                    label=PDP         col=GPS              sex=MALE
+    ✓ GRANDA ANAK AING                          label=DAP         col=PH               sex=MALE
+    ✓ DR TIKI ANAK LAFE                         label=PSB         col=PSB              sex=MALE
+    ✓ PAUL SHANON KENBELL BARIN                 label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.03 TANJONG DATU (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ AZIZUL ANNUAR BIN ADENAN                  GPS(pid=51)  GPS  L  votes=5423
+    ✓ CIKGU TALIP                               BEBAS(pid=20)  INDEPENDENT  L  votes=261
+    ✓ JERY'IN BIN FAUZI                         PSB(pid=54)  PSB  L  votes=921
+    ✓ GOEM ANAK PIJAR                           PBK(pid=95)  PBK  L  votes=226
+  Review (to-review.csv):
+    ✓ AZIZUL ANNUAR BIN ADENAN                  label=PBB         col=GPS              sex=MALE
+    ✓ JERY'IN BIN FAUZI                         label=PSB         col=PSB              sex=MALE
+    ✓ GOEM ANAK PIJAR                           label=PBK         col=PBK              sex=MALE
+    ✓ CIKGU TALIP                               label=KAPAL TERBANG  col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.04 PANTAI DAMAI (ref=2, rev=2) ---
+  Reference (raw-candidate.csv):
+    ✓ DR ABDUL RAHMAN BIN JUNAIDI               GPS(pid=51)  GPS  L  votes=10699
+    ✓ MAHMUD BIN SABLI                          PSB(pid=54)  PSB  L  votes=2318
+  Review (to-review.csv):
+    ✓ DR ABDUL RAHMAN BIN JUNAIDI               label=PBB         col=GPS              sex=MALE
+    ✓ MAHMUD BIN SABLI                          label=PSB         col=PSB              sex=MALE
+  ✓ No issues
+
+--- N.05 DEMAK LAUT (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ DR. HAZLAND B. ABG. HIPNI                 GPS(pid=51)  GPS  L  votes=7636
+    ✓ JEN PELI                                  AMANAH(pid=81)  PH  L  votes=212
+    ✓ KHAIRUL BIN AHMAT                         BEBAS(pid=20)  INDEPENDENT  L  votes=674
+    ✓ YATIKA BINTI JELANI                       PSB(pid=54)  PSB  P  votes=1237
+  Review (to-review.csv):
+    ✓ DR. HAZLAND B. ABG. HIPNI                 label=PBB         col=GPS              sex=MALE
+    ✓ JEN PELI                                  label=PAN         col=PH               sex=MALE
+    ✓ YATIKA BINTI JELANI                       label=PSB         col=PSB              sex=FEMALE
+    ✓ KHAIRUL BIN AHMAT                         label=RUMAH       col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.06 TUPONG (ref=3, rev=3) ---
+  Reference (raw-candidate.csv):
+    ✓ FAZZRUDIN BIN ABDUL RAHMAN                GPS(pid=51)  GPS  L  votes=12544
+    ✓ CHAN HAONG YEN                            PBK(pid=95)  PBK  L  votes=836
+    ✓ AHMAD NAZIB BIN JOHARI                    PKR(pid=37)  PH  L  votes=1335
+  Review (to-review.csv):
+    ✓ FAZZRUDIN BIN ABDUL RAHMAN                label=PBB         col=GPS              sex=MALE
+    ✓ AHMAD NAZIB BIN JOHARI                    label=PKR         col=PH               sex=MALE
+    ✓ CHAN HAONG YEN                            label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.07 SAMARIANG (ref=3, rev=3) ---
+  Reference (raw-candidate.csv):
+    ✓ SHARIFAH HASIDAH BT SAYEED AMAN GHAZALI   GPS(pid=51)  GPS  P  votes=11354
+    ✓ ABANG HALIL                               AMANAH(pid=81)  PH  L  votes=1071
+    ✓ OTHMAN BIN ABDILLAH                       SEDAR(pid=70)  SEDAR  L  votes=535
+  Review (to-review.csv):
+    ✓ SHARIFAH HASIDAH BT SAYEED AMAN GHAZALI   label=PBB         col=GPS              sex=FEMALE
+    ✓ ABANG HALIL                               label=PAN         col=PH               sex=MALE
+    ✓ OTHMAN BIN ABDILLAH                       label=SEDAR       col=SEDAR            sex=MALE
+  ✓ No issues
+
+--- N.08 SATOK (ref=3, rev=3) ---
+  Reference (raw-candidate.csv):
+    ✓ IBRAHIM BAKI                              GPS(pid=51)  GPS  L  votes=6991
+    ✓ AWANG BADELE                              PBK(pid=95)  PBK  L  votes=415
+    ✓ DR HAJI IRWAN                             PKR(pid=37)  PH  L  votes=958
+  Review (to-review.csv):
+    ✓ IBRAHIM BAKI                              label=PBB         col=GPS              sex=MALE
+    ✓ DR HAJI IRWAN                             label=PKR         col=PH               sex=MALE
+    ✓ AWANG BADELE                              label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.09 PADUNGAN (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ RAYMOND THONG EE YU                       PBK(pid=95)  PBK  L  votes=930
+    ✓ CHONG CHIENG JEN                          DAP(pid=3)  PH  L  votes=4686
+    ✓ LINA SOO                                  ASPIRASI(pid=47)  ASPIRASI  P  votes=193
+    ✓ WEE HONG SENG                             GPS(pid=51)  GPS  L  votes=3488
+  Review (to-review.csv):
+    ✓ WEE HONG SENG                             label=SUPP        col=GPS              sex=MALE
+    ✓ CHONG CHIENG JEN                          label=DAP         col=PH               sex=MALE
+    ✓ RAYMOND THONG EE YU                       label=PBK         col=PBK              sex=MALE
+    ✓ LINA SOO                                  label=ASPIRASI    col=ASPIRASI         sex=FEMALE
+  ✓ No issues
+
+--- N.10 PENDING (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ TEO KUANG KIM                             PBK(pid=95)  PBK  L  votes=978
+    ✓ TAN KAY HOK                               PSB(pid=54)  PSB  L  votes=1858
+    ✓ CHAN CHEE HIONG                           ASPIRASI(pid=47)  ASPIRASI  L  votes=204
+    ✓ VIOLET YONG WUI WUI                       DAP(pid=3)  PH  P  votes=5188
+    ✓ MILTON FOO TIANG WEE                      GPS(pid=51)  GPS  L  votes=4648
+  Review (to-review.csv):
+    ✓ MILTON FOO TIANG WEE                      label=SUPP        col=GPS              sex=MALE
+    ✓ VIOLET YONG WUI WUI                       label=DAP         col=PH               sex=FEMALE
+    ✓ TAN KAY HOK                               label=PSB         col=PSB              sex=MALE
+    ✓ TEO KUANG KIM                             label=PBK         col=PBK              sex=MALE
+    ✓ CHAN CHEE HIONG                           label=ASPIRASI    col=ASPIRASI         sex=MALE
+  ✓ No issues
+
+--- N.11 BATU LINTANG (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ SIH HUA TONG                              GPS(pid=51)  GPS  L  votes=4327
+    ✓ SEE CHEE HOW                              PSB(pid=54)  PSB  L  votes=4420
+    ✓ VOON LEE SHAN                             PBK(pid=95)  PBK  L  votes=1570
+    ✓ LEONG SHAOW TUNG                          ASPIRASI(pid=47)  ASPIRASI  L  votes=187
+    ✓ CHERISHE NG PHUAY HUI                     PKR(pid=37)  PH  P  votes=1823
+  Review (to-review.csv):
+    ✓ SIH HUA TONG                              label=SUPP        col=GPS              sex=MALE
+    ✓ CHERISHE NG PHUAY HUI                     label=PKR         col=PH               sex=FEMALE
+    ✓ SEE CHEE HOW                              label=PSB         col=PSB              sex=MALE
+    ✓ VOON LEE SHAN                             label=PBK         col=PBK              sex=MALE
+    ✓ LEONG SHAOW TUNG                          label=ASPIRASI    col=ASPIRASI         sex=MALE
+  ✓ No issues
+
+--- N.12 KOTA SENTOSA (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ TAN KOK CHIANG                            ASPIRASI(pid=47)  ASPIRASI  L  votes=215
+    ✓ LAU PANG HENG                             PSB(pid=54)  PSB  L  votes=2328
+    ✓ YAP YAU SIN                               GPS(pid=51)  GPS  L  votes=5806
+    ✓ MICHAEL KONG FENG NIAN                    DAP(pid=3)  PH  L  votes=4123
+    ✓ LUE CHENG HING                            PBK(pid=95)  PBK  L  votes=1015
+  Review (to-review.csv):
+    ✓ YAP YAU SIN                               label=SUPP        col=GPS              sex=MALE
+    ✓ MICHAEL KONG FENG NIAN                    label=DAP         col=PH               sex=MALE
+    ✓ LAU PANG HENG                             label=PSB         col=PSB              sex=MALE
+    ✓ LUE CHENG HING                            label=PBK         col=PBK              sex=MALE
+    ✓ TAN KOK CHIANG                            label=ASPIRASI    col=ASPIRASI         sex=MALE
+  ✓ No issues
+
+--- N.13 BATU KITANG (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ LO KHERE CHIANG                           GPS(pid=51)  GPS  L  votes=6307
+    ✓ WONG TUN TECK                             PBK(pid=95)  PBK  L  votes=675
+    ✓ ABDUL AZIZ ISA                            DAP(pid=3)  PH  L  votes=2144
+    ✓ LIU THIAN LEONG                           PSB(pid=54)  PSB  L  votes=1812
+  Review (to-review.csv):
+    ✓ LO KHERE CHIANG                           label=SUPP        col=GPS              sex=MALE
+    ✓ ABDUL AZIZ ISA                            label=DAP         col=PH               sex=MALE
+    ✓ LIU THIAN LEONG                           label=PSB         col=PSB              sex=MALE
+    ✓ WONG TUN TECK                             label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.14 BATU KAWAH (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ FONG PAU TECK                             ASPIRASI(pid=47)  ASPIRASI  L  votes=133
+    ✓ DR. SIM KUI HIAN                          GPS(pid=51)  GPS  L  votes=7827
+    ✓ CHAI KUEH KHUN                            PBK(pid=95)  PBK  L  votes=756
+    ✓ KELVIN YII LEE WUEN                       DAP(pid=3)  PH  L  votes=2434
+  Review (to-review.csv):
+    ✓ DR. SIM KUI HIAN                          label=SUPP        col=GPS              sex=MALE
+    ✓ KELVIN YII LEE WUEN                       label=DAP         col=PH               sex=MALE
+    ✓ CHAI KUEH KHUN                            label=PBK         col=PBK              sex=MALE
+    ✓ FONG PAU TECK                             label=ASPIRASI    col=ASPIRASI         sex=MALE
+  ✓ No issues
+
+--- N.15 ASAJAYA (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ ABD KARIM RAHMAN HAMZAH                   GPS(pid=51)  GPS  L  votes=6380
+    ✓ ISHAK BIN BUJI                            PSB(pid=54)  PSB  L  votes=1849
+    ✓ MAHMUD BIN EPAH                           PKR(pid=37)  PH  L  votes=721
+    ✓ MOHAMAD HAMDEEN BIN SAHARUDDIN            PBK(pid=95)  PBK  L  votes=159
+  Review (to-review.csv):
+    ✓ ABD KARIM RAHMAN HAMZAH                   label=PBB         col=GPS              sex=MALE
+    ✓ MAHMUD BIN EPAH                           label=PKR         col=PH               sex=MALE
+    ✓ ISHAK BIN BUJI                            label=PSB         col=PSB              sex=MALE
+    ✓ MOHAMAD HAMDEEN BIN SAHARUDDIN            label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.16 MUARA TUANG (ref=6, rev=6) ---
+  Reference (raw-candidate.csv):
+    ✓ DATO' IDRIS BUANG                         GPS(pid=51)  GPS  L  votes=8435
+    ✓ ISMAWI BIN MUHAMMAD                       BEBAS(pid=20)  INDEPENDENT  L  votes=2198
+    ✓ HIPNI BIN SULAIMAN                        SEDAR(pid=70)  SEDAR  L  votes=357
+    ✓ HJ. DAUD EALI                             AMANAH(pid=81)  PH  L  votes=239
+    ✓ SIGANDAM BIN SULAIMAN                     PBK(pid=95)  PBK  L  votes=190
+    ✓ YAKUP BIN KHALID                          PSB(pid=54)  PSB  L  votes=1838
+  Review (to-review.csv):
+    ✓ DATO' IDRIS BUANG                         label=PBB         col=GPS              sex=MALE
+    ✓ HJ. DAUD EALI                             label=PAN         col=PH               sex=MALE
+    ✓ YAKUP BIN KHALID                          label=PSB         col=PSB              sex=MALE
+    ✓ SIGANDAM BIN SULAIMAN                     label=PBK         col=PBK              sex=MALE
+    ✓ HIPNI BIN SULAIMAN                        label=SEDAR       col=SEDAR            sex=MALE
+    ✓ ISMAWI BIN MUHAMMAD                       label=KUNCI       col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.17 STAKAN (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ HAMZAH BIN BRAHIM                         GPS(pid=51)  GPS  L  votes=7854
+    ✓ GEORGE YOUNG SI RICORD JUNIOR             PSB(pid=54)  PSB  L  votes=2047
+    ✓ LESLIE TING XIANG ZHI                     DAP(pid=3)  PH  L  votes=524
+    ✓ ATET ANAK DEGO                            PBK(pid=95)  PBK  P  votes=415
+  Review (to-review.csv):
+    ✓ HAMZAH BIN BRAHIM                         label=PBB         col=GPS              sex=MALE
+    ✓ LESLIE TING XIANG ZHI                     label=DAP         col=PH               sex=MALE
+    ✓ GEORGE YOUNG SI RICORD JUNIOR             label=PSB         col=PSB              sex=MALE
+    ✓ ATET ANAK DEGO                            label=PBK         col=PBK              sex=FEMALE
+  ✓ No issues
+
+--- N.18 SEREMBU (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ BULN RIBOS                                ASPIRASI(pid=47)  ASPIRASI  L  votes=92
+    ✓ JECKY ANAK MISIENG                        PBK(pid=95)  PBK  L  votes=257
+    ✓ MIRO ANAK SIMUH                           GPS(pid=51)  GPS  L  votes=4068
+    ✓ MICHAEL SAWENG                            PKR(pid=37)  PH  L  votes=217
+    ✓ IANA ANAK AKAM                            PSB(pid=54)  PSB  P  votes=2418
+  Review (to-review.csv):
+    ✓ MIRO ANAK SIMUH                           label=PBB         col=GPS              sex=MALE
+    ✓ MICHAEL SAWENG                            label=PKR         col=PH               sex=MALE
+    ✓ IANA ANAK AKAM                            label=PSB         col=PSB              sex=FEMALE
+    ✓ JECKY ANAK MISIENG                        label=PBK         col=PBK              sex=MALE
+    ✓ BULN RIBOS                                label=ASPIRASI    col=ASPIRASI         sex=MALE
+  ✓ No issues
+
+--- N.19 MAMBONG (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ SANJAN ANAK DAIK                          PSB(pid=54)  PSB  L  votes=2794
+    ✓ JERIP ANAK SUSIL                          GPS(pid=51)  GPS  L  votes=5865
+    ✓ CHANG HON HIUNG                           DAP(pid=3)  PH  L  votes=1517
+    ✓ CHONG SIEW HUNG                           ASPIRASI(pid=47)  ASPIRASI  P  votes=144
+    ✓ JOSHUA ROMAN                              PBK(pid=95)  PBK  L  votes=958
+  Review (to-review.csv):
+    ✓ JERIP ANAK SUSIL                          label=PBB         col=GPS              sex=MALE
+    ✓ CHANG HON HIUNG                           label=DAP         col=PH               sex=MALE
+    ✓ SANJAN ANAK DAIK                          label=PSB         col=PSB              sex=MALE
+    ✓ JOSHUA ROMAN                              label=PBK         col=PBK              sex=MALE
+    ✓ CHONG SIEW HUNG                           label=ASPIRASI    col=ASPIRASI         sex=FEMALE
+  ✓ No issues
+
+--- N.20 TARAT (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ CHRISTO ANAK MICHAEL                      PKR(pid=37)  PH  L  votes=1445
+    ✓ DADI @ TIAP ANAK JUUL                     PSB(pid=54)  PSB  L  votes=1492
+    ✓ EDISON JAMANG                             PBK(pid=95)  PBK  L  votes=1182
+    ✓ BAI @ UDIN ANAK DUNGAK                    BEBAS(pid=20)  INDEPENDENT  L  votes=169
+    ✓ ROLAND SAGAH                              GPS(pid=51)  GPS  L  votes=6500
+  Review (to-review.csv):
+    ✓ ROLAND SAGAH                              label=PBB         col=GPS              sex=MALE
+    ✓ CHRISTO ANAK MICHAEL                      label=PKR         col=PH               sex=MALE
+    ✓ DADI @ TIAP ANAK JUUL                     label=PSB         col=PSB              sex=MALE
+    ✓ EDISON JAMANG                             label=PBK         col=PBK              sex=MALE
+    ✓ BAI @ UDIN ANAK DUNGAK                    label=KUNCI       col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.21 TEBEDU (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ SENIOR ANAK WILLIAM RADE                  PKR(pid=37)  PH  L  votes=610
+    ✓ JONATHAN LANTIK OK                        PBK(pid=95)  PBK  L  votes=614
+    ✓ DR. SIMON SINANG @ SINANG ANAK BADA       GPS(pid=51)  GPS  L  votes=5082
+    ✓ ROLAND ANAK BANGU                         BEBAS(pid=20)  INDEPENDENT  L  votes=106
+    ✓ CHEYNE KAMBENG @ RAYMOND ACHEN            PSB(pid=54)  PSB  L  votes=1809
+  Review (to-review.csv):
+    ✓ DR. SIMON SINANG @ SINANG ANAK BADA       label=PBB         col=GPS              sex=MALE
+    ✓ SENIOR ANAK WILLIAM RADE                  label=PKR         col=PH               sex=MALE
+    ✓ CHEYNE KAMBENG @ RAYMOND ACHEN            label=PSB         col=PSB              sex=MALE
+    ✓ JONATHAN LANTIK OK                        label=PBK         col=PBK              sex=MALE
+    ✓ ROLAND ANAK BANGU                         label=CANGKUL     col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.22 KEDUP (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ DR. STEPHEN MORGAN SUNGAN                 PBK(pid=95)  PBK  L  votes=745
+    ✓ MARTIN BEN                                GPS(pid=51)  GPS  L  votes=5178
+    ✓ DOMINIC DADO ANAK SAGIN                   PSB(pid=54)  PSB  L  votes=1612
+    ✓ LEARRY ANAK JABUL                         DAP(pid=3)  PH  L  votes=640
+  Review (to-review.csv):
+    ✓ MARTIN BEN                                label=PBB         col=GPS              sex=MALE
+    ✓ LEARRY ANAK JABUL                         label=DAP         col=PH               sex=MALE
+    ✓ DOMINIC DADO ANAK SAGIN                   label=PSB         col=PSB              sex=MALE
+    ✓ DR. STEPHEN MORGAN SUNGAN                 label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.23 BUKIT SEMUJA (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ BROLIN NICHOLSION                         DAP(pid=3)  PH  L  votes=777
+    ✓ JOHN ANAK ILUS                            GPS(pid=51)  GPS  L  votes=6113
+    ✓ EDWARD ANDREW LUWAK                       PBK(pid=95)  PBK  L  votes=427
+    ✓ ELSIY A/K TINGANG                         PSB(pid=54)  PSB  P  votes=1408
+  Review (to-review.csv):
+    ✓ JOHN ANAK ILUS                            label=PBB         col=GPS              sex=MALE
+    ✓ BROLIN NICHOLSION                         label=DAP         col=PH               sex=MALE
+    ✓ ELSIY A/K TINGANG                         label=PSB         col=PSB              sex=FEMALE
+    ✓ EDWARD ANDREW LUWAK                       label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.24 SADONG JAYA (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ Ir. AIDEL BIN LARIWOO                     GPS(pid=51)  GPS  L  votes=4333
+    ✓ NUR KHAIRUNISA BINTI ABDULLAH             PSB(pid=54)  PSB  P  votes=456
+    ✓ CIKGU PIEE                                PKR(pid=37)  PH  L  votes=319
+    ✓ JOLHI HAJI BEE                            PBK(pid=95)  PBK  L  votes=115
+  Review (to-review.csv):
+    ✓ Ir. AIDEL BIN LARIWOO                     label=PBB         col=GPS              sex=MALE
+    ✓ CIKGU PIEE                                label=PKR         col=PH               sex=MALE
+    ✓ NUR KHAIRUNISA BINTI ABDULLAH             label=PSB         col=PSB              sex=FEMALE
+    ✓ JOLHI HAJI BEE                            label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.25 SIMUNJAN (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ SAHARUDDIN BIN ABDULLAH                   PBK(pid=95)  PBK  L  votes=137
+    ✓ HAPENI BIN FADIL                          PKR(pid=37)  PH  L  votes=518
+    ✓ RAILY @ RELI BIN ALI                      PSB(pid=54)  PSB  L  votes=925
+    ✓ AWLA BIN DRIS                             GPS(pid=51)  GPS  L  votes=4276
+  Review (to-review.csv):
+    ✓ AWLA BIN DRIS                             label=PBB         col=GPS              sex=MALE
+    ✓ HAPENI BIN FADIL                          label=PKR         col=PH               sex=MALE
+    ✓ RAILY @ RELI BIN ALI                      label=PSB         col=PSB              sex=MALE
+    ✓ SAHARUDDIN BIN ABDULLAH                   label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.26 GEDONG (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ DATUK PATINGGI TAN SRI ABG ABD RAHMAN ZOHARI  GPS(pid=51)  GPS  L  votes=4310
+    ✓ MOHAMAD SOFIAN FARIZ BIN SHARBINI         PSB(pid=54)  PSB  L  votes=703
+    ✓ CIKGU KAMAL                               AMANAH(pid=81)  PH  L  votes=94
+    ✓ TOMSON ANGO                               PBK(pid=95)  PBK  L  votes=157
+  Review (to-review.csv):
+    ✓ DATUK PATINGGI TAN SRI ABG ABD RAHMAN ZOHARI  label=PBB         col=GPS              sex=MALE
+    ✓ CIKGU KAMAL                               label=PAN         col=PH               sex=MALE
+    ✓ MOHAMAD SOFIAN FARIZ BIN SHARBINI         label=PSB         col=PSB              sex=MALE
+    ✓ TOMSON ANGO                               label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.27 SEBUYAU (ref=3, rev=3) ---
+  Reference (raw-candidate.csv):
+    ✓ DATUK JULAIHI NARAWI                      GPS(pid=51)  GPS  L  votes=4937
+    ✓ WAN CHEE BIN WAN MAHJAR                   PBK(pid=95)  PBK  L  votes=486
+    ✓ WEL @ MAXWEL ANAK ROJIS                   AMANAH(pid=81)  PH  L  votes=803
+  Review (to-review.csv):
+    ✓ DATUK JULAIHI NARAWI                      label=PBB         col=GPS              sex=MALE
+    ✓ WEL @ MAXWEL ANAK ROJIS                   label=PAN         col=PH               sex=MALE
+    ✓ WAN CHEE BIN WAN MAHJAR                   label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.28 LINGGA (ref=6, rev=6) ---
+  Reference (raw-candidate.csv):
+    ✓ BAHA ANAK IMAM                            PBK(pid=95)  PBK  L  votes=139
+    ✓ MOHD SEPIAN BIN ABANG DAUD                BEBAS(pid=20)  INDEPENDENT  L  votes=880
+    ✓ ABANG AHMAD BIN ABANG SUNI                SEDAR(pid=70)  SEDAR  L  votes=92
+    ✓ ABG KASSIM ABG BUJANG                     PKR(pid=37)  PH  L  votes=130
+    ✓ DATO WAN                                  PSB(pid=54)  PSB  L  votes=1427
+    ✓ DAYANG NOORAZAH BTE AWANG SOHOR           GPS(pid=51)  GPS  P  votes=3700
+  Review (to-review.csv):
+    ✓ DAYANG NOORAZAH BTE AWANG SOHOR           label=PBB         col=GPS              sex=FEMALE
+    ✓ ABG KASSIM ABG BUJANG                     label=PKR         col=PH               sex=MALE
+    ✓ DATO WAN                                  label=PSB         col=PSB              sex=MALE
+    ✓ BAHA ANAK IMAM                            label=PBK         col=PBK              sex=MALE
+    ✓ ABANG AHMAD BIN ABANG SUNI                label=SEDAR       col=SEDAR            sex=MALE
+    ✓ MOHD SEPIAN BIN ABANG DAUD                label=PERAHU      col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.29 BETING MARO (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ JACKY CHIEW SU CHEE                       PBK(pid=95)  PBK  L  votes=74
+    ✓ RAZAILI BIN HAJI GAPOR                    GPS(pid=51)  GPS  L  votes=3769
+    ✓ ABANG ZULKIFLI ABANG ENGKEH               PKR(pid=37)  PH  L  votes=765
+    ✓ SAFIUDIN BIN MATSAH                       BEBAS(pid=20)  INDEPENDENT  L  votes=636
+    ✓ ARIF PAIJO                                PAS(pid=2)  PAS  L  votes=2058
+  Review (to-review.csv):
+    ✓ RAZAILI BIN HAJI GAPOR                    label=PBB         col=GPS              sex=MALE
+    ✓ ABANG ZULKIFLI ABANG ENGKEH               label=PKR         col=PH               sex=MALE
+    ✓ JACKY CHIEW SU CHEE                       label=PBK         col=PBK              sex=MALE
+    ✓ ARIF PAIJO                                label=PAS         col=PAS              sex=MALE
+    ✓ SAFIUDIN BIN MATSAH                       label=POKOK       col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.30 BALAI RINGIN (ref=3, rev=3) ---
+  Reference (raw-candidate.csv):
+    ✓ SNOWDAN LAWAN                             GPS(pid=51)  GPS  L  votes=4816
+    ✓ MASIR ANAK KUJAT                          PSB(pid=54)  PSB  L  votes=3531
+    ✓ KASIM ANAK MANA                           PBK(pid=95)  PBK  L  votes=195
+  Review (to-review.csv):
+    ✓ SNOWDAN LAWAN                             label=PRS         col=GPS              sex=MALE
+    ✓ MASIR ANAK KUJAT                          label=PSB         col=PSB              sex=MALE
+    ✓ KASIM ANAK MANA                           label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.31 BUKIT BEGUNAN (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ VINTON LANGANG ANAK SANGGA                PBK(pid=95)  PBK  L  votes=86
+    ✓ ENTUSA ANAK IMAM                          PBDSB(pid=49)  PBDSB  L  votes=115
+    ✓ NORINA UMOI ANAK UTOT                     PSB(pid=54)  PSB  P  votes=2652
+    ✓ MONG AK DAGANG                            GPS(pid=51)  GPS  L  votes=4054
+  Review (to-review.csv):
+    ✓ MONG AK DAGANG                            label=PRS         col=GPS              sex=MALE
+    ✓ NORINA UMOI ANAK UTOT                     label=PSB         col=PSB              sex=FEMALE
+    ✓ VINTON LANGANG ANAK SANGGA                label=PBK         col=PBK              sex=MALE
+    ✓ ENTUSA ANAK IMAM                          label=PBDSB       col=PBDSB            sex=MALE
+  ✓ No issues
+
+--- N.32 SIMANGGANG (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ PELI ANAK ARON                            PBK(pid=95)  PBK  L  votes=135
+    ✓ WALSIN @ WILSON ANAK ENTABANG             PSB(pid=54)  PSB  L  votes=3779
+    ✓ LEON JIMAT DONALD                         DAP(pid=3)  PH  L  votes=212
+    ✓ FRANCIS HARDEN ANAK HOLLIS                GPS(pid=51)  GPS  L  votes=3954
+  Review (to-review.csv):
+    ✓ FRANCIS HARDEN ANAK HOLLIS                label=SUPP        col=GPS              sex=MALE
+    ✓ LEON JIMAT DONALD                         label=DAP         col=PH               sex=MALE
+    ✓ WALSIN @ WILSON ANAK ENTABANG             label=PSB         col=PSB              sex=MALE
+    ✓ PELI ANAK ARON                            label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.33 ENGKILILI (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ STEL ANAK DATU                            PBK(pid=95)  PBK  L  votes=151
+    ✓ DESMOND SATENG ANAK SANJAN                GPS(pid=51)  GPS  L  votes=2055
+    ✓ JOHNICHAL RAYONG NGIPA                    PSB(pid=54)  PSB  L  votes=3246
+    ✓ GEMONG ANAK BATU                          BEBAS(pid=20)  INDEPENDENT  L  votes=2013
+  Review (to-review.csv):
+    ✓ DESMOND SATENG ANAK SANJAN                label=SUPP        col=GPS              sex=MALE
+    ✓ JOHNICHAL RAYONG NGIPA                    label=PSB         col=PSB              sex=MALE
+    ✓ STEL ANAK DATU                            label=PBK         col=PBK              sex=MALE
+    ✓ GEMONG ANAK BATU                          label=KUNCI       col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.34 BATANG AI (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ MALCOLM MUSSEN ANAK LAMOH                 GPS(pid=51)  GPS  L  votes=3208
+    ✓ USUP AK ASUN                              PBK(pid=95)  PBK  L  votes=151
+    ✓ WILLIAM @ NYALLAU ANAK BADAK              PSB(pid=54)  PSB  L  votes=1366
+    ✓ JOHN LINANG ANAK MEREEJON                 BEBAS(pid=20)  INDEPENDENT  L  votes=2470
+  Review (to-review.csv):
+    ✓ MALCOLM MUSSEN ANAK LAMOH                 label=PRS         col=GPS              sex=MALE
+    ✓ WILLIAM @ NYALLAU ANAK BADAK              label=PSB         col=PSB              sex=MALE
+    ✓ USUP AK ASUN                              label=PBK         col=PBK              sex=MALE
+    ✓ JOHN LINANG ANAK MEREEJON                 label=KUNCI       col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.35 SARIBAS (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ RICKY @ MOHAMMAD RAZI SITAM               GPS(pid=51)  GPS  L  votes=5138
+    ✓ MELAINIE BIN BOLHASSAN                    PSB(pid=54)  PSB  L  votes=668
+    ✓ CIKGU PATEK @ PATRICK HAJI KAMIS          PKR(pid=37)  PH  L  votes=1902
+    ✓ SIM MIN LEONG                             PBK(pid=95)  PBK  L  votes=74
+    ✓ KURNAEN BIN BOBEN                         SEDAR(pid=70)  SEDAR  L  votes=60
+  Review (to-review.csv):
+    ✓ RICKY @ MOHAMMAD RAZI SITAM               label=PBB         col=GPS              sex=MALE
+    ✓ CIKGU PATEK @ PATRICK HAJI KAMIS          label=PKR         col=PH               sex=MALE
+    ✓ MELAINIE BIN BOLHASSAN                    label=PSB         col=PSB              sex=MALE
+    ✓ SIM MIN LEONG                             label=PBK         col=PBK              sex=MALE
+    ✓ KURNAEN BIN BOBEN                         label=SEDAR       col=SEDAR            sex=MALE
+  ✓ No issues
+
+--- N.36 LAYAR (ref=2, rev=2) ---
+  Reference (raw-candidate.csv):
+    ✓ GERALD RENTAP JABU                        GPS(pid=51)  GPS  L  votes=3891
+    ✓ ISIK ANAK UTAU                            PSB(pid=54)  PSB  L  votes=1852
+  Review (to-review.csv):
+    ✓ GERALD RENTAP JABU                        label=PBB         col=GPS              sex=MALE
+    ✓ ISIK ANAK UTAU                            label=PSB         col=PSB              sex=MALE
+  ✓ No issues
+
+--- N.37 BUKIT SABAN (ref=3, rev=3) ---
+  Reference (raw-candidate.csv):
+    ✓ MIKHAIL MATHEW                            PKR(pid=37)  PH  L  votes=136
+    ✓ ANDRIA GELAYAN                            PSB(pid=54)  PSB  L  votes=1385
+    ✓ DOUGLAS UGGAH EMBAS                       GPS(pid=51)  GPS  L  votes=5373
+  Review (to-review.csv):
+    ✓ DOUGLAS UGGAH EMBAS                       label=PBB         col=GPS              sex=MALE
+    ✓ MIKHAIL MATHEW                            label=PKR         col=PH               sex=MALE
+    ✓ ANDRIA GELAYAN                            label=PSB         col=PSB              sex=MALE
+  ✓ No issues
+
+--- N.38 KALAKA (ref=3, rev=3) ---
+  Reference (raw-candidate.csv):
+    ✓ LINANG ANAK CHAPUM                        PBK(pid=95)  PBK  L  votes=457
+    ✓ MOHAMAD BIN DURI                          GPS(pid=51)  GPS  L  votes=3893
+    ✓ JOHN ANTAU ANAK LINGGANG                  PSB(pid=54)  PSB  L  votes=1025
+  Review (to-review.csv):
+    ✓ MOHAMAD BIN DURI                          label=PBB         col=GPS              sex=MALE
+    ✓ JOHN ANTAU ANAK LINGGANG                  label=PSB         col=PSB              sex=MALE
+    ✓ LINANG ANAK CHAPUM                        label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.39 KRIAN (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ MUSA ANAK DINGGAT                         PSB(pid=54)  PSB  L  votes=2953
+    ✓ DANNY KUAN                                PBK(pid=95)  PBK  L  votes=282
+    ✓ FRIDAY ANAK BELIK                         GPS(pid=51)  GPS  L  votes=3885
+    ✓ ALI BIJU                                  BEBAS(pid=20)  INDEPENDENT  L  votes=1777
+  Review (to-review.csv):
+    ✓ FRIDAY ANAK BELIK                         label=PDP         col=GPS              sex=MALE
+    ✓ MUSA ANAK DINGGAT                         label=PSB         col=PSB              sex=MALE
+    ✓ DANNY KUAN                                label=PBK         col=PBK              sex=MALE
+    ✓ ALI BIJU                                  label=KERUSI      col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.40 KABONG (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ HUD ANDRI                                 AMANAH(pid=81)  PH  L  votes=91
+    ✓ MOHD CHEE KADIR                           GPS(pid=51)  GPS  L  votes=4789
+    ✓ MOHAMAD ASRI BIN KASSIM                   PBK(pid=95)  PBK  L  votes=208
+    ✓ WAN MOHAMAD MADEHI BIN WAN ALI            PSB(pid=54)  PSB  L  votes=2026
+  Review (to-review.csv):
+    ✓ MOHD CHEE KADIR                           label=PBB         col=GPS              sex=MALE
+    ✓ HUD ANDRI                                 label=PAN         col=PH               sex=MALE
+    ✓ WAN MOHAMAD MADEHI BIN WAN ALI            label=PSB         col=PSB              sex=MALE
+    ✓ MOHAMAD ASRI BIN KASSIM                   label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.41 KUALA RAJANG (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ DATO` SRI ABANG ADITAJAYA                 BEBAS(pid=20)  INDEPENDENT  L  votes=1943
+    ✓ TALIF @ LEN BIN SALLEH                    GPS(pid=51)  GPS  L  votes=5268
+    ✓ WONG LING CHING                           PBK(pid=95)  PBK  P  votes=109
+    ✓ ABD MUTALIP BIN ABDULLAH                  BEBAS(pid=20)  INDEPENDENT  L  votes=168
+  Review (to-review.csv):
+    ✓ TALIF @ LEN BIN SALLEH                    label=PBB         col=GPS              sex=MALE
+    ✓ WONG LING CHING                           label=PBK         col=PBK              sex=FEMALE
+    ✓ DATO` SRI ABANG ADITAJAYA                 label=RUMAH       col=INDEPENDENT 1    sex=MALE
+    ✓ ABD MUTALIP BIN ABDULLAH                  label=POKOK       col=INDEPENDENT 2    sex=MALE
+  ✓ No issues
+
+--- N.42 SEMOP (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ JENNY WONG KHING LING                     PBK(pid=95)  PBK  P  votes=118
+    ✓ ABDUL RAAFIDIN BIN MAJIDI                 PSB(pid=54)  PSB  L  votes=1180
+    ✓ FADILLAH SABALI                           AMANAH(pid=81)  PH  L  votes=270
+    ✓ MOHD ADENAN BIN ZULKEPPLI                 BEBAS(pid=20)  INDEPENDENT  L  votes=811
+    ✓ ABDULLAH BIN SAIDOL                       GPS(pid=51)  GPS  L  votes=4338
+  Review (to-review.csv):
+    ✓ ABDULLAH BIN SAIDOL                       label=PBB         col=GPS              sex=MALE
+    ✓ FADILLAH SABALI                           label=PAN         col=PH               sex=MALE
+    ✓ ABDUL RAAFIDIN BIN MAJIDI                 label=PSB         col=PSB              sex=MALE
+    ✓ JENNY WONG KHING LING                     label=PBK         col=PBK              sex=FEMALE
+    ✓ MOHD ADENAN BIN ZULKEPPLI                 label=RUMAH       col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.43 DARO (ref=3, rev=3) ---
+  Reference (raw-candidate.csv):
+    ✓ SAFIEE BIN HAJI AHMAD                     GPS(pid=51)  GPS  L  votes=5317
+    ✓ CIKGU JAMAL IBRAHIM                       BEBAS(pid=20)  INDEPENDENT  L  votes=205
+    ✓ TING ING HUA                              PBK(pid=95)  PBK  L  votes=184
+  Review (to-review.csv):
+    ✓ SAFIEE BIN HAJI AHMAD                     label=PBB         col=GPS              sex=MALE
+    ✓ TING ING HUA                              label=PBK         col=PBK              sex=MALE
+    ✓ CIKGU JAMAL IBRAHIM                       label=KUNCI       col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.44 JEMORENG (ref=3, rev=3) ---
+  Reference (raw-candidate.csv):
+    ✓ JUANDA BIN JAYA                           GPS(pid=51)  GPS  L  votes=5623
+    ✓ OSMAN BIN RAFAIE                          BEBAS(pid=20)  INDEPENDENT  L  votes=611
+    ✓ USTAZAH ZAINAB                            AMANAH(pid=81)  PH  P  votes=244
+  Review (to-review.csv):
+    ✓ JUANDA BIN JAYA                           label=PBB         col=GPS              sex=MALE
+    ✓ USTAZAH ZAINAB                            label=PAN         col=PH               sex=FEMALE
+    ✓ OSMAN BIN RAFAIE                          label=KUNCI       col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.45 REPOK (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ JOSEPH WONG KUNG KING                     PBK(pid=95)  PBK  L  votes=738
+    ✓ HUANG TIONG SII                           GPS(pid=51)  GPS  L  votes=10038
+    ✓ WONG CHIN KING                            ASPIRASI(pid=47)  ASPIRASI  L  votes=216
+    ✓ WONG PAK MING                             DAP(pid=3)  PH  L  votes=2730
+  Review (to-review.csv):
+    ✓ HUANG TIONG SII                           label=SUPP        col=GPS              sex=MALE
+    ✓ WONG PAK MING                             label=DAP         col=PH               sex=MALE
+    ✓ JOSEPH WONG KUNG KING                     label=PBK         col=PBK              sex=MALE
+    ✓ WONG CHIN KING                            label=ASPIRASI    col=ASPIRASI         sex=MALE
+  ✓ No issues
+
+--- N.46 MERADONG (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ DING KUONG HIING                          GPS(pid=51)  GPS  L  votes=6827
+    ✓ HII RU YEE                                PSB(pid=54)  PSB  L  votes=3465
+    ✓ YONG SIEW WEI                             DAP(pid=3)  PH  P  votes=809
+    ✓ MOH HIONG KING                            PBK(pid=95)  PBK  L  votes=622
+  Review (to-review.csv):
+    ✓ DING KUONG HIING                          label=SUPP        col=GPS              sex=MALE
+    ✓ YONG SIEW WEI                             label=DAP         col=PH               sex=FEMALE
+    ✓ HII RU YEE                                label=PSB         col=PSB              sex=MALE
+    ✓ MOH HIONG KING                            label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.47 PAKAN (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ TEDONG AK CHAKAW                          BEBAS(pid=20)  INDEPENDENT  L  votes=2554
+    ✓ BRAWI ANGUONG                             BEBAS(pid=20)  INDEPENDENT  L  votes=506
+    ✓ WILLIAM IKOM                              GPS(pid=51)  GPS  L  votes=3268
+    ✓ HEREWARD GRAMONG ANAK JOSEPH ALLEN        PSB(pid=54)  PSB  L  votes=1484
+    ✓ JEMELI ANAK KERAH                         PBK(pid=95)  PBK  L  votes=133
+  Review (to-review.csv):
+    ✓ WILLIAM IKOM                              label=PBB         col=GPS              sex=MALE
+    ✓ HEREWARD GRAMONG ANAK JOSEPH ALLEN        label=PSB         col=PSB              sex=MALE
+    ✓ JEMELI ANAK KERAH                         label=PBK         col=PBK              sex=MALE
+    ✓ TEDONG AK CHAKAW                          label=KUNCI       col=INDEPENDENT 1    sex=MALE
+    ✓ BRAWI ANGUONG                             label=KERUSI      col=INDEPENDENT 2    sex=MALE
+  ✓ No issues
+
+--- N.48 MELUAN (ref=3, rev=3) ---
+  Reference (raw-candidate.csv):
+    ✓ ABDUL HAMID BIN SIONG                     PBK(pid=95)  PBK  L  votes=186
+    ✓ ROLLAND DUAT ANAK JUBIN                   GPS(pid=51)  GPS  L  votes=5269
+    ✓ ELLY LAWAI ANAK NGALAI                    PSB(pid=54)  PSB  L  votes=4447
+  Review (to-review.csv):
+    ✓ ROLLAND DUAT ANAK JUBIN                   label=PDP         col=GPS              sex=MALE
+    ✓ ELLY LAWAI ANAK NGALAI                    label=PSB         col=PSB              sex=MALE
+    ✓ ABDUL HAMID BIN SIONG                     label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.49 NGEMAH (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ ANYI ANAK JANA                            GPS(pid=51)  GPS  L  votes=3193
+    ✓ DR JOSEPH JAWA ANAK KENDAWANG             PSB(pid=54)  PSB  L  votes=2932
+    ✓ SATU ANCHOM                               PKR(pid=37)  PH  L  votes=259
+    ✓ CHARLIE ANAK GENAM                        PBK(pid=95)  PBK  L  votes=169
+    ✓ LEO ANAK BUNSU                            PBDSB(pid=49)  PBDSB  L  votes=354
+  Review (to-review.csv):
+    ✓ ANYI ANAK JANA                            label=PRS         col=GPS              sex=MALE
+    ✓ SATU ANCHOM                               label=PKR         col=PH               sex=MALE
+    ✓ DR JOSEPH JAWA ANAK KENDAWANG             label=PSB         col=PSB              sex=MALE
+    ✓ CHARLIE ANAK GENAM                        label=PBK         col=PBK              sex=MALE
+    ✓ LEO ANAK BUNSU                            label=PBDSB       col=PBDSB            sex=MALE
+  ✓ No issues
+
+--- N.50 MACHAN (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ ALLAN SIDEN GRAMONG                       GPS(pid=51)  GPS  L  votes=4155
+    ✓ MARY RITA ANAK MATHIAS                    PBK(pid=95)  PBK  P  votes=203
+    ✓ MADANG ANAK DIMBAB                        PSB(pid=54)  PSB  L  votes=2066
+    ✓ JOSEPH NYAMBONG                           PKR(pid=37)  PH  L  votes=1267
+    ✓ NGELAYANG ANAK UNAU                       ASPIRASI(pid=47)  ASPIRASI  L  votes=52
+  Review (to-review.csv):
+    ✓ ALLAN SIDEN GRAMONG                       label=PBB         col=GPS              sex=MALE
+    ✓ JOSEPH NYAMBONG                           label=PKR         col=PH               sex=MALE
+    ✓ MADANG ANAK DIMBAB                        label=PSB         col=PSB              sex=MALE
+    ✓ MARY RITA ANAK MATHIAS                    label=PBK         col=PBK              sex=FEMALE
+    ✓ NGELAYANG ANAK UNAU                       label=ASPIRASI    col=ASPIRASI         sex=MALE
+  ✓ No issues
+
+--- N.51 BUKIT ASSEK (ref=6, rev=6) ---
+  Reference (raw-candidate.csv):
+    ✓ JESS LAU                                  ASPIRASI(pid=47)  ASPIRASI  P  votes=209
+    ✓ CHIENG JIN EK                             GPS(pid=51)  GPS  L  votes=4684
+    ✓ IRENE CHANG                               DAP(pid=3)  PH  P  votes=3810
+    ✓ TING KEE NGUAN                            PSB(pid=54)  PSB  L  votes=1790
+    ✓ PRISCILLA LAU                             PBK(pid=95)  PBK  P  votes=2598
+    ✓ HII TIONG HUAT                            BEBAS(pid=20)  INDEPENDENT  L  votes=313
+  Review (to-review.csv):
+    ✓ CHIENG JIN EK                             label=SUPP        col=GPS              sex=MALE
+    ✓ IRENE CHANG                               label=DAP         col=PH               sex=FEMALE
+    ✓ TING KEE NGUAN                            label=PSB         col=PSB              sex=MALE
+    ✓ PRISCILLA LAU                             label=PBK         col=PBK              sex=FEMALE
+    ✓ JESS LAU                                  label=ASPIRASI    col=ASPIRASI         sex=FEMALE
+    ✓ HII TIONG HUAT                            label=KUNCI       col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.52 DUDONG (ref=8, rev=8) ---
+  Reference (raw-candidate.csv):
+    ✓ WONG HIE PING                             PSB(pid=54)  PSB  P  votes=3584
+    ✓ JANE LAU SING YEE                         PBK(pid=95)  PBK  P  votes=1779
+    ✓ CARDOCK                                   BEBAS(pid=20)  INDEPENDENT  L  votes=1178
+    ✓ JULIUS ENCHANA ANAK JASPHER ANCHO         PBDSB(pid=49)  PBDSB  L  votes=893
+    ✓ PAUL LING FONG                            DAP(pid=3)  PH  L  votes=2724
+    ✓ JOSEPHINE LAU                             ASPIRASI(pid=47)  ASPIRASI  P  votes=212
+    ✓ DATO SRI TIONG KING SING                  GPS(pid=51)  GPS  L  votes=9390
+    ✓ ENGGA ANAK UNCHAT                         BEBAS(pid=20)  INDEPENDENT  L  votes=225
+  Review (to-review.csv):
+    ✓ DATO SRI TIONG KING SING                  label=PDP         col=GPS              sex=MALE
+    ✓ PAUL LING FONG                            label=DAP         col=PH               sex=MALE
+    ✓ WONG HIE PING                             label=PSB         col=PSB              sex=FEMALE
+    ✓ JANE LAU SING YEE                         label=PBK         col=PBK              sex=FEMALE
+    ✓ JOSEPHINE LAU                             label=ASPIRASI    col=ASPIRASI         sex=FEMALE
+    ✓ JULIUS ENCHANA ANAK JASPHER ANCHO         label=PBDSB       col=PBDSB            sex=MALE
+    ✓ CARDOCK                                   label=UDANG       col=INDEPENDENT 1    sex=MALE
+    ✓ ENGGA ANAK UNCHAT                         label=KUNCI       col=INDEPENDENT 2    sex=MALE
+  ✓ No issues
+
+--- N.53 BAWANG ASSAN (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ ROBERT LAU HUI YEW                        GPS(pid=51)  GPS  L  votes=5039
+    ✓ MICHELLE LING SHYAN MIH                   PBK(pid=95)  PBK  P  votes=954
+    ✓ WONG SOON KOH                             PSB(pid=54)  PSB  L  votes=5952
+    ✓ AMY LAU BIK YIENG                         DAP(pid=3)  PH  P  votes=1173
+    ✓ RICKY ANAK ENTERI                         BEBAS(pid=20)  INDEPENDENT  L  votes=645
+  Review (to-review.csv):
+    ✓ ROBERT LAU HUI YEW                        label=SUPP        col=GPS              sex=MALE
+    ✓ AMY LAU BIK YIENG                         label=DAP         col=PH               sex=FEMALE
+    ✓ WONG SOON KOH                             label=PSB         col=PSB              sex=MALE
+    ✓ MICHELLE LING SHYAN MIH                   label=PBK         col=PBK              sex=FEMALE
+    ✓ RICKY ANAK ENTERI                         label=PEN         col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.54 PELAWAN (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ TIEW YEN HOUNG                            PBK(pid=95)  PBK  P  votes=3146
+    ✓ DAVID WONG KEE WOAN                       DAP(pid=3)  PH  L  votes=4313
+    ✓ MICHAEL TIANG                             GPS(pid=51)  GPS  L  votes=4413
+    ✓ JANET LOH                                 ASPIRASI(pid=47)  ASPIRASI  P  votes=302
+    ✓ DR. LOW CHONG NGUAN                       PSB(pid=54)  PSB  L  votes=3757
+  Review (to-review.csv):
+    ✓ MICHAEL TIANG                             label=SUPP        col=GPS              sex=MALE
+    ✓ DAVID WONG KEE WOAN                       label=DAP         col=PH               sex=MALE
+    ✓ DR. LOW CHONG NGUAN                       label=PSB         col=PSB              sex=MALE
+    ✓ TIEW YEN HOUNG                            label=PBK         col=PBK              sex=FEMALE
+    ✓ JANET LOH                                 label=ASPIRASI    col=ASPIRASI         sex=FEMALE
+  ✓ No issues
+
+--- N.55 NANGKA (ref=3, rev=3) ---
+  Reference (raw-candidate.csv):
+    ✓ DR. ANNUAR RAPAEE                         GPS(pid=51)  GPS  L  votes=12059
+    ✓ OLIVIA LIM WEN SIA                        PBK(pid=95)  PBK  P  votes=1027
+    ✓ INTANURAZEAN BINTI WAN SAPUAN DAUD        PSB(pid=54)  PSB  P  votes=1255
+  Review (to-review.csv):
+    ✓ DR. ANNUAR RAPAEE                         label=PBB         col=GPS              sex=MALE
+    ✓ INTANURAZEAN BINTI WAN SAPUAN DAUD        label=PSB         col=PSB              sex=FEMALE
+    ✓ OLIVIA LIM WEN SIA                        label=PBK         col=PBK              sex=FEMALE
+  ✓ No issues
+
+--- N.56 DALAT (ref=2, rev=2) ---
+  Reference (raw-candidate.csv):
+    ✓ DATO SRI HAJAH FATIMAH ABDULLAH           GPS(pid=51)  GPS  P  votes=7085
+    ✓ SALLEH BIN MAHALI                         PBK(pid=95)  PBK  L  votes=460
+  Review (to-review.csv):
+    ✓ DATO SRI HAJAH FATIMAH ABDULLAH           label=PBB         col=GPS              sex=FEMALE
+    ✓ SALLEH BIN MAHALI                         label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.57 TELLIAN (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ ARWIN LIM ABDULLAH                        PKR(pid=37)  PH  L  votes=287
+    ✓ ZAINUDDIN BIN BUDUG                       PBK(pid=95)  PBK  L  votes=174
+    ✓ ROYSTON BIN VALENTINE                     GPS(pid=51)  GPS  L  votes=4282
+    ✓ SAIT BIN JUNAIDI                          PSB(pid=54)  PSB  L  votes=1365
+  Review (to-review.csv):
+    ✓ ROYSTON BIN VALENTINE                     label=PBB         col=GPS              sex=MALE
+    ✓ ARWIN LIM ABDULLAH                        label=PKR         col=PH               sex=MALE
+    ✓ SAIT BIN JUNAIDI                          label=PSB         col=PSB              sex=MALE
+    ✓ ZAINUDDIN BIN BUDUG                       label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.58 BALINGIAN (ref=3, rev=3) ---
+  Reference (raw-candidate.csv):
+    ✓ ABDUL JALIL BUJANG                        PKR(pid=37)  PH  L  votes=498
+    ✓ YUSUF ABDUL RAHMAN                        PSB(pid=54)  PSB  L  votes=1146
+    ✓ ABDUL YAKUB BIN ARBI                      GPS(pid=51)  GPS  L  votes=4050
+  Review (to-review.csv):
+    ✓ ABDUL YAKUB BIN ARBI                      label=PBB         col=GPS              sex=MALE
+    ✓ ABDUL JALIL BUJANG                        label=PKR         col=PH               sex=MALE
+    ✓ YUSUF ABDUL RAHMAN                        label=PSB         col=PSB              sex=MALE
+  ✓ No issues
+
+--- N.59 TAMIN (ref=2, rev=2) ---
+  Reference (raw-candidate.csv):
+    ✓ DATUK JOSEPH ENTULU BELAUN                PSB(pid=54)  PSB  L  votes=4190
+    ✓ IR CHRISTOPHER GIRA SAMBANG               GPS(pid=51)  GPS  L  votes=7778
+  Review (to-review.csv):
+    ✓ IR CHRISTOPHER GIRA SAMBANG               label=PRS         col=GPS              sex=MALE
+    ✓ DATUK JOSEPH ENTULU BELAUN                label=PSB         col=PSB              sex=MALE
+  ✓ No issues
+
+--- N.60 KAKUS (ref=6, rev=6) ---
+  Reference (raw-candidate.csv):
+    ✓ JOSHUA JABENG                             PKR(pid=37)  PH  L  votes=375
+    ✓ UGIK ANAK SELIPEH                         BEBAS(pid=20)  INDEPENDENT  L  votes=546
+    ✓ DATUK JOHN SIKIE TAYAI                    GPS(pid=51)  GPS  L  votes=5307
+    ✓ PHILIP KELANANG DIUNG                     PBK(pid=95)  PBK  L  votes=337
+    ✓ PETER ANAK TUAN                           PSB(pid=54)  PSB  L  votes=3410
+    ✓ TIUN ANAK KANUN                           BEBAS(pid=20)  INDEPENDENT  L  votes=162
+  Review (to-review.csv):
+    ✓ DATUK JOHN SIKIE TAYAI                    label=PRS         col=GPS              sex=MALE
+    ✓ JOSHUA JABENG                             label=PKR         col=PH               sex=MALE
+    ✓ PETER ANAK TUAN                           label=PSB         col=PSB              sex=MALE
+    ✓ PHILIP KELANANG DIUNG                     label=PBK         col=PBK              sex=MALE
+    ✓ UGIK ANAK SELIPEH                         label=KUDA        col=INDEPENDENT 1    sex=MALE
+    ✓ TIUN ANAK KANUN                           label=GAJAH       col=INDEPENDENT 2    sex=MALE
+  ✓ No issues
+
+--- N.61 PELAGUS (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ SOLOMON ANAK KUMBONG                      DAP(pid=3)  PH  L  votes=250
+    ✓ MOSES ANAK RIPAI                          PBDSB(pid=49)  PBDSB  L  votes=76
+    ✓ KRISTOFFER NYUAK BAJOK                    PSB(pid=54)  PSB  L  votes=1794
+    ✓ WILSON NYABONG ANAK IJANG                 GPS(pid=51)  GPS  L  votes=2843
+    ✓ NYAMBONG ANAK SIBAT                       PBK(pid=95)  PBK  L  votes=88
+  Review (to-review.csv):
+    ✓ WILSON NYABONG ANAK IJANG                 label=PRS         col=GPS              sex=MALE
+    ✓ SOLOMON ANAK KUMBONG                      label=DAP         col=PH               sex=MALE
+    ✓ KRISTOFFER NYUAK BAJOK                    label=PSB         col=PSB              sex=MALE
+    ✓ NYAMBONG ANAK SIBAT                       label=PBK         col=PBK              sex=MALE
+    ✓ MOSES ANAK RIPAI                          label=PBDSB       col=PBDSB            sex=MALE
+  ✓ No issues
+
+--- N.62 KATIBAS (ref=6, rev=6) ---
+  Reference (raw-candidate.csv):
+    ✓ SAI AK MALAKA                             PBDSB(pid=49)  PBDSB  L  votes=62
+    ✓ LIDAM ANAK ASSAN                          GPS(pid=51)  GPS  L  votes=4198
+    ✓ YUNUS BIN BASRI                           PBK(pid=95)  PBK  L  votes=149
+    ✓ MUNAN ANAK LAJA                           PKR(pid=37)  PH  L  votes=763
+    ✓ ROBERTSON MAWA                            PSB(pid=54)  PSB  L  votes=1201
+    ✓ TENGKU ANAK GRUNA                         BEBAS(pid=20)  INDEPENDENT  L  votes=123
+  Review (to-review.csv):
+    ✓ LIDAM ANAK ASSAN                          label=PBB         col=GPS              sex=MALE
+    ✓ MUNAN ANAK LAJA                           label=PKR         col=PH               sex=MALE
+    ✓ ROBERTSON MAWA                            label=PSB         col=PSB              sex=MALE
+    ✓ YUNUS BIN BASRI                           label=PBK         col=PBK              sex=MALE
+    ✓ SAI AK MALAKA                             label=PBDSB       col=PBDSB            sex=MALE
+    ✓ TENGKU ANAK GRUNA                         label=KERUSI      col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.63 BUKIT GORAM (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ JEFFERSON JAMIT ANAK UNYAT                GPS(pid=51)  GPS  L  votes=4253
+    ✓ PUSO BIN BUJANG                           PBK(pid=95)  PBK  L  votes=297
+    ✓ ROBERT SAWENG                             PBDSB(pid=49)  PBDSB  L  votes=259
+    ✓ ROBERT SEGIE                              PSB(pid=54)  PSB  L  votes=689
+    ✓ JOSEPH JINGGUT                            DAP(pid=3)  PH  L  votes=715
+  Review (to-review.csv):
+    ✓ JEFFERSON JAMIT ANAK UNYAT                label=PBB         col=GPS              sex=MALE
+    ✓ JOSEPH JINGGUT                            label=DAP         col=PH               sex=MALE
+    ✓ ROBERT SEGIE                              label=PSB         col=PSB              sex=MALE
+    ✓ PUSO BIN BUJANG                           label=PBK         col=PBK              sex=MALE
+    ✓ ROBERT SAWENG                             label=PBDSB       col=PBDSB            sex=MALE
+  ✓ No issues
+
+--- N.64 BALEH (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ NICHOLAS KUDI ANAK JANTAI                 GPS(pid=51)  GPS  L  votes=3541
+    ✓ KENNETH USANG GEORGE                      DAP(pid=3)  PH  L  votes=470
+    ✓ SUKARNO LAYAU                             PBK(pid=95)  PBK  L  votes=82
+    ✓ KOH ANAK KUMBONG                          PSB(pid=54)  PSB  L  votes=1632
+  Review (to-review.csv):
+    ✓ NICHOLAS KUDI ANAK JANTAI                 label=PRS         col=GPS              sex=MALE
+    ✓ KENNETH USANG GEORGE                      label=DAP         col=PH               sex=MALE
+    ✓ KOH ANAK KUMBONG                          label=PSB         col=PSB              sex=MALE
+    ✓ SUKARNO LAYAU                             label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.65 BELAGA (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ LIWAN LAGANG                              GPS(pid=51)  GPS  L  votes=3552
+    ✓ HENRY USAT BIT                            PSB(pid=54)  PSB  L  votes=1307
+    ✓ JOHN BAMPA                                PBK(pid=95)  PBK  L  votes=97
+    ✓ SIKI BALARIK                              BEBAS(pid=20)  INDEPENDENT  P  votes=81
+  Review (to-review.csv):
+    ✓ LIWAN LAGANG                              label=PRS         col=GPS              sex=MALE
+    ✓ HENRY USAT BIT                            label=PSB         col=PSB              sex=MALE
+    ✓ JOHN BAMPA                                label=PBK         col=PBK              sex=MALE
+    ✓ SIKI BALARIK                              label=BUKU        col=INDEPENDENT 1    sex=FEMALE
+  ✓ No issues
+
+--- N.66 MURUM (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ KENNEDY CHUKPAI UGON                      GPS(pid=51)  GPS  L  votes=4584
+    ✓ ANIE AMAT                                 PKR(pid=37)  PH  P  votes=513
+    ✓ KENNETH ADAN SILEK                        PBDSB(pid=49)  PBDSB  L  votes=159
+    ✓ STANLEY AJANG BATOK                       PSB(pid=54)  PSB  L  votes=1665
+  Review (to-review.csv):
+    ✓ KENNEDY CHUKPAI UGON                      label=PRS         col=GPS              sex=MALE
+    ✓ ANIE AMAT                                 label=PKR         col=PH               sex=FEMALE
+    ✓ STANLEY AJANG BATOK                       label=PSB         col=PSB              sex=MALE
+    ✓ KENNETH ADAN SILEK                        label=PBDSB       col=PBDSB            sex=MALE
+  ✓ No issues
+
+--- N.67 JEPAK (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ TUAH KAZAN                                BEBAS(pid=20)  INDEPENDENT  L  votes=141
+    ✓ STEVENSON ANAK JOSEPH                     PBK(pid=95)  PBK  L  votes=587
+    ✓ DR. RABA'AH BINTI TUDIN                   PSB(pid=54)  PSB  P  votes=2034
+    ✓ DATUK HAJI TALIB BIN ZULPILIP             GPS(pid=51)  GPS  L  votes=6277
+  Review (to-review.csv):
+    ✓ DATUK HAJI TALIB BIN ZULPILIP             label=PBB         col=GPS              sex=MALE
+    ✓ DR. RABA'AH BINTI TUDIN                   label=PSB         col=PSB              sex=FEMALE
+    ✓ STEVENSON ANAK JOSEPH                     label=PBK         col=PBK              sex=MALE
+    ✓ TUAH KAZAN                                label=KUNCI       col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.68 TANJONG BATU (ref=6, rev=6) ---
+  Reference (raw-candidate.csv):
+    ✓ TANG ENG HUI                              PSB(pid=54)  PSB  L  votes=1071
+    ✓ JOHNNY PANG LEONG MING                    GPS(pid=51)  GPS  L  votes=4092
+    ✓ WONG HAU MING                             BEBAS(pid=20)  INDEPENDENT  L  votes=38
+    ✓ YEK HOCK SIANG                            PBK(pid=95)  PBK  L  votes=2204
+    ✓ CHIEW CHAN YEW                            DAP(pid=3)  PH  L  votes=4069
+    ✓ CHIENG LEA PHING                          ASPIRASI(pid=47)  ASPIRASI  L  votes=93
+  Review (to-review.csv):
+    ✓ JOHNNY PANG LEONG MING                    label=SUPP        col=GPS              sex=MALE
+    ✓ CHIEW CHAN YEW                            label=DAP         col=PH               sex=MALE
+    ✓ TANG ENG HUI                              label=PSB         col=PSB              sex=MALE
+    ✓ YEK HOCK SIANG                            label=PBK         col=PBK              sex=MALE
+    ✓ CHIENG LEA PHING                          label=ASPIRASI    col=ASPIRASI         sex=MALE
+    ✓ WONG HAU MING                             label=KAPAL TERBANG  col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.69 KEMENA (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ DATO SRI DR. STEPHEN RUNDI ANAK UTOM      GPS(pid=51)  GPS  L  votes=6339
+    ✓ CHELEA VANESSA ANAK WILLIAM               PBK(pid=95)  PBK  P  votes=294
+    ✓ DR. BERNARD TAHIM ANAK BAEL               PSB(pid=54)  PSB  L  votes=2728
+    ✓ JAME STEPHEN                              BEBAS(pid=20)  INDEPENDENT  L  votes=331
+    ✓ DR. JOHN BRIAN ANTHONY                    DAP(pid=3)  PH  L  votes=399
+  Review (to-review.csv):
+    ✓ DATO SRI DR. STEPHEN RUNDI ANAK UTOM      label=PBB         col=GPS              sex=MALE
+    ✓ DR. JOHN BRIAN ANTHONY                    label=DAP         col=PH               sex=MALE
+    ✓ DR. BERNARD TAHIM ANAK BAEL               label=PSB         col=PSB              sex=MALE
+    ✓ CHELEA VANESSA ANAK WILLIAM               label=PBK         col=PBK              sex=FEMALE
+    ✓ JAME STEPHEN                              label=PERAHU      col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.70 SAMALAJU (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ BABA ANAK EMPERAN                         PBDSB(pid=49)  PBDSB  L  votes=199
+    ✓ TONNY UNG                                 DAP(pid=3)  PH  L  votes=1504
+    ✓ REGGIE ANAK SUEL                          PSB(pid=54)  PSB  L  votes=1496
+    ✓ LEIGHTON ANAK MANJAH                      PBK(pid=95)  PBK  L  votes=509
+    ✓ DATO MAJANG ANAK RENGGI                   GPS(pid=51)  GPS  L  votes=7547
+  Review (to-review.csv):
+    ✓ DATO MAJANG ANAK RENGGI                   label=PRS         col=GPS              sex=MALE
+    ✓ TONNY UNG                                 label=DAP         col=PH               sex=MALE
+    ✓ REGGIE ANAK SUEL                          label=PSB         col=PSB              sex=MALE
+    ✓ LEIGHTON ANAK MANJAH                      label=PBK         col=PBK              sex=MALE
+    ✓ BABA ANAK EMPERAN                         label=PBDSB       col=PBDSB            sex=MALE
+  ✓ No issues
+
+--- N.71 BEKENU (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ DATUK HAJAH ROSEY HAJI YUNUS              GPS(pid=51)  GPS  P  votes=6354
+    ✓ NORHAFIZAH JOHARIE                        PKR(pid=37)  PH  P  votes=957
+    ✓ ABU BAKAR BIN AMIT                        PSB(pid=54)  PSB  L  votes=377
+    ✓ DESMOND GANI                              PBK(pid=95)  PBK  L  votes=296
+  Review (to-review.csv):
+    ✓ DATUK HAJAH ROSEY HAJI YUNUS              label=PBB         col=GPS              sex=FEMALE
+    ✓ NORHAFIZAH JOHARIE                        label=PKR         col=PH               sex=FEMALE
+    ✓ ABU BAKAR BIN AMIT                        label=PSB         col=PSB              sex=MALE
+    ✓ DESMOND GANI                              label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.72 LAMBIR (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ ZULHAIDAH SUBOH                           PKR(pid=37)  PH  P  votes=1139
+    ✓ DYANNE OSHIELD ANAK NICKSON               PBK(pid=95)  PBK  P  votes=789
+    ✓ DR RIPIN LAMAT                            GPS(pid=51)  GPS  L  votes=6974
+    ✓ LILA BINTI MOHAMAD                        PSB(pid=54)  PSB  P  votes=1184
+  Review (to-review.csv):
+    ✓ DR RIPIN LAMAT                            label=PBB         col=GPS              sex=MALE
+    ✓ ZULHAIDAH SUBOH                           label=PKR         col=PH               sex=FEMALE
+    ✓ LILA BINTI MOHAMAD                        label=PSB         col=PSB              sex=FEMALE
+    ✓ DYANNE OSHIELD ANAK NICKSON               label=PBK         col=PBK              sex=FEMALE
+  ✓ No issues
+
+--- N.73 PIASAU (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ TEO JIA JUN                               PSB(pid=54)  PSB  L  votes=816
+    ✓ HANIM BINTI JARAEE                        ASPIRASI(pid=47)  ASPIRASI  P  votes=121
+    ✓ CHUNG SIEW YEN                            PBK(pid=95)  PBK  P  votes=665
+    ✓ SEBASTIAN TING CHIEW YEW                  GPS(pid=51)  GPS  L  votes=6790
+    ✓ PETER HEE                                 DAP(pid=3)  PH  L  votes=1802
+  Review (to-review.csv):
+    ✓ SEBASTIAN TING CHIEW YEW                  label=SUPP        col=GPS              sex=MALE
+    ✓ PETER HEE                                 label=DAP         col=PH               sex=MALE
+    ✓ TEO JIA JUN                               label=PSB         col=PSB              sex=MALE
+    ✓ CHUNG SIEW YEN                            label=PBK         col=PBK              sex=FEMALE
+    ✓ HANIM BINTI JARAEE                        label=ASPIRASI    col=ASPIRASI         sex=FEMALE
+  ✓ No issues
+
+--- N.74 PUJUT (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ ADAM YII SIEW SANG                        GPS(pid=51)  GPS  L  votes=5558
+    ✓ BRUCE CHAI KHIM CHEONG                    PSB(pid=54)  PSB  L  votes=1667
+    ✓ LESLIE TING SIONG NGIAP                   PBK(pid=95)  PBK  L  votes=1022
+    ✓ CHIN FEN SIONG                            ASPIRASI(pid=47)  ASPIRASI  L  votes=152
+    ✓ ALAN LING                                 DAP(pid=3)  PH  L  votes=3992
+  Review (to-review.csv):
+    ✓ ADAM YII SIEW SANG                        label=SUPP        col=GPS              sex=MALE
+    ✓ ALAN LING                                 label=DAP         col=PH               sex=MALE
+    ✓ BRUCE CHAI KHIM CHEONG                    label=PSB         col=PSB              sex=MALE
+    ✓ LESLIE TING SIONG NGIAP                   label=PBK         col=PBK              sex=MALE
+    ✓ CHIN FEN SIONG                            label=ASPIRASI    col=ASPIRASI         sex=MALE
+  ✓ No issues
+
+--- N.75 SENADIN (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ LEE KIM SHIN                              GPS(pid=51)  GPS  L  votes=10535
+    ✓ MARCUS HUGO                               DAP(pid=3)  PH  L  votes=2944
+    ✓ BOBBY ANAK WILLIAM                        PBDSB(pid=49)  PBDSB  L  votes=511
+    ✓ NGIENG SHENG CHUNG                        PBK(pid=95)  PBK  L  votes=1023
+    ✓ LEE TZE HA                                PSB(pid=54)  PSB  P  votes=1896
+  Review (to-review.csv):
+    ✓ LEE KIM SHIN                              label=SUPP        col=GPS              sex=MALE
+    ✓ MARCUS HUGO                               label=DAP         col=PH               sex=MALE
+    ✓ LEE TZE HA                                label=PSB         col=PSB              sex=FEMALE
+    ✓ NGIENG SHENG CHUNG                        label=PBK         col=PBK              sex=MALE
+    ✓ BOBBY ANAK WILLIAM                        label=PBDSB       col=PBDSB            sex=MALE
+  ✓ No issues
+
+--- N.76 MARUDI (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ ELIAS LIPI ANAK MAT                       PKR(pid=37)  PH  L  votes=373
+    ✓ SAWING ANAK KEDIT                         PBDSB(pid=49)  PBDSB  L  votes=124
+    ✓ GILBERT YOUNG                             PBK(pid=95)  PBK  L  votes=101
+    ✓ SYLVESTER ENTRI ANAK MURAN                PSB(pid=54)  PSB  L  votes=2193
+    ✓ PENGUANG ANAK MANGGIL                     GPS(pid=51)  GPS  L  votes=8169
+  Review (to-review.csv):
+    ✓ PENGUANG ANAK MANGGIL                     label=PDP         col=GPS              sex=MALE
+    ✓ ELIAS LIPI ANAK MAT                       label=PKR         col=PH               sex=MALE
+    ✓ SYLVESTER ENTRI ANAK MURAN                label=PSB         col=PSB              sex=MALE
+    ✓ GILBERT YOUNG                             label=PBK         col=PBK              sex=MALE
+    ✓ SAWING ANAK KEDIT                         label=PBDSB       col=PBDSB            sex=MALE
+  ✓ No issues
+
+--- N.77 TELANG USAN (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ DENNIS NGAU                               GPS(pid=51)  GPS  L  votes=3861
+    ✓ GIA BALA                                  PBK(pid=95)  PBK  L  votes=68
+    ✓ PHILIP JAU DING                           PKR(pid=37)  PH  L  votes=1093
+    ✓ JAU JOK @ JENGGO                          PSB(pid=54)  PSB  L  votes=1439
+  Review (to-review.csv):
+    ✓ DENNIS NGAU                               label=PBB         col=GPS              sex=MALE
+    ✓ PHILIP JAU DING                           label=PKR         col=PH               sex=MALE
+    ✓ JAU JOK @ JENGGO                          label=PSB         col=PSB              sex=MALE
+    ✓ GIA BALA                                  label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.78 MULU (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ DATO GERAWAT GALA                         GPS(pid=51)  GPS  L  votes=3731
+    ✓ ROLAND ENGAN                              PKR(pid=37)  PH  L  votes=810
+    ✓ RICHARD IBUH                              PBK(pid=95)  PBK  L  votes=199
+    ✓ SON RADU                                  PSB(pid=54)  PSB  L  votes=856
+  Review (to-review.csv):
+    ✓ DATO GERAWAT GALA                         label=PBB         col=GPS              sex=MALE
+    ✓ ROLAND ENGAN                              label=PKR         col=PH               sex=MALE
+    ✓ SON RADU                                  label=PSB         col=PSB              sex=MALE
+    ✓ RICHARD IBUH                              label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.79 BUKIT KOTA (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ DR. ABDUL RAHMAN ISMAIL                   GPS(pid=51)  GPS  L  votes=6454
+    ✓ CIKGU LIM LIAN HUN                        PBK(pid=95)  PBK  P  votes=206
+    ✓ ROSLI BIN AMAT                            PSB(pid=54)  PSB  L  votes=1468
+    ✓ HERUN BIN BUNGSU                          BEBAS(pid=20)  INDEPENDENT  L  votes=62
+  Review (to-review.csv):
+    ✓ DR. ABDUL RAHMAN ISMAIL                   label=PBB         col=GPS              sex=MALE
+    ✓ ROSLI BIN AMAT                            label=PSB         col=PSB              sex=MALE
+    ✓ CIKGU LIM LIAN HUN                        label=PBK         col=PBK              sex=FEMALE
+    ✓ HERUN BIN BUNGSU                          label=POKOK       col=INDEPENDENT 1    sex=MALE
+  ✓ No issues
+
+--- N.80 BATU DANAU (ref=4, rev=4) ---
+  Reference (raw-candidate.csv):
+    ✓ PAULUS PALU GUMBANG                       GPS(pid=51)  GPS  L  votes=3030
+    ✓ DR PETRUS BULAN                           PBK(pid=95)  PBK  L  votes=80
+    ✓ ALI ADAP                                  PSB(pid=54)  PSB  L  votes=2324
+    ✓ RACHA BALANG                              PKR(pid=37)  PH  L  votes=268
+  Review (to-review.csv):
+    ✓ PAULUS PALU GUMBANG                       label=PBB         col=GPS              sex=MALE
+    ✓ RACHA BALANG                              label=PKR         col=PH               sex=MALE
+    ✓ ALI ADAP                                  label=PSB         col=PSB              sex=MALE
+    ✓ DR PETRUS BULAN                           label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+--- N.81 BA'KELALAN (ref=5, rev=5) ---
+  Reference (raw-candidate.csv):
+    ✓ AGNES                                     BEBAS(pid=20)  INDEPENDENT  P  votes=55
+    ✓ SAM LAYA                                  GPS(pid=51)  GPS  L  votes=2007
+    ✓ PITA ASUT @ PETER ASUT                    PBK(pid=95)  PBK  L  votes=110
+    ✓ MARTIN LABO                               PKR(pid=37)  PH  L  votes=57
+    ✓ BARU BIAN                                 PSB(pid=54)  PSB  L  votes=2687
+  Review (to-review.csv):
+    ✓ SAM LAYA                                  label=PDP         col=GPS              sex=MALE
+    ✓ MARTIN LABO                               label=PKR         col=PH               sex=MALE
+    ✓ BARU BIAN                                 label=PSB         col=PSB              sex=MALE
+    ✓ PITA ASUT @ PETER ASUT                    label=PBK         col=PBK              sex=MALE
+    ✓ AGNES                                     label=JAM         col=INDEPENDENT 1    sex=FEMALE
+  ✓ No issues
+
+--- N.82 BUKIT SARI (ref=3, rev=3) ---
+  Reference (raw-candidate.csv):
+    ✓ AWANG TENGAH BIN ALI HASAN                GPS(pid=51)  GPS  L  votes=6385
+    ✓ RIYAH BIN BASRAH                          PBK(pid=95)  PBK  L  votes=165
+    ✓ ALIAS BIN MAIL                            PSB(pid=54)  PSB  L  votes=749
+  Review (to-review.csv):
+    ✓ AWANG TENGAH BIN ALI HASAN                label=PBB         col=GPS              sex=MALE
+    ✓ ALIAS BIN MAIL                            label=PSB         col=PSB              sex=MALE
+    ✓ RIYAH BIN BASRAH                          label=PBK         col=PBK              sex=MALE
+  ✓ No issues
+
+==========================================================
+  ALL ISSUES GROUPED BY TYPE
+==========================================================
+
+==========================================================
+  DUNs WITH NO ISSUES
+==========================================================
+  N.01 OPAR (6 candidates)
+  N.02 TASIK BIRU (4 candidates)
+  N.03 TANJONG DATU (4 candidates)
+  N.04 PANTAI DAMAI (2 candidates)
+  N.05 DEMAK LAUT (4 candidates)
+  N.06 TUPONG (3 candidates)
+  N.07 SAMARIANG (3 candidates)
+  N.08 SATOK (3 candidates)
+  N.09 PADUNGAN (4 candidates)
+  N.10 PENDING (5 candidates)
+  N.11 BATU LINTANG (5 candidates)
+  N.12 KOTA SENTOSA (5 candidates)
+  N.13 BATU KITANG (4 candidates)
+  N.14 BATU KAWAH (4 candidates)
+  N.15 ASAJAYA (4 candidates)
+  N.16 MUARA TUANG (6 candidates)
+  N.17 STAKAN (4 candidates)
+  N.18 SEREMBU (5 candidates)
+  N.19 MAMBONG (5 candidates)
+  N.20 TARAT (5 candidates)
+  N.21 TEBEDU (5 candidates)
+  N.22 KEDUP (4 candidates)
+  N.23 BUKIT SEMUJA (4 candidates)
+  N.24 SADONG JAYA (4 candidates)
+  N.25 SIMUNJAN (4 candidates)
+  N.26 GEDONG (4 candidates)
+  N.27 SEBUYAU (3 candidates)
+  N.28 LINGGA (6 candidates)
+  N.29 BETING MARO (5 candidates)
+  N.30 BALAI RINGIN (3 candidates)
+  N.31 BUKIT BEGUNAN (4 candidates)
+  N.32 SIMANGGANG (4 candidates)
+  N.33 ENGKILILI (4 candidates)
+  N.34 BATANG AI (4 candidates)
+  N.35 SARIBAS (5 candidates)
+  N.36 LAYAR (2 candidates)
+  N.37 BUKIT SABAN (3 candidates)
+  N.38 KALAKA (3 candidates)
+  N.39 KRIAN (4 candidates)
+  N.40 KABONG (4 candidates)
+  N.41 KUALA RAJANG (4 candidates)
+  N.42 SEMOP (5 candidates)
+  N.43 DARO (3 candidates)
+  N.44 JEMORENG (3 candidates)
+  N.45 REPOK (4 candidates)
+  N.46 MERADONG (4 candidates)
+  N.47 PAKAN (5 candidates)
+  N.48 MELUAN (3 candidates)
+  N.49 NGEMAH (5 candidates)
+  N.50 MACHAN (5 candidates)
+  N.51 BUKIT ASSEK (6 candidates)
+  N.52 DUDONG (8 candidates)
+  N.53 BAWANG ASSAN (5 candidates)
+  N.54 PELAWAN (5 candidates)
+  N.55 NANGKA (3 candidates)
+  N.56 DALAT (2 candidates)
+  N.57 TELLIAN (4 candidates)
+  N.58 BALINGIAN (3 candidates)
+  N.59 TAMIN (2 candidates)
+  N.60 KAKUS (6 candidates)
+  N.61 PELAGUS (5 candidates)
+  N.62 KATIBAS (6 candidates)
+  N.63 BUKIT GORAM (5 candidates)
+  N.64 BALEH (4 candidates)
+  N.65 BELAGA (4 candidates)
+  N.66 MURUM (4 candidates)
+  N.67 JEPAK (4 candidates)
+  N.68 TANJONG BATU (6 candidates)
+  N.69 KEMENA (5 candidates)
+  N.70 SAMALAJU (5 candidates)
+  N.71 BEKENU (4 candidates)
+  N.72 LAMBIR (4 candidates)
+  N.73 PIASAU (5 candidates)
+  N.74 PUJUT (5 candidates)
+  N.75 SENADIN (5 candidates)
+  N.76 MARUDI (5 candidates)
+  N.77 TELANG USAN (4 candidates)
+  N.78 MULU (4 candidates)
+  N.79 BUKIT KOTA (4 candidates)
+  N.80 BATU DANAU (4 candidates)
+  N.81 BA'KELALAN (5 candidates)
+  N.82 BUKIT SARI (3 candidates)
+
+  Total clean DUNs: 82 / 82
+
+==========================================================
+  DUNs WITH ISSUES (summary)
+==========================================================

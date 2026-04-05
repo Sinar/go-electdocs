@@ -1,0 +1,1133 @@
+PHASE 4: COALITION/PARTY CONSISTENCY CHECK - DETAILED REPORT
+=============================================================
+
+SUMMARY
+-------
+Total issues: 0
+
+By category:
+
+
+CROSS-CHECK STATISTICS
+----------------------
+Official candidates matched to review: 349 / 349
+PH component label verification: 62 / 62 correct
+
+
+GLOBAL PARTY LABELS PER COLUMN
+------------------------------
+GPS column:
+  'PBB': 1949 rows
+  'PDP': 319 rows
+  'PRS': 478 rows
+  'SUPP': 1002 rows
+PH column:
+  'DAP': 1443 rows
+  'PAN': 325 rows
+  'PKR': 1182 rows
+PSB column:
+  'PSB': 3239 rows
+PBK column:
+  'PBK': 3368 rows
+ASPIRASI column:
+  'ASPIRASI': 884 rows
+PBDSB column:
+  'PBDSB': 567 rows
+SEDAR column:
+  'SEDAR': 221 rows
+PAS column:
+  'PAS': 30 rows
+INDEPENDENT 1 column:
+  'BUKU': 45 rows
+  'CANGKUL': 44 rows
+  'JAM': 29 rows
+  'KAPAL TERBANG': 87 rows
+  'KERUSI': 112 rows
+  'KUDA': 45 rows
+  'KUNCI': 402 rows
+  'PEN': 55 rows
+  'PERAHU': 76 rows
+  'POKOK': 76 rows
+  'RUMAH': 112 rows
+  'UDANG': 82 rows
+INDEPENDENT 2 column:
+  'GAJAH': 45 rows
+  'KERUSI': 34 rows
+  'KUNCI': 82 rows
+  'POKOK': 34 rows
+
+
+GPS COMPONENT DISTRIBUTION
+--------------------------
+PBB: 47 DUNs
+  N.03, N.04, N.05, N.06, N.07, N.08, N.15, N.16, N.17, N.18, N.19, N.20, N.21, N.22, N.23, N.24, N.25, N.26, N.27, N.28, N.29, N.35, N.36, N.37, N.38, N.40, N.41, N.42, N.43, N.44, N.47, N.50, N.55, N.56, N.57, N.58, N.62, N.63, N.67, N.69, N.71, N.72, N.77, N.78, N.79, N.80, N.82
+SUPP: 18 DUNs
+  N.01, N.09, N.10, N.11, N.12, N.13, N.14, N.32, N.33, N.45, N.46, N.51, N.53, N.54, N.68, N.73, N.74, N.75
+PRS: 11 DUNs
+  N.30, N.31, N.34, N.49, N.59, N.60, N.61, N.64, N.65, N.66, N.70
+PDP: 6 DUNs
+  N.02, N.39, N.48, N.52, N.76, N.81
+Total: 82 DUNs (all 82 expected)
+
+
+PH COMPONENT DISTRIBUTION
+-------------------------
+PKR: 28 DUNs
+  N.01, N.06, N.08, N.11, N.15, N.18, N.20, N.21, N.24, N.25, N.28, N.29, N.35, N.37, N.49, N.50, N.57, N.58, N.60, N.62, N.66, N.71, N.72, N.76, N.77, N.78, N.80, N.81
+DAP: 26 DUNs
+  N.02, N.09, N.10, N.12, N.13, N.14, N.17, N.19, N.22, N.23, N.32, N.45, N.46, N.51, N.52, N.53, N.54, N.61, N.63, N.64, N.68, N.69, N.70, N.73, N.74, N.75
+PAN: 8 DUNs
+  N.05, N.07, N.16, N.26, N.27, N.40, N.42, N.44
+No PH candidate: 20 DUNs
+  N.03, N.04, N.30, N.31, N.33, N.34, N.36, N.38, N.39, N.41, N.43, N.47, N.48, N.55, N.56, N.59, N.65, N.67, N.79, N.82
+
+
+INDEPENDENT CANDIDATES
+---------------------
+INDEPENDENT 1 filled: 26 DUNs
+INDEPENDENT 2 filled: 4 DUNs
+Total independent candidates: 30 (official BEBAS count: check raw-candidate.csv)
+Election symbols used:
+  BUKU: 1 DUNs
+  CANGKUL: 1 DUNs
+  GAJAH: 1 DUNs
+  JAM: 1 DUNs
+  KAPAL TERBANG: 2 DUNs
+  KERUSI: 3 DUNs
+  KUDA: 1 DUNs
+  KUNCI: 10 DUNs
+  PEN: 1 DUNs
+  PERAHU: 2 DUNs
+  POKOK: 3 DUNs
+  RUMAH: 3 DUNs
+  UDANG: 1 DUNs
+
+
+PER-DUN CANDIDATE MAPPING
+=========================
+
+N.01 (33 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='BILLY ANAK SUJANG'
+    [PH] label='PKR' candidate='MENENG ANAK BIRIS'
+    [PSB] label='PSB' candidate='RANUM ANAK MINA'
+    [PBK] label='PBK' candidate='FREEDY ANAK MISID'
+    [PBDSB] label='PBDSB' candidate='CIKGU SAINI ANAK KAKONG'
+    [SEDAR] label='SEDAR' candidate='BAYANG AK TERON'
+  Official candidates (raw-candidate.csv):
+    MENENG ANAK BIRIS [PKR pid=37]
+    FREEDY ANAK MISID [PBK pid=95]
+    CIKGU SAINI ANAK KAKONG [PBDSB pid=49]
+    BAYANG AK TERON [SEDAR pid=70]
+    BILLY ANAK SUJANG [GPS pid=51]
+    RANUM ANAK MINA [PSB pid=54]
+
+N.02 (48 rows):
+  Review slots:
+    [GPS] label='PDP' candidate='DATO HENRY HARRY JINEP'
+    [PH] label='DAP' candidate='GRANDA ANAK AING'
+    [PSB] label='PSB' candidate='DR TIKI ANAK LAFE'
+    [PBK] label='PBK' candidate='PAUL SHANON KENBELL BARIN'
+  Official candidates (raw-candidate.csv):
+    DR TIKI ANAK LAFE [PSB pid=54]
+    DATO HENRY HARRY JINEP [GPS pid=51]
+    GRANDA ANAK AING [DAP pid=3]
+    PAUL SHANON KENBELL BARIN [PBK pid=95]
+
+N.03 (37 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='AZIZUL ANNUAR BIN ADENAN'
+    [PSB] label='PSB' candidate='JERY'IN BIN FAUZI'
+    [PBK] label='PBK' candidate='GOEM ANAK PIJAR'
+    [INDEPENDENT 1] label='KAPAL TERBANG' candidate='CIKGU TALIP'
+  Official candidates (raw-candidate.csv):
+    GOEM ANAK PIJAR [PBK pid=95]
+    AZIZUL ANNUAR BIN ADENAN [GPS pid=51]
+    JERY'IN BIN FAUZI [PSB pid=54]
+    CIKGU TALIP [BEBAS pid=20 symbol=021]
+
+N.04 (56 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DR ABDUL RAHMAN BIN JUNAIDI'
+    [PSB] label='PSB' candidate='MAHMUD BIN SABLI'
+  Official candidates (raw-candidate.csv):
+    DR ABDUL RAHMAN BIN JUNAIDI [GPS pid=51]
+    MAHMUD BIN SABLI [PSB pid=54]
+
+N.05 (42 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DR. HAZLAND B. ABG. HIPNI'
+    [PH] label='PAN' candidate='JEN PELI'
+    [PSB] label='PSB' candidate='YATIKA BINTI JELANI'
+    [INDEPENDENT 1] label='RUMAH' candidate='KHAIRUL BIN AHMAT'
+  Official candidates (raw-candidate.csv):
+    KHAIRUL BIN AHMAT [BEBAS pid=20 symbol=013]
+    YATIKA BINTI JELANI [PSB pid=54]
+    JEN PELI [AMANAH pid=81]
+    DR. HAZLAND B. ABG. HIPNI [GPS pid=51]
+
+N.06 (68 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='FAZZRUDIN BIN ABDUL RAHMAN'
+    [PH] label='PKR' candidate='AHMAD NAZIB BIN JOHARI'
+    [PBK] label='PBK' candidate='CHAN HAONG YEN'
+  Official candidates (raw-candidate.csv):
+    FAZZRUDIN BIN ABDUL RAHMAN [GPS pid=51]
+    AHMAD NAZIB BIN JOHARI [PKR pid=37]
+    CHAN HAONG YEN [PBK pid=95]
+
+N.07 (52 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='SHARIFAH HASIDAH BT SAYEED AMAN GHAZALI'
+    [PH] label='PAN' candidate='ABANG HALIL'
+    [SEDAR] label='SEDAR' candidate='OTHMAN BIN ABDILLAH'
+  Official candidates (raw-candidate.csv):
+    ABANG HALIL [AMANAH pid=81]
+    SHARIFAH HASIDAH BT SAYEED AMAN GHAZALI [GPS pid=51]
+    OTHMAN BIN ABDILLAH [SEDAR pid=70]
+
+N.08 (36 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='IBRAHIM BAKI'
+    [PH] label='PKR' candidate='DR HAJI IRWAN'
+    [PBK] label='PBK' candidate='AWANG BADELE'
+  Official candidates (raw-candidate.csv):
+    AWANG BADELE [PBK pid=95]
+    DR HAJI IRWAN [PKR pid=37]
+    IBRAHIM BAKI [GPS pid=51]
+
+N.09 (52 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='WEE HONG SENG'
+    [PH] label='DAP' candidate='CHONG CHIENG JEN'
+    [PBK] label='PBK' candidate='RAYMOND THONG EE YU'
+    [ASPIRASI] label='ASPIRASI' candidate='LINA SOO'
+  Official candidates (raw-candidate.csv):
+    LINA SOO [ASPIRASI pid=47]
+    CHONG CHIENG JEN [DAP pid=3]
+    RAYMOND THONG EE YU [PBK pid=95]
+    WEE HONG SENG [GPS pid=51]
+
+N.10 (68 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='MILTON FOO TIANG WEE'
+    [PH] label='DAP' candidate='VIOLET YONG WUI WUI'
+    [PSB] label='PSB' candidate='TAN KAY HOK'
+    [PBK] label='PBK' candidate='TEO KUANG KIM'
+    [ASPIRASI] label='ASPIRASI' candidate='CHAN CHEE HIONG'
+  Official candidates (raw-candidate.csv):
+    TAN KAY HOK [PSB pid=54]
+    VIOLET YONG WUI WUI [DAP pid=3]
+    CHAN CHEE HIONG [ASPIRASI pid=47]
+    TEO KUANG KIM [PBK pid=95]
+    MILTON FOO TIANG WEE [GPS pid=51]
+
+N.11 (71 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='SIH HUA TONG'
+    [PH] label='PKR' candidate='CHERISHE NG PHUAY HUI'
+    [PSB] label='PSB' candidate='SEE CHEE HOW'
+    [PBK] label='PBK' candidate='VOON LEE SHAN'
+    [ASPIRASI] label='ASPIRASI' candidate='LEONG SHAOW TUNG'
+  Official candidates (raw-candidate.csv):
+    CHERISHE NG PHUAY HUI [PKR pid=37]
+    VOON LEE SHAN [PBK pid=95]
+    LEONG SHAOW TUNG [ASPIRASI pid=47]
+    SEE CHEE HOW [PSB pid=54]
+    SIH HUA TONG [GPS pid=51]
+
+N.12 (62 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='YAP YAU SIN'
+    [PH] label='DAP' candidate='MICHAEL KONG FENG NIAN'
+    [PSB] label='PSB' candidate='LAU PANG HENG'
+    [PBK] label='PBK' candidate='LUE CHENG HING'
+    [ASPIRASI] label='ASPIRASI' candidate='TAN KOK CHIANG'
+  Official candidates (raw-candidate.csv):
+    LUE CHENG HING [PBK pid=95]
+    TAN KOK CHIANG [ASPIRASI pid=47]
+    LAU PANG HENG [PSB pid=54]
+    MICHAEL KONG FENG NIAN [DAP pid=3]
+    YAP YAU SIN [GPS pid=51]
+
+N.13 (49 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='LO KHERE CHIANG'
+    [PH] label='DAP' candidate='ABDUL AZIZ ISA'
+    [PSB] label='PSB' candidate='LIU THIAN LEONG'
+    [PBK] label='PBK' candidate='WONG TUN TECK'
+  Official candidates (raw-candidate.csv):
+    LIU THIAN LEONG [PSB pid=54]
+    ABDUL AZIZ ISA [DAP pid=3]
+    WONG TUN TECK [PBK pid=95]
+    LO KHERE CHIANG [GPS pid=51]
+
+N.14 (49 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='DR. SIM KUI HIAN'
+    [PH] label='DAP' candidate='KELVIN YII LEE WUEN'
+    [PBK] label='PBK' candidate='CHAI KUEH KHUN'
+    [ASPIRASI] label='ASPIRASI' candidate='FONG PAU TECK'
+  Official candidates (raw-candidate.csv):
+    CHAI KUEH KHUN [PBK pid=95]
+    KELVIN YII LEE WUEN [DAP pid=3]
+    DR. SIM KUI HIAN [GPS pid=51]
+    FONG PAU TECK [ASPIRASI pid=47]
+
+N.15 (50 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='ABD KARIM RAHMAN HAMZAH'
+    [PH] label='PKR' candidate='MAHMUD BIN EPAH'
+    [PSB] label='PSB' candidate='ISHAK BIN BUJI'
+    [PBK] label='PBK' candidate='MOHAMAD HAMDEEN BIN SAHARUDDIN'
+  Official candidates (raw-candidate.csv):
+    ISHAK BIN BUJI [PSB pid=54]
+    MOHAMAD HAMDEEN BIN SAHARUDDIN [PBK pid=95]
+    ABD KARIM RAHMAN HAMZAH [GPS pid=51]
+    MAHMUD BIN EPAH [PKR pid=37]
+
+N.16 (69 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DATO' IDRIS BUANG'
+    [PH] label='PAN' candidate='HJ. DAUD EALI'
+    [PSB] label='PSB' candidate='YAKUP BIN KHALID'
+    [PBK] label='PBK' candidate='SIGANDAM BIN SULAIMAN'
+    [SEDAR] label='SEDAR' candidate='HIPNI BIN SULAIMAN'
+    [INDEPENDENT 1] label='KUNCI' candidate='ISMAWI BIN MUHAMMAD'
+  Official candidates (raw-candidate.csv):
+    HJ. DAUD EALI [AMANAH pid=81]
+    DATO' IDRIS BUANG [GPS pid=51]
+    SIGANDAM BIN SULAIMAN [PBK pid=95]
+    ISMAWI BIN MUHAMMAD [BEBAS pid=20 symbol=025]
+    HIPNI BIN SULAIMAN [SEDAR pid=70]
+    YAKUP BIN KHALID [PSB pid=54]
+
+N.17 (52 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='HAMZAH BIN BRAHIM'
+    [PH] label='DAP' candidate='LESLIE TING XIANG ZHI'
+    [PSB] label='PSB' candidate='GEORGE YOUNG SI RICORD JUNIOR'
+    [PBK] label='PBK' candidate='ATET ANAK DEGO'
+  Official candidates (raw-candidate.csv):
+    ATET ANAK DEGO [PBK pid=95]
+    LESLIE TING XIANG ZHI [DAP pid=3]
+    HAMZAH BIN BRAHIM [GPS pid=51]
+    GEORGE YOUNG SI RICORD JUNIOR [PSB pid=54]
+
+N.18 (39 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='MIRO ANAK SIMUH'
+    [PH] label='PKR' candidate='MICHAEL SAWENG'
+    [PSB] label='PSB' candidate='IANA ANAK AKAM'
+    [PBK] label='PBK' candidate='JECKY ANAK MISIENG'
+    [ASPIRASI] label='ASPIRASI' candidate='BULN RIBOS'
+  Official candidates (raw-candidate.csv):
+    MICHAEL SAWENG [PKR pid=37]
+    MIRO ANAK SIMUH [GPS pid=51]
+    IANA ANAK AKAM [PSB pid=54]
+    BULN RIBOS [ASPIRASI pid=47]
+    JECKY ANAK MISIENG [PBK pid=95]
+
+N.19 (64 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='JERIP ANAK SUSIL'
+    [PH] label='DAP' candidate='CHANG HON HIUNG'
+    [PSB] label='PSB' candidate='SANJAN ANAK DAIK'
+    [PBK] label='PBK' candidate='JOSHUA ROMAN'
+    [ASPIRASI] label='ASPIRASI' candidate='CHONG SIEW HUNG'
+  Official candidates (raw-candidate.csv):
+    SANJAN ANAK DAIK [PSB pid=54]
+    JOSHUA ROMAN [PBK pid=95]
+    CHANG HON HIUNG [DAP pid=3]
+    CHONG SIEW HUNG [ASPIRASI pid=47]
+    JERIP ANAK SUSIL [GPS pid=51]
+
+N.20 (62 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='ROLAND SAGAH'
+    [PH] label='PKR' candidate='CHRISTO ANAK MICHAEL'
+    [PSB] label='PSB' candidate='DADI @ TIAP ANAK JUUL'
+    [PBK] label='PBK' candidate='EDISON JAMANG'
+    [INDEPENDENT 1] label='KUNCI' candidate='BAI @ UDIN ANAK DUNGAK'
+  Official candidates (raw-candidate.csv):
+    BAI @ UDIN ANAK DUNGAK [BEBAS pid=20 symbol=025]
+    ROLAND SAGAH [GPS pid=51]
+    DADI @ TIAP ANAK JUUL [PSB pid=54]
+    EDISON JAMANG [PBK pid=95]
+    CHRISTO ANAK MICHAEL [PKR pid=37]
+
+N.21 (44 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DR. SIMON SINANG @ SINANG ANAK BADA'
+    [PH] label='PKR' candidate='SENIOR ANAK WILLIAM RADE'
+    [PSB] label='PSB' candidate='CHEYNE KAMBENG @ RAYMOND ACHEN'
+    [PBK] label='PBK' candidate='JONATHAN LANTIK OK'
+    [INDEPENDENT 1] label='CANGKUL' candidate='ROLAND ANAK BANGU'
+  Official candidates (raw-candidate.csv):
+    DR. SIMON SINANG @ SINANG ANAK BADA [GPS pid=51]
+    ROLAND ANAK BANGU [BEBAS pid=20 symbol=007]
+    JONATHAN LANTIK OK [PBK pid=95]
+    CHEYNE KAMBENG @ RAYMOND ACHEN [PSB pid=54]
+    SENIOR ANAK WILLIAM RADE [PKR pid=37]
+
+N.22 (44 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='MARTIN BEN'
+    [PH] label='DAP' candidate='LEARRY ANAK JABUL'
+    [PSB] label='PSB' candidate='DOMINIC DADO ANAK SAGIN'
+    [PBK] label='PBK' candidate='DR. STEPHEN MORGAN SUNGAN'
+  Official candidates (raw-candidate.csv):
+    MARTIN BEN [GPS pid=51]
+    LEARRY ANAK JABUL [DAP pid=3]
+    DOMINIC DADO ANAK SAGIN [PSB pid=54]
+    DR. STEPHEN MORGAN SUNGAN [PBK pid=95]
+
+N.23 (46 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='JOHN ANAK ILUS'
+    [PH] label='DAP' candidate='BROLIN NICHOLSION'
+    [PSB] label='PSB' candidate='ELSIY A/K TINGANG'
+    [PBK] label='PBK' candidate='EDWARD ANDREW LUWAK'
+  Official candidates (raw-candidate.csv):
+    ELSIY A/K TINGANG [PSB pid=54]
+    EDWARD ANDREW LUWAK [PBK pid=95]
+    BROLIN NICHOLSION [DAP pid=3]
+    JOHN ANAK ILUS [GPS pid=51]
+
+N.24 (22 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='Ir. AIDEL BIN LARIWOO'
+    [PH] label='PKR' candidate='CIKGU PIEE'
+    [PSB] label='PSB' candidate='NUR KHAIRUNISA BINTI ABDULLAH'
+    [PBK] label='PBK' candidate='JOLHI HAJI BEE'
+  Official candidates (raw-candidate.csv):
+    CIKGU PIEE [PKR pid=37]
+    JOLHI HAJI BEE [PBK pid=95]
+    NUR KHAIRUNISA BINTI ABDULLAH [PSB pid=54]
+    Ir. AIDEL BIN LARIWOO [GPS pid=51]
+
+N.25 (29 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='AWLA BIN DRIS'
+    [PH] label='PKR' candidate='HAPENI BIN FADIL'
+    [PSB] label='PSB' candidate='RAILY @ RELI BIN ALI'
+    [PBK] label='PBK' candidate='SAHARUDDIN BIN ABDULLAH'
+  Official candidates (raw-candidate.csv):
+    SAHARUDDIN BIN ABDULLAH [PBK pid=95]
+    RAILY @ RELI BIN ALI [PSB pid=54]
+    AWLA BIN DRIS [GPS pid=51]
+    HAPENI BIN FADIL [PKR pid=37]
+
+N.26 (27 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DATUK PATINGGI TAN SRI ABG ABD RAHMAN ZOHARI'
+    [PH] label='PAN' candidate='CIKGU KAMAL'
+    [PSB] label='PSB' candidate='MOHAMAD SOFIAN FARIZ BIN SHARBINI'
+    [PBK] label='PBK' candidate='TOMSON ANGO'
+  Official candidates (raw-candidate.csv):
+    DATUK PATINGGI TAN SRI ABG ABD RAHMAN ZOHARI [GPS pid=51]
+    TOMSON ANGO [PBK pid=95]
+    MOHAMAD SOFIAN FARIZ BIN SHARBINI [PSB pid=54]
+    CIKGU KAMAL [AMANAH pid=81]
+
+N.27 (43 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DATUK JULAIHI NARAWI'
+    [PH] label='PAN' candidate='WEL @ MAXWEL ANAK ROJIS'
+    [PBK] label='PBK' candidate='WAN CHEE BIN WAN MAHJAR'
+  Official candidates (raw-candidate.csv):
+    WEL @ MAXWEL ANAK ROJIS [AMANAH pid=81]
+    WAN CHEE BIN WAN MAHJAR [PBK pid=95]
+    DATUK JULAIHI NARAWI [GPS pid=51]
+
+N.28 (33 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DAYANG NOORAZAH BTE AWANG SOHOR'
+    [PH] label='PKR' candidate='ABG KASSIM ABG BUJANG'
+    [PSB] label='PSB' candidate='DATO WAN'
+    [PBK] label='PBK' candidate='BAHA ANAK IMAM'
+    [SEDAR] label='SEDAR' candidate='ABANG AHMAD BIN ABANG SUNI'
+    [INDEPENDENT 1] label='PERAHU' candidate='MOHD SEPIAN BIN ABANG DAUD'
+  Official candidates (raw-candidate.csv):
+    ABG KASSIM ABG BUJANG [PKR pid=37]
+    DATO WAN [PSB pid=54]
+    DAYANG NOORAZAH BTE AWANG SOHOR [GPS pid=51]
+    MOHD SEPIAN BIN ABANG DAUD [BEBAS pid=20 symbol=028]
+    ABANG AHMAD BIN ABANG SUNI [SEDAR pid=70]
+    BAHA ANAK IMAM [PBK pid=95]
+
+N.29 (30 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='RAZAILI BIN HAJI GAPOR'
+    [PH] label='PKR' candidate='ABANG ZULKIFLI ABANG ENGKEH'
+    [PBK] label='PBK' candidate='JACKY CHIEW SU CHEE'
+    [PAS] label='PAS' candidate='ARIF PAIJO'
+    [INDEPENDENT 1] label='POKOK' candidate='SAFIUDIN BIN MATSAH'
+  Official candidates (raw-candidate.csv):
+    SAFIUDIN BIN MATSAH [BEBAS pid=20 symbol=029]
+    JACKY CHIEW SU CHEE [PBK pid=95]
+    ABANG ZULKIFLI ABANG ENGKEH [PKR pid=37]
+    RAZAILI BIN HAJI GAPOR [GPS pid=51]
+    ARIF PAIJO [PAS pid=2]
+
+N.30 (41 rows):
+  Review slots:
+    [GPS] label='PRS' candidate='SNOWDAN LAWAN'
+    [PSB] label='PSB' candidate='MASIR ANAK KUJAT'
+    [PBK] label='PBK' candidate='KASIM ANAK MANA'
+  Official candidates (raw-candidate.csv):
+    KASIM ANAK MANA [PBK pid=95]
+    MASIR ANAK KUJAT [PSB pid=54]
+    SNOWDAN LAWAN [GPS pid=51]
+
+N.31 (34 rows):
+  Review slots:
+    [GPS] label='PRS' candidate='MONG AK DAGANG'
+    [PSB] label='PSB' candidate='NORINA UMOI ANAK UTOT'
+    [PBK] label='PBK' candidate='VINTON LANGANG ANAK SANGGA'
+    [PBDSB] label='PBDSB' candidate='ENTUSA ANAK IMAM'
+  Official candidates (raw-candidate.csv):
+    ENTUSA ANAK IMAM [PBDSB pid=49]
+    VINTON LANGANG ANAK SANGGA [PBK pid=95]
+    NORINA UMOI ANAK UTOT [PSB pid=54]
+    MONG AK DAGANG [GPS pid=51]
+
+N.32 (35 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='FRANCIS HARDEN ANAK HOLLIS'
+    [PH] label='DAP' candidate='LEON JIMAT DONALD'
+    [PSB] label='PSB' candidate='WALSIN @ WILSON ANAK ENTABANG'
+    [PBK] label='PBK' candidate='PELI ANAK ARON'
+  Official candidates (raw-candidate.csv):
+    FRANCIS HARDEN ANAK HOLLIS [GPS pid=51]
+    PELI ANAK ARON [PBK pid=95]
+    WALSIN @ WILSON ANAK ENTABANG [PSB pid=54]
+    LEON JIMAT DONALD [DAP pid=3]
+
+N.33 (36 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='DESMOND SATENG ANAK SANJAN'
+    [PSB] label='PSB' candidate='JOHNICHAL RAYONG NGIPA'
+    [PBK] label='PBK' candidate='STEL ANAK DATU'
+    [INDEPENDENT 1] label='KUNCI' candidate='GEMONG ANAK BATU'
+  Official candidates (raw-candidate.csv):
+    GEMONG ANAK BATU [BEBAS pid=20 symbol=025]
+    JOHNICHAL RAYONG NGIPA [PSB pid=54]
+    STEL ANAK DATU [PBK pid=95]
+    DESMOND SATENG ANAK SANJAN [GPS pid=51]
+
+N.34 (40 rows):
+  Review slots:
+    [GPS] label='PRS' candidate='MALCOLM MUSSEN ANAK LAMOH'
+    [PSB] label='PSB' candidate='WILLIAM @ NYALLAU ANAK BADAK'
+    [PBK] label='PBK' candidate='USUP AK ASUN'
+    [INDEPENDENT 1] label='KUNCI' candidate='JOHN LINANG ANAK MEREEJON'
+  Official candidates (raw-candidate.csv):
+    USUP AK ASUN [PBK pid=95]
+    JOHN LINANG ANAK MEREEJON [BEBAS pid=20 symbol=025]
+    WILLIAM @ NYALLAU ANAK BADAK [PSB pid=54]
+    MALCOLM MUSSEN ANAK LAMOH [GPS pid=51]
+
+N.35 (34 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='RICKY @ MOHAMMAD RAZI SITAM'
+    [PH] label='PKR' candidate='CIKGU PATEK @ PATRICK HAJI KAMIS'
+    [PSB] label='PSB' candidate='MELAINIE BIN BOLHASSAN'
+    [PBK] label='PBK' candidate='SIM MIN LEONG'
+    [SEDAR] label='SEDAR' candidate='KURNAEN BIN BOBEN'
+  Official candidates (raw-candidate.csv):
+    SIM MIN LEONG [PBK pid=95]
+    KURNAEN BIN BOBEN [SEDAR pid=70]
+    MELAINIE BIN BOLHASSAN [PSB pid=54]
+    CIKGU PATEK @ PATRICK HAJI KAMIS [PKR pid=37]
+    RICKY @ MOHAMMAD RAZI SITAM [GPS pid=51]
+
+N.36 (39 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='GERALD RENTAP JABU'
+    [PSB] label='PSB' candidate='ISIK ANAK UTAU'
+  Official candidates (raw-candidate.csv):
+    GERALD RENTAP JABU [GPS pid=51]
+    ISIK ANAK UTAU [PSB pid=54]
+
+N.37 (45 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DOUGLAS UGGAH EMBAS'
+    [PH] label='PKR' candidate='MIKHAIL MATHEW'
+    [PSB] label='PSB' candidate='ANDRIA GELAYAN'
+  Official candidates (raw-candidate.csv):
+    DOUGLAS UGGAH EMBAS [GPS pid=51]
+    ANDRIA GELAYAN [PSB pid=54]
+    MIKHAIL MATHEW [PKR pid=37]
+
+N.38 (24 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='MOHAMAD BIN DURI'
+    [PSB] label='PSB' candidate='JOHN ANTAU ANAK LINGGANG'
+    [PBK] label='PBK' candidate='LINANG ANAK CHAPUM'
+  Official candidates (raw-candidate.csv):
+    MOHAMAD BIN DURI [GPS pid=51]
+    JOHN ANTAU ANAK LINGGANG [PSB pid=54]
+    LINANG ANAK CHAPUM [PBK pid=95]
+
+N.39 (49 rows):
+  Review slots:
+    [GPS] label='PDP' candidate='FRIDAY ANAK BELIK'
+    [PSB] label='PSB' candidate='MUSA ANAK DINGGAT'
+    [PBK] label='PBK' candidate='DANNY KUAN'
+    [INDEPENDENT 1] label='KERUSI' candidate='ALI BIJU'
+  Official candidates (raw-candidate.csv):
+    ALI BIJU [BEBAS pid=20 symbol=023]
+    FRIDAY ANAK BELIK [GPS pid=51]
+    MUSA ANAK DINGGAT [PSB pid=54]
+    DANNY KUAN [PBK pid=95]
+
+N.40 (28 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='MOHD CHEE KADIR'
+    [PH] label='PAN' candidate='HUD ANDRI'
+    [PSB] label='PSB' candidate='WAN MOHAMAD MADEHI BIN WAN ALI'
+    [PBK] label='PBK' candidate='MOHAMAD ASRI BIN KASSIM'
+  Official candidates (raw-candidate.csv):
+    HUD ANDRI [AMANAH pid=81]
+    MOHD CHEE KADIR [GPS pid=51]
+    MOHAMAD ASRI BIN KASSIM [PBK pid=95]
+    WAN MOHAMAD MADEHI BIN WAN ALI [PSB pid=54]
+
+N.41 (34 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='TALIF @ LEN BIN SALLEH'
+    [PBK] label='PBK' candidate='WONG LING CHING'
+    [INDEPENDENT 1] label='RUMAH' candidate='DATO` SRI ABANG ADITAJAYA'
+    [INDEPENDENT 2] label='POKOK' candidate='ABD MUTALIP BIN ABDULLAH'
+  Official candidates (raw-candidate.csv):
+    TALIF @ LEN BIN SALLEH [GPS pid=51]
+    WONG LING CHING [PBK pid=95]
+    ABD MUTALIP BIN ABDULLAH [BEBAS pid=20 symbol=029]
+    DATO` SRI ABANG ADITAJAYA [BEBAS pid=20 symbol=013]
+
+N.42 (36 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='ABDULLAH BIN SAIDOL'
+    [PH] label='PAN' candidate='FADILLAH SABALI'
+    [PSB] label='PSB' candidate='ABDUL RAAFIDIN BIN MAJIDI'
+    [PBK] label='PBK' candidate='JENNY WONG KHING LING'
+    [INDEPENDENT 1] label='RUMAH' candidate='MOHD ADENAN BIN ZULKEPPLI'
+  Official candidates (raw-candidate.csv):
+    ABDUL RAAFIDIN BIN MAJIDI [PSB pid=54]
+    FADILLAH SABALI [AMANAH pid=81]
+    ABDULLAH BIN SAIDOL [GPS pid=51]
+    MOHD ADENAN BIN ZULKEPPLI [BEBAS pid=20 symbol=013]
+    JENNY WONG KHING LING [PBK pid=95]
+
+N.43 (27 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='SAFIEE BIN HAJI AHMAD'
+    [PBK] label='PBK' candidate='TING ING HUA'
+    [INDEPENDENT 1] label='KUNCI' candidate='CIKGU JAMAL IBRAHIM'
+  Official candidates (raw-candidate.csv):
+    TING ING HUA [PBK pid=95]
+    SAFIEE BIN HAJI AHMAD [GPS pid=51]
+    CIKGU JAMAL IBRAHIM [BEBAS pid=20 symbol=025]
+
+N.44 (28 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='JUANDA BIN JAYA'
+    [PH] label='PAN' candidate='USTAZAH ZAINAB'
+    [INDEPENDENT 1] label='KUNCI' candidate='OSMAN BIN RAFAIE'
+  Official candidates (raw-candidate.csv):
+    OSMAN BIN RAFAIE [BEBAS pid=20 symbol=025]
+    JUANDA BIN JAYA [GPS pid=51]
+    USTAZAH ZAINAB [AMANAH pid=81]
+
+N.45 (54 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='HUANG TIONG SII'
+    [PH] label='DAP' candidate='WONG PAK MING'
+    [PBK] label='PBK' candidate='JOSEPH WONG KUNG KING'
+    [ASPIRASI] label='ASPIRASI' candidate='WONG CHIN KING'
+  Official candidates (raw-candidate.csv):
+    JOSEPH WONG KUNG KING [PBK pid=95]
+    HUANG TIONG SII [GPS pid=51]
+    WONG CHIN KING [ASPIRASI pid=47]
+    WONG PAK MING [DAP pid=3]
+
+N.46 (51 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='DING KUONG HIING'
+    [PH] label='DAP' candidate='YONG SIEW WEI'
+    [PSB] label='PSB' candidate='HII RU YEE'
+    [PBK] label='PBK' candidate='MOH HIONG KING'
+  Official candidates (raw-candidate.csv):
+    YONG SIEW WEI [DAP pid=3]
+    DING KUONG HIING [GPS pid=51]
+    HII RU YEE [PSB pid=54]
+    MOH HIONG KING [PBK pid=95]
+
+N.47 (34 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='WILLIAM IKOM'
+    [PSB] label='PSB' candidate='HEREWARD GRAMONG ANAK JOSEPH ALLEN'
+    [PBK] label='PBK' candidate='JEMELI ANAK KERAH'
+    [INDEPENDENT 1] label='KUNCI' candidate='TEDONG AK CHAKAW'
+    [INDEPENDENT 2] label='KERUSI' candidate='BRAWI ANGUONG'
+  Official candidates (raw-candidate.csv):
+    BRAWI ANGUONG [BEBAS pid=20 symbol=023]
+    WILLIAM IKOM [GPS pid=51]
+    JEMELI ANAK KERAH [PBK pid=95]
+    HEREWARD GRAMONG ANAK JOSEPH ALLEN [PSB pid=54]
+    TEDONG AK CHAKAW [BEBAS pid=20 symbol=025]
+
+N.48 (40 rows):
+  Review slots:
+    [GPS] label='PDP' candidate='ROLLAND DUAT ANAK JUBIN'
+    [PSB] label='PSB' candidate='ELLY LAWAI ANAK NGALAI'
+    [PBK] label='PBK' candidate='ABDUL HAMID BIN SIONG'
+  Official candidates (raw-candidate.csv):
+    ROLLAND DUAT ANAK JUBIN [GPS pid=51]
+    ABDUL HAMID BIN SIONG [PBK pid=95]
+    ELLY LAWAI ANAK NGALAI [PSB pid=54]
+
+N.49 (29 rows):
+  Review slots:
+    [GPS] label='PRS' candidate='ANYI ANAK JANA'
+    [PH] label='PKR' candidate='SATU ANCHOM'
+    [PSB] label='PSB' candidate='DR JOSEPH JAWA ANAK KENDAWANG'
+    [PBK] label='PBK' candidate='CHARLIE ANAK GENAM'
+    [PBDSB] label='PBDSB' candidate='LEO ANAK BUNSU'
+  Official candidates (raw-candidate.csv):
+    ANYI ANAK JANA [GPS pid=51]
+    CHARLIE ANAK GENAM [PBK pid=95]
+    LEO ANAK BUNSU [PBDSB pid=49]
+    DR JOSEPH JAWA ANAK KENDAWANG [PSB pid=54]
+    SATU ANCHOM [PKR pid=37]
+
+N.50 (34 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='ALLAN SIDEN GRAMONG'
+    [PH] label='PKR' candidate='JOSEPH NYAMBONG'
+    [PSB] label='PSB' candidate='MADANG ANAK DIMBAB'
+    [PBK] label='PBK' candidate='MARY RITA ANAK MATHIAS'
+    [ASPIRASI] label='ASPIRASI' candidate='NGELAYANG ANAK UNAU'
+  Official candidates (raw-candidate.csv):
+    MADANG ANAK DIMBAB [PSB pid=54]
+    MARY RITA ANAK MATHIAS [PBK pid=95]
+    JOSEPH NYAMBONG [PKR pid=37]
+    NGELAYANG ANAK UNAU [ASPIRASI pid=47]
+    ALLAN SIDEN GRAMONG [GPS pid=51]
+
+N.51 (67 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='CHIENG JIN EK'
+    [PH] label='DAP' candidate='IRENE CHANG'
+    [PSB] label='PSB' candidate='TING KEE NGUAN'
+    [PBK] label='PBK' candidate='PRISCILLA LAU'
+    [ASPIRASI] label='ASPIRASI' candidate='JESS LAU'
+    [INDEPENDENT 1] label='KUNCI' candidate='HII TIONG HUAT'
+  Official candidates (raw-candidate.csv):
+    JESS LAU [ASPIRASI pid=47]
+    CHIENG JIN EK [GPS pid=51]
+    PRISCILLA LAU [PBK pid=95]
+    TING KEE NGUAN [PSB pid=54]
+    IRENE CHANG [DAP pid=3]
+    HII TIONG HUAT [BEBAS pid=20 symbol=025]
+
+N.52 (82 rows):
+  Review slots:
+    [GPS] label='PDP' candidate='DATO SRI TIONG KING SING'
+    [PH] label='DAP' candidate='PAUL LING FONG'
+    [PSB] label='PSB' candidate='WONG HIE PING'
+    [PBK] label='PBK' candidate='JANE LAU SING YEE'
+    [ASPIRASI] label='ASPIRASI' candidate='JOSEPHINE LAU'
+    [PBDSB] label='PBDSB' candidate='JULIUS ENCHANA ANAK JASPHER ANCHO'
+    [INDEPENDENT 1] label='UDANG' candidate='CARDOCK'
+    [INDEPENDENT 2] label='KUNCI' candidate='ENGGA ANAK UNCHAT'
+  Official candidates (raw-candidate.csv):
+    ENGGA ANAK UNCHAT [BEBAS pid=20 symbol=025]
+    CARDOCK [BEBAS pid=20 symbol=008]
+    JULIUS ENCHANA ANAK JASPHER ANCHO [PBDSB pid=49]
+    JOSEPHINE LAU [ASPIRASI pid=47]
+    JANE LAU SING YEE [PBK pid=95]
+    DATO SRI TIONG KING SING [GPS pid=51]
+    PAUL LING FONG [DAP pid=3]
+    WONG HIE PING [PSB pid=54]
+
+N.53 (55 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='ROBERT LAU HUI YEW'
+    [PH] label='DAP' candidate='AMY LAU BIK YIENG'
+    [PSB] label='PSB' candidate='WONG SOON KOH'
+    [PBK] label='PBK' candidate='MICHELLE LING SHYAN MIH'
+    [INDEPENDENT 1] label='PEN' candidate='RICKY ANAK ENTERI'
+  Official candidates (raw-candidate.csv):
+    WONG SOON KOH [PSB pid=54]
+    ROBERT LAU HUI YEW [GPS pid=51]
+    MICHELLE LING SHYAN MIH [PBK pid=95]
+    AMY LAU BIK YIENG [DAP pid=3]
+    RICKY ANAK ENTERI [BEBAS pid=20 symbol=027]
+
+N.54 (75 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='MICHAEL TIANG'
+    [PH] label='DAP' candidate='DAVID WONG KEE WOAN'
+    [PSB] label='PSB' candidate='DR. LOW CHONG NGUAN'
+    [PBK] label='PBK' candidate='TIEW YEN HOUNG'
+    [ASPIRASI] label='ASPIRASI' candidate='JANET LOH'
+  Official candidates (raw-candidate.csv):
+    DR. LOW CHONG NGUAN [PSB pid=54]
+    MICHAEL TIANG [GPS pid=51]
+    TIEW YEN HOUNG [PBK pid=95]
+    DAVID WONG KEE WOAN [DAP pid=3]
+    JANET LOH [ASPIRASI pid=47]
+
+N.55 (53 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DR. ANNUAR RAPAEE'
+    [PSB] label='PSB' candidate='INTANURAZEAN BINTI WAN SAPUAN DAUD'
+    [PBK] label='PBK' candidate='OLIVIA LIM WEN SIA'
+  Official candidates (raw-candidate.csv):
+    OLIVIA LIM WEN SIA [PBK pid=95]
+    DR. ANNUAR RAPAEE [GPS pid=51]
+    INTANURAZEAN BINTI WAN SAPUAN DAUD [PSB pid=54]
+
+N.56 (36 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DATO SRI HAJAH FATIMAH ABDULLAH'
+    [PBK] label='PBK' candidate='SALLEH BIN MAHALI'
+  Official candidates (raw-candidate.csv):
+    SALLEH BIN MAHALI [PBK pid=95]
+    DATO SRI HAJAH FATIMAH ABDULLAH [GPS pid=51]
+
+N.57 (30 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='ROYSTON BIN VALENTINE'
+    [PH] label='PKR' candidate='ARWIN LIM ABDULLAH'
+    [PSB] label='PSB' candidate='SAIT BIN JUNAIDI'
+    [PBK] label='PBK' candidate='ZAINUDDIN BIN BUDUG'
+  Official candidates (raw-candidate.csv):
+    SAIT BIN JUNAIDI [PSB pid=54]
+    ZAINUDDIN BIN BUDUG [PBK pid=95]
+    ARWIN LIM ABDULLAH [PKR pid=37]
+    ROYSTON BIN VALENTINE [GPS pid=51]
+
+N.58 (27 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='ABDUL YAKUB BIN ARBI'
+    [PH] label='PKR' candidate='ABDUL JALIL BUJANG'
+    [PSB] label='PSB' candidate='YUSUF ABDUL RAHMAN'
+  Official candidates (raw-candidate.csv):
+    ABDUL YAKUB BIN ARBI [GPS pid=51]
+    ABDUL JALIL BUJANG [PKR pid=37]
+    YUSUF ABDUL RAHMAN [PSB pid=54]
+
+N.59 (47 rows):
+  Review slots:
+    [GPS] label='PRS' candidate='IR CHRISTOPHER GIRA SAMBANG'
+    [PSB] label='PSB' candidate='DATUK JOSEPH ENTULU BELAUN'
+  Official candidates (raw-candidate.csv):
+    DATUK JOSEPH ENTULU BELAUN [PSB pid=54]
+    IR CHRISTOPHER GIRA SAMBANG [GPS pid=51]
+
+N.60 (45 rows):
+  Review slots:
+    [GPS] label='PRS' candidate='DATUK JOHN SIKIE TAYAI'
+    [PH] label='PKR' candidate='JOSHUA JABENG'
+    [PSB] label='PSB' candidate='PETER ANAK TUAN'
+    [PBK] label='PBK' candidate='PHILIP KELANANG DIUNG'
+    [INDEPENDENT 1] label='KUDA' candidate='UGIK ANAK SELIPEH'
+    [INDEPENDENT 2] label='GAJAH' candidate='TIUN ANAK KANUN'
+  Official candidates (raw-candidate.csv):
+    PETER ANAK TUAN [PSB pid=54]
+    DATUK JOHN SIKIE TAYAI [GPS pid=51]
+    TIUN ANAK KANUN [BEBAS pid=20 symbol=017]
+    JOSHUA JABENG [PKR pid=37]
+    UGIK ANAK SELIPEH [BEBAS pid=20 symbol=024]
+    PHILIP KELANANG DIUNG [PBK pid=95]
+
+N.61 (40 rows):
+  Review slots:
+    [GPS] label='PRS' candidate='WILSON NYABONG ANAK IJANG'
+    [PH] label='DAP' candidate='SOLOMON ANAK KUMBONG'
+    [PSB] label='PSB' candidate='KRISTOFFER NYUAK BAJOK'
+    [PBK] label='PBK' candidate='NYAMBONG ANAK SIBAT'
+    [PBDSB] label='PBDSB' candidate='MOSES ANAK RIPAI'
+  Official candidates (raw-candidate.csv):
+    KRISTOFFER NYUAK BAJOK [PSB pid=54]
+    NYAMBONG ANAK SIBAT [PBK pid=95]
+    WILSON NYABONG ANAK IJANG [GPS pid=51]
+    SOLOMON ANAK KUMBONG [DAP pid=3]
+    MOSES ANAK RIPAI [PBDSB pid=49]
+
+N.62 (63 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='LIDAM ANAK ASSAN'
+    [PH] label='PKR' candidate='MUNAN ANAK LAJA'
+    [PSB] label='PSB' candidate='ROBERTSON MAWA'
+    [PBK] label='PBK' candidate='YUNUS BIN BASRI'
+    [PBDSB] label='PBDSB' candidate='SAI AK MALAKA'
+    [INDEPENDENT 1] label='KERUSI' candidate='TENGKU ANAK GRUNA'
+  Official candidates (raw-candidate.csv):
+    YUNUS BIN BASRI [PBK pid=95]
+    MUNAN ANAK LAJA [PKR pid=37]
+    ROBERTSON MAWA [PSB pid=54]
+    TENGKU ANAK GRUNA [BEBAS pid=20 symbol=023]
+    LIDAM ANAK ASSAN [GPS pid=51]
+    SAI AK MALAKA [PBDSB pid=49]
+
+N.63 (49 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='JEFFERSON JAMIT ANAK UNYAT'
+    [PH] label='DAP' candidate='JOSEPH JINGGUT'
+    [PSB] label='PSB' candidate='ROBERT SEGIE'
+    [PBK] label='PBK' candidate='PUSO BIN BUJANG'
+    [PBDSB] label='PBDSB' candidate='ROBERT SAWENG'
+  Official candidates (raw-candidate.csv):
+    JOSEPH JINGGUT [DAP pid=3]
+    JEFFERSON JAMIT ANAK UNYAT [GPS pid=51]
+    ROBERT SAWENG [PBDSB pid=49]
+    ROBERT SEGIE [PSB pid=54]
+    PUSO BIN BUJANG [PBK pid=95]
+
+N.64 (69 rows):
+  Review slots:
+    [GPS] label='PRS' candidate='NICHOLAS KUDI ANAK JANTAI'
+    [PH] label='DAP' candidate='KENNETH USANG GEORGE'
+    [PSB] label='PSB' candidate='KOH ANAK KUMBONG'
+    [PBK] label='PBK' candidate='SUKARNO LAYAU'
+  Official candidates (raw-candidate.csv):
+    SUKARNO LAYAU [PBK pid=95]
+    KOH ANAK KUMBONG [PSB pid=54]
+    NICHOLAS KUDI ANAK JANTAI [GPS pid=51]
+    KENNETH USANG GEORGE [DAP pid=3]
+
+N.65 (45 rows):
+  Review slots:
+    [GPS] label='PRS' candidate='LIWAN LAGANG'
+    [PSB] label='PSB' candidate='HENRY USAT BIT'
+    [PBK] label='PBK' candidate='JOHN BAMPA'
+    [INDEPENDENT 1] label='BUKU' candidate='SIKI BALARIK'
+  Official candidates (raw-candidate.csv):
+    JOHN BAMPA [PBK pid=95]
+    SIKI BALARIK [BEBAS pid=20 symbol=004]
+    HENRY USAT BIT [PSB pid=54]
+    LIWAN LAGANG [GPS pid=51]
+
+N.66 (44 rows):
+  Review slots:
+    [GPS] label='PRS' candidate='KENNEDY CHUKPAI UGON'
+    [PH] label='PKR' candidate='ANIE AMAT'
+    [PSB] label='PSB' candidate='STANLEY AJANG BATOK'
+    [PBDSB] label='PBDSB' candidate='KENNETH ADAN SILEK'
+  Official candidates (raw-candidate.csv):
+    STANLEY AJANG BATOK [PSB pid=54]
+    KENNETH ADAN SILEK [PBDSB pid=49]
+    ANIE AMAT [PKR pid=37]
+    KENNEDY CHUKPAI UGON [GPS pid=51]
+
+N.67 (39 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DATUK HAJI TALIB BIN ZULPILIP'
+    [PSB] label='PSB' candidate='DR. RABA'AH BINTI TUDIN'
+    [PBK] label='PBK' candidate='STEVENSON ANAK JOSEPH'
+    [INDEPENDENT 1] label='KUNCI' candidate='TUAH KAZAN'
+  Official candidates (raw-candidate.csv):
+    DATUK HAJI TALIB BIN ZULPILIP [GPS pid=51]
+    DR. RABA'AH BINTI TUDIN [PSB pid=54]
+    STEVENSON ANAK JOSEPH [PBK pid=95]
+    TUAH KAZAN [BEBAS pid=20 symbol=025]
+
+N.68 (50 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='JOHNNY PANG LEONG MING'
+    [PH] label='DAP' candidate='CHIEW CHAN YEW'
+    [PSB] label='PSB' candidate='TANG ENG HUI'
+    [PBK] label='PBK' candidate='YEK HOCK SIANG'
+    [ASPIRASI] label='ASPIRASI' candidate='CHIENG LEA PHING'
+    [INDEPENDENT 1] label='KAPAL TERBANG' candidate='WONG HAU MING'
+  Official candidates (raw-candidate.csv):
+    JOHNNY PANG LEONG MING [GPS pid=51]
+    WONG HAU MING [BEBAS pid=20 symbol=021]
+    CHIEW CHAN YEW [DAP pid=3]
+    CHIENG LEA PHING [ASPIRASI pid=47]
+    YEK HOCK SIANG [PBK pid=95]
+    TANG ENG HUI [PSB pid=54]
+
+N.69 (43 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DATO SRI DR. STEPHEN RUNDI ANAK UTOM'
+    [PH] label='DAP' candidate='DR. JOHN BRIAN ANTHONY'
+    [PSB] label='PSB' candidate='DR. BERNARD TAHIM ANAK BAEL'
+    [PBK] label='PBK' candidate='CHELEA VANESSA ANAK WILLIAM'
+    [INDEPENDENT 1] label='PERAHU' candidate='JAME STEPHEN'
+  Official candidates (raw-candidate.csv):
+    CHELEA VANESSA ANAK WILLIAM [PBK pid=95]
+    DATO SRI DR. STEPHEN RUNDI ANAK UTOM [GPS pid=51]
+    DR. JOHN BRIAN ANTHONY [DAP pid=3]
+    DR. BERNARD TAHIM ANAK BAEL [PSB pid=54]
+    JAME STEPHEN [BEBAS pid=20 symbol=028]
+
+N.70 (44 rows):
+  Review slots:
+    [GPS] label='PRS' candidate='DATO MAJANG ANAK RENGGI'
+    [PH] label='DAP' candidate='TONNY UNG'
+    [PSB] label='PSB' candidate='REGGIE ANAK SUEL'
+    [PBK] label='PBK' candidate='LEIGHTON ANAK MANJAH'
+    [PBDSB] label='PBDSB' candidate='BABA ANAK EMPERAN'
+  Official candidates (raw-candidate.csv):
+    TONNY UNG [DAP pid=3]
+    BABA ANAK EMPERAN [PBDSB pid=49]
+    REGGIE ANAK SUEL [PSB pid=54]
+    LEIGHTON ANAK MANJAH [PBK pid=95]
+    DATO MAJANG ANAK RENGGI [GPS pid=51]
+
+N.71 (39 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DATUK HAJAH ROSEY HAJI YUNUS'
+    [PH] label='PKR' candidate='NORHAFIZAH JOHARIE'
+    [PSB] label='PSB' candidate='ABU BAKAR BIN AMIT'
+    [PBK] label='PBK' candidate='DESMOND GANI'
+  Official candidates (raw-candidate.csv):
+    DESMOND GANI [PBK pid=95]
+    NORHAFIZAH JOHARIE [PKR pid=37]
+    DATUK HAJAH ROSEY HAJI YUNUS [GPS pid=51]
+    ABU BAKAR BIN AMIT [PSB pid=54]
+
+N.72 (50 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DR RIPIN LAMAT'
+    [PH] label='PKR' candidate='ZULHAIDAH SUBOH'
+    [PSB] label='PSB' candidate='LILA BINTI MOHAMAD'
+    [PBK] label='PBK' candidate='DYANNE OSHIELD ANAK NICKSON'
+  Official candidates (raw-candidate.csv):
+    LILA BINTI MOHAMAD [PSB pid=54]
+    ZULHAIDAH SUBOH [PKR pid=37]
+    DYANNE OSHIELD ANAK NICKSON [PBK pid=95]
+    DR RIPIN LAMAT [GPS pid=51]
+
+N.73 (55 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='SEBASTIAN TING CHIEW YEW'
+    [PH] label='DAP' candidate='PETER HEE'
+    [PSB] label='PSB' candidate='TEO JIA JUN'
+    [PBK] label='PBK' candidate='CHUNG SIEW YEN'
+    [ASPIRASI] label='ASPIRASI' candidate='HANIM BINTI JARAEE'
+  Official candidates (raw-candidate.csv):
+    SEBASTIAN TING CHIEW YEW [GPS pid=51]
+    TEO JIA JUN [PSB pid=54]
+    HANIM BINTI JARAEE [ASPIRASI pid=47]
+    CHUNG SIEW YEN [PBK pid=95]
+    PETER HEE [DAP pid=3]
+
+N.74 (62 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='ADAM YII SIEW SANG'
+    [PH] label='DAP' candidate='ALAN LING'
+    [PSB] label='PSB' candidate='BRUCE CHAI KHIM CHEONG'
+    [PBK] label='PBK' candidate='LESLIE TING SIONG NGIAP'
+    [ASPIRASI] label='ASPIRASI' candidate='CHIN FEN SIONG'
+  Official candidates (raw-candidate.csv):
+    LESLIE TING SIONG NGIAP [PBK pid=95]
+    CHIN FEN SIONG [ASPIRASI pid=47]
+    BRUCE CHAI KHIM CHEONG [PSB pid=54]
+    ADAM YII SIEW SANG [GPS pid=51]
+    ALAN LING [DAP pid=3]
+
+N.75 (78 rows):
+  Review slots:
+    [GPS] label='SUPP' candidate='LEE KIM SHIN'
+    [PH] label='DAP' candidate='MARCUS HUGO'
+    [PSB] label='PSB' candidate='LEE TZE HA'
+    [PBK] label='PBK' candidate='NGIENG SHENG CHUNG'
+    [PBDSB] label='PBDSB' candidate='BOBBY ANAK WILLIAM'
+  Official candidates (raw-candidate.csv):
+    MARCUS HUGO [DAP pid=3]
+    NGIENG SHENG CHUNG [PBK pid=95]
+    LEE KIM SHIN [GPS pid=51]
+    BOBBY ANAK WILLIAM [PBDSB pid=49]
+    LEE TZE HA [PSB pid=54]
+
+N.76 (71 rows):
+  Review slots:
+    [GPS] label='PDP' candidate='PENGUANG ANAK MANGGIL'
+    [PH] label='PKR' candidate='ELIAS LIPI ANAK MAT'
+    [PSB] label='PSB' candidate='SYLVESTER ENTRI ANAK MURAN'
+    [PBK] label='PBK' candidate='GILBERT YOUNG'
+    [PBDSB] label='PBDSB' candidate='SAWING ANAK KEDIT'
+  Official candidates (raw-candidate.csv):
+    PENGUANG ANAK MANGGIL [GPS pid=51]
+    SYLVESTER ENTRI ANAK MURAN [PSB pid=54]
+    GILBERT YOUNG [PBK pid=95]
+    ELIAS LIPI ANAK MAT [PKR pid=37]
+    SAWING ANAK KEDIT [PBDSB pid=49]
+
+N.77 (48 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DENNIS NGAU'
+    [PH] label='PKR' candidate='PHILIP JAU DING'
+    [PSB] label='PSB' candidate='JAU JOK @ JENGGO'
+    [PBK] label='PBK' candidate='GIA BALA'
+  Official candidates (raw-candidate.csv):
+    GIA BALA [PBK pid=95]
+    JAU JOK @ JENGGO [PSB pid=54]
+    DENNIS NGAU [GPS pid=51]
+    PHILIP JAU DING [PKR pid=37]
+
+N.78 (44 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DATO GERAWAT GALA'
+    [PH] label='PKR' candidate='ROLAND ENGAN'
+    [PSB] label='PSB' candidate='SON RADU'
+    [PBK] label='PBK' candidate='RICHARD IBUH'
+  Official candidates (raw-candidate.csv):
+    ROLAND ENGAN [PKR pid=37]
+    SON RADU [PSB pid=54]
+    RICHARD IBUH [PBK pid=95]
+    DATO GERAWAT GALA [GPS pid=51]
+
+N.79 (46 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='DR. ABDUL RAHMAN ISMAIL'
+    [PSB] label='PSB' candidate='ROSLI BIN AMAT'
+    [PBK] label='PBK' candidate='CIKGU LIM LIAN HUN'
+    [INDEPENDENT 1] label='POKOK' candidate='HERUN BIN BUNGSU'
+  Official candidates (raw-candidate.csv):
+    HERUN BIN BUNGSU [BEBAS pid=20 symbol=029]
+    ROSLI BIN AMAT [PSB pid=54]
+    CIKGU LIM LIAN HUN [PBK pid=95]
+    DR. ABDUL RAHMAN ISMAIL [GPS pid=51]
+
+N.80 (33 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='PAULUS PALU GUMBANG'
+    [PH] label='PKR' candidate='RACHA BALANG'
+    [PSB] label='PSB' candidate='ALI ADAP'
+    [PBK] label='PBK' candidate='DR PETRUS BULAN'
+  Official candidates (raw-candidate.csv):
+    DR PETRUS BULAN [PBK pid=95]
+    PAULUS PALU GUMBANG [GPS pid=51]
+    RACHA BALANG [PKR pid=37]
+    ALI ADAP [PSB pid=54]
+
+N.81 (29 rows):
+  Review slots:
+    [GPS] label='PDP' candidate='SAM LAYA'
+    [PH] label='PKR' candidate='MARTIN LABO'
+    [PSB] label='PSB' candidate='BARU BIAN'
+    [PBK] label='PBK' candidate='PITA ASUT @ PETER ASUT'
+    [INDEPENDENT 1] label='JAM' candidate='AGNES'
+  Official candidates (raw-candidate.csv):
+    BARU BIAN [PSB pid=54]
+    MARTIN LABO [PKR pid=37]
+    AGNES [BEBAS pid=20 symbol=020]
+    SAM LAYA [GPS pid=51]
+    PITA ASUT @ PETER ASUT [PBK pid=95]
+
+N.82 (41 rows):
+  Review slots:
+    [GPS] label='PBB' candidate='AWANG TENGAH BIN ALI HASAN'
+    [PSB] label='PSB' candidate='ALIAS BIN MAIL'
+    [PBK] label='PBK' candidate='RIYAH BIN BASRAH'
+  Official candidates (raw-candidate.csv):
+    ALIAS BIN MAIL [PSB pid=54]
+    AWANG TENGAH BIN ALI HASAN [GPS pid=51]
+    RIYAH BIN BASRAH [PBK pid=95]
