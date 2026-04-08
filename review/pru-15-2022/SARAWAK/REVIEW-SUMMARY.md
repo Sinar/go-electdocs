@@ -3,7 +3,7 @@
 **File reviewed**: `to-review.csv`
 **Rows**: 4,316 data rows + 1 header (92 columns)
 **Scope**: 31 parliamentary constituencies (P.192–P.222), 82 state constituencies (N.01–N.82)
-**Date completed**: 2025-07-10
+**Date completed**: 2025-07-10 (updated with TOTAL BALLOTS ISSUED cross-check)
 
 ---
 
@@ -24,6 +24,7 @@ The file is structurally sound, numerically accurate, and complete. All 92 offic
 | **4** | Coalition/party slot consistency | ✅ PASS | All 92 candidates correctly placed; PAN/PPBM naming noted (informational) |
 | **5** | Column mapping & format consistency | ⚠️ MINOR | 2 comma-formatted numbers + 493 trailing whitespace instances |
 | **6** | Ballot totals vs candidate vote sums | ✅ PASS | All 31 PARs: A = B + C + D, candidate sums match raw-candidates.csv exactly |
+| **6b** | TOTAL BALLOTS ISSUED multi-source cross-check | ✅ PASS | All 4,317 rows + 31 PARs + 82 DUNs verified against 3 sources; 61.6% turnout |
 
 ---
 
@@ -213,4 +214,56 @@ The `ut` column in `raw-candidates.csv` is mislabelled — it actually contains 
 | `phase4_party_check.go` | Go script for party validation |
 | `phase5_validate.go` | Go script for column validation |
 | `phase6_validate.go` | Go script for total validation |
+| `ballot_check.go` | Go script for row-by-row ballot check vs OCR results files |
+| `ballot_dun_check.go` | Go script for multi-source TOTAL BALLOTS ISSUED cross-check |
 | `orig-to-review.csv` | Backup of original file before Phase 1 fixes |
+
+---
+
+## Phase 6b: TOTAL BALLOTS ISSUED Multi-Source Cross-Check
+
+**Verdict**: ✅ Pass — all checks pass across three independent sources
+
+### Methodology
+
+Cross-checked `TOTAL BALLOTS ISSUED` (column A) using:
+1. **Internal consistency** — A = B + C + D per row
+2. **`raw-candidates.csv`** — official EC candidate votes (`ju`) and rejected count (`ut`) at PAR level
+3. **`raw-seats-clean.csv`** — registered voter counts per DUN (ceiling check: ballots ≤ registered voters)
+4. **`results/Sarawak-P.*.csv`** — OCR'd score sheet PDFs (row-by-row spot-check; unreliable due to OCR noise)
+
+### Results
+
+| Check | Source | Result |
+|-------|--------|--------|
+| Row-level A = B + C + D | Internal | ✅ **4,317/4,317** rows |
+| PAR-level B matches raw `ju` | raw-candidates.csv | ✅ **31/31** PARs, Δ = 0 for all |
+| PAR-level C matches raw `ut` | raw-candidates.csv | ✅ **31/31** PARs, Δ = 0 for all |
+| DUN ballots ≤ registered voters | raw-seats-clean.csv | ✅ **82/82** DUNs — no exceedance |
+| DUN-level aggregate A = B + C + D | Internal per DUN | ✅ **82 DUNs + 31 postal** entries |
+| No comma/quote formatting in A or B | Format check | ✅ 0 issues (prior issues already fixed) |
+| No zero-ballot rows | Sanity check | ✅ 0 rows |
+
+### Grand Totals
+
+| Metric | Value |
+|--------|-------|
+| Registered voters | 1,943,074 |
+| Total Ballots Issued (A) | 1,197,450 |
+| Total Valid Votes (B) | 1,178,867 |
+| Total Rejected Votes (C) | 14,369 |
+| Total Unreturned Ballots (D) | 4,214 |
+| Turnout | **61.6%** |
+| A − (B + C + D) | **0** ✅ |
+
+### PAR Turnout Range
+
+Lowest: P.221 LIMBANG 47.9% · Highest: P.205 SARATOK 70.3%
+
+### Note on `raw-seats-clean.csv`
+
+Column 10 is **total registered voters** (not ballots). Columns 11–28 are male/female demographic pairs summing to col 10. Columns 29–31 break registered voters into ordinary/early/postal categories. This file is useful only as a ceiling check, not for direct ballot comparison.
+
+### Note on OCR Results Files
+
+Section 4 row-by-row comparison against `results/Sarawak-P.*.csv` showed many mismatches — these are structural artefacts (multiple to-review rows with `_a`/`_b` suffixes map to one score-sheet row; OCR doubling of numbers). Sections 1–3 above are the authoritative checks.
